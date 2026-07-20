@@ -1,0 +1,66 @@
+[
+  {
+    "section": "56",
+    "qnum": 8,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page (sections 54-63 question/answer numbering with an official signature), not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "57",
+    "qnum": 5,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "60",
+    "qnum": 11,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "60",
+    "qnum": 15,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "61",
+    "qnum": 1,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "61",
+    "qnum": 2,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "61",
+    "qnum": 5,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  },
+  {
+    "section": "61",
+    "qnum": 6,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is an answer-key table page, not a road sign or driving scene. Does not match."
+  }
+]

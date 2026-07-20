@@ -1,0 +1,67 @@
+wave23-08-verify-wave — captured verification stdout (static evidence — READ, do not run)
+Captured 2026-07-14 on ClPcs-Mac-mini. WAVE23_BASE=ced6b85 (verified present).
+
+=== (1) typecheck ===  npm run -s typecheck
+TYPECHECK_EXIT=0
+
+=== (2) unit ===  npm test
+ Test Files  76 passed (76)
+      Tests  799 passed (799)
+UNIT_EXIT=0
+
+=== (2) collection ===  npx vitest list
+COLLECTED exam-allocator.oracle
+COLLECTED exam-allocator-sim.determinism
+lib/exam-allocator-sim.determinism.test.ts > exam-allocator-sim determinism (seed 42 reproducibility pin) > reproduces the frozen seed-42 cell output byte-exactly
+lib/exam-allocator.oracle.test.ts > exam-allocator vs frozen python oracle (un-skipped in wave23-04) > (a) dialBefore + scoreCandidate reproduce ΔP_i (6dp) for every fixture item
+
+=== (3) db:seed then integration ===  npm run -s db:seed ; npm run -s test:integration
+SEED_EXIT=0
+official: 2322 questions
+ Test Files  68 passed (68)
+      Tests  284 passed (284)   (0 skipped)
+INTEG_EXIT=0
+
+=== (4) build ===  npm run -s build
+BUILD_EXIT=0
+
+=== (5) NO browser audit ===
+Skipped by design — the spike ships zero UI. verify.sh prints:
+"=== NO browser audit — spike ships zero UI (skipped by design) ==="
+
+=== (6) no product wiring ===  git diff --name-only ced6b85 -- app lib/server prisma components
+(empty)
+
+=== all changed files since base ===  git diff --name-only ced6b85
+docs/research/EXAM-ALLOCATOR-SPIKE-2026-07-14.md
+lib/exam-allocator-sim.determinism.test.ts
+lib/exam-allocator-sim.ts
+lib/exam-allocator.oracle.test.ts
+lib/exam-allocator.ts
+scripts/oracles/gen-wave23-oracles.py
+scripts/spikes/exam-allocator-sim.ts
+tasks/…                       (journals/verify/artifacts only — no product code)
+
+=== (7) byte-untouched invariants ===
+lib/fsrs diff (git diff --name-only ced6b85 -- lib/fsrs):  (empty)
+unchanged  lib/readiness-release.ts
+unchanged  lib/readiness-seen-unseen.ts
+unchanged  lib/readiness-model.ts
+unchanged  lib/readiness-factor-mixture.ts
+unchanged  lib/readiness-release.oracle.test.ts
+unchanged  lib/elo.oracle.test.ts
+unchanged  lib/fsrs/reference-vectors.test.ts
+
+=== (8) no new prisma migration ===  git diff --name-only ced6b85 -- prisma/migrations
+(empty)
+
+=== (9) purity of shipped libs ===
+lib/exam-allocator.ts:      no Date.now/Math.random ; no server/db import
+lib/exam-allocator-sim.ts:  no Date.now/Math.random ; no server/db import
+(simulated-clock new Date(<explicit-ms>) is exempt per Goal #9; the gate only greps Date.now/Math.random)
+
+=== (10) report deliverable + verdict ===
+docs/research/EXAM-ALLOCATOR-SPIKE-2026-07-14.md exists
+line 47: ## Gate verdict
+line 51: **VERDICT: NO-GO**
+line 62: Both gate conditions fail, so the decision is **NO-GO**

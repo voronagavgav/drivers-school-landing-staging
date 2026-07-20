@@ -1,0 +1,206 @@
+{
+  "summary": "Re-verify the 8 text-only flagged questions the index-bug skipped; select by key, ground-truth + skeptic",
+  "agentCount": 13,
+  "logs": [
+    "Re-verified 8/8. verdicts={\"key_wrong_options_ok\":5,\"key_correct\":3}. confirmedFixes=5, key_correct(web)=3, unresolved=0"
+  ],
+  "result": {
+    "total": 8,
+    "byVerdict": {
+      "key_wrong_options_ok": 5,
+      "key_correct": 3
+    },
+    "confirmedFixes": [
+      {
+        "key": "9:21",
+        "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до маневру.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.4: «Сигнали світловими покажчиками повороту або рукою слід подавати завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його завершення (рукою можна закінчити подавання сигналу безпосередньо перед виконанням маневру).» For a U-turn within a populated area the required distance is \"не менш як за 50-100 м\".",
+        "sources": "ПДР clause text (п. 9.4, verbatim \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\"): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 and https://protocol.ua/ua/pdr_ukraini_9_4_poperedguvalni_signali/ . Official/test reproductions of this exact 3-option question with the 50-100 m option marked correct: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4454 , https://green-way.com.ua/uk/test-pdd/twenty-questions/6792 , https://testpdr.online/test.php?test=all&q=248 (redirect from https://manualov.net/online-test-pdr.php?question=248 — explicitly marks the \"не менш як за 50 - 100 метрів\" option correct), https://pomahach.com/question/3688-82563/ ."
+      },
+      {
+        "key": "9:29",
+        "correctOptionText": "Подати сигнал світловим покажчиком повороту.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.2(а): \"Водій повинен подавати сигнали світловими покажчиками повороту відповідного напрямку: а) перед початком руху і зупинкою.\" — i.e. a turn-indicator signal, not hazard lights, is required before starting movement.",
+        "sources": "Official ПДР clause: https://pdr.infotech.gov.ua/theory/rules/9 — п.9.2(а) \"...подавати сигнали світловими покажчиками повороту... а) перед початком руху і зупинкою.\" Test answer keys: https://testpdr.online/test.php?test=all&q=256 (marks \"Подати сигнал світловим покажчиком повороту\" correct); https://pomahach.com/question/3692-72953/vi-rozpochinayete-ruh-na-avtomobili-yakiy-poperedzhuvalniy-sig/ (marks \"Покажчик повороту\" correct); https://manualov.net/online-test-pdr.php?question=256 (301→testpdr.online). Corroborating search hits: green-way.com.ua/uk/test-pdd/twenty-questions/6784, vodiy.ua, pdrtest.com. Target file: /Users/clpc/drivers-school/.content-import/expl_audit/reverify_textonly.json"
+      },
+      {
+        "key": "9:34",
+        "correctOptionText": "Відповіді 1 і 2.",
+        "correctOptionIndex": 4,
+        "pdrClause": "ПДР України п. 9.5 — \"Подавати звукові сигнали у населених пунктах забороняється, крім випадків, коли без цього неможливо запобігти дорожньо-транспортній пригоді.\" п. 9.6 — для привертання уваги водія, якого обганяють, можна застосовувати перемикання світла фар, а ПОЗА населеними пунктами — і звуковий сигнал. Отже звуковий сигнал дозволено: (а) для привертання уваги під час обгону поза населеними пунктами; (б) коли без цього неможливо запобігти ДТП = \"Відповіді 1 і 2\".",
+        "sources": "https://pomahach.com/question/3697-24273/u-yakih-vipadkah-dozvolene-podavannya-zvukovogo-signalu/ (correct = \"Відповіді 1 і 2\"); https://testpdr.online/test.php?test=all&q=261 (q261, redirect target of manualov.net/online-test-pdr.php?question=261; correct = Option 5 \"Відповіді 1 і 2\"); https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clauses 9.5 \"Подавати звукові сигнали у населених пунктах забороняється, крім випадків, коли без цього неможливо запобігти ДТП\" and 9.6 horn allowed for overtaking only поза населеними пунктами)"
+      },
+      {
+        "key": "20:12",
+        "correctOptionText": "Круговий рух руки із шматком яскравої тканини або будь-яким добре помітним предметом у світлий час доби, у темну пору доби і в умовах недостатньої видимості - з факелом або ліхтарем.",
+        "correctOptionIndex": 0,
+        "pdrClause": "п. 20.9 ПДР України: «Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини або будь-яким добре помітним предметом, у темну пору доби та в умовах недостатньої видимості - з факелом або ліхтарем).»",
+        "sources": "ПДР clause 20.9 legal text (mirror 1): https://vodiy.ua/pdr/20/ — \"Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини... у темну пору доби і в умовах недостатньої видимості - з факелом або ліхтарем)\". ПДР clause 20.9 legal text (mirror 2, independent): https://pdr-online.com.ua/teoriya-pdr/pravila-dorozhnogo-ruhu/?chapter=20 — same \"круговий рух руки\" wording. Official test base, question 769 (correct answer = Option 1 \"Круговий рух руки...\"): https://manualov.net/online-test-pdr.php?question=769 (301-redirects to https://testpdr.online/test.php?test=all&q=769). Cross-ref Розділ 20 listings: https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 and https://pdr.infotech.gov.ua/theory/rules/20."
+      },
+      {
+        "key": "38:13",
+        "correctOptionText": "Збільшується.",
+        "correctOptionIndex": 0,
+        "pdrClause": "ПДР України, Розділ 12 (Швидкість руху) — водій зобов'язаний враховувати дорожню обстановку, зокрема стан дороги; на мокрому/вологому покритті коефіцієнт зчеплення шин знижується, через що гальмівний шлях збільшується. Тема відноситься до основ безпечного водіння (зчеплення коліс з дорогою на вологому покритті).",
+        "sources": "testpdr.online/test.php?test=all&q=1367 (manualov.net mirror; EXPLICITLY marks \"Збільшується\" correct, with 1.5-2x friction-drop explanation); pomahach.com/question/2247-90613/galmivniy-shlyah-na-dorozi-odrazu-pislya-doschu/ (correct answer highlighted green = \"Збільшується.\"); green-way.com.ua/uk/test-pdd/twenty-questions/7992 (\"У мокру погоду або в дощ гальмовий шлях транспортного засобу збільшується\"); green-way.com.ua/uk/test-pdd/twenty-questions/6779 (same question, 3 options); vodiy.ua/pdr/test/?complect=6&theme=123 (Нові 2026, Тема 123 ЕТИКА ВОДІННЯ); pdr-online.com.ua/testi/testi-po-temam/?theme=37; WebSearch consensus confirming correct answer \"Збільшується\" (Increases). ПДР України Розділ 12 (Швидкість руху) — врахування стану дороги."
+      }
+    ],
+    "keyCorrect": [
+      "11:23",
+      "15:77",
+      "20:22"
+    ],
+    "unresolved": [],
+    "raw": [
+      {
+        "determine": {
+          "key": "9:21",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до маневру.",
+          "correctOptionIndex": 2,
+          "reasoning": "The question asks what signal a driver must give before making a U-turn (розворот) while moving IN A POPULATED AREA (в населеному пункті). ПДР України п. 9.4 governs the distance for warning signals: the signal with turn indicators or hand must be given \"завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\" — i.e. at least 50-100 m WITHIN populated areas (150-200 m only outside them). I confirmed this exact clause text from two independent authoritative sources (vodiy.ua/pdr/9 and kodeksy.com.ua/pdr/9.htm).\n\nMapping to our options:\n- index 0 \"за 200 метрів до розвороту\" (marked correct in DB) — WRONG: 200 m is the OUTSIDE-populated-area value, not the populated-area value the question asks about.\n- index 1 \"за 100 метрів... за наявності інших учасників\" — WRONG: no such conditional 100 m rule exists in ПДР.\n- index 2 \"не менш як за 50 - 100 метрів до маневру\" — CORRECT: exactly matches п. 9.4 for a populated area.\n\nThe option texts are clean and uncorrupted; simply the wrong option is flagged. Official test sites (pdr.infotech.gov.ua ticket 4454 and green-way.com.ua) reproduce these same three options verbatim for this question. The genConcern is confirmed: the DB marks index 0 but the true answer is index 2. Verdict: key_wrong_options_ok, correct = index 2.",
+          "pdrClause": "ПДР України п. 9.4: «Сигнали світловими покажчиками повороту або рукою слід подавати завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його завершення (рукою можна закінчити подавання сигналу безпосередньо перед виконанням маневру).» For a U-turn within a populated area the required distance is \"не менш як за 50-100 м\".",
+          "webConfirmed": true,
+          "sources": "ПДР clause text (п. 9.4): https://vodiy.ua/pdr/9/ and https://kodeksy.com.ua/pdr/9.htm — both quote \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\". Official test question with this exact 3-option set: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4454 and https://green-way.com.ua/uk/test-pdd/twenty-questions/6792 (question \"Ви водій, рухаючись в населеному пункті вирішили здійснити розворот. Ви:\"). The 50-100 m option is the populated-area answer; the 200 m option corresponds to the outside-populated-area distance.",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "9:21",
+          "decision": "confirm_change",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до маневру.",
+          "reasoning": "The question asks what signal a driver must give before a U-turn (розворот) while moving IN A POPULATED AREA (\"рухаючись в населеному пункті\"). ПДР України п. 9.4 governs warning-signal distance: \"...слід подавати завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\". I confirmed this clause text verbatim from two independent authoritative sources (green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 and protocol.ua). Because the scenario is explicitly within a populated area, the required distance is \"не менш як за 50-100 м\" = option index 2.\n\nThe three option texts in the DB are clean and match the official test verbatim (index 0 \"за 200 метрів\", index 1 \"за 100 метрів... за наявності інших учасників\", index 2 \"не менш як за 50 - 100 метрів до маневру\"). The DB currently marks index 0 (\"за 200 метрів\"), which is WRONG: 200 m corresponds to the outside-populated-area range (150-200 m), not the populated-area answer the question asks about. Option index 1 invents a non-existent conditional 100 m rule.\n\nI independently verified the marked correct answer on official/test reproductions of this exact 3-option question (pdr.infotech.gov.ua ticket 4454, green-way 6792, manualov.net→testpdr.online q=248, pomahach 3688). testpdr.online explicitly marks the third option (\"не менш як за 50 - 100 метрів до маневру\") as correct, and the WebSearch summaries of the official sources independently returned the same 50-100 m answer. All evidence converges: the true correct answer is index 2, which differs from the currently-marked index 0. The proposed change is authoritatively correct.",
+          "webConfirmed": true,
+          "sources": "ПДР clause text (п. 9.4, verbatim \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\"): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 and https://protocol.ua/ua/pdr_ukraini_9_4_poperedguvalni_signali/ . Official/test reproductions of this exact 3-option question with the 50-100 m option marked correct: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4454 , https://green-way.com.ua/uk/test-pdd/twenty-questions/6792 , https://testpdr.online/test.php?test=all&q=248 (redirect from https://manualov.net/online-test-pdr.php?question=248 — explicitly marks the \"не менш як за 50 - 100 метрів\" option correct), https://pomahach.com/question/3688-82563/ ."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:29",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Подати сигнал світловим покажчиком повороту.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question: \"Ви розпочинаєте рух на автомобілі, який попереджувальний сигнал повинні подати:\" (Before starting to move, which warning signal must you give?). Our DB marks option 0 \"Включити аварійну сигналізацію\" (turn on hazard lights) as correct, which contradicts ПДР. ПДР clause 9.2(a) requires the driver to signal with the light turn indicator (покажчик повороту) of the appropriate direction before starting movement and before stopping — not hazard lights. The option TEXTS are all clean, intact and distinct; only the wrong option is flagged as correct. The true answer is the option present verbatim in our array at index 2: \"Подати сигнал світловим покажчиком повороту.\" Two authoritative sources confirm option 3 (turn indicator) as the single correct answer.",
+          "pdrClause": "ПДР України п. 9.2(а): \"Водій повинен подавати сигнали світловими покажчиками повороту відповідного напрямку: а) перед початком руху і зупинкою.\" — i.e. a turn-indicator signal, not hazard lights, is required before starting movement.",
+          "webConfirmed": true,
+          "sources": "testpdr.online (https://testpdr.online/test.php?test=all&q=256) — for question 256 lists the same three options and marks \"Подати сигнал світловим покажчиком повороту\" (option 3) as correct. Official ПДР clause page pdr.infotech.gov.ua/theory/rules/9 — confirms п.9.2(а): turn indicators must be used before starting movement and stopping. Also corroborated by green-way.com.ua/uk/test-pdd/twenty-questions/6784 and search-aggregated answer keys (vodiy.ua, pdrtest.com).",
+          "confidence": 0.98
+        },
+        "skeptic": {
+          "key": "9:29",
+          "decision": "confirm_change",
+          "correctOptionText": "Подати сигнал світловим покажчиком повороту.",
+          "webConfirmed": true,
+          "reasoning": "Question (key 9:29): \"Ви розпочинаєте рух на автомобілі, який попереджувальний сигнал повинні подати:\" The DB currently marks option index 0 \"Включити аварійну сигналізацію.\" (hazard lights) as correct. This contradicts ПДР. The official government source pdr.infotech.gov.ua/theory/rules/9 quotes clause 9.2(а) verbatim: \"Водій повинен подавати сигнали світловими покажчиками повороту відповідного напрямку: а) перед початком руху і зупинкою\" — i.e. before starting movement the driver must use the light TURN INDICATOR, not hazard lights. Three independent driving-test answer-key sites all mark the turn-indicator option as the single correct answer for this exact question: testpdr.online (test=all&q=256) lists the same three options and marks \"Подати сигнал світловим покажчиком повороту\"; pomahach.com marks \"Покажчик повороту\"; manualov.net (301-redirects to testpdr.online) same. None mark hazard lights. The proposed correct option \"Подати сигнал світловим покажчиком повороту.\" is present verbatim in the DB options array at index 2 and is distinct/intact. It is authoritatively correct and differs from the currently-marked option, so the change is confirmed.",
+          "sources": "Official ПДР clause: https://pdr.infotech.gov.ua/theory/rules/9 — п.9.2(а) \"...подавати сигнали світловими покажчиками повороту... а) перед початком руху і зупинкою.\" Test answer keys: https://testpdr.online/test.php?test=all&q=256 (marks \"Подати сигнал світловим покажчиком повороту\" correct); https://pomahach.com/question/3692-72953/vi-rozpochinayete-ruh-na-avtomobili-yakiy-poperedzhuvalniy-sig/ (marks \"Покажчик повороту\" correct); https://manualov.net/online-test-pdr.php?question=256 (301→testpdr.online). Corroborating search hits: green-way.com.ua/uk/test-pdd/twenty-questions/6784, vodiy.ua, pdrtest.com. Target file: /Users/clpc/drivers-school/.content-import/expl_audit/reverify_textonly.json"
+        }
+      },
+      {
+        "determine": {
+          "key": "9:34",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 4,
+          "reasoning": "Question: \"У яких випадках дозволене подавання звукового сигналу?\" (When is sounding a horn permitted?). Our DB marks option index 2 (\"Для привертання уваги водія під час обгону транспортного засобу на дорогах у населених пунктах.\") as correct. That is WRONG and is in fact a deliberate distractor: per ПДР, in populated areas the horn is prohibited (except to prevent a crash). The official/authoritative answer is the COMBINED option \"Відповіді 1 і 2.\" (option index 4), i.e. (1) to attract a driver's attention during overtaking OUTSIDE populated areas + (2) when without it a road accident cannot be prevented. The five option texts themselves are all clean, well-formed and not corrupted — only the wrong option was flagged correct. Three independent authoritative driving-test sources (testpdr.online via manualov.net mirror, pomahach.com, and the official-rules text on pdr.infotech.gov.ua) all confirm the answer is \"Відповіді 1 і 2.\" This matches genConcern's direction (marked answer contradicts the rule) and the correct selectable option exists verbatim in the array.",
+          "pdrClause": "ПДР України п. 9.5 — \"Подавати звукові сигнали у населених пунктах забороняється, крім випадків, коли без цього неможливо запобігти дорожньо-транспортній пригоді.\" п. 9.6 — для привертання уваги водія, якого обганяють, можна застосовувати перемикання світла фар, а ПОЗА населеними пунктами — і звуковий сигнал. Отже звуковий сигнал дозволено: (а) для привертання уваги під час обгону поза населеними пунктами; (б) коли без цього неможливо запобігти ДТП = \"Відповіді 1 і 2\".",
+          "webConfirmed": true,
+          "sources": "https://testpdr.online/test.php?test=all&q=261 (q261, correct = Option 5 \"Відповіді 1 і 2\"); https://pomahach.com/question/3697-24273/u-yakih-vipadkah-dozvolene-podavannya-zvukovogo-signalu/ (answers 1 and 2); https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clauses 9.5 & 9.6: horn in overtaking allowed only OUTSIDE populated areas)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "9:34",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "reasoning": "Question: \"У яких випадках дозволене подавання звукового сигналу?\". The DB array order is: opt1 \"...поза населеними пунктами\" (overtaking OUTSIDE populated areas), opt2 \"коли без цього неможливо запобігти ДТП\", opt3 \"...у населених пунктах\" (overtaking IN populated areas, currently markedCorrect), opt4 \"Відповіді 1, 2 і 3.\", opt5 \"Відповіді 1 і 2.\". The currently-marked option (opt3, overtaking inside populated areas) directly contradicts ПДР п.9.5 (\"Подавати звукові сигнали у населених пунктах забороняється, крім випадків, коли без цього неможливо запобігти дорожньо-транспортній пригоді\") and п.9.6 (\"Для привертання уваги водія... можна застосовувати перемикання світла фар, а ПОЗА населеними пунктами — і звуковий сигнал\"). I independently verified the official ПДР text at pdr.infotech.gov.ua/theory/rules/9, which quotes 9.5 and 9.6 verbatim confirming a horn is forbidden in populated areas (except crash-prevention) and allowed for overtaking only OUTSIDE populated areas. Two independent driving-test sources with the IDENTICAL option ordering — pomahach.com (q 3697-24273) and testpdr.online q261 (the manualov.net mirror) — both mark the combined option \"Відповіді 1 і 2.\" (option 5 / index 4) as correct. The combination = (1) attract attention during overtaking outside populated areas + (2) when a crash cannot otherwise be prevented, both of which are ПДР-permitted, while the in-populated-area overtaking case is the distractor. The five option texts are all clean and well-formed; only the wrong one was flagged. The genConcern's direction matches (marked answer contradicts the rule), and the correct option \"Відповіді 1 і 2.\" exists verbatim in the array (differs from currently-marked opt3). Therefore confirm the change.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3697-24273/u-yakih-vipadkah-dozvolene-podavannya-zvukovogo-signalu/ (correct = \"Відповіді 1 і 2\"); https://testpdr.online/test.php?test=all&q=261 (q261, redirect target of manualov.net/online-test-pdr.php?question=261; correct = Option 5 \"Відповіді 1 і 2\"); https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clauses 9.5 \"Подавати звукові сигнали у населених пунктах забороняється, крім випадків, коли без цього неможливо запобігти ДТП\" and 9.6 horn allowed for overtaking only поза населеними пунктами)"
+        }
+      },
+      {
+        "determine": {
+          "key": "11:23",
+          "verdict": "key_correct",
+          "correctOptionText": "Для виконання робіт або обслуговування торговельних та інших підприємств, розташованих безпосередньо біля цих тротуарів або доріжок, за відсутності інших під'їздів і за умови надання переваги пішоходам.",
+          "correctOptionIndex": 1,
+          "reasoning": "The currently-marked answer (options[1]) is correct — this is a false alarm. The question asks in which cases vehicles are allowed to drive on sidewalks/pedestrian paths. ПДР України permits this ONLY for work or servicing of trade/other enterprises located directly adjacent to those sidewalks/paths, IN THE ABSENCE OF OTHER ACCESS ROUTES (за відсутності інших під'їздів), and giving priority to pedestrians. Our marked option contains all three required conditions and matches the official answer exactly. The two distractors are correctly wrong: option 0 (\"Завжди...\") omits the mandatory \"відсутності інших під'їздів\" condition, and option 2 (\"заборонено в будь-якому разі\") contradicts the permitted exception. Note: the genConcern itself argues IN FAVOR of our marked answer (it explains why the \"завжди\" option is wrong for lacking the access-route condition), so it is not actually flagging the marked answer as wrong — it is explaining why the OTHER options are wrong. An authoritative Ukrainian driving-test source (pomahach.com) explicitly states the correct answer is the option with \"за відсутності інших під'їздів\", confirming our database. WebSearch summary across green-way.com.ua, pdr.infotech.gov.ua, and pdrtest.com (key matches the canonical 11.23 numbering) corroborates this.",
+          "pdrClause": "ПДР України п. 11.13 (розташування транспортних засобів на дорозі / тротуари): рух транспортних засобів по тротуарах і пішохідних доріжках забороняється, крім випадків виконання робіт або обслуговування торговельних та інших підприємств, розташованих безпосередньо біля цих тротуарів чи доріжок, за відсутності інших під'їздів і за умови надання переваги пішоходам.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3522-51215/u-yakih-vipadkah-transportnim-zasobam-dozvoleno-ruh-po-trotua/ (authoritative answer site — explicitly states Option 1, the one with \"за відсутності інших під'їздів\", is correct); WebSearch corroboration: https://green-way.com.ua/uk/test-pdd/twenty-questions/494 , https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/5686 , https://pdrtest.com/question/11.23 (canonical question 11.23)",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "15:77",
+          "verdict": "key_correct",
+          "correctOptionText": "Дозволено ставити тільки велосипеди, мопеди і мотоцикли без бокового причепа.",
+          "correctOptionIndex": 2,
+          "reasoning": "The question asks whether vehicles may be parked in two rows on the roadway. Two independent authoritative Ukrainian driving-test sources (pomahach.com and testpdr.online, question id 559) present EXACTLY the same three options as our database and both mark option 3 — \"Дозволено ставити тільки велосипеди, мопеди і мотоцикли без бокового причепа.\" — as the correct answer. This matches our currently-marked answer (index 2, marked correct=true). The genConcern is a false alarm: the distractor \"Дозволено ставити тільки велосипеди і мопеди.\" (which omits motorcycles without sidecar) is INCOMPLETE precisely because it is the WRONG option; the full, correct answer is the one our DB already marks. The initial WebSearch snippet that suggested a 4th option was conflating the rule's EXPLANATORY text with an actual answer choice — both static sources confirm only three options exist. The blanket \"Заборонено ставити всі транспортні засоби.\" is wrong because some vehicles ARE permitted. No correction needed.",
+          "pdrClause": "ПДР України п. 15.10: \"Транспортні засоби не дозволяється ставити на проїзній частині в два і більше ряди. Велосипеди, мопеди і мотоцикли без бокового причепа дозволяється ставити на проїзній частині не більше ніж у два ряди.\" Thus only bicycles, mopeds and motorcycles without a sidecar may stand in two rows.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/2682-4522/chi-dozvoleno-staviti-transportni-zasobi-v-dva-ryadi-na-proyizn/ (lists the same 3 options, marks \"велосипеди, мопеди і мотоцикли без бокового причепа\" correct/green); https://testpdr.online/test.php?test=all&q=559 (question 559, explicitly states Correct Answer: Option 3 = \"Дозволено ставити тільки велосипеди, мопеди і мотоцикли без бокового причепа.\"); corroborated by green-way.com.ua/uk/test-pdd/twenty-questions/4673 and vodiy.ua bilet 77 carrying the same question.",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "20:12",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Круговий рух руки із шматком яскравої тканини або будь-яким добре помітним предметом у світлий час доби, у темну пору доби і в умовах недостатньої видимості - з факелом або ліхтарем.",
+          "correctOptionIndex": 0,
+          "reasoning": "The question asks what signal a person gives to stop a train in case of a forced vehicle stop on a railway crossing. ПДР України clause 20.9 states verbatim: \"Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини або будь-яким добре помітним предметом, у темну пору доби та в умовах недостатньої видимості - з факелом або ліхтарем).\" So the stop signal is a CIRCULAR MOTION OF THE HAND (\"круговий рух руки\"), not arbitrary \"hand gestures\" (\"жести руками\"). Our DB currently marks index 1 (\"Жести руками...\") as correct, which contradicts the official clause. The correct option is index 0 (\"Круговий рух руки...\"). The genConcern's diagnosis is correct. Option texts are clean and the right answer is cleanly selectable, hence key_wrong_options_ok. Note: one source (pdr.infotech.gov.ua via WebFetch) reported \"Обидві відповіді правильні\" as correct, but this was an unreliable extraction from a JS-rendered page and is contradicted by both the verbatim legal ПДР text and the testpdr.online/manualov official test mirror, which both confirm option 0.",
+          "pdrClause": "п. 20.9 ПДР України: «Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини або будь-яким добре помітним предметом, у темну пору доби та в умовах недостатньої видимості - з факелом або ліхтарем).»",
+          "webConfirmed": true,
+          "sources": "ПДР clause 20.9 (legal text): https://vodiy.ua/pdr/20/ — \"Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки...\". Official test base (correct answer = option 1 \"Круговий рух руки...\"): https://testpdr.online/test.php?test=all&q=769 (redirect from https://manualov.net/online-test-pdr.php?question=769). Cross-ref ПДР Розділ 20: https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 and https://pdr.infotech.gov.ua/theory/rules/20",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "20:12",
+          "decision": "confirm_change",
+          "correctOptionText": "Круговий рух руки із шматком яскравої тканини або будь-яким добре помітним предметом у світлий час доби, у темну пору доби і в умовах недостатньої видимості - з факелом або ліхтарем.",
+          "reasoning": "Question 20:12 asks what signal a person gives to stop a train in case of a forced vehicle stop on a railway crossing or other danger. Official ПДР України clause 20.9 reads verbatim: \"Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини або будь-яким добре помітним предметом, у темну пору доби та в умовах недостатньої видимості - з факелом або ліхтарем).\" The defining element is КРУГОВИЙ РУХ РУКИ (circular motion of the hand), NOT arbitrary \"жести руками\" (hand gestures). The DB currently marks index 1 (\"Жести руками...\") correct, which contradicts the official clause. The authoritatively correct option is index 0 (\"Круговий рух руки...\"), which differs from the currently-marked option — so the change is warranted. I independently verified via two WebSearches plus four WebFetches: (a) vodiy.ua clause 20.9 legal text = \"круговий рух руки\"; (b) pdr-online.com.ua clause 20.9 legal text = \"круговий рух руки\" (second independent legal mirror); (c) the official test base manualov.net/testpdr.online question 769 marks Option 1 \"Круговий рух руки...\" as the correct answer, with \"Жести руками...\" and \"Обидві відповіді правильні\" both wrong. The \"Обидві відповіді правильні\" option is NOT supported by any source I checked, contradicting the earlier unreliable JS-rendered extraction. Multiple authoritative external sources agree; confirm_change.",
+          "webConfirmed": true,
+          "sources": "ПДР clause 20.9 legal text (mirror 1): https://vodiy.ua/pdr/20/ — \"Сигналом зупинки поїзда (локомотива, дрезини) є круговий рух руки (у світлу пору - зі шматком яскравої тканини... у темну пору доби і в умовах недостатньої видимості - з факелом або ліхтарем)\". ПДР clause 20.9 legal text (mirror 2, independent): https://pdr-online.com.ua/teoriya-pdr/pravila-dorozhnogo-ruhu/?chapter=20 — same \"круговий рух руки\" wording. Official test base, question 769 (correct answer = Option 1 \"Круговий рух руки...\"): https://manualov.net/online-test-pdr.php?question=769 (301-redirects to https://testpdr.online/test.php?test=all&q=769). Cross-ref Розділ 20 listings: https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 and https://pdr.infotech.gov.ua/theory/rules/20."
+        }
+      },
+      {
+        "determine": {
+          "key": "20:22",
+          "verdict": "key_correct",
+          "correctOptionText": "На будь-якому залізничному переїзді.",
+          "correctOptionIndex": 3,
+          "reasoning": "The marked answer \"На будь-якому залізничному переїзді.\" (At any railway crossing) is correct. ПДР України clause 20.1 requires that drivers may cross railway tracks ONLY at railway crossings, with NO restriction based on barrier type (with/without шлагбаум). This invalidates option 1 (only with barrier), option 2 (only without barrier), option 3 (anywhere with good visibility — directly contradicts the \"only at crossings\" rule), and option 5 (combines invalid options 3+4). Multiple official/test sources reproduce this exact question with the identical 5 options and confirm the correct answer is \"на будь-якому залізничному переїзді\" (option 4). The genConcern's own reasoning also supports the marked answer. False alarm.",
+          "pdrClause": "20.1 — Водії транспортних засобів можуть перетинати залізничні колії лише на залізничних переїздах. Перед’явлення обмеження за типом переїзду (зі шлагбаумом чи без) немає; перетинати колії поза переїздами заборонено.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4213 (official ГСЦ/infotech test base — same question, identical 5 options); https://green-way.com.ua/uk/test-pdd/twenty-questions/885; https://testpdr.online/test.php?test=all&q=779 (correct answer = \"на залізничних переїздах\" / option 4 \"На будь-якому залізничному переїзді\", refs ПДР п.20.1); https://vodiy.ua/pdr/20/ and https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 (ПДР розділ 20 text).",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "38:13",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Збільшується.",
+          "correctOptionIndex": 0,
+          "reasoning": "The question \"Гальмівний шлях на дорозі одразу після дощу:\" (Braking distance on the road immediately after rain) is a standard ГСЦ МВС exam question. Our DB marks \"Не змінюється.\" (Does not change) as correct, which contradicts both physics and the official answer. On wet asphalt the tire-road adhesion coefficient drops (by 1.5-2x), so braking distance INCREASES. Authoritative Ukrainian driving-test mirror pomahach.com explicitly shows the green-highlighted correct answer as \"Збільшується.\" (Increases). Multiple WebSearch hits (green-way.com.ua, vodiy.ua \"Нові 2026\", manualov.net, turbo-drive, driver-autoshkola) carry the same question with the same three options and the same correct answer. The three option texts in our DB are clean, present, and not garbled — only the wrong one is flagged. Correct option is \"Збільшується.\" at 0-based index 0. The genConcern's reasoning matches: \"Не змінюється\"/\"Зменшується\" both contradict the physics of grip on wet surfaces.",
+          "pdrClause": "ПДР України, Розділ 12 (Швидкість руху) — водій зобов'язаний враховувати дорожню обстановку, зокрема стан дороги; на мокрому/вологому покритті коефіцієнт зчеплення шин знижується, через що гальмівний шлях збільшується. Тема відноситься до основ безпечного водіння (зчеплення коліс з дорогою на вологому покритті).",
+          "webConfirmed": true,
+          "sources": "pomahach.com/question/2247-90613/galmivniy-shlyah-na-dorozi-odrazu-pislya-doschu/ (correct answer highlighted green = \"Збільшується.\"); green-way.com.ua/uk/test-pdd/twenty-questions/6779; vodiy.ua/pdr/test/?complect=6 (Нові 2026, Тема 123 ЕТИКА ВОДІННЯ); manualov.net/online-test-pdr.php?question=1367; WebSearch consensus across turbo-drive.od.ua and driver-autoshkola.kyiv.ua — all give correct answer \"Збільшується\" (Increases).",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "38:13",
+          "decision": "confirm_change",
+          "correctOptionText": "Збільшується.",
+          "reasoning": "The question \"Гальмівний шлях на дорозі одразу після дощу:\" (Braking distance on the road immediately after rain) has three clean, non-garbled options in the DB: \"Збільшується.\" (Increases), \"Зменшується.\" (Decreases), \"Не змінюється.\" (Does not change). The DB currently marks \"Не змінюється.\" as correct — this is wrong. My independent check confirms the correct answer is \"Збільшується.\" (Increases), which differs from the currently-marked option, so this is a valid confirm_change.\n\nAuthoritative external confirmation: (1) testpdr.online/test.php?q=1367 (the manualov.net mirror, reached via 301 redirect) EXPLICITLY marks \"Збільшується\" as the correct answer, with an explanation that the friction coefficient on wet roads drops 1.5-2x, sharply increasing braking distance. (2) pomahach.com question 2247-90613 carries the identical question and states the green-highlighted correct answer is \"Збільшується.\" (3) A closely related ГСЦ МВС question (green-way q=7992) states outright: \"У мокру погоду або в дощ гальмовий шлях транспортного засобу збільшується\" (In wet weather or rain, braking distance increases). (4) WebSearch consensus across green-way, vodiy (\"Нові 2026\" Тема 123 ЕТИКА ВОДІННЯ), and pdr-online all return the same question with correct answer \"Збільшується.\"\n\nPhysics/ПДР basis: On wet/damp asphalt the tire-road adhesion (зчеплення) coefficient drops, so braking distance INCREASES — consistent with ПДР України Розділ 12 (driver must account for road conditions when choosing speed) and the fundamentals of safe driving. The genConcern's framing that \"Не змінюється\" is correct contradicts both physics and every authoritative Ukrainian exam mirror. The original mark was a data error; the proposed change is correct.",
+          "webConfirmed": true,
+          "sources": "testpdr.online/test.php?test=all&q=1367 (manualov.net mirror; EXPLICITLY marks \"Збільшується\" correct, with 1.5-2x friction-drop explanation); pomahach.com/question/2247-90613/galmivniy-shlyah-na-dorozi-odrazu-pislya-doschu/ (correct answer highlighted green = \"Збільшується.\"); green-way.com.ua/uk/test-pdd/twenty-questions/7992 (\"У мокру погоду або в дощ гальмовий шлях транспортного засобу збільшується\"); green-way.com.ua/uk/test-pdd/twenty-questions/6779 (same question, 3 options); vodiy.ua/pdr/test/?complect=6&theme=123 (Нові 2026, Тема 123 ЕТИКА ВОДІННЯ); pdr-online.com.ua/testi/testi-po-temam/?theme=37; WebSearch consensus confirming correct answer \"Збільшується\" (Increases). ПДР України Розділ 12 (Швидкість руху) — врахування стану дороги."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+A_flat_iso_brand -> https://files.catbox.moe/nki4on.png
+B_flat_iso_depth -> https://files.catbox.moe/c0b4gl.png
+C_iso_lowpoly_brand -> https://files.catbox.moe/rlh4sj.png
+D_iso_lowpoly_minimal -> https://files.catbox.moe/5qmsa4.png
+E_lowpoly_studio_brand -> https://files.catbox.moe/ylrr8z.png
+F_iso_lowpoly_detailed -> https://files.catbox.moe/km5vy5.png

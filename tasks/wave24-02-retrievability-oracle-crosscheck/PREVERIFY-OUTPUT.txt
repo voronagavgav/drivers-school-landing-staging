@@ -1,0 +1,7 @@
+static evidence — read, do not run
+ok anchor elapsed0 R=1 maxabsdiff=0.0
+ok anchor elapsedS R=0.9 maxabsdiff=0.0
+ok crosscheck maxabsdiff=4.779055293724355e-07
+ok ts_regen maxabsdiff=0
+ok grid points=25 anchors ok
+ok typecheck exit=0

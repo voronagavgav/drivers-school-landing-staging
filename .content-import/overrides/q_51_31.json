@@ -1,0 +1,18 @@
+{
+ "options": [
+  {
+   "n": 1,
+   "text": "Заборонене."
+  },
+  {
+   "n": 2,
+   "text": "Дозволене."
+  },
+  {
+   "n": 3,
+   "text": "Дозволене за маршрутом, узгодженим із відповідними органами."
+  }
+ ],
+ "answer": 1,
+ "_note": "v12 verbatim exam-base: 3->1 (https://green-way.com.ua/uk/test-pdd/twenty-questions/927)"
+}

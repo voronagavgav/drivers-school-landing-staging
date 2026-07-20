@@ -1,0 +1,574 @@
+// Drivers School — Prisma schema
+//
+// DB: SQLite (libsql) for local MVP dev; Postgres-portable on purpose.
+//   - No Prisma enums (unsupported on SQLite) → status/role/mode use String with documented
+//     allowed values (see lib/constants.ts). Migrating to Postgres = swap datasource provider
+//     (+ swap the libsql adapter for @prisma/adapter-pg in lib/db.ts) and these stay valid.
+//   - "...Json" fields are stringified JSON (String) because SQLite has no native JSON type.
+// Prisma 7: new `prisma-client` generator (explicit output) + driver adapters (no native binaries).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+  runtime  = "nodejs"
+}
+
+datasource db {
+  provider = "sqlite"
+  // Prisma 7: the connection url lives in prisma.config.ts (datasource url / env), not here.
+}
+
+// ---------------------------------------------------------------------------
+// Users & auth
+// ---------------------------------------------------------------------------
+model User {
+  id                 String            @id @default(cuid())
+  name               String
+  // Nullable so an anonymous value-first-funnel User row can exist carrying NO PII
+  // (no email, no passwordHash). Real users always set both. Uniqueness is unaffected:
+  // SQLite allows multiple NULLs. See docs/strategy/wave17-anon-funnel-adr.md (Anon-session model).
+  email              String?           @unique
+  passwordHash       String?
+  // True only for lazily-minted anonymous play sessions (value-first funnel). Convert-in-place
+  // on register flips this false and sets email/passwordHash on the SAME row.
+  isAnonymous        Boolean           @default(false)
+  // Bumped on every password change so all OLD stateless session cookies (which embed the
+  // tokenVersion they were minted at) are rejected after a rotation. See lib/auth.ts.
+  tokenVersion       Int               @default(0)
+  role               String            @default("USER") // USER | ADMIN | CONTENT_MANAGER
+  selectedCategoryId String?
+  selectedCategory   Category?         @relation("UserSelectedCategory", fields: [selectedCategoryId], references: [id])
+  language           String            @default("uk")
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+  lastActiveAt       DateTime?
+
+  testSessions     TestSession[]
+  mistakes         UserMistake[]
+  savedQuestions   SavedQuestion[]
+  progressSnaps    ProgressSnapshot[]
+  analyticsEvents  AnalyticsEvent[]
+  adminActions     AdminActionLog[]
+
+  // SRS / learning-state back-relations (Wave 10 — see docs/app-plan/05-tech-architecture.md §1.1–§1.8)
+  reviewStates       ReviewState[]
+  reviewLogs         ReviewLog[]
+  topicMasteries     TopicMastery[]
+  studyProfile       UserStudyProfile?
+  studyDays          StudyDay[]
+  readinessSnapshots ReadinessSnapshot[]
+  passOutcomes       PassOutcome[]
+  settings           UserSettings?
+  pushSubscriptions  PushSubscription[]
+  notifications      NotificationLog[]
+  entitlement        Entitlement?
+}
+
+// ---------------------------------------------------------------------------
+// Content taxonomy
+// ---------------------------------------------------------------------------
+model Category {
+  id          String   @id @default(cuid())
+  code        String   @unique // e.g. "B", "A", "C"
+  title       String
+  description String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  questions     Question[]    @relation("QuestionCategories")
+  selectedByUsers User[]      @relation("UserSelectedCategory")
+  testSessions  TestSession[]
+  progressSnapshots  ProgressSnapshot[]
+  readinessSnapshots ReadinessSnapshot[]
+  topicMasteries     TopicMastery[]
+  passOutcomes       PassOutcome[]
+}
+
+model Topic {
+  id            String   @id @default(cuid())
+  title         String
+  description   String?
+  parentTopicId String?
+  parent        Topic?   @relation("TopicTree", fields: [parentTopicId], references: [id])
+  children      Topic[]  @relation("TopicTree")
+  displayOrder  Int      @default(0)
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  questions  Question[]
+  mistakes   UserMistake[]
+  reviewLogs ReviewLog[]
+}
+
+model Question {
+  id               String              @id @default(cuid())
+  text             String
+  topicId          String?
+  topic            Topic?              @relation(fields: [topicId], references: [id])
+  difficulty       Int                 @default(1) // 1=easy .. 5=hard
+  eloBeta          Float?              // Elo/Rasch item difficulty β (null until enough answers; wave22)
+  eloAnswerCount   Int                 @default(0) // answers folded into eloBeta so far (wave22)
+  imageUrl         String?
+  imageKey         String?             // stable basename-without-ext key for resolver lookups
+  questionKey      String?             @unique // stable content key for upsert-by-key (see lib/content-key.ts)
+  sourceType       String              @default("DEMO") // DEMO | OFFICIAL | CUSTOM
+  isDemo           Boolean             @default(true)
+  isActive         Boolean             @default(true)
+  isPublished      Boolean             @default(false)
+  contentVersionId String?
+  contentVersion   ContentVersion?     @relation(fields: [contentVersionId], references: [id])
+  createdAt        DateTime            @default(now())
+  updatedAt        DateTime            @updatedAt
+  archivedAt       DateTime?
+
+  categories      Category[]           @relation("QuestionCategories")
+  options         QuestionOption[]
+  explanation     QuestionExplanation?
+  answers         TestAnswer[]
+  sessionQuestions TestSessionQuestion[]
+  mistakes        UserMistake[]
+  savedBy         SavedQuestion[]
+
+  // SRS / learning-state back-relations (Wave 10)
+  reviewStates    ReviewState[]
+  reviewLogs      ReviewLog[]
+
+  @@index([topicId])
+  @@index([isPublished, isActive])
+  @@index([imageKey])
+}
+
+model QuestionOption {
+  id           String   @id @default(cuid())
+  questionId   String
+  question     Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  text         String
+  isCorrect    Boolean  @default(false)
+  displayOrder Int      @default(0)
+  optionKey    String?  @unique // stable content key (questionKey + option ordinal); see lib/content-key.ts
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  selectedInAnswers TestAnswer[]
+
+  @@index([questionId])
+}
+
+model QuestionExplanation {
+  id             String   @id @default(cuid())
+  questionId     String   @unique
+  question       Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  shortText      String?
+  detailedText   String?
+  legalReference String?
+  reviewedStatus String   @default("UNREVIEWED") // UNREVIEWED | REVIEWED | NEEDS_FIX
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model ContentVersion {
+  id          String     @id @default(cuid())
+  name        String
+  source      String?
+  description String?
+  isActive    Boolean    @default(false)
+  publishedAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  questions Question[]
+}
+
+// ---------------------------------------------------------------------------
+// Test sessions & answers
+// ---------------------------------------------------------------------------
+model TestSession {
+  id               String   @id @default(cuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  categoryId       String?
+  category         Category? @relation(fields: [categoryId], references: [id])
+  mode             String   // EXAM_SIMULATION | TOPIC_PRACTICE | MISTAKE_PRACTICE | MIXED_PRACTICE | SAVED_QUESTIONS
+  status           String   @default("IN_PROGRESS") // IN_PROGRESS | COMPLETED | ABANDONED
+  startedAt        DateTime @default(now())
+  finishedAt       DateTime?
+  timeLimitSeconds Int?
+  totalQuestions   Int      @default(0)
+  correctAnswers   Int      @default(0)
+  wrongAnswers     Int      @default(0)
+  result           String?  // PASSED | FAILED | null (non-exam modes)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  questions  TestSessionQuestion[]
+  answers    TestAnswer[]
+  reviewLogs ReviewLog[]
+
+  @@index([userId, mode])
+}
+
+model TestSessionQuestion {
+  id            String      @id @default(cuid())
+  testSessionId String
+  testSession   TestSession @relation(fields: [testSessionId], references: [id], onDelete: Cascade)
+  questionId    String
+  question      Question    @relation(fields: [questionId], references: [id])
+  displayOrder  Int
+
+  @@unique([testSessionId, questionId])
+  @@index([testSessionId])
+}
+
+model TestAnswer {
+  id               String          @id @default(cuid())
+  testSessionId    String
+  testSession      TestSession     @relation(fields: [testSessionId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         Question        @relation(fields: [questionId], references: [id])
+  selectedOptionId String?
+  selectedOption   QuestionOption? @relation(fields: [selectedOptionId], references: [id])
+  isCorrect        Boolean
+  answeredAt       DateTime        @default(now())
+  timeSpentSeconds Int?
+  confidence       Int?            // optional in-session "Наскільки впевнені?" 1..4 (§1.9); feeds ReviewLog + calibration
+
+  @@unique([testSessionId, questionId])
+  @@index([testSessionId])
+  @@index([questionId])
+}
+
+// ---------------------------------------------------------------------------
+// Learning state
+// ---------------------------------------------------------------------------
+model UserMistake {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId        String
+  question          Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  topicId           String?
+  topic             Topic?   @relation(fields: [topicId], references: [id])
+  mistakeCount      Int      @default(1)
+  correctRepeatCount Int     @default(0)
+  status            String   @default("ACTIVE") // ACTIVE | RESOLVED
+  lastMistakeAt     DateTime @default(now())
+  resolvedAt        DateTime?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@unique([userId, questionId])
+  @@index([userId, status])
+}
+
+model SavedQuestion {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@unique([userId, questionId])
+  @@index([userId])
+}
+
+model ProgressSnapshot {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  categoryId     String?
+  category       Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  totalAnswered  Int      @default(0)
+  uniqueAnswered Int      @default(0)
+  accuracy       Float    @default(0)
+  readinessLevel String   @default("NOT_ENOUGH_DATA")
+  readinessScore Float    @default(0)
+  weakTopicsJson String   @default("[]") // JSON array of {topicId,title,accuracy}
+  createdAt      DateTime @default(now())
+
+  @@index([userId, createdAt])
+  @@index([categoryId])
+}
+
+// ---------------------------------------------------------------------------
+// SRS / adaptive learning state (Wave 10 — additive; see docs/app-plan/05-tech-architecture.md §1.1–§1.8)
+//   All keyed on stable ids (userId × questionId / userId × topicId), never array index.
+//   String unions (state/band/mode/status/glassTier/kind/channel) documented inline / in lib/constants.ts.
+//   "...Json" fields are stringified JSON (String) — SQLite has no native JSON.
+// ---------------------------------------------------------------------------
+
+// §1.1 ReviewState — FSRS per-item memory state (the SRS spine). Rows created lazily on first answer.
+model ReviewState {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId     String
+  question       Question  @relation(fields: [questionId], references: [id], onDelete: Restrict)
+  // FSRS DSR model. R (retrievability) is COMPUTED ON DEMAND from (now - lastReviewedAt) + stability —
+  // never stored (it decays continuously; a stored value goes stale). See lib/fsrs/retrievability.ts.
+  stability      Float     @default(0)       // days until R decays to 0.90
+  difficulty     Float     @default(0)       // 1..10 (FSRS D)
+  state          String    @default("new")   // new | learning | review | relearning
+  dueAt          DateTime?                    // next scheduled review; null for brand-new
+  lastReviewedAt DateTime?
+  reps           Int       @default(0)
+  lapses         Int       @default(0)
+  lastGrade      Int?                         // 1..4 = Again|Hard|Good|Easy
+  lastConfidence Int?                         // 1..4 (calibration, §6/§8)
+  lastLatencyMs  Int?                         // response time (difficulty signal + calibration)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@unique([userId, questionId])              // one state per user×question (stable key)
+  @@index([userId, state])
+  @@index([userId, dueAt])                    // queue picker: "due now" scan is index-driven
+}
+
+// §1.2 ReviewLog — append-only telemetry spine (FSRS optimizer corpus + calibration + mistake feed).
+model ReviewLog {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId      String
+  question        Question @relation(fields: [questionId], references: [id], onDelete: Restrict)
+  topicId         String?
+  topic           Topic?   @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  reviewedAt      DateTime @default(now())    // CLIENT event time when replayed from offline
+  grade           Int                          // 1..4
+  elapsedDays     Float                        // days since prior review at grading time
+  priorStability  Float?                       // FSRS optimizer needs the pre-review state
+  priorDifficulty Float?
+  scheduledDays   Float?                       // interval FSRS assigned next
+  confidence      Int?                         // 1..4
+  latencyMs       Int?
+  mode            String                       // ADAPTIVE_REVIEW | EXAM_SIMULATION | TOPIC_PRACTICE | ...
+  testSessionId   String?                      // link back to the quiz session
+  testSession     TestSession? @relation(fields: [testSessionId], references: [id], onDelete: SetNull)
+  clientEventId   String?  @unique             // IDEMPOTENCY for offline replay (§3.4)
+  engine          String?                      // REVIEW_ENGINE_VERSION at write time (grade-semantics segmentation, 2026-07-13)
+  createdAt       DateTime @default(now())
+
+  @@index([userId, reviewedAt])
+  @@index([userId, questionId])
+  @@index([topicId])
+  @@index([testSessionId])
+}
+
+// §1.3 TopicMastery — cached aggregate (materialized view) for the topic rings + queue weakness factor.
+model TopicMastery {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topicId    String
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  meanR      Float    @default(0)   // aggregate retrievability across the topic's seen items
+  coverage   Float    @default(0)   // seen / total in the user's category
+  band       String   @default("weak") // weak|learning|strong  →  Вивчаю|Майже|Впевнено
+  itemsSeen  Int      @default(0)
+  itemsTotal Int      @default(0)
+  medianLatencyMs Int?                  // median answer latency across the topic's seen items (nightly-filled)
+  computedAt DateTime @default(now())
+
+  @@unique([userId, topicId])
+  @@index([userId, band])
+  @@index([categoryId])
+}
+
+// §1.4 UserStudyProfile — exam-date plan, detoxified streak, goal, calibration slope.
+model UserStudyProfile {
+  id               String    @id @default(cuid())
+  userId           String    @unique
+  user             User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examDate         DateTime?                    // drives the finite "N днів × M питань" plan
+  dailyGoal        Int       @default(15)       // user-adjustable (autonomy); small dose (spacing)
+  timezone         String    @default("Europe/Kyiv")
+  studyWindowStart Int?                          // minutes-from-midnight; notification timing
+  streakCurrent    Int       @default(0)         // "days of practice", NOT a fragile trophy
+  streakBest       Int       @default(0)
+  lastStudyDay     String?                       // "YYYY-MM-DD" local (Slavic-safe day key)
+  freezeTokens     Int       @default(2)         // "вихідний" day-off; auto-applied, generous
+  freezeAutoUsedOn String?                       // last date a freeze auto-covered a gap
+  calibrationSlope Float?                         // learned over/under-confidence → discounts readiness
+  // Wave-16 JTBD/outcome columns (all additive, nullable — no row rewrite). Validated by zod
+  // against the wave16-02 constant tuples (SQLite has no enums; house pattern = string + comment).
+  prepMode              String?                    // SCHOOL | SELF | BOTH — how the user is preparing
+  examOutcome           String?                    // PASSED | FAILED — self-reported real-exam result
+  examOutcomeDate       DateTime?                  // date of the real exam the outcome refers to
+  examOutcomeReportedAt DateTime?                  // when the user reported the outcome
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+}
+
+// §1.9 Entitlement — Wave-16 monetization (Gate 0). One row per user; tier gates intelligence
+// surfaces. String columns validated by zod against ENTITLEMENT_TIERS (no payment fields yet).
+model Entitlement {
+  id          String    @id @default(cuid())
+  userId      String    @unique
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tier        String    @default("FREE")    // FREE | EXAM_ACCESS — see ENTITLEMENT_TIERS
+  purchasedAt DateTime?
+  examDate    DateTime?
+  validUntil  DateTime?
+  source      String    @default("MANUAL")  // MANUAL | PROMO
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+// §1.5 StudyDay — per-day rollup (streak/goal ring, offline-cheap; derivable from ReviewLog).
+model StudyDay {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  day         String                     // "YYYY-MM-DD" local
+  reviewCount Int      @default(0)
+  goalMet     Boolean  @default(false)
+  usedFreeze  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, day])
+}
+
+// §1.6 ReadinessSnapshot — the honest pass-probability behind the dial (Poisson-binomial + mock shrinkage).
+model ReadinessSnapshot {
+  id                String   @id @default(cuid())
+  passOutcomes      PassOutcome[]
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  categoryId        String?
+  category          Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  passProbability   Float    @default(0)   // 0..1 = P(≥18/20) from the Poisson-binomial (§6)
+  dialPercent       Int      @default(0)   // 0..100 after mock-shrinkage — the ONE dial number
+  coverage          Float    @default(0)
+  calibrationSlope  Float?
+  bottleneckTopicId String?
+  bottleneckTitle   String?                // "найслабше: Розмітка" surfaced under the dial
+  inputsJson        String   @default("{}")// {meanR, seenCount, mockPassRate, priorUnseen} for audit
+  createdAt         DateTime @default(now())
+
+  @@index([userId, createdAt])
+  @@index([categoryId])
+}
+
+// §G PassOutcome — durable calibration ground-truth: pairs a snapshotted predicted P(pass) with the
+// actual self-reported exam result, so the admin calibration view can score the model's calibration.
+model PassOutcome {
+  id                       String    @id @default(cuid())
+  userId                   String
+  user                     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  predictedPassProbability Float // 0..1, snapshotted at report time
+  passed                   Boolean
+  categoryId               String?
+  category                 Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  // Which snapshot produced the prediction — lets future calibration segment the corpus by the
+  // engine/ρ/tier version tags in that snapshot's inputsJson (wave19c follow-up, 2026-07-13).
+  readinessSnapshotId      String?
+  readinessSnapshot        ReadinessSnapshot? @relation(fields: [readinessSnapshotId], references: [id], onDelete: SetNull)
+  source                   String // e.g. "self_report"
+  createdAt                DateTime  @default(now())
+
+  @@index([createdAt])
+  @@index([categoryId])
+  @@index([readinessSnapshotId])
+}
+
+// §1.7 UserSettings — rendering/a11y overrides, notification prefs, offline (logged-in mirror of cookies).
+model UserSettings {
+  id                 String   @id @default(cuid())
+  userId             String   @unique
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  glassTier          String   @default("auto")  // auto | real | emulated | solid (§5.4)
+  reduceMotion       String   @default("auto")  // auto | on | off
+  notifStudyReminder Boolean  @default(true)
+  notifReviewDue     Boolean  @default(true)
+  notifExamCountdown Boolean  @default(true)
+  notifQuietStart    Int?                        // minutes-from-midnight (do-not-disturb)
+  notifQuietEnd      Int?
+  offlineAutoPack    Boolean  @default(false)    // auto-cache next topic for offline
+  analyticsOptOut    Boolean  @default(false)    // mirrors existing ds_no_analytics cookie
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+// §1.8 PushSubscription + NotificationLog — Web Push + delivery guard (≤3–4/week engagement cap).
+model PushSubscription {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  endpoint   String    @unique
+  p256dh     String
+  auth       String
+  userAgent  String?
+  createdAt  DateTime  @default(now())
+  lastSeenAt DateTime?
+
+  @@index([userId])
+}
+
+model NotificationLog {
+  id           String    @id @default(cuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  kind         String    // STUDY_REMINDER | REVIEW_DUE | EXAM_COUNTDOWN | DAY_OFF_OFFER | READINESS_MILESTONE
+  channel      String    @default("push")  // push | inapp
+  scheduledFor DateTime?
+  sentAt       DateTime?
+  status       String    @default("QUEUED")// QUEUED | SENT | SKIPPED | FAILED
+  dedupeKey    String?   @unique            // e.g. "review_due:2026-07-02:<userId>" → ≤1/day/kind
+  createdAt    DateTime  @default(now())
+
+  @@index([userId, sentAt])
+  @@index([status, scheduledFor])
+}
+
+// ---------------------------------------------------------------------------
+// Analytics & audit
+// ---------------------------------------------------------------------------
+model AnalyticsEvent {
+  id          String  @id @default(cuid())
+  userId      String?
+  user        User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+  // Existing TYPED path: recordEvent() writes a known ANALYTICS_EVENTS name here + payloadJson.
+  // Kept required so the typed enum path is unchanged.
+  eventName   String
+  payloadJson String? // stringified JSON (typed-path payload)
+
+  // Granular first-party fields. All nullable so the existing typed path keeps working
+  // and anonymous client events are allowed (userId stays nullable).
+  eventType    String? // freeform client event type (e.g. "click", "page_view", "scroll")
+  path         String? // pathname the event occurred on
+  referrer     String? // document referrer (first-party recorded, not a third-party tracker)
+  elementType  String? // e.g. "button", "a", "form"
+  elementLabel String? // human label / data-attr of the interacted element (NO raw form values)
+  anonymousId  String? // persistent visitor id (first-party, cookie/localStorage)
+  sessionId    String? // browsing-session id (rotates per session)
+  userAgent    String? // raw UA string
+  deviceType   String? // derived bucket: "mobile" | "tablet" | "desktop"
+  viewport     String? // e.g. "1280x720"
+  ipHash       String? // SHA-256(salt + ip) — HASHED ONLY, never a raw IP
+  durationMs   Int? //   duration for timed events (e.g. time-on-page, dwell)
+
+  metadata  String? // freeform JSON for client-event extras (sibling to payloadJson)
+  createdAt DateTime @default(now())
+
+  @@index([eventName, createdAt])
+  @@index([createdAt])
+  @@index([userId])
+  @@index([eventType])
+  @@index([anonymousId, sessionId])
+}
+
+model AdminActionLog {
+  id          String   @id @default(cuid())
+  adminUserId String
+  adminUser   User     @relation(fields: [adminUserId], references: [id], onDelete: Cascade)
+  action      String
+  entityType  String
+  entityId    String?
+  payloadJson String?
+  createdAt   DateTime @default(now())
+
+  @@index([adminUserId, createdAt])
+}

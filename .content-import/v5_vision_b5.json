@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 102,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_102_0.png",
+    "confident": true,
+    "reason": "Clean single blue rectangular road sign: telephone handset + 'SOS' (emergency phone / SOS station). Matches 'Зображений дорожній знак'. Alt 33_101_0 does not exist."
+  },
+  {
+    "section": "33",
+    "qnum": 103,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_103_0.png",
+    "confident": true,
+    "reason": "Clean single blue road sign: fuel pump symbol + '800 м' (fuel station ahead). Matches a single depicted road sign. Alt 33_102_0 is the SOS phone sign (wrong)."
+  },
+  {
+    "section": "33",
+    "qnum": 116,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Both candidates are multi-panel matching/answer grids (warning triangle + numbered car-scene panels / mini-panels + 5 numbered triangle signs), not a single depicted road sign as the question requires."
+  },
+  {
+    "section": "33",
+    "qnum": 127,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_127_0.png",
+    "confident": true,
+    "reason": "Clean single blue lane-direction sign: two up arrows with '50' in a circle on the lane. Single depicted sign. Alt 33_126_0 shows a chevron barrier board + separate round arrows sign (wrong)."
+  },
+  {
+    "section": "33",
+    "qnum": 128,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_128_0.png",
+    "confident": true,
+    "reason": "Clean single blue road sign (lane/road-layout informational sign with red center bar). A single depicted sign matching the question. Alt 33_127_0 is the lane+'50' sign belonging to Q127."
+  },
+  {
+    "section": "33",
+    "qnum": 131,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": false,
+    "reason": "33_131_0 is a 3D road scene with a car and a '40' board embedded (not a clean isolated single-sign depiction); alt 33_130_0 is a 5-panel numbered answer grid. Neither cleanly shows a single depicted sign; not confident, so omit."
+  },
+  {
+    "section": "33",
+    "qnum": 133,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_133_0.png",
+    "confident": true,
+    "reason": "Clean single blue square sign: car + pedestrians (living/residential zone, 'Житлова зона'). Single depicted sign. Alt 33_132_0 is a 5-panel numbered answer grid (wrong)."
+  },
+  {
+    "section": "33",
+    "qnum": 135,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_135_0.png",
+    "confident": true,
+    "reason": "Clean single blue round sign: adult + child pedestrians + 'ЗОНА' (pedestrian zone). Single depicted sign. Alt 33_134_0 is a 5-panel numbered answer grid (wrong)."
+  }
+]

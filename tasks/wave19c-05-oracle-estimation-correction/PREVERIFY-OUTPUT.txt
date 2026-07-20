@@ -1,0 +1,22 @@
+PREVERIFY-OUTPUT — static evidence for the read-only evaluator (READ, do not run).
+Captured 2026-07-12T22:40:09+03:00 tree; task wave19c-05-oracle-estimation-correction.
+===================================================================
+
+### 1) npm run -s typecheck (exit code shown below)
+typecheck exit=0
+
+### 2) npx vitest run lib/readiness-estimation.oracle.test.ts
+
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed | 12 skipped (15)
+   Start at  22:40:56
+   Duration  149ms (transform 20ms, setup 0ms, import 27ms, tests 2ms, environment 0ms)
+
+
+### 3) npx vitest list | grep readiness-estimation.oracle
+lib/readiness-estimation.oracle.test.ts > frozen oracle literals are self-consistent (no impl) > every tier-MEAN dial is strictly below its independence(off) dial
+lib/readiness-estimation.oracle.test.ts > frozen oracle literals are self-consistent (no impl) > every QUANTILE(α=.2) dial is below its tier-MEAN dial
+lib/readiness-estimation.oracle.test.ts > frozen oracle literals are self-consistent (no impl) > n_eff literal 5/2.2 ≈ 2.2727272727

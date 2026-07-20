@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 46,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_46_0.png",
+    "confident": true,
+    "reason": "33_46_0.png is a clean standalone 'no standing' sign (blue circle, red border, single red diagonal slash) matching a 'depicted road sign' question. The other candidate (33_45_0.png) is a driving scene, not the sign."
+  },
+  {
+    "section": "33",
+    "qnum": 51,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_51_0.png shows TWO different signs side by side (no-parking-odd vs no-parking-even), not a single depicted sign, so it cannot represent 'the depicted road sign'. The alternate candidate 33_50_0.png does not exist. No single clear match."
+  },
+  {
+    "section": "33",
+    "qnum": 53,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_53_0.png",
+    "confident": true,
+    "reason": "33_53_0.png is a clean standalone 'no standing/no waiting' sign (blue circle, red border, single diagonal slash). The other candidate (33_52_0.png) is a driving scene, not the sign."
+  },
+  {
+    "section": "33",
+    "qnum": 63,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_63_0.png is a numbered 1-4 panel of four different signs (an answer-options grid), not a single depicted sign. The other candidate (33_62_0.png) is a driving scene. Neither clearly depicts the single sign the question asks about."
+  },
+  {
+    "section": "33",
+    "qnum": 64,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_64_0.png",
+    "confident": true,
+    "reason": "33_64_0.png is a clean standalone 'ЗОНА' (zone) sign: white rectangle with 'ЗОНА' text above a no-parking symbol. The other candidate (33_63_0.png) is the 4-sign numbered panel, not a single sign."
+  },
+  {
+    "section": "33",
+    "qnum": 67,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_67_0.png",
+    "confident": true,
+    "reason": "33_67_0.png is a clean standalone mandatory-direction sign (blue circle, white arrow turning left). The other candidate (33_66_0.png) is a driving scene, not the sign."
+  },
+  {
+    "section": "33",
+    "qnum": 69,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_69_0.png",
+    "confident": true,
+    "reason": "33_69_0.png is a clean standalone mandatory-direction sign (blue circle, white arrow indicating straight or left), the sign whose scope the question asks about. The other candidate (33_68_0.png) is a driving scene, not the sign."
+  },
+  {
+    "section": "33",
+    "qnum": 72,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_72_0.png",
+    "confident": true,
+    "reason": "33_72_0.png is a clean standalone mandatory-direction sign (blue circle, white arrow pointing down-right, 'pass on this side'). The other candidate (33_71_0.png) is a driving scene, not the sign."
+  }
+]

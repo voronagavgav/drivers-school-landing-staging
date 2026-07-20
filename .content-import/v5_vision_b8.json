@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 161,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_161_0.png",
+    "confident": true,
+    "reason": "Blue square sign depicting a pedestrian walking up stairs — a clear, legible single road sign matching a 'depicted road sign means' question."
+  },
+  {
+    "section": "33",
+    "qnum": 162,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_162_0.png",
+    "confident": true,
+    "reason": "Blue square sign depicting a pedestrian walking up stairs — clear single road sign matching the question."
+  },
+  {
+    "section": "33",
+    "qnum": 163,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_163_0.png",
+    "confident": true,
+    "reason": "Blue square sign with white 'P' — standard parking sign, clear and legible, matches a road-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 164,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_164_0.png",
+    "confident": true,
+    "reason": "Blue square sign with 'P' under a roof/arch — covered (indoor) parking sign, clear single road sign."
+  },
+  {
+    "section": "33",
+    "qnum": 165,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate image file 33_165_0.png does not exist; no other candidate provided that matches. Cannot confirm an image."
+  },
+  {
+    "section": "33",
+    "qnum": 166,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_166_0.png",
+    "confident": true,
+    "reason": "Sign with 'ЗОНА' label above a blue 'P' square — parking-zone start sign, clear and legible."
+  },
+  {
+    "section": "33",
+    "qnum": 167,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_167_0.png",
+    "confident": true,
+    "reason": "'ЗОНА' label above a 'P' square struck through with diagonal lines — end-of-parking-zone sign, clear single road sign."
+  },
+  {
+    "section": "33",
+    "qnum": 170,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_170_0.png",
+    "confident": true,
+    "reason": "Red-and-white X (saltire/St Andrew's cross) — railway crossing without barriers sign, clear and legible."
+  }
+]

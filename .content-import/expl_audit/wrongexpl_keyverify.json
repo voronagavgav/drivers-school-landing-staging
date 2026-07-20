@@ -1,0 +1,59 @@
+{
+  "summary": "Ground-truth verify whether 23:10 and 9:17 have wrong answer keys (regen agent flagged them); skeptic-confirm",
+  "agentCount": 3,
+  "logs": [
+    "Verified 2/2. confirmedFixes=1, key_correct=1, unresolved=0"
+  ],
+  "result": {
+    "total": 2,
+    "confirmedFixes": [
+      {
+        "key": "9:17",
+        "correctOptionText": "Покажчик повороту.",
+        "correctOptionIndex": 0,
+        "pdrClause": "п. 9.2«а» — \"Водій повинен подавати сигнали світловими покажчиками повороту відповідного напрямку: а) перед початком руху і зупинкою; б) перед перестроюванням, поворотом або розворотом.\" (Cross-check: hazard lights / аварійна сигналізація are п.9.9, used only in enumerated emergency/forced-stop situations, not as the routine pre-movement or pre-stop signal.)",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ГСЦ МВС rules, п.9.2«а» verbatim: turn indicators before starting/stopping); https://kodeksy.com.ua/pdr/9.2.htm (legislative text of п.9.2, independent confirmation of turn-indicator requirement); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4452 (official test ticket — same question + same 3 options verbatim, confirming options array is intact)"
+      }
+    ],
+    "keyCorrect": [
+      "23:10"
+    ],
+    "unresolved": [],
+    "raw": [
+      {
+        "determine": {
+          "key": "23:10",
+          "verdict": "key_correct",
+          "correctOptionText": "На жорсткому зчепленні або способом часткового навантаження.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question: \"Яким способом необхідно буксирувати транспортний засіб із рульовим керуванням, що не діє?\" Our current marked answer (options[2], correct=true) is \"На жорсткому зчепленні або способом часткового навантаження.\" (rigid coupling OR partial loading), 0-based index 2.\n\nI checked the official ГСЦ МВС answer key across FOUR independent test sources and ALL unanimously mark this exact option as the correct one:\n- pdr.infotech.gov.ua/novi-testy-pdr/ticket/5204 (the official ГСЦ МВС portal) — marks \"На жорсткому зчепленні або способом часткового навантаження\" correct.\n- pomahach.com (.../3065-56152/...) — green-highlighted correct = \"На жорсткому зчепленні або способом часткового навантаження.\"\n- pdrtest.com/question/23.10 and testpdr.online (q=802) — both mark the same \"rigid coupling OR partial loading\" option correct.\n\nIMPORTANT NUANCE / tiebreak (per my ground-truth-tiebreak learning): the file's genConcern argues our answer is WRONG because the literal ПДР clause 23.7 says a vehicle with non-functioning steering must be towed \"відповідно до вимог підпункту «б» пункту 23.2\" — i.e. partial-loading ONLY (subpoint «б»), NOT rigid coupling. That clause reading is correct (confirmed verbatim on kodeksy.com.ua, vodiy.ua, and infotech's own theory text). HOWEVER, the OFFICIAL ГСЦ МВС test base itself marks the \"rigid coupling OR partial loading\" answer as the graded-correct one for this question — a known, faithfully-reproduced inconsistency between the exam key and a purist 23.7 reading (testpdr.online even shows its own answer key and explanation contradicting each other on this very item). Our content is transcribed FROM that ГСЦ base, and the exam grades by that key. The genConcern committed exactly the error my learning warns against (letting a purist clause re-read override the authoritative answer key). Our transcription is faithful to the source of truth, so verdict = key_correct. (Note: option ordering differs between sites; in OUR file the correct option sits at 0-based index 2.)",
+          "pdrClause": "ПДР п.23.7 (\"Механічний транспортний засіб з рульовим керуванням, що не діє, повинен буксируватися відповідно до вимог підпункту «б» пункту 23.2\") з посиланням на п.23.2«б» (\"із частковим навантаженням буксированого транспортного засобу на платформу або на спеціальне опорне пристосування\") та п.23.2«а» (\"із застосуванням жорсткого або гнучкого зчеплення\").",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/5204 (official ГСЦ МВС portal — marks \"На жорсткому зчепленні або способом часткового навантаження\" correct); https://pomahach.com/question/3065-56152/yakim-sposobom-neobhidno-buksiruvati-transportniy-zasib-iz-ru/ (green-highlighted correct = same option); https://pdrtest.com/question/23.10 and https://testpdr.online/test.php?test=all&q=802 (both mark same option correct). Clause text: https://kodeksy.com.ua/print/pdr/23.htm and https://vodiy.ua/pdr/23/ (verbatim п.23.7 / п.23.2«а»«б»); https://pdr.infotech.gov.ua/theory/rules/23 (official theory text of 23.7).",
+          "confidence": 0.82
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "9:17",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Покажчик повороту.",
+          "correctOptionIndex": 0,
+          "reasoning": "The question asks which warning signal a driver must switch on before starting movement (перед початком руху) and before stopping (зупинкою). The file currently marks option index 1 \"Аварійну сигналізацію.\" (hazard lights) as correct. This directly contradicts ПДР clause 9.2«а», which states the driver must signal with the TURN INDICATORS, not hazard lights, before starting and stopping. The correct option is index 0 \"Покажчик повороту.\" (turn indicator). Hazard lights (аварійна сигналізація) are governed by п.9.9 for entirely different situations (forced stop where the vehicle cannot be seen, towing, etc.), never as the routine pre-movement/pre-stop signal. The options array itself is intact and matches the official base verbatim (confirmed against pdr.infotech.gov.ua ticket 4452: same question, options Аварійну сигналізацію / Покажчик повороту / Стоянкові вогні) — only the correct flag is on the wrong option, hence key_wrong_options_ok rather than options_corrupted. NOTE: one initial WebFetch of a pomahach variant page returned \"Аварійна сигналізація\" as correct, creating a conflict; on re-fetch that model admitted the green-highlight markup was NOT visible in the static HTML, so that claim was an unreliable guess. Per ground-truth-tiebreak, I settled the disagreement with the authoritative ПДР clause text from two independent sources rather than a vote. The genConcern note in the file already reached this same conclusion (п.9.2«а» requires turn signals).",
+          "pdrClause": "п. 9.2«а» — \"Водій повинен подавати сигнали світловими покажчиками повороту відповідного напрямку: а) перед початком руху і зупинкою; б) перед перестроюванням, поворотом або розворотом.\" (Cross-check: hazard lights / аварійна сигналізація are п.9.9, used only in enumerated emergency/forced-stop situations, not as the routine pre-movement or pre-stop signal.)",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ГСЦ МВС rules, п.9.2«а» verbatim: turn indicators before starting/stopping); https://kodeksy.com.ua/pdr/9.2.htm (legislative text of п.9.2, independent confirmation of turn-indicator requirement); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4452 (official test ticket — same question + same 3 options verbatim, confirming options array is intact)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "9:17",
+          "decision": "confirm_change",
+          "correctOptionText": "Покажчик повороту.",
+          "reasoning": "The question \"Який попереджувальний сигнал Ви як водій повинні вмикати на транспортному засобі перед початком руху і зупинкою?\" uses the exact phrasing of ПДР clause 9.2«а», which mandates signalling with turn indicators (світловими покажчиками повороту) \"перед початком руху і зупинкою\". The file currently marks index 1 \"Аварійну сигналізацію.\" (hazard lights) as correct, which is wrong. Independent verification: (1) Official ГСЦ МВС rules at pdr.infotech.gov.ua/theory/rules/9 quote 9.2«а» verbatim (turn indicators before starting/stopping). (2) Legislative text at kodeksy.com.ua/pdr/9.2.htm independently confirms the same. (3) Clause 9.9 restricts hazard lights to enumerated emergency/forced-stop situations only — never as the routine pre-movement/pre-stop signal. (4) The options array is intact and verbatim across the official test ticket 4452 and other sites. (5) DECISIVE machine-readable ground truth: testpdr.online (via manualov.net/online-test-pdr.php?question=244) carries data-correct-variant=\"1\" where data-v=\"1\" is \"Покажчик повороту.\" (90.8% answer correctly). The lone dissent (pomahach returning \"Аварійна сигналізація\") is confirmed unreliable — I pulled its raw HTML and the green correct-answer highlight is JS-rendered and absent from the static markup (all three li items identical, zero correct/green class markers), so that claim was a prose-based guess, not data. Per ground-truth tiebreak, the authoritative clause text plus the data-correct-variant marker settle it: correct answer is index 0 \"Покажчик повороту.\"",
+          "webConfirmed": true
+        }
+      }
+    ]
+  }
+}

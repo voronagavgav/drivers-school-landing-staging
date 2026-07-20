@@ -1,0 +1,30 @@
+PREVERIFY-OUTPUT — wave19e-05-verify-wave (static evidence — READ, do not run)
+Captured 2026-07-13T17:10:46Z on ClPcs-Mac-mini
+
+== crit1: db:seed + test:integration (exit 0, 0 skipped) ==
+ Test Files  65 passed (65)
+      Tests  275 passed (275)
+  (INTEGRATION_EXIT was 0; no 'skipped' token in summary)
+
+== crit2: typecheck == exit 0
+== crit3: npm test ==
+ Test Files  68 passed (68)
+      Tests  727 passed (727)
+== crit4: npm run build == exit 0
+
+== crit5: audit:browser ==
+=== browser audit: 82 passed, 0 failed === (log: /tmp/ds-browser-audit/audit-20260713-200642.log)
+
+== crit6: honesty regression byte hash ==
+  git hash-object lib/readiness-honesty.regression.test.ts = 4111cddf9664f36130e856d4a144cdd1db022fba  (exp 4111cddf9664f36130e856d4a144cdd1db022fba)
+== crit7: correlation constant ==
+196:export const READINESS_TOPIC_CORRELATION = 0;
+== crit8: release oracle untouched vs 09b8097 ==
+  (empty above = byte-untouched)
+== crit9: three target suites collected (npx vitest list --config vitest.integration.config.ts) ==
+  practice-modes.integration.test.ts
+  readiness-correlation.integration.test.ts
+  readiness-snapshot.integration.test.ts
+== crit10: live anchor ==
+  READINESS_ANCHOR_STRENGTH refs in mastery-readiness.ts = 3
+  anchored: true in mastery-readiness.ts = 1

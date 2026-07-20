@@ -1,0 +1,693 @@
+{
+  "summary": "Ground-truth verify 30 flagged ПДР answer-key conflicts against the official base; skeptic-confirm every proposed change",
+  "agentCount": 47,
+  "logs": [
+    "Determined 30/30. verdicts={\"key_wrong_options_ok\":17,\"key_correct\":13}. confirmedFixes=16, key_correct(web)=13, options_corrupted=0, unresolved=1"
+  ],
+  "result": {
+    "total": 30,
+    "byVerdict": {
+      "key_wrong_options_ok": 17,
+      "key_correct": 13
+    },
+    "confirmedFixes": [
+      {
+        "key": "43:2",
+        "correctOptionText": "Фари або ліхтарі.",
+        "correctOptionIndex": 0,
+        "pdrClause": "ПДР України, Розділ 19 «Користування зовнішніми світловими приладами», п. 19.1(б): у темну пору доби та в умовах недостатньої видимості повинні бути ввімкнені «на мопедах (велосипедах) і гужових возах (санях) – фари або ліхтарі».",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/19 (official ПДР Розділ 19, п. 19.1(б) verbatim: \"на мопедах (велосипедах) і гужових возах (санях) — фари або ліхтарі\"); https://vodiy.ua/pdr/test/?complect=6&theme=128 (vodiy.ua exam test bank, section \"Додаткові питання щодо категорій А1, А (Безпека)\", confirms correct answer \"Фари або ліхтарі\", reflectors insufficient, cites 19.1(б)); https://pdrtest.com/questions/51 (ПДР Тест Центр section 43 bilet bank, answer \"Фари або ліхтарі\"); https://green-way.com.ua/uk/dovidniki/pdr/rozdil-19 (ПДР Розділ 19 reference)"
+      },
+      {
+        "key": "9:22",
+        "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до початку виконання маневру.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.4: \"Подавати сигнал покажчиками повороту або рукою (для початку руху, зупинки, перестроювання, повороту чи розвороту) належить завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його закінчення.\" Лише варіант [2] (\"не менш як за 50-100 метрів\") відповідає цьому пункту; жодного застереження \"за наявності інших учасників руху\" п. 9.4 не містить.",
+        "sources": "Official ПДР п. 9.4 (government source, verbatim \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\", no \"інших учасників\" qualifier, no flat 100 m): https://pdr.infotech.gov.ua/theory/rules/9 ; corroborating clause render: https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 . External test source marking Option 3 (\"не менш як за 50-100 метрів\") as the correct answer for this exact question with the 50-100 m clause as rationale: https://testpdr.online/test.php?test=all&q=249 (q=249). Question pages listing all 3 options verbatim: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4455 . Conflicting aggregator (could not resolve a clear marked option; overridden by authoritative clause): https://pomahach.com/question/3689-40085/vi-vodiy-ruhayuchis-v-naselenomu-punkti-virishili-zminiti-smu/"
+      },
+      {
+        "key": "9:25",
+        "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.3: сигнали повороту праворуч подаються \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (а ліворуч — навпаки: лівою рукою вбік, або правою рукою вбік і зігнутою у лікті вгору).",
+        "sources": "ПДР України п. 9.3 verbatim right/left-turn hand-signal clause (authoritative tiebreak): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 ; corroborated by search across protocol.ua, kodeksy.com.ua, vodiy.ua, infotech.gov.ua theory mirror. Test-site entries for this exact question (option ordering matches our DB; testpdr.online marks our option[2] correct): https://testpdr.online/test.php?test=all&q=252 (and its redirect source manualov.net?question=252) ; official test entry https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 (its marked index was an unreliable OCR/shuffle artifact, overridden by the 9.3 clause text)."
+      },
+      {
+        "key": "9:25",
+        "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.3: сигнал повороту праворуч подається \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (а сигнал повороту ліворуч — навпаки: лівою рукою, витягнутою вбік, або правою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору).",
+        "sources": "Official ГСЦ МВС test base — raw embedded JSON, is_correct:true on order 3 (id 14822): https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 (fetched HTTP 200, parsed questions_answers array directly). ПДР п. 9.3 verbatim right-turn clause (WebSearch-confirmed): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 and https://pdr.infotech.gov.ua/theory/rules/9 . Same question on mirror sites: https://pdrlehko.com/tests/question/316 and https://green-way.com.ua/uk/test-pdd/twenty-questions/2788 . NOTE: WebFetch prose summaries of these pages wrongly said \"Варіанти 1 та 2 вірні\" — overridden by the raw is_correct flag per ground-truth tiebreak."
+      },
+      {
+        "key": "9:31",
+        "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.12: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.\"",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clause 9.12 quoted verbatim confirming the combined-condition requirement); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test base marks the \"як удень..., так і в умовах недостатньої видимості\" option as correct for this exact question); corroborating WebSearch summaries and https://green-way.com.ua/uk/test-pdd/twenty-questions/4385. Local source: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [11]."
+      },
+      {
+        "key": "9:32",
+        "correctOptionText": "Аварійну світлову сигналізацію.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 9.9(б): аварійна світлова сигналізація має бути ввімкнена «у разі зупинки на вимогу поліцейського або внаслідок засліплення водія світлом фар». Тобто при зупиненні транспортного засобу на вимогу працівника поліції водій зобов'язаний увімкнути саме аварійну світлову сигналізацію, а не стоянкові ліхтарі.",
+        "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4465 (official ГСЦ МВС test base, ticket 4465 — fetched directly; presents the same question + four options and marks \"Аварійну світлову сигналізацію\" correct); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-9_b (ПДР України п. 9.9(б) verbatim: \"у разі зупинки на вимогу поліцейського або внаслідок засліплення водія світлом фар\" — fetched directly, confirms hazard lights required on police-request stop); https://green-way.com.ua/uk/test-pdd/twenty-questions/4366 (same question listed, question text confirmed); WebSearch across pdr.infotech.gov.ua / green-way / pomahach independently summarized п. 9.9 as requiring emergency light signaling."
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 20.5: «Рух через залізничний переїзд забороняється, якщо: ... в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума ...». Тобто з моменту ввімкнення світлової та звукової сигналізації проїзд заборонено, ще до початку опускання шлагбаумів — водій зобов'язаний зупинитися в передбаченому місці.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР; clause 20.5(c) quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (identical exam question; correct answer = \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд заборонений\", confirmed via two WebSearch passes); https://kodeksy.com.ua/pdr/20.5.htm and http://pdd.com.ua/ua/20/ (corroborating ПДР 20.5 text). Candidate file: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [13]."
+      },
+      {
+        "key": "9:37",
+        "correctOptionText": "Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.4: \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів. Сигнал має подаватися завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і 150-200 м поза ними, і припинятися негайно після його виконання.\" The signal NEVER grants priority — including during lane changes (перестроювання) — directly contradicting the currently-marked option.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clause 9.4 verbatim: \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів.\" — no exception for lane changes); https://testpdr.online/test.php?test=all&q=264 (canonical manualov.net q264 redirect; identical question + 3 identical options, explicitly marks option 3 \"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів\" as correct); https://vodiy.ua/question/tg/15555 (identical question text + same three options); WebSearch synthesis across green-way.com.ua, vseosvita.ua, pdr-online.com.ua all confirming option 3 correct."
+      },
+      {
+        "key": "15:68",
+        "correctOptionText": "Відповіді 1 і 2.",
+        "correctOptionIndex": 3,
+        "pdrClause": "ПДР України п. 15.2: Біля правого краю проїзної частини (якомога правіше) транспортний засіб може бути поставлений лише за відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможлива, за умови, що це не створить перешкод для руху інших транспортних засобів. Це відповідає поєднанню умов 1 і 2.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/15 (official ПДР п. 15.2 verbatim: \"За відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини\"); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ticket page — identical question and 5 options 1-5); https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly marks \"Відповіді 1 і 2.\" as correct); cross-checked against ПДР п. 15.2."
+      },
+      {
+        "key": "9:31",
+        "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 9.12: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.\"",
+        "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test — fetched page marks the \"як удень..., так і в умовах недостатньої видимості\" option correct); https://pdr.infotech.gov.ua/theory/rules/9 (ПДР Розділ 9, п. 9.12 full text confirming the dual-visibility requirement); corroborated by https://green-way.com.ua/uk/test-pdd/twenty-questions/385 and https://pomahach.com/question/3694-47873/"
+      },
+      {
+        "key": "15:68",
+        "correctOptionText": "Відповіді 1 і 2.",
+        "correctOptionIndex": 3,
+        "pdrClause": "ПДР України п. 15.1–15.2: «15.1. Зупинка і стоянка транспортних засобів на дорозі повинні здійснюватись у спеціально відведених місцях чи на узбіччі. 15.2. За відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини (якомога правіше, щоб не перешкоджати іншим учасникам дорожнього руху)…»",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/15 (verbatim ПДР п. 15.1-15.2: \"...або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини...\"); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ГСЦ test ticket listing the same five options verbatim as our DB); https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly states correct answer = \"Відповіді 1 і 2.\")"
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 20.5: «Рух через переїзд забороняється, якщо: ... в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.» Отже, після ввімкнення світлової та звукової сигналізації проїзд уже заборонено і водій зобов'язаний зупинитися в передбаченому місці, ще до початку опускання шлагбаумів.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ГСЦ МВС rules — п. 20.5(в) quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (independent confirmation of п. 20.5(в) verbatim, identical wording); WebSearch across vodiy.ua, pdr-online.com.ua, pdrtest.com, manualov.net, turbo-drive returning the correct test answer \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" with the same 20.5(в) justification."
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 20.5(в): Рух через залізничний переїзд забороняється, якщо «увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума». Отже, при ввімкненні світлової та звукової сигналізації водій зобов'язаний зупинитися в передбаченому місці ще до початку опускання шлагбаумів.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР clause 20.5(в), quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://pdr-online.com.ua/testi/testi-po-temam/?theme=22 (official ГСЦ МВС question base, theme 22 question #9 — identical question, identical 4 options, official correct answer = Option 2 \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"); https://manualov.net/online-test-pdr.php?question=2074 → redirects to https://testpdr.online/test.php?test=all&q=2074 (parallel official question, correct answer \"Заборонено\", 96.3% correct); WebSearch summary corroborating the same correct answer."
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 20.5: Рух через залізничний переїзд забороняється, якщо ... (в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума. (Тобто водій зобов'язаний зупинитися вже при ввімкненні світлової/звукової сигналізації, до початку опускання шлагбаумів.)",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 https://testpdr.online/test.php?test=all&q=2074 https://vodiy.ua/pdr/20/"
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п. 20.5: рух через залізничний переїзд забороняється, якщо: (в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума (а також (б) шлагбаум опущений або почав опускатися).",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР; п. 20.5(в) verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\" — confirmed via WebFetch enumerating 20.5 а/б/в/г/ґ); https://vodiy.ua/pdr/20/ (authoritative ПДР; confirmed same 20.5(в) clause text and that the driver must stop regardless of barrier position); https://green-way.com.ua/uk/test-pdd/question/23/898 (hosts this EXACT exam question, slug matches verbatim question text); search confirmed its official correct answer is \"Зупинитися в передбаченому місці, ... проїзд через переїзд заборонений.\" File: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [27]."
+      },
+      {
+        "key": "20:9",
+        "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України розділ 20, п. 20.4 (в деяких редакціях 20.5): \"Рух транспортних засобів через залізничний переїзд забороняється, коли ... увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.\" Отже, за увімкнення світлової та звукової сигналізації водій зобов'язаний зупинитися ще до початку опускання шлагбаумів.",
+        "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official government ПДР text — clause 20.5(в): рух через переїзд забороняється коли \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (Theme 20 reference, same clause); https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 (розділ 20 reference); WebSearch on the verbatim question text returned the official answer matching proposed option index 1 verbatim (\"зупинитися в передбаченому місці, оскільки/так як проїзд через переїзд за цих умов заборонений\"). Source file: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [28]."
+      }
+    ],
+    "keyCorrect": [
+      "48:56",
+      "5:16",
+      "52:19",
+      "52:41",
+      "54:33",
+      "1:39",
+      "10:52",
+      "11:31",
+      "11:31",
+      "12:41",
+      "11:31",
+      "2:15",
+      "40:19"
+    ],
+    "optionsCorrupted": [],
+    "unresolved": [
+      {
+        "key": "9:21",
+        "verdict": "key_wrong_options_ok",
+        "conf": 0.78,
+        "skeptic": "reject_change"
+      }
+    ],
+    "raw": [
+      {
+        "determine": {
+          "key": "43:2",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Фари або ліхтарі.",
+          "correctOptionIndex": 0,
+          "reasoning": "The question asks which external lights must be switched on for mopeds and bicycles during darkness regardless of road illumination. ПДР України Розділ 19, п. 19.1(б) requires \"на мопедах (велосипедах) і гужових возах (санях) – фари або ліхтарі\" to be switched on during darkness and insufficient visibility. Reflectors (світловідбивачі), passive devices, are not a substitute for active lights. Multiple authoritative Ukrainian driving-test sources (green-way.com.ua Розділ 19 reference, pdr-online.com.ua test bank for section 43 / \"Додаткові питання щодо категорій А1, А (Безпека)\") confirm the correct official answer is \"Фари або ліхтарі.\" Our DB currently marks \"Досить мати світловідбивачі на одязі.\" (index 2), which is wrong. The option texts are all clean and unambiguous, so simply the wrong option was marked. The genConcern hint was accurate and is corroborated by external sources.",
+          "pdrClause": "ПДР України, Розділ 19 «Користування зовнішніми світловими приладами», п. 19.1(б): у темну пору доби та в умовах недостатньої видимості повинні бути ввімкнені «на мопедах (велосипедах) і гужових возах (санях) – фари або ліхтарі».",
+          "webConfirmed": true,
+          "sources": "https://green-way.com.ua/uk/dovidniki/pdr/rozdil-19 (ПДР Розділ 19, п.19.1(б): \"на мопедах (велосипедах) ... – фари або ліхтарі\"); https://pdr-online.com.ua/testi/testi-po-temam/?theme=54 (test bank for \"ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ А1, А (БЕЗПЕКА)\", confirms answer \"Фари або ліхтарі.\"); https://pdr.infotech.gov.ua/theory/rules/19 (official Розділ 19 text)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "43:2",
+          "decision": "confirm_change",
+          "correctOptionText": "Фари або ліхтарі.",
+          "reasoning": "The question asks which external lighting devices must be switched on for mopeds and bicycles during darkness regardless of road illumination. Our DB currently marks index 2 \"Досить мати світловідбивачі на одязі.\" (reflectors on clothing) as correct, which is wrong. Official ПДР України Розділ 19, п. 19.1(б) — quoted verbatim from the government source pdr.infotech.gov.ua — requires \"на мопедах (велосипедах) і гужових возах (санях) — фари або ліхтарі\" to be switched on у темну пору доби and in insufficient visibility, independent of road illumination. Reflectors (світловідбивачі) are passive devices and are NOT a substitute for active lights. I independently verified the verbatim question text against Ukrainian exam test banks: vodiy.ua (the canonical exam test source) for this exact section \"Додаткові питання щодо категорій А1, А (Безпека)\" returns correct answer \"Фари або ліхтарі\" with explanation citing 19.1(б) and explicitly stating the reflector options are insufficient; pdrtest.com section bank confirms the same; green-way.com.ua Розділ 19 confirms the clause text. The marked option is therefore wrong and the proposed answer \"Фари або ліхтарі.\" (index 0) is authoritatively correct. The genConcern hint was accurate.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/19 (official ПДР Розділ 19, п. 19.1(б) verbatim: \"на мопедах (велосипедах) і гужових возах (санях) — фари або ліхтарі\"); https://vodiy.ua/pdr/test/?complect=6&theme=128 (vodiy.ua exam test bank, section \"Додаткові питання щодо категорій А1, А (Безпека)\", confirms correct answer \"Фари або ліхтарі\", reflectors insufficient, cites 19.1(б)); https://pdrtest.com/questions/51 (ПДР Тест Центр section 43 bilet bank, answer \"Фари або ліхтарі\"); https://green-way.com.ua/uk/dovidniki/pdr/rozdil-19 (ПДР Розділ 19 reference)"
+        }
+      },
+      {
+        "determine": {
+          "key": "48:56",
+          "verdict": "key_correct",
+          "correctOptionText": "Безперервний період часу, який водій може використовувати на свій розсуд.",
+          "correctOptionIndex": 0,
+          "reasoning": "Question (key 48:56): \"Що означає поняття «відпочинок водія»?\" with options: [0] \"Безперервний період часу, який водій може використовувати на свій розсуд.\" (currently marked correct), [1] \"...винятково для сну.\", [2] \"...винятково для прийняття їжі.\" The marked answer is correct. The official ПДР/regulatory definition of \"відпочинок водія\" is precisely \"безперервний період часу, який водій може використовувати на свій розсуд\" — the defining characteristic is that the driver uses the time freely at their own discretion, which is exactly what distinguishes rest from a break designated solely for sleep or for eating. Multiple authoritative Ukrainian driving-test databases return this exact option as correct for this question (pdr.infotech.gov.ua, vodiy.ua, manualov.net, green-way.com.ua). One WebFetch parse (ticket/4061 via a small summarizer model) produced a self-contradictory sentence about which option was correct, but it listed the same three options and its claim conflicted with the option order — a parsing artifact, not a genuine source conflict; all the independent search summaries agree on the \"на свій розсуд\" option. Notably the genConcern itself does NOT actually assert the marked answer is wrong — it argues that limiting rest exclusively to sleep or eating contradicts the concept of free rest, i.e. it supports the marked answer. This is a false-alarm flag. Verdict: key_correct, index 0.",
+          "pdrClause": "Визначення \"відпочинку водія\" походить із \"Положення про робочий час і час відпочинку водіїв колісних транспортних засобів\" (затв. наказом Мінтрансу, z0097-02): відпочинок — це безперервний період часу, який водій (член екіпажу) може вільно використовувати на свій розсуд, на відміну від перерви/керування. У тестах ГСЦ МВС (розділи 48/52, категорії C/D) ця дефініція відтворена дослівно.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4061 (official ГСЦ/infotech.gov.ua test base, lists this question with the \"на свій розсуд\" option); https://vodiy.ua/pdr/test/?complect=6&theme=133&part=2 (vodiy.ua, theme 133 = Cat D Загальні); https://green-way.com.ua/uk/test-pdd/twenty-questions/2845; https://manualov.net/ua/online-test-pdr.php?question=1601; underlying legal definition: https://zakon.rada.gov.ua/go/z0097-02 (Положення про робочий час і час відпочинку водіїв). Multiple independent search-result summaries all return \"Безперервний період часу, який водій може використовувати на свій розсуд\" as the correct answer.",
+          "confidence": 0.95
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "5:16",
+          "verdict": "key_correct",
+          "correctOptionText": "Ні, посадку (висадку) дозволяється здійснювати пасажирам з крайньої смуги проїзної частини (але не з боку суміжної смуги для руху), за умови, що це буде безпечно та не створить перешкод іншим учасникам руху.",
+          "correctOptionIndex": 1,
+          "reasoning": "This is official ГСЦ МВС question 5.16, found on pdrtest.com under exactly that URL and question text. Two independent authoritative WebSearch summaries of pdrtest.com/question/5.16 both state the official correct answer is \"Ні\" (No), with the explanation that boarding/disembarking is permitted only from the extreme/outer lane of the roadway (but NOT from the side of an adjacent traffic lane). That matches our currently-marked option [1] verbatim. The depicted situation shows passengers boarding/disembarking from the side of the adjacent traffic lane, which is prohibited, so the answer is \"Ні\". The other option [0] claims boarding is allowed \"from any side of the roadway\", which directly contradicts ПДР 5.1. The genConcern entry actually argues IN FAVOR of the marked answer (it says option [0]'s \"any side\" is wrong), so there is no real conflict — the flag was a false alarm. The marked answer is correct.",
+          "pdrClause": "ПДР України п. 5.1: \"Посадку (висадку) дозволяється здійснювати пасажирам після зупинки транспортного засобу лише з посадкового майданчика, а в разі відсутності такого майданчика — з тротуару чи узбіччя, а якщо це неможливо, то з крайньої смуги проїзної частини (але не з боку суміжної смуги для руху), за умови, що це буде безпечно та не створить перешкод іншим учасникам руху.\" (fetched from official pdr.infotech.gov.ua)",
+          "webConfirmed": true,
+          "sources": "https://pdrtest.com/question/5.16 (official question 5.16, correct answer = \"Ні\", per two independent search summaries); https://pdr.infotech.gov.ua/theory/rules/5 (ПДР clause 5.1 verbatim text confirming boarding rule); also corroborated by https://vodiy.ua/pdr/test/?complect=6&theme=5 and https://green-way.com.ua/uk/test-pdd/twenty-questions/7924",
+          "confidence": 0.92
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "52:19",
+          "verdict": "key_correct",
+          "correctOptionText": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника.",
+          "correctOptionIndex": 0,
+          "reasoning": "Our DB option set is: [0] \"Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника.\" (marked correct); [1] \"У разі поломки тахографа не вдаватися ні до яких дій, доки прилад не буде відремонтовано.\" (false — a driver must act on a tachograph malfunction); [2] \"Обидві відповіді правильні.\" (cannot hold because [1] is false). Authoritative driving-test sources show this exact stem appears as several variants, and in EVERY variant the statement in our option [0] is an official, correct obligation. Critically, driver-autoshkola.kyiv.ua lists a variant whose option set matches ours exactly (\"Забезпечувати правильну експлуатацію...\" vs \"...не вживати ніяких дій, доки прилад не буде відремонтовано\") and marks the FIRST option (= our [0]) as correct. So the currently-marked answer is right and option [2] \"Обидві відповіді правильні\" would be wrong in our specific option set (option [1] is a genuinely false distractor, unlike the testpdr q1768 variant where the second option is the valid \"timely install/change/fill tachograph cards\" obligation, which legitimately makes \"both correct\" the answer there). The genConcern flag is a false alarm — our key is correct. The genConcern itself even agrees option [0] is the right behavior and the malfunction-inaction option is wrong; it only flagged the question out of caution.",
+          "pdrClause": "Обов'язок не передбачений безпосередньо текстом ПДР, а Розділом 3 (п. 3.3) \"Інструкції про використання контрольних пристроїв (тахографів) на автомобільному транспорті\" (затв. наказом Мінінфраструктури): водій транспортного засобу, обладнаного тахографом, забезпечує правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника, своєчасно встановлює, змінює та заповнює тахокарти та забезпечує їх належне зберігання.",
+          "webConfirmed": true,
+          "sources": "https://driver-autoshkola.kyiv.ua/pdd-bilet/dodatkovi-pitannya-shhodo-kategorij-d1-d-zagalni-ua (lists a variant with our exact two options and marks \"Забезпечувати правильну експлуатацію тахографа...\" correct); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4123 and https://green-way.com.ua/uk/test-pdd/twenty-questions/2596 and https://pomahach.com/question/2492-41397/ (confirm \"Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника\" is an official correct obligation); https://testpdr.online/test.php?test=all&q=1768 (cites Section 3.3 of the Інструкція про використання контрольних пристроїв (тахографів) as the regulatory basis).",
+          "confidence": 0.93
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "52:41",
+          "verdict": "key_correct",
+          "correctOptionText": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника.",
+          "correctOptionIndex": 0,
+          "reasoning": "Element [4] is key \"52:41\": \"Водій транспортного засобу, який обладнано тахографом, повинен:\" with three options — [0] \"Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника.\" (marked correct), [1] \"У разі поломки тахографа не вдаватися ні до яких дій, доки прилад не буде відремонтовано.\", [2] \"Обидві відповіді правильні.\" Authoritative Ukrainian ПДР test sources (pdr.infotech.gov.ua/4123, pomahach.com question 41397, manualov.net q1768, green-way.com.ua/2596) all confirm that ensuring proper operation/management of the tachograph per the manufacturer's instructions is the correct obligation. Note: the official base pairs this with a different distractor (\"надійне встановлення\") in a \"both 1 and 2 correct\" variant — but in OUR transcription the second listed obligation is the malfunction-inaction distractor, which is NOT a valid standalone obligation (on malfunction the driver must record data by hand / take measures, not sit idle), so \"Обидві відповіді правильні\" is wrong here. The substantive correct statement is option [0], exactly our marked answer. The genConcern itself actually agrees with the key (it argues the inaction and the inadequate-installation options are wrong), so this flag is a false alarm. Key is correct.",
+          "pdrClause": "Грунтується не на нумерованому пункті самих ПДР, а на \"Інструкції про порядок використання контрольних пристроїв (тахографів) на автомобільному транспорті\" (розд. про обов'язки водія, ~п. 3.3): водій забезпечує правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника тахографа, своєчасно встановлює/замінює/заповнює картки тахографа та забезпечує їх належне зберігання. Це питання розділу 52 (Додаткові питання щодо категорій D1, D — Загальні).",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4123 (official-style test base lists \"Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника\" among the correct obligations); https://pomahach.com/question/2492-41397/vodiy-transportnogo-zasobu-yakiy-obladnano-tahografom-povin/ (explicitly marks the proper-operation option as correct, green-highlighted); https://manualov.net/online-test-pdr.php?question=1768; https://green-way.com.ua/uk/test-pdd/twenty-questions/2596",
+          "confidence": 0.9
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "54:33",
+          "verdict": "key_correct",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question asks what is forbidden for a bus driver. Option [0] \"Вибирати пасажирів за вигідністю їх прямування\" (selecting passengers by route profitability) is forbidden — buses must serve all passengers on the route per the Rules for Passenger Auto Transport Services. Option [1] \"Перевозити... гострі і ріжучі предмети, пожежонебезпечні, вибухові, отруйні, їдкі, сморідні та наркотичні речовини, вогнепальну зброю без чохлів...\" (transporting sharp/cutting items, flammable, explosive, poisonous, caustic, foul-smelling and narcotic substances, firearms without cases) is also forbidden — this mirrors the standard ПДР prohibition on dangerous goods in passenger transport. Since BOTH listed actions are forbidden, the correct answer is the combined option [2] \"Відповіді 1 і 2.\" Multiple independent Ukrainian driving-test sites (green-way.com.ua, vodiy.ua, pdrtest.com) confirm \"Відповіді 1 і 2\" as the official answer for this exact section-54 (D1/D legal-responsibility) question. The genConcern itself agreed both actions are prohibited, supporting the key. Flag was a false alarm.",
+          "pdrClause": "ПДР України п. 21.3 / Правила надання послуг пасажирського автомобільного транспорту (заборона перевозити вогнепальну зброю без чохлів, колючо-ріжучі, пожежонебезпечні, вибухові, отруйні, їдкі, сморідні, наркотичні та інші небезпечні речовини/предмети; водій автобуса не має права обирати пасажирів за вигідністю напрямку — зобов'язаний обслуговувати всіх на маршруті).",
+          "webConfirmed": true,
+          "sources": "WebSearch result summaries citing official Ukrainian driving-test bases confirm the answer \"Відповіді 1 і 2\": https://green-way.com.ua/uk/test-pdd/twenty-questions/2683 (exact question title \"Що з переліченого заборонено водієві автобуса?\"), https://vodiy.ua/pdr/test/?complect=6&part=2&theme=135 (section 54 — Additional questions for categories D1, D, Legal responsibility), https://pdrtest.com/questions/62 (section 54 D1/D legal-responsibility question set). Both WebSearch passes independently returned \"Відповіді 1 і 2\" as the correct/official answer, naming both prohibited actions (selecting passengers by route profitability AND transporting dangerous items/firearms without cases).",
+          "confidence": 0.93
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "1:39",
+          "verdict": "key_correct",
+          "correctOptionText": "Так, може.",
+          "correctOptionIndex": 0,
+          "reasoning": "Question: \"Чи може дорога мати декілька проїзних частин?\" (Can a road have several carriageways?). Marked answer is \"Так, може.\" (Yes, it can.), index 0. The official ПДР України Section 1.10, in the definition block for \"Проїзна частина\", explicitly states: \"Дорога може мати декілька проїзних частин, межами яких є розділювальні смуги\" (A road may have several carriageways, whose boundaries are dividing strips). This directly and authoritatively confirms a road CAN have multiple carriageways, so \"Так, може.\" is correct. The genConcern actually supports this — it argues that the OTHER option (\"Ні, не може\", marked false) contradicts the definition (e.g. a road with a median strip has a separate carriageway for each direction). This is a false-alarm flag: the key is right. Authoritative government source pdr.infotech.gov.ua and multiple Ukrainian test sites (pdrtest.com 1.39, green-way.com.ua) all give \"Так, може.\" as the official answer. Options are clean (binary Yes/No), not corrupted.",
+          "pdrClause": "ПДР України, розділ 1 «Загальні положення», п. 1.10 — у визначенні «Проїзна частина»: «Дорога може мати декілька проїзних частин, межами яких є розділювальні смуги.»",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/1 (official ГСЦ МВС / government ПДР text, Section 1.10 — \"Дорога може мати декілька проїзних частин, межами яких є розділювальні смуги\"); https://pdrtest.com/question/1.39 (test item 1.39, official answer \"Так, може.\"); https://green-way.com.ua/uk/test-pdd/twenty-questions/8224 (same question, answer \"Так, може.\")",
+          "confidence": 0.99
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "9:21",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою за 100 метрів до розвороту за наявності інших учасників дорожнього руху.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question (populated area, U-turn): how far ahead must the driver signal? Our DB marks \"за 200 метрів\" (index 0). That is definitively wrong: ПДР п.9.4 (confirmed verbatim on green-way.com.ua and vodiy.ua) states the signal must be given \"...не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними...\" — 200 m is the OUTSIDE-populated-area figure, not the populated-area figure the question specifies. So the flag is valid; the 200 m option contradicts the rule. The remaining options are index 1 (\"за 100 метрів... за наявності інших учасників дорожнього руху\") and index 2 (\"не менш як за 50-100 метрів\"). Cross-site search synthesis (manualov/testpdr, pomahach, pdr.infotech.gov.ua mirrors) and the official ГСЦ МВС exam answer convention point to the \"за 100 метрів... за наявності інших учасників дорожнього руху\" variant as the keyed answer. This is strongly corroborated by the structurally identical sibling question in our own dataset, key \"9:22\" (lane change in a populated area), whose DB-marked-correct answer is the analogous \"за 100 метрів... за наявності інших учасників дорожнього руху\" option. Therefore the option texts are fine and the correct one is index 1; the transcription simply marked the wrong option (index 0). The genConcern correctly flagged 200 m as wrong but wrongly concluded no option fits — index 1 is the recoverable official answer. Residual uncertainty: index 2 literally restates the bare ПДР clause, but it is the exam's distractor for this question family.",
+          "pdrClause": "ПДР України п. 9.4: \"Подавати сигнал покажчиками повороту або рукою належить завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його закінчення (рукою сигнал можна закінчити безпосередньо перед виконанням маневру).\" (Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів.)",
+          "webConfirmed": true,
+          "sources": "ПДР п.9.4 verbatim — https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 and https://vodiy.ua/pdr/9/ (confirms \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\", proving the marked \"за 200 метрів\" is wrong for населений пункт). Question item on official/test sites — https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4454 , https://green-way.com.ua/uk/test-pdd/twenty-questions/6792 , https://manualov.net/online-test-pdr.php?question=248 (same three options). Cross-site answer synthesis pointing to the \"за 100 метрів... за наявності інших учасників дорожнього руху\" key — https://pomahach.com/question/3688-82563/ and WebSearch aggregation. Sibling question 9:22 (lane change) in our own dataset keyed to the analogous option corroborates the exam's answer convention.",
+          "confidence": 0.78
+        },
+        "skeptic": {
+          "key": "9:21",
+          "decision": "reject_change",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до маневру.",
+          "reasoning": "The proposal claims the true correct answer is option index 1 (\"...за 100 метрів до розвороту за наявності інших учасників дорожнього руху.\"). I refuted this against the authoritative ground truth. The official ГСЦ МВС exam site (pdr.infotech.gov.ua, ticket 4454) embeds the answer key as structured JSON in __NEXT_DATA__. I parsed it directly (not a fuzzy text read), and it definitively marks is_correct flags for the exact three options of THIS question: order 1 \"...за 200 метрів до розвороту.\" = false; order 2 \"...за 100 метрів до розвороту за наявності інших учасників дорожнього руху.\" = FALSE; order 3 \"...не менш як за 50 - 100 метрів до маневру.\" = TRUE. So the proposed answer (option index 1) is explicitly marked WRONG by the official source. The real official answer is option index 2 (\"не менш як за 50 - 100 метрів до маневру\"), which the proposal dismissed as a \"distractor.\" This is corroborated by ПДР п.9.4 verbatim — \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\" — which option 2 restates literally for a populated area. The proposal's genConcern was right that the DB's current \"за 200 метрів\" mark (index 0) is wrong, but its proposed replacement is also wrong. Its supporting source pomahach.com (and the sibling-question analogy to 9:22) led it astray — pomahach highlighted the \"100 m / other participants\" option, but that conflicts with the official ГСЦ МВС key, an instance of an independent verifier being the wrong one. NOTE: although the proposed change is rejected, our CURRENT DB mark (index 0, \"за 200 метрів\") is ALSO wrong; the correct option is index 2 (\"не менш як за 50 - 100 метрів до маневру\") per the official key. correctOptionText holds the actual authoritative answer, which is neither the current DB mark nor the proposed one.",
+          "webConfirmed": true,
+          "sources": "Official ГСЦ МВС exam item with embedded answer-key JSON (parsed from __NEXT_DATA__): https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4454 — order 1 \"за 200 метрів\" is_correct=false, order 2 \"за 100 метрів... за наявності інших учасників\" is_correct=false, order 3 \"не менш як за 50 - 100 метрів до маневру\" is_correct=true. ПДР п.9.4 verbatim (matches the true answer, option 3): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 and https://vodiy.ua/pdr/9/ (\"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\"). Conflicting/incorrect source that misled the proposal: https://pomahach.com/question/3688-82563/ (highlights the \"100 m / other participants\" option as correct, contradicting the official ГСЦ МВС key)."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:22",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до початку виконання маневру.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question: \"Ви водій, рухаючись в населеному пункті вирішили змінити смугу руху. Ви:\" The three options are: [0] signal 30 m before; [1] (our DB key) signal \"за 100 метрів ... за наявності інших учасників дорожнього руху\"; [2] signal \"не менш як за 50 - 100 метрів\". The marked answer [1] is wrong.\n\nAuthoritative ПДР п. 9.4 (confirmed verbatim from two independent renderings — green-way.com.ua and pdr.infotech.gov.ua) states warning signals must be given \"завчасно до початку маневру ... але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними.\" This rule applies to начало руху, перестроювання (which INCLUDES lane change), повороту/розвороту. There is NO \"за наявності інших учасників руху\" qualifier anywhere in п. 9.4, and the flat \"100 метрів\" figure does not appear — the rule is the 50-100 m RANGE. Option [2] reproduces the clause verbatim; option [1] invents a condition and a wrong distance.\n\nExternal confirmation: testpdr.online (q=249) presents the answer rationale as the verbatim clause \"не менш як за 50-100 м у населених пунктах\"; pdrtest.com and green-way search summaries also return option [2]. One aggregator (pomahach.com) green-highlights option [1], creating a conflict — but per ground-truth tiebreak, the dispute is settled by the authoritative source (the ПДР clause itself), which unambiguously backs option [2], not by an aggregator re-vote. Option [1]'s text has content found nowhere in the official rule, marking it as the likely OCR/transcription corruption of the answer key.",
+          "pdrClause": "ПДР України п. 9.4: \"Подавати сигнал покажчиками повороту або рукою (для початку руху, зупинки, перестроювання, повороту чи розвороту) належить завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його закінчення.\" Лише варіант [2] (\"не менш як за 50-100 метрів\") відповідає цьому пункту; жодного застереження \"за наявності інших учасників руху\" п. 9.4 не містить.",
+          "webConfirmed": true,
+          "sources": "ПДР clause 9.4 verbatim: https://pdr.infotech.gov.ua/theory/rules/9 and https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 (both: \"не менш як за 50-100 м у населених пунктах\", no \"інших учасників\" qualifier). Question pages: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4455 ; https://testpdr.online/test.php?test=all&q=249 (answer rationale = the 50-100 m clause); https://pdrtest.com/questions/10 (section 9). Conflicting aggregator (favoring option [1]): https://pomahach.com/question/3689-40085/vi-vodiy-ruhayuchis-v-naselenomu-punkti-virishili-zminiti-smu/ — overridden by the authoritative clause.",
+          "confidence": 0.78
+        },
+        "skeptic": {
+          "key": "9:22",
+          "decision": "confirm_change",
+          "correctOptionText": "Зобов’язаний подати сигнал покажчиками повороту або рукою не менш як за 50 - 100 метрів до початку виконання маневру.",
+          "reasoning": "Question (key 9:22): \"Ви водій, рухаючись в населеному пункті вирішили змінити смугу руху. Ви:\" Three options: [0] signal за 30 метрів; [1] signal \"за 100 метрів ... за наявності інших учасників дорожнього руху\" (our DB's correct=true mark); [2] signal \"не менш як за 50 - 100 метрів до початку виконання маневру\". I independently verified against the authoritative ПДР п. 9.4 via the official government source (pdr.infotech.gov.ua/theory/rules/9), which states verbatim: \"...належить завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними, і припиняти негайно після його закінчення.\" This rule applies to перестроювання (lane change). Two facts kill option [1]: (a) the phrase \"за наявності інших учасників руху\" appears NOWHERE in п. 9.4 — it is invented; (b) the flat \"100 метрів\" figure does not exist — the rule is the 50-100 m RANGE. Option [2] reproduces the clause verbatim. External confirmation: testpdr.online (q=249), the exact source cited in the proposal, explicitly marks Option 3 (\"не менш як за 50 - 100 метрів\") as correct and shows the official 50-100 m clause as its rationale. The one conflicting aggregator (pomahach) could not even be resolved to a clear marked option, and per ground-truth tiebreak the authoritative clause governs over an aggregator. Therefore the proposed correct answer (option [2]) is authoritatively correct and DIFFERS from our current DB mark (option [1], which is OCR/transcription corruption). Confirming the change.",
+          "webConfirmed": true,
+          "sources": "Official ПДР п. 9.4 (government source, verbatim \"не менш як за 50-100 м у населених пунктах і за 150-200 м поза ними\", no \"інших учасників\" qualifier, no flat 100 m): https://pdr.infotech.gov.ua/theory/rules/9 ; corroborating clause render: https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-4 . External test source marking Option 3 (\"не менш як за 50-100 метрів\") as the correct answer for this exact question with the 50-100 m clause as rationale: https://testpdr.online/test.php?test=all&q=249 (q=249). Question pages listing all 3 options verbatim: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4455 . Conflicting aggregator (could not resolve a clear marked option; overridden by authoritative clause): https://pomahach.com/question/3689-40085/vi-vodiy-ruhayuchis-v-naselenomu-punkti-virishili-zminiti-smu/"
+        }
+      },
+      {
+        "determine": {
+          "key": "9:25",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question (key 9:25): \"Ви рухаєтесь на велосипеді і Вам необхідно повернути праворуч. Ваші дії:\" — signaling a RIGHT turn by hand on a bicycle.\n\nПДР України п. 9.3 defines the RIGHT-turn hand signal as: \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (right arm extended sideways, OR left arm extended sideways and bent up at the elbow at a right angle). The LEFT-turn signal is the mirror image: \"лівою рукою, витягнутою вбік, або правою рукою, витягнутою вбік і зігнутою у лікті...\".\n\nMapping our options to the clause:\n- option[0] \"Витягнете праву руку вбік і зігнете під прямим кутом вгору.\" — distorted/incomplete (adds a bend to the straight right arm, drops the \"or left arm\" branch). Not the clean match.\n- option[1] (CURRENTLY MARKED) \"Витягнете ліву руку в бік або праву руку вбік і зігнете її у лікті під прямим кутом вгору.\" — this is \"LEFT arm straight OR right arm bent up\" = the LEFT-turn signal per 9.3, hence WRONG for a right turn.\n- option[2] \"Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.\" — \"right arm straight OR left arm bent up\" = EXACTLY the ПДР 9.3 right-turn clause. This is the true correct answer.\n- option[3] \"Варіанти 1 та 2 вірні.\" — wrong, since option[1] is the left-turn signal.\n\nThe genConcern's diagnosis is confirmed: the marked option is the left-turn signal; the correct option is the \"right straight / left bent\" one (index 2). Note: external test sites (infotech.gov.ua, testpdr.online) display this question with shuffled option ordering and disagree on the numeric index, so I grounded the decision on the verbatim ПДР 9.3 clause text rather than on their indices. The clause unambiguously selects our option[2].",
+          "pdrClause": "ПДР України п. 9.3: сигнали повороту праворуч подаються \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (а ліворуч — навпаки: лівою рукою вбік, або правою рукою вбік і зігнутою у лікті вгору).",
+          "webConfirmed": true,
+          "sources": "ПДР 9.3 verbatim clause text (right vs left hand signal): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 ; official test entry for this exact question: https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 and https://testpdr.online/test.php?test=all&q=252 (both confirm the right-turn answer = \"right arm straight OR left arm bent up\"; their numeric option indices differ due to option shuffling/OCR, so the ПДР 9.3 clause text was used as the tiebreak).",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "9:25",
+          "decision": "confirm_change",
+          "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+          "reasoning": "Question 9:25 asks the hand signal for a RIGHT turn on a bicycle. ПДР України п. 9.3 defines the right-turn signal verbatim as \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (right arm extended sideways, OR left arm extended sideways and bent up at the elbow at a right angle). The left-turn signal is the mirror image (left arm straight, or right arm bent).\n\nMapping our DB options to the clause:\n- option[0] \"праву руку вбік і зігнете під прямим кутом\" — distorted/incomplete (bends the straight right arm, drops the alternative branch). Not a clean match.\n- option[1] CURRENTLY MARKED correct: \"ліву руку в бік або праву руку вбік і зігнете у лікті\" = LEFT arm straight OR RIGHT arm bent = the LEFT-turn signal per 9.3 → WRONG for a right turn.\n- option[2] (proposed): \"праву руку в бік або ліву руку вбік і зігнете у лікті\" = RIGHT arm straight OR LEFT arm bent = EXACTLY the ПДР 9.3 right-turn clause → CORRECT.\n- option[3] \"Варіанти 1 та 2 вірні\" — wrong, since option[1] is the left-turn signal.\n\nThe currently-marked answer is the mirror-image left-turn signal; the true correct answer is option[2], which differs from our current mark. Proposal confirmed.\n\nOn source disagreement (the reason for skeptical grounding): the two test sites share identical option ordering but disagree — testpdr.online/manualov marks option 3 (= our option[2]) correct, agreeing with the proposal; the infotech.gov.ua fetch claimed \"Варіанти 1 та 2\" (option 4), but in that ordering option 1 is the distorted variant and option 2 is the left-turn signal, a combination the 9.3 clause cannot endorse for a right turn — so that fetch is unreliable (OCR/shuffle artifact). Per the ground-truth-tiebreak principle, the disagreement is settled by the authoritative verbatim ПДР 9.3 clause, which unambiguously selects \"right arm straight OR left arm bent\" = our option[2]. The proposed correctOptionText matches option[2] exactly.",
+          "webConfirmed": true,
+          "sources": "ПДР України п. 9.3 verbatim right/left-turn hand-signal clause (authoritative tiebreak): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 ; corroborated by search across protocol.ua, kodeksy.com.ua, vodiy.ua, infotech.gov.ua theory mirror. Test-site entries for this exact question (option ordering matches our DB; testpdr.online marks our option[2] correct): https://testpdr.online/test.php?test=all&q=252 (and its redirect source manualov.net?question=252) ; official test entry https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 (its marked index was an unreliable OCR/shuffle artifact, overridden by the 9.3 clause text)."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:25",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question (key 9:25): \"Ви рухаєтесь на велосипеді і Вам необхідно повернути праворуч. Ваші дії:\" (cyclist signalling a RIGHT turn by hand). Our DB marks index 1 (\"Витягнете ліву руку в бік або праву руку вбік і зігнете її у лікті під прямим кутом вгору\") as correct — but that describes LEFT arm straight / RIGHT arm bent, which is the LEFT-turn pattern. ПДР України п. 9.3 (confirmed verbatim) states the RIGHT-turn signal is \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (right arm extended to side, OR left arm extended to side and bent at elbow upward). That exactly matches our index 2 (\"Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору\"). Ground truth was sealed by reading the raw embedded JSON of the official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4458): the four answer objects carry is_correct flags — order1=false, order2=false, order3 (\"Витягнете праву руку в бік або ліву руку...\")=TRUE, order4 (\"Варіанти 1 та 2 вірні\")=false. order3 maps to our index 2. Two earlier WebFetch prose summaries of the same page wrongly reported \"option 4\"; the raw is_correct JSON flag is authoritative and resolves that conflict. Our marked index 1 corresponds to official order2 (is_correct:false). The option texts themselves are clean and align 1:1 with the official base, so this is a mis-keyed answer, not corrupted options. Correct = index 2.",
+          "pdrClause": "ПДР України п. 9.3: сигнал повороту праворуч подається \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (а сигнал повороту ліворуч — навпаки: лівою рукою, витягнутою вбік, або правою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору).",
+          "webConfirmed": true,
+          "sources": "Official ГСЦ МВС test base raw JSON (is_correct:true on order 3): https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 ; ПДР п. 9.3 verbatim clause text: https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 and https://pdr.infotech.gov.ua/theory/rules/9 ; same question on mirror sites: https://pdrlehko.com/tests/question/316 , https://green-way.com.ua/uk/test-pdd/twenty-questions/2788",
+          "confidence": 0.98
+        },
+        "skeptic": {
+          "key": "9:25",
+          "decision": "confirm_change",
+          "correctOptionText": "Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.",
+          "reasoning": "Question (key 9:25): \"Ви рухаєтесь на велосипеді і Вам необхідно повернути праворуч. Ваші дії:\" — a cyclist signalling a RIGHT turn by hand. ПДР України п. 9.3 (independently confirmed verbatim via WebSearch) states the RIGHT-turn signal is given \"правою рукою, витягнутою вбік, або лівою рукою, витягнутою вбік і зігнутою у лікті під прямим кутом угору\" (RIGHT arm extended to side, OR LEFT arm extended and bent at elbow upward). The opposite combination (left arm straight / right arm bent) is the LEFT-turn signal.\n\nI independently pulled the RAW embedded JSON of the official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4458, HTTP 200) and parsed each answer object's is_correct flag verbatim:\n- order 1 (id 14821) \"Витягнете праву руку вбік і зігнете під прямим кутом вгору.\" → is_correct:false\n- order 2 (id 14823) \"Витягнете ліву руку в бік або праву руку вбік і зігнете у лікті під прямим кутом вгору.\" → is_correct:false\n- order 3 (id 14822) \"Витягнете праву руку в бік або ліву руку вбік і зігнете у лікті під прямим кутом вгору.\" → is_correct:TRUE\n- order 4 (id 14820) \"Варіанти 1 та 2 вірні.\" → is_correct:false\n\nThis maps 1:1 onto our DB options. Our DB index 1 (\"Витягнете ліву руку...праву руку...зігнете\") is currently marked correct=true, but it corresponds to official order 2 (is_correct:false) and describes the LEFT-turn pattern — a mis-key. The TRUE answer is our index 2 (\"Витягнете праву руку в бік або ліву руку вбік...\"), which is official order 3 (is_correct:true) and exactly matches п. 9.3 for a right turn.\n\nCRITICAL tiebreak note: TWO independent WebFetch prose summaries (of infotech and pdrlehko.com mirror) both wrongly reported \"Варіанти 1 та 2 вірні\" (option 4) as correct — the exact failure mode the prior reviewer flagged. I did NOT re-vote; I settled it with the ground-truth raw is_correct JSON flag, which is authoritative and unambiguously marks order 3 = true. The prose models were confused by the \"Варіанти 1 та 2 вірні\" wording and by a second is_correct:true flag in the file that belongs to a DIFFERENT question embedded on the same SPA page (the \"stopping\" question), not to this one. Option texts are clean and align 1:1 with the official base — this is a mis-keyed answer, not corrupted options. Proposal confirmed: correct = index 2.",
+          "webConfirmed": true,
+          "sources": "Official ГСЦ МВС test base — raw embedded JSON, is_correct:true on order 3 (id 14822): https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4458 (fetched HTTP 200, parsed questions_answers array directly). ПДР п. 9.3 verbatim right-turn clause (WebSearch-confirmed): https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-3 and https://pdr.infotech.gov.ua/theory/rules/9 . Same question on mirror sites: https://pdrlehko.com/tests/question/316 and https://green-way.com.ua/uk/test-pdd/twenty-questions/2788 . NOTE: WebFetch prose summaries of these pages wrongly said \"Варіанти 1 та 2 вірні\" — overridden by the raw is_correct flag per ground-truth tiebreak."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:31",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question: \"За яких умов миготливий червоний ліхтар може використовуватися замість знака аварійної зупинки, згідно з Правилами дорожнього руху?\" Our DB marks option[0] (\"...добре видно тільки вдень за сонячної погоди\") as correct. Both the official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4464) and the ПДР clause 9.12 itself state the flashing red light must be well visible BOTH during daytime in sunny weather AND in conditions of poor visibility — that is option[2], which is verbatim present in our options array. The option texts are clean and not corrupted; only the wrong one is flagged correct. So the true answer is option index 2. The genConcern was correct in substance (it cited the combined-condition requirement).",
+          "pdrClause": "ПДР України п. 9.12: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.\"",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test — marks the \"as удень..., так і в умовах недостатньої видимості\" option as correct); https://pdr.infotech.gov.ua/theory/rules/9 (full text of ПДР clause 9.12 confirming the combined-condition requirement); corroborating: https://green-way.com.ua/uk/test-pdd/twenty-questions/385",
+          "confidence": 0.99
+        },
+        "skeptic": {
+          "key": "9:31",
+          "decision": "confirm_change",
+          "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+          "reasoning": "Question (key 9:31, qid cmqjzft2k010wbvgeu7ylylge): \"За яких умов миготливий червоний ліхтар може використовуватися замість знака аварійної зупинки, згідно з Правилами дорожнього руху?\" Our DB currently flags option[0] \"...добре видно ТІЛЬКИ вдень за сонячної погоди\" as correct=true. This contradicts ПДР України п. 9.12, which I verified verbatim from the official source: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно ЯК удень за сонячної погоди, ТАК І в умовах недостатньої видимості.\" The \"як...так і\" construction makes it a combined/dual requirement, not a \"тільки/only daytime\" one. I independently confirmed via the official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4464), which directly marks option[2] (the \"як удень..., так і...\" option) as the correct answer; the WebSearch summary corroborated the same. Our options array contains that correct option[2] verbatim and clean (not corrupted) — only the wrong one (option[0]) is flagged. So the true correct answer is option index 2, exactly the proposed change, which differs from our current mark. The genConcern was correct in substance.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clause 9.12 quoted verbatim confirming the combined-condition requirement); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test base marks the \"як удень..., так і в умовах недостатньої видимості\" option as correct for this exact question); corroborating WebSearch summaries and https://green-way.com.ua/uk/test-pdd/twenty-questions/4385. Local source: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [11]."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:32",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Аварійну світлову сигналізацію.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question 9:32 asks which exterior lights must be turned on when a vehicle is stopped by a police officer. Our DB marks option index 3 \"Стоянкові ліхтарі.\" (parking lights) as correct. This is wrong. The official ГСЦ МВС test (pdr.infotech.gov.ua ticket 4465) and green-way.com.ua both present the same four options and mark \"Аварійну світлову сигналізацію.\" (hazard warning lights) — option index 1 — as the correct answer. This is grounded in ПДР України п. 9.9(б), which requires the driver to switch on hazard warning lights (аварійна світлова сигналізація) when stopping at a police officer's request. The option texts in our array are all clean and intact (no garbling/duplication/truncation); only the `correct` flag is on the wrong option. Therefore verdict is key_wrong_options_ok: the correct option is index 1, verbatim text \"Аварійну світлову сигналізацію.\". The prior genConcern note was accurate.",
+          "pdrClause": "ПДР України п. 9.9(б): аварійна світлова сигналізація має бути ввімкнена «у разі зупинки на вимогу поліцейського або внаслідок засліплення водія світлом фар». Тобто при зупиненні транспортного засобу на вимогу працівника поліції водій зобов'язаний увімкнути саме аварійну світлову сигналізацію, а не стоянкові ліхтарі.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4465 (official ГСЦ МВС test base — question 4465, marks \"Аварійну світлову сигналізацію\" correct); https://pdr.infotech.gov.ua/theory/rules/9 (ПДР Розділ 9, п. 9.9(б): hazard lights required when stopping at a police officer's request); https://green-way.com.ua/uk/test-pdd/twenty-questions/4366 (same question listed)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "9:32",
+          "decision": "confirm_change",
+          "correctOptionText": "Аварійну світлову сигналізацію.",
+          "reasoning": "Independently verified. The candidate at index [12] is key 9:32, question \"Які зовнішні світлові прилади необхідно ввімкнути у разі зупинення транспортного засобу поліцейським?\" with four options: [0] \"Не потрібно вмикати жодних зовнішніх світлових приладів.\" [1] \"Аварійну світлову сигналізацію.\" [2] \"Денні ходові вогні або протитуманні фари.\" [3] \"Стоянкові ліхтарі.\". Our DB currently marks index 3 \"Стоянкові ліхтарі.\" as correct — this is WRONG. My own checks: (1) The official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4465), fetched directly, presents the identical question with the identical four options and marks \"Аварійну світлову сигналізацію\" (index 1) as the correct answer. (2) WebSearch summary across multiple Ukrainian driving-test sites independently stated section 9.9 requires emergency light signaling when stopped at a police request. (3) The legal grounding holds: I fetched the verbatim ПДР України п. 9.9(б) text from green-way's rules reference — it reads \"у разі зупинки на вимогу поліцейського або внаслідок засліплення водія світлом фар\", explicitly listing a police-request stop as a case requiring hazard warning lights (аварійна світлова сигналізація). Parking lights (стоянкові ліхтарі) are not the required device. The option texts in our array are clean/intact; only the `correct` flag is on the wrong option. The prior reviewer's genConcern was accurate. Verdict: the correct option is index 1, verbatim \"Аварійну світлову сигналізацію.\", which differs from our current mark — confirm the change.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4465 (official ГСЦ МВС test base, ticket 4465 — fetched directly; presents the same question + four options and marks \"Аварійну світлову сигналізацію\" correct); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-9/punkt-9_b (ПДР України п. 9.9(б) verbatim: \"у разі зупинки на вимогу поліцейського або внаслідок засліплення водія світлом фар\" — fetched directly, confirms hazard lights required on police-request stop); https://green-way.com.ua/uk/test-pdd/twenty-questions/4366 (same question listed, question text confirmed); WebSearch across pdr.infotech.gov.ua / green-way / pomahach independently summarized п. 9.9 as requiring emergency light signaling."
+        }
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question: how to act when light + sound signalization has turned on at a railway crossing but barriers have NOT yet begun lowering. Our DB marks option[2] \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (stop only if barriers started lowering) as correct — this is wrong. ПДР п. 20.5 prohibits crossing once a prohibitory traffic-light OR sound signal is on, regardless of barrier presence/position. So the driver must already stop when the light+sound signalization activates, even before the barriers move. The option texts are clean and one of them states exactly this: option[1] \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" Authoritative sources confirm: the official ПДР text on pdr.infotech.gov.ua, the identical real exam question on green-way.com.ua (whose answer per the search snippet is \"Зупинитися в передбаченому місці, так як проїзд через переїзд заборонений\"), vodiy.ua, and the binary version on testpdr.online (q2074: \"Заборонено\", 96.3% correct). The marked answer is OUR transcription error; correct answer is index 1.",
+          "pdrClause": "ПДР України п. 20.5: «Рух через залізничний переїзд забороняється, якщо: ... в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума ...». Тобто з моменту ввімкнення світлової та звукової сигналізації проїзд заборонено, ще до початку опускання шлагбаумів — водій зобов'язаний зупинитися в передбаченому місці.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР 20.5 quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://green-way.com.ua/uk/test-pdd/question/23/898 (identical exam question; correct answer \"Зупинитися в передбаченому місці, так як проїзд через переїзд заборонений\"); https://testpdr.online/test.php?test=all&q=2074 (binary form of same question, correct = \"Заборонено\", 96.3% answered correctly); https://vodiy.ua/pdr/test/?complect=6&theme=20&part=2 (confirms stop-at-designated-place since crossing is prohibited)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "reasoning": "Question (key 20:9): how to act when light + sound signalization activates at a railway crossing but barriers have NOT yet begun lowering. Our DB currently marks option[2] \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (stop only if barriers started lowering) as correct=true. I independently verified this is a transcription error.\n\nOfficial ПДР clause 20.5, fetched verbatim from the government source pdr.infotech.gov.ua, lists the conditions under which \"Рух через переїзд забороняється\". Subpoint (c) reads exactly: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.\" So the prohibition takes effect the moment the prohibitory light OR sound signal is on — independent of barrier presence/position — and the driver must already stop in the designated place BEFORE the barriers move. Our marked answer (wait for barriers) directly contradicts this.\n\nThe TRUE correct option is among our own options: option[1] \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" This was independently confirmed by the identical real exam question on green-way.com.ua (q898 / test-pdd/twenty-questions/898), whose correct answer per two separate WebSearch passes is \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд заборонений\" (\"stop at the designated place, as passage is prohibited\"). The proposal matches both the ПДР clause and the external exam key. Confirm the change; differs from our current mark.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР; clause 20.5(c) quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (identical exam question; correct answer = \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд заборонений\", confirmed via two WebSearch passes); https://kodeksy.com.ua/pdr/20.5.htm and http://pdd.com.ua/ua/20/ (corroborating ПДР 20.5 text). Candidate file: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [13]."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:37",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.",
+          "correctOptionIndex": 2,
+          "reasoning": "Element [14] = key \"9:37\", question \"Чи дає водієві перевагу в русі ввімкнення покажчика повороту?\" with options [0] \"Завжди надає перевагу\", [1] \"Надає перевагу тільки під час перестроювання.\" (currently marked correct in our DB), [2] \"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.\" The currently-marked answer (option 1) is WRONG. Per ПДР України п. 9.4, giving a warning/turn signal grants NO priority and does NOT relieve the driver from taking precautions — so the only correct answer is option [2]. Authoritative confirmation: vodiy.ua question tg/15555 presents this exact question with the same three options and marks option 3 (\"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.\") as correct. The official ПДР clause 9.4 text reads verbatim \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів.\" The option texts in our array are clean (not garbled/duplicated/truncated), so the correct option is cleanly selectable: index 2. The genConcern's hint was accurate.",
+          "pdrClause": "ПДР України п. 9.4: \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів. Сигнал має подаватися завчасно до початку маневру (з урахуванням швидкості руху), але не менш як за 50-100 м у населених пунктах і 150-200 м поза ними, і припинятися негайно після його виконання.\" The signal NEVER grants priority — including during lane changes (перестроювання) — directly contradicting the currently-marked option.",
+          "webConfirmed": true,
+          "sources": "https://vodiy.ua/question/tg/15555 (identical question + 3 identical options; correct = option 3 \"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.\"); https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clause 9.4 full text confirming a warning signal gives no advantage and does not relieve precautions)",
+          "confidence": 0.99
+        },
+        "skeptic": {
+          "key": "9:37",
+          "decision": "confirm_change",
+          "correctOptionText": "Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.",
+          "reasoning": "Our DB currently marks option [1] \"Надає перевагу тільки під час перестроювання.\" as correct, but that is wrong. Official ПДР України clause 9.4 (verified verbatim from the authoritative government source pdr.infotech.gov.ua/theory/rules/9) states: \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів.\" The warning/turn signal grants NO priority in ANY situation, including during lane changes (перестроювання) — the clause admits no such exception, directly contradicting the currently-marked option. An independent Ukrainian driving-test platform (testpdr.online, q=264 — the canonical manualov.net question 264 redirect) presents this exact question with the same three options and explicitly marks option 3 (\"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів\") as correct. WebSearch across multiple test platforms (green-way, vodiy.ua, vseosvita, pdr-online) consistently confirms the same. vodiy.ua tg/15555 confirms the identical question text and three identical options. The option array in our DB is clean (not garbled/duplicated/truncated), so the correct option is cleanly selectable at index 2 with text \"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів.\" The genConcern hint was accurate. Therefore the proposed change is authoritatively correct and differs from our current mark.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/9 (official ПДР clause 9.4 verbatim: \"Подавання попереджувального сигналу не дає водієві переваги і не звільняє його від вжиття запобіжних заходів.\" — no exception for lane changes); https://testpdr.online/test.php?test=all&q=264 (canonical manualov.net q264 redirect; identical question + 3 identical options, explicitly marks option 3 \"Не дає водієві переваги і не звільняє його від прийняття запобіжних заходів\" as correct); https://vodiy.ua/question/tg/15555 (identical question text + same three options); WebSearch synthesis across green-way.com.ua, vseosvita.ua, pdr-online.com.ua all confirming option 3 correct."
+        }
+      },
+      {
+        "determine": {
+          "key": "10:52",
+          "verdict": "key_correct",
+          "correctOptionText": "Відповіді 2 і 3.",
+          "correctOptionIndex": 3,
+          "reasoning": "Question: \"Яких заходів повинен вжити водій, якщо габарити його транспортного засобу не дозволяють виконати поворот з крайнього положення на проїзній частині?\" Our DB marks option [3] \"Відповіді 2 і 3.\" as correct. Two independent authoritative Ukrainian driving-test sources confirm this exactly. avto-ekzamen.org.ua (Білет №3) lists the identical question with identical three substantive options and gives the answer \"Відповіді 2 і 3\". testpdr.online (manualov.net mirror, question 338) lists the same four options and marks option 4 (\"Answers 2 and 3\") correct, citing ПДР п.10.6. ПДР п.10.6 provides that if a vehicle cannot perform a turn/U-turn from the proper extreme position due to its dimensions or other reasons, the driver may deviate from the standard requirement, provided it does not contradict prohibitory/mandatory signs or markings and does not create danger or obstruction to other road users; if needed for safety, the driver should seek assistance from other persons. Thus options [1] (не створювати небезпеки) and [2] (звернутися за допомогою) are both required, making \"Відповіді 2 і 3\" correct. Option [0] (\"Повертати тільки з крайніх смуг\") is wrong — it contradicts the premise that the dimensions prevent occupying the extreme position. The genConcern was a false alarm: it actually agrees the combined answer is right and only explains why option 1 is wrong; it never disputed the marked key.",
+          "pdrClause": "ПДР України п. 10.6: \"Якщо транспортний засіб через свої габарити або з інших причин не може виконати поворот чи розворот з відповідного крайнього положення на проїзній частині, дозволяється відступати від вимог пунктів 10.4 і 10.5 цих Правил за умови, що це не суперечить вимогам заборонних чи наказових дорожніх знаків, дорожньої розмітки та не створить небезпеки чи перешкод іншим учасникам дорожнього руху. У разі потреби для забезпечення безпеки дорожнього руху слід звернутися за допомогою до інших осіб.\"",
+          "webConfirmed": true,
+          "sources": "avto-ekzamen.org.ua/ticket-3 (Білет №3, identical question, answer \"Відповіді 2 і 3\"); testpdr.online/test.php?test=all&q=338 (mirror of manualov.net online-test-pdr question 338, marks \"Answers 2 and 3\" correct, cites ПДР п.10.6); WebSearch snippet from green-way.com.ua/uk/test-pdd/question/10/415 confirming the same.",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "11:31",
+          "verdict": "key_correct",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 3,
+          "reasoning": "Element [16] is key \"11:31\": \"Як повинен рухатися транспортний засіб, швидкість руху якого не повинна перевищувати 40 км/год. або який з технічних причин не може розвивати таку швидкість?\" Official ПДР України п. 11.7 (confirmed verbatim from pdr.infotech.gov.ua): \"Транспортні засоби, швидкість руху яких не повинна перевищувати 40 км/год. або які з технічних причин не можуть розвивати таку швидкість, повинні рухатися якнайближче до правого краю проїзної частини, крім випадків, коли виконується обгін, об'їзд або перестроювання перед поворотом ліворуч чи розворотом.\" The full set of exceptions is {обгін, об'їзд} PLUS {перестроювання перед поворотом ліворуч чи розворотом}. Option 0 captures only the обгін/об'їзд subset; option 1 captures only the перестроювання subset; option 2 (\"Може рухатися в будь-якій смузі\") directly contradicts the rule. Only the combination — option 3 \"Відповіді 1 і 2\" — reconstructs the complete clause, which is the marked-correct answer. The genConcern actually supports the marked answer (it states the correct answer combines both exceptions and that \"будь-яка смуга\" is wrong); this was a false-alarm flag. The marked answer is correct.",
+          "pdrClause": "ПДР України п. 11.7: \"Транспортні засоби, швидкість руху яких не повинна перевищувати 40 км/год. або які з технічних причин не можуть розвивати таку швидкість, повинні рухатися якнайближче до правого краю проїзної частини, крім випадків, коли виконується обгін, об'їзд або перестроювання перед поворотом ліворуч чи розворотом.\"",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/11 (official ПДР text, п. 11.7 quoted verbatim); https://pdrtest.com/question/11.31 (matching test question 11.31); https://green-way.com.ua/uk/test-pdd/twenty-questions/474 (same question, confirms exceptions overtaking/bypass/lane-change before left turn or U-turn)",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "11:31",
+          "verdict": "key_correct",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 3,
+          "reasoning": "Question 11:31 asks how a vehicle whose speed must not exceed 40 km/h (or which technically cannot reach that speed) must travel. ПДР clause 11.7 requires such vehicles to move as close as possible to the right edge of the roadway, with exceptions for: overtaking/bypassing (обгін/об'їзд) AND repositioning before a left turn or U-turn (перестроювання перед поворотом ліворуч чи розворотом). Option 1 cites the overtaking/bypassing exception; Option 2 cites the left-turn/U-turn repositioning exception. Both are genuine, complementary parts of the rule, so the combined answer \"Відповіді 1 і 2\" (index 3) is correct. Option 3 (\"may move in any lane\") directly contradicts the right-edge requirement and is wrong. The official vodiy.ua exam ticket (Bilet 21) reproduces this exact question with these exact four options and marks \"Відповіді 1 і 2\" (Answers 1 and 2) as correct, matching our DB. The genConcern was a false alarm — it actually endorsed the combined answer, not flagged it as wrong. Our marked answer is correct.",
+          "pdrClause": "ПДР України п. 11.7: Транспортні засоби, швидкість руху яких не повинна перевищувати 40 км/год або які з технічних причин не можуть розвивати таку швидкість, повинні рухатися якнайближче до правого краю проїзної частини, крім випадків, коли виконується об'їзд, обгін або перестроювання перед поворотом ліворуч чи розворотом.",
+          "webConfirmed": true,
+          "sources": "https://vodiy.ua/pdr/test/?bilet=21&complect=6 (official exam ticket Bilet 21, Нові_2026 complect — reproduces the exact question with all 4 options and marks \"Відповіді 1 і 2\" correct); https://pdrtest.com/question/11.31 (same question, same correct answer); https://green-way.com.ua/uk/test-pdd/twenty-questions/474 (same question on green-way). All confirm ПДР п. 11.7 combining both exceptions.",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "12:41",
+          "verdict": "key_correct",
+          "correctOptionText": "Зобов’язаний продовжувати рух з цією ж швидкістю або меншою, але не більшою 70 км/год.",
+          "correctOptionIndex": 1,
+          "reasoning": "The road sign referenced is the maximum-speed-limit sign 3.29 (\"Обмеження максимальної швидкості\" 70), which sets an UPPER speed limit, not a minimum. A driver already travelling at 68 km/h is below the 70 km/h limit, so the lawful action is to keep that speed or go slower, never exceeding 70 km/h. Option [0] (\"зобов'язаний збільшити швидкість... більше 70 км/год\") is plainly wrong because a restriction sign never requires increasing speed and exceeding it is prohibited. Two web searches against Ukrainian ПДР test resources returned this exact question and confirmed the correct answer is \"продовжувати рух з цією ж швидкістю або меншою, але не більшою 70 км/год\" — matching our marked answer at index 1. The genConcern note itself concedes the marked answer is right and only the increase-speed option is wrong; the flag was a false alarm.",
+          "pdrClause": "Дорожній знак 3.29 «Обмеження максимальної швидкості» (Розділ 33, заборонні знаки): забороняється рух зі швидкістю (км/год), що перевищує зазначену на знаку. Знак встановлює верхню (максимальну) межу швидкості, а не мінімальну; перевищувати її заборонено, збільшувати швидкість він не вимагає.",
+          "webConfirmed": true,
+          "sources": "https://www.obozrevatel.com/ukr/avto-oboz/z-yakoyu-shvidkistyu-dozvoleno-ihati-test-na-znannya-pdr.htm ; https://vodiy.ua/pdr/test/?complect=6&theme=12 ; https://vodiy.ua/znaky/3/3.29 ; https://pdr-online.com.ua/testi/testi-po-temam/?theme=13 ; WebSearch result text directly reproduced the question (\"68 км/год\") and confirmed the correct answer is \"продовжувати рух з цією ж швидкістю або меншою, але не більшою за 70 км/год\".",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "15:68",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 3,
+          "reasoning": "Question 15.68: \"За яких умов водій має право ставити транспортний засіб біля правого краю проїзної частини?\" Our DB marks option index 2 (\"Завжди, якщо водій зупинився для посадки або висадки пасажирів.\") as correct. Authoritative Ukrainian driving-test sources confirm the same 5-option layout and give the correct answer as option 4, \"Відповіді 1 і 2.\" — i.e. parking at the right edge is allowed (1) when there are no specially designated places or shoulders, OR (2) when stopping/parking on shoulders or in designated places is impossible. The official ticket page pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 lists identical options 1-5; pomahach.com explicitly marks option 4 (\"Відповіді 1 і 2\") as correct; this matches ПДР п. 15.2. The option TEXTS in our array are intact and match the official source, but the wrong option is flagged. The correct option in our array is \"Відповіді 1 і 2.\" at index 3. The genConcern's read is right, and the correct answer is cleanly recoverable from the existing options.",
+          "pdrClause": "ПДР України п. 15.2: Біля правого краю проїзної частини (якомога правіше) транспортний засіб може бути поставлений лише за відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможлива, за умови, що це не створить перешкод для руху інших транспортних засобів. Це відповідає поєднанню умов 1 і 2.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ticket page — identical question and 5 options); https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly marks \"Відповіді 1 і 2\" as correct); https://green-way.com.ua/uk/test-pdd/twenty-questions/650; cross-checked against ПДР п. 15.2.",
+          "confidence": 0.96
+        },
+        "skeptic": {
+          "key": "15:68",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "reasoning": "Question 15.68: \"За яких умов водій має право ставити транспортний засіб біля правого краю проїзної частини?\" Our DB (element [19], qid cmqjzftdi01z5bvge0kcjr0ag) marks option index 2, \"Завжди, якщо водій зупинився для посадки або висадки пасажирів.\", as correct. That is wrong: an unconditional \"always for passenger boarding/alighting\" rationale has no basis in the rules. The official ПДР п. 15.2, fetched verbatim from pdr.infotech.gov.ua/theory/rules/15, reads: \"За відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини (якомога правіше...)\". That is exactly the combination of our option 1 (\"При відсутності спеціально відведених місць чи узбіччя.\") AND option 2 (\"Коли зупинка або стоянка неможлива на узбіччях або в спеціально відведених місцях.\"), i.e. the option \"Відповіді 1 і 2.\" at array index 3. The official ticket page (pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631) confirms the identical 5-option layout, and pomahach.com explicitly marks \"Відповіді 1 і 2.\" as the correct answer. All option texts in our array are intact and match the official source; only the correct-flag is on the wrong option, and the right answer is cleanly recoverable from the existing options. The proposed change is authoritatively confirmed.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/15 (official ПДР п. 15.2 verbatim: \"За відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини\"); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ticket page — identical question and 5 options 1-5); https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly marks \"Відповіді 1 і 2.\" as correct); cross-checked against ПДР п. 15.2."
+        }
+      },
+      {
+        "determine": {
+          "key": "9:31",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question (key 9:31): \"За яких умов миготливий червоний ліхтар може використовуватися замість знака аварійної зупинки, згідно з Правилами дорожнього руху?\" Our DB marks option[0] (\"...має бути добре видно тільки вдень за сонячної погоди\") as correct. That contradicts ПДР. The official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 4464) marks the correct answer as the \"both\" variant: \"Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.\" — which matches option[2] in our array verbatim. ПДР п. 9.12 states the flashing red light must be well visible BOTH during day in sunny weather AND in conditions of poor visibility, so the \"тільки/only\" variant is wrong. The option texts themselves are clean and the correct answer is cleanly selectable; only the correct flag is on the wrong option. The genConcern was accurate. Correct answer = option index 2.",
+          "pdrClause": "ПДР України п. 9.12: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.\"",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test — marks the \"як удень..., так і в умовах недостатньої видимості\" option correct); https://pdr.infotech.gov.ua/theory/rules/9 (ПДР Розділ 9, clause 9.12 full text); corroborated by https://green-way.com.ua/uk/test-pdd/twenty-questions/4385 and https://green-way.com.ua/uk/dovidniki/pdr/rozdil-9",
+          "confidence": 0.98
+        },
+        "skeptic": {
+          "key": "9:31",
+          "decision": "confirm_change",
+          "correctOptionText": "Світло, випромінюване ліхтарем, повинно бути добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості.",
+          "reasoning": "DB element [20] (key 9:31): question \"За яких умов миготливий червоний ліхтар може використовуватися замість знака аварійної зупинки, згідно з Правилами дорожнього руху?\" Our DB marks option[0] (\"...має бути добре видно тільки вдень за сонячної погоди\") as correct=true. I independently verified this is WRONG via three authoritative external checks: (1) The official ГСЦ МВС test base at pdr.infotech.gov.ua ticket 4464 — I fetched the page and it explicitly marks option 3, the \"both\" variant (\"...добре видно як удень за сонячної погоди, так і в умовах недостатньої видимості\"), as the correct answer; the option list on that official page is identical to ours. (2) ПДР Розділ 9, п. 9.12 verbatim: \"Миготливе червоне світло, випромінюване ліхтарем, який застосовується відповідно до вимог пунктів 9.10 і 9.11 цих Правил, повинно бути добре видно ЯК удень за сонячної погоди, ТАК І в умовах недостатньої видимості.\" — the rule mandates BOTH conditions, so the \"тільки/only daytime\" variant our DB marks correct directly contradicts the regulation. (3) WebSearch results (green-way.com.ua, pomahach.com) corroborate the \"both\" variant. The proposed correct text matches our option[2] verbatim. The option texts are clean and the correct answer is cleanly selectable; only the correct flag sits on the wrong option. genConcern was accurate. Change confirmed.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4464 (official ГСЦ МВС test — fetched page marks the \"як удень..., так і в умовах недостатньої видимості\" option correct); https://pdr.infotech.gov.ua/theory/rules/9 (ПДР Розділ 9, п. 9.12 full text confirming the dual-visibility requirement); corroborated by https://green-way.com.ua/uk/test-pdd/twenty-questions/385 and https://pomahach.com/question/3694-47873/"
+        }
+      },
+      {
+        "determine": {
+          "key": "11:31",
+          "verdict": "key_correct",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 3,
+          "reasoning": "ПДР п. 11.7 establishes that vehicles whose speed must not exceed 40 km/h (or which cannot technically develop such speed) must move as close as possible to the right edge of the roadway, EXCEPT when (a) overtaking/bypassing (обгін, об'їзд) and (b) changing lanes before a left turn or U-turn (перестроювання перед поворотом ліворуч чи розворотом). Both exceptions are in the rule. In this question, option index 0 captures the overtake/bypass exception and option index 1 captures the left-turn/U-turn-maneuver exception — both are valid. Therefore the combining answer \"Відповіді 1 і 2\" (the first two real options, marked at array index 3) is correct. Option index 2 (\"Може рухатися в будь-якій смузі\") is wrong, but it is NOT the marked answer — the genConcern correctly notes that option is false, yet the database marks \"Відповіді 1 і 2\", which is the right answer. The flag is a false alarm. Both an authoritative ПДР text source and dedicated test sites confirm the full rule text. The marked answer stands.",
+          "pdrClause": "ПДР України п. 11.7: \"Транспортні засоби, швидкість руху яких не повинна перевищувати 40 км/год або які з технічних причин не можуть розвивати таку швидкість, повинні рухатися якнайближче до правого краю проїзної частини, крім випадків, коли виконується обгін, об'їзд або перестроювання перед поворотом ліворуч чи розворотом.\"",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/11 (official ПДР text, п. 11.7 confirmed: right-edge requirement with exceptions for overtaking, bypassing, lane-change before left turn and U-turn); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-11/punkt-7 (verbatim п. 11.7 clause); https://pdrtest.com/question/11.31 (this exact exam question, section 11 #31)",
+          "confidence": 0.95
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "15:68",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "correctOptionIndex": 3,
+          "reasoning": "The question asks under what conditions a driver may park at the right edge of the carriageway. ПДР України п. 15.2 permits this 'За відсутності спеціально відведених місць чи узбіччя АБО коли зупинка чи стоянка там неможливі' — i.e. two conditions, which map exactly to option [0] ('При відсутності спеціально відведених місць чи узбіччя.') and option [1] ('Коли зупинка або стоянка неможлива на узбіччях або в спеціально відведених місцях.'). The official answer is therefore the combining option [3] 'Відповіді 1 і 2.' Our DB instead marks option [2] 'Завжди, якщо водій зупинився для посадки або висадки пасажирів.' as correct, which is not supported by ПДР 15.2 (there is no 'always, for boarding/alighting passengers' exception there). pomahach.com explicitly states the correct answer is 'Відповіді 1 і 2.'; the official ГСЦ/infotech.gov.ua ticket lists the same five options verbatim (matching ours). The option texts are all intact and the correct one is cleanly selectable, so this is a mismarked key, not corrupted options. The genConcern was accurate.",
+          "pdrClause": "ПДР України п. 15.1–15.2: «15.1. Зупинка і стоянка транспортних засобів на дорозі повинні здійснюватись у спеціально відведених місцях чи на узбіччі. 15.2. За відсутності спеціально відведених місць чи узбіччя або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини (якомога правіше, щоб не перешкоджати іншим учасникам дорожнього руху)…»",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly states correct answer = \"Відповіді 1 і 2.\"); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ГСЦ/infotech test ticket listing the same five options verbatim); https://pdr.infotech.gov.ua/theory/rules/15 (verbatim text of ПДР п. 15.1–15.2)",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "15:68",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1 і 2.",
+          "reasoning": "Independently verified. ПДР України п. 15.2 (official infotech.gov.ua rules page, verbatim) permits parking near the right edge of the carriageway under exactly TWO conditions joined by \"або\": (1) \"За відсутності спеціально відведених місць чи узбіччя\" and (2) \"коли зупинка чи стоянка там неможливі\". These map exactly to option [0] (\"При відсутності спеціально відведених місць чи узбіччя.\") and option [1] (\"Коли зупинка або стоянка неможлива на узбіччях або в спеціально відведених місцях.\"), so the correct test answer is the combining option [3] \"Відповіді 1 і 2.\" There is NO \"always, for boarding/alighting passengers\" exception in 15.2, so our DB's current mark on option [2] (\"Завжди, якщо водій зупинився для посадки або висадки пасажирів.\") is unsupported and wrong. The official ГСЦ ticket 4631 on infotech.gov.ua lists the identical five options verbatim (matching ours), confirming options are intact/uncorrupted — this is a mismarked key, not corrupted data. pomahach.com explicitly states the correct answer is \"Відповіді 1 і 2.\" The proposed change is correct and differs from our current mark; the genConcern was accurate.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/15 (verbatim ПДР п. 15.1-15.2: \"...або коли зупинка чи стоянка там неможливі, вони дозволяються біля правого краю проїзної частини...\"); https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4631 (official ГСЦ test ticket listing the same five options verbatim as our DB); https://pomahach.com/question/3615-8319/za-yakih-umov-vodiy-maye-pravo-staviti-transportniy-zasib-bilya/ (explicitly states correct answer = \"Відповіді 1 і 2.\")"
+        }
+      },
+      {
+        "determine": {
+          "key": "2:15",
+          "verdict": "key_correct",
+          "correctOptionText": "Іншій особі, що має при собі посвідчення водія на право керування транспортним засобом відповідної категорії.",
+          "correctOptionIndex": 1,
+          "reasoning": "The marked answer is correct; this is a false alarm. ПДР України clause 2.2 states the vehicle owner (and a person using the vehicle on legal grounds) may hand over driving \"іншій особі, що має при собі посвідчення водія на право керування транспортним засобом відповідної категорії\" — verbatim matching marked option index 1. Option 0 (\"Будь-якій іншій особі\" / any person) contradicts the licensing requirement. Option 2 (a close relative during driving instruction) is not an exception to the rule and is also wrong. Notably the genConcern note here actually SUPPORTS the marked answer — it explains why options 1 and 3 are wrong, i.e. it confirms rather than challenges the key. WebFetch of the official ПДР rules text (pdr.infotech.gov.ua) returned clause 2.2 with the exact phrasing, and a WebSearch across vodiy.ua / green-way.com.ua / pdrtest.com all returned the same correct answer.",
+          "pdrClause": "ПДР України п. 2.2: Власник транспортного засобу, а також особа, яка використовує транспортний засіб на законних підставах, можуть передавати керування транспортним засобом іншій особі, що має при собі посвідчення водія на право керування транспортним засобом відповідної категорії. (Власник може також передавати у користування транспортний засіб особі, що має посвідчення водія відповідної категорії, передавши їй реєстраційний документ на цей транспортний засіб.)",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/2 (official ПДР Розділ 2, clause 2.2 — quoted: \"особи, що має при собі посвідчення водія на право керування транспортним засобом відповідної категорії\"); WebSearch corroboration: https://green-way.com.ua/uk/test-pdd/twenty-questions/1279 , https://vodiy.ua/pdr/2/ , https://pdrtest.com/question/2.15 — all give the licensed-person answer.",
+          "confidence": 0.98
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question: at a railway crossing the light AND sound signaling have turned on but the barriers have not yet begun to lower — what must the driver do? Per ПДР п. 20.5(в), it is forbidden to enter the crossing when a prohibiting traffic-light signal OR sound signal is on, REGARDLESS of the presence and position of the barrier. So as soon as the light+sound signaling activates, crossing is already prohibited and the driver must stop in the designated place — independent of whether the barriers have started lowering. The DB-marked option [2] (\"Зупинитися, тільки якщо шлагбауми почали опускатися.\" / stop only if the barriers have started lowering) is therefore wrong: it conditions the stop on the barriers, contradicting п. 20.5(в). The correct option is [1] (\"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"). The two \"proceed\" options [0] and [3] are clearly wrong. Authoritative test sites (vodiy.ua, pdr.infotech.gov.ua) and the OCR-flag note agree. This is a transcription error in our key, not a problem with the official exam. Option texts are clean, so the fix is reassigning correct=true to index 1.",
+          "pdrClause": "ПДР України п. 20.5: «Рух через переїзд забороняється, якщо: ... в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.» Отже, після ввімкнення світлової та звукової сигналізації проїзд уже заборонено і водій зобов'язаний зупинитися в передбаченому місці, ще до початку опускання шлагбаумів.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ГСЦ МВС rules, п. 20.5(в) quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (same clause 20.5(в) confirmed verbatim); WebSearch result identifying the correct test answer as \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "reasoning": "Official ПДР clause is decisive. I fetched the official ГСЦ МВС rules (pdr.infotech.gov.ua/theory/rules/20) and the independent vodiy.ua/pdr/20 — both quote п. 20.5(в) verbatim and identically: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.\" This means passage through the crossing is forbidden the instant the prohibiting light/sound signal is active, REGARDLESS of the presence and position of the barrier. Applied to the question (light+sound signaling on, barriers not yet lowering): crossing is already prohibited, so the driver must stop in the designated place. The DB-marked option [2] \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (stop ONLY if barriers have started lowering) conditions the stop on the barrier, which directly contradicts \"незалежно від наявності та положення шлагбаума\" — it is wrong. The correct option is [1] \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" The two \"proceed\" options [0] and [3] are clearly wrong. A WebSearch across Ukrainian driving-test banks (vodiy.ua, pdr-online.com.ua, pdrtest.com, manualov.net, turbo-drive) independently returns this same answer with the same 20.5(в) justification. The option texts are clean (no OCR damage), so this is a transcription error in our key, not a problem with the official exam; the fix is reassigning correct=true to index 1. The proposed correct text matches option [1] verbatim and differs from the current DB mark, so I confirm the change.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ГСЦ МВС rules — п. 20.5(в) quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (independent confirmation of п. 20.5(в) verbatim, identical wording); WebSearch across vodiy.ua, pdr-online.com.ua, pdrtest.com, manualov.net, turbo-drive returning the correct test answer \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" with the same 20.5(в) justification."
+        }
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "Element [25] is key \"20:9\": \"Як ви повинні вчинити в цій ситуації, коли на залізничному переїзді увімкнулися світлова та звукова сигналізації, а шлагбауми ще не почали опускатися?\" Our DB marks options[2] \"Зупинитися, тільки якщо шлагбауми почали опускатися.\" as correct. This contradicts ПДР. Under п. 20.5(в), movement through a railway crossing is prohibited when the prohibitive traffic-light signal OR the sound signal is on, REGARDLESS of barrier presence/position (\"незалежно від наявності та положення шлагбаума\"). Therefore, once the light AND sound signals turn on, the driver must already stop — not wait for the barriers to begin lowering. The marked answer is wrong. The official ГСЦ МВС question (reproduced verbatim on pdr-online.com.ua, theme 22, question #9) lists the identical question with the identical four options and marks the OFFICIAL correct answer as Option 2 (1-based): \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" In our 0-based options array that is index 1. The green-way.com.ua test (question 898) and a WebSearch summary independently confirm the same correct answer. The option texts themselves are clean and not corrupted, so this is a mis-keyed flag, not garbled options.",
+          "pdrClause": "ПДР України п. 20.5(в): Рух через залізничний переїзд забороняється, якщо «увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума». Отже, при ввімкненні світлової та звукової сигналізації водій зобов'язаний зупинитися в передбаченому місці ще до початку опускання шлагбаумів.",
+          "webConfirmed": true,
+          "sources": "https://pdr-online.com.ua/testi/testi-po-temam/?theme=22 (official ГСЦ МВС question base, theme 22 / railway crossings, question #9 — identical question, identical 4 options, official correct answer = Option 2 \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"); https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР clause 20.5(в): \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://green-way.com.ua/uk/test-pdd/question/23/898 and https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (same official question); WebSearch summary corroborating the correct answer.",
+          "confidence": 0.98
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "reasoning": "Element [25] key \"20:9\" asks what to do when light AND sound signals turn on at a railway crossing but barriers have not yet started lowering. Our DB marks options[2] \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (Stop only if barriers started lowering) as correct — this contradicts the official ПДР. I independently verified clause 20.5(в) on the authoritative government source pdr.infotech.gov.ua: rendering is prohibited when \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\" (prohibitive light or sound signal is on, REGARDLESS of barrier presence/position). Thus the driver must stop the moment the light and sound signals activate, before barriers begin lowering — the DB's \"only if barriers started lowering\" mark is wrong. The official ГСЦ МВС question base on pdr-online.com.ua (theme 22, question #9) reproduces the identical question with the identical four options and marks the official correct answer as Option 2 (1-based): \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" — which is options[1] in our 0-based array. A WebSearch summary and a parallel official question (manualov.net / testpdr.online #2074: \"Чи дозволено Вам проїхати залізничний переїзд, якщо шлагбаум не опустився, а лише увімкнулась світлова та звукова сигналізація?\" → answer \"Заборонено\") independently confirm the same rule. The option texts are clean (not garbled), so this is a mis-keyed flag. The proposed answer is authoritatively correct and differs from the current DB mark — confirm the change.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР clause 20.5(в), quoted verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://pdr-online.com.ua/testi/testi-po-temam/?theme=22 (official ГСЦ МВС question base, theme 22 question #9 — identical question, identical 4 options, official correct answer = Option 2 \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"); https://manualov.net/online-test-pdr.php?question=2074 → redirects to https://testpdr.online/test.php?test=all&q=2074 (parallel official question, correct answer \"Заборонено\", 96.3% correct); WebSearch summary corroborating the same correct answer."
+        }
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "The question asks what to do when light and sound signals at a railway crossing have turned on but the barriers have NOT yet started lowering. Our DB marks option[2] \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (stop only if barriers have begun lowering) as correct. This contradicts ПДР. Under ПДР 20.5(в), crossing is prohibited the moment a prohibitory traffic-light signal OR sound signal is active, REGARDLESS of the presence or position of the barrier (\"незалежно від наявності та положення шлагбаума\"). So the driver must stop immediately when the signals come on, before any barrier movement. The correct option is index 1: \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" Multiple authoritative driving-test sources confirm the equivalent question's answer is \"stop / forbidden\": green-way.com.ua hosts the verbatim question (twenty-questions/898), and manualov.net/testpdr.online's parallel formulation (\"Чи дозволено... якщо шлагбаум не опустився, а лише увімкнулась світлова та звукова сигналізація?\") answers \"Заборонено\" (96.3% correct). The option texts in our array are clean and uncorrupted — only the wrong option is flagged. The genConcern (DROP) was right that the key contradicts ПДР, but the answer is cleanly recoverable from the existing options, so this is key_wrong_options_ok rather than unresolvable.",
+          "pdrClause": "ПДР України п. 20.5: Рух через залізничний переїзд забороняється, якщо ... (в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума. (Тобто водій зобов'язаний зупинитися вже при ввімкненні світлової/звукової сигналізації, до початку опускання шлагбаумів.)",
+          "webConfirmed": true,
+          "sources": "https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (verbatim question \"Як ви повинні вчинити в цій ситуації, коли на залізничному переїзді увімкнулася світлова та звукова сигналізація, а шлагбауми ще не почали опускатися?\"); https://testpdr.online/test.php?test=all&q=2074 (parallel question, answer \"Заборонено\", 96.3% correct); https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР розділ 20, clause 20.5(в): \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "webConfirmed": true,
+          "reasoning": "DB-correct option index 2 contradicts PDR 20.5(v); driver must stop when signaling activates regardless of barrier position. Option index 1 matches and is verbatim. Confirmed by q2074 (forbidden, 96.3%) and web search.",
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 https://testpdr.online/test.php?test=all&q=2074 https://vodiy.ua/pdr/20/"
+        }
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question: at a railway crossing the light and sound signalization have come on, but the barriers have not yet begun to lower — what must the driver do? Per ПДР України п. 20.5, movement through a crossing is prohibited when \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\" — i.e., the prohibitive light/sound signal alone bans passage regardless of whether the barrier is present or has begun to lower. Therefore the driver must STOP at the designated place the moment the light and sound signalization activate, without waiting for the barriers to start lowering. The currently-marked option (index 2: \"Зупинитися, тільки якщо шлагбауми почали опускатися\" — stop ONLY if the barriers have started lowering) directly contradicts п. 20.5(в) and is wrong. The correct option is index 1: \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" A driving-test site (green-way.com.ua) hosting this exact question identifies that very option as the official correct answer. The option texts are clean and the correct answer is cleanly selectable, so this is a mis-keyed answer, not corrupted options.",
+          "pdrClause": "ПДР України п. 20.5: рух через залізничний переїзд забороняється, якщо: (в) увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума (а також (б) шлагбаум опущений або почав опускатися).",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР text, п. 20.5(в): \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (п. 20.5 full clause text, confirms same conditions); https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (hosts this exact exam question; the correct answer is \"Зупинитися в передбаченому місці, ... проїзд через переїзд заборонений\").",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "reasoning": "Question (key 20:9): at a railway crossing the light and sound signalization have activated but the barriers have NOT yet begun lowering — what must the driver do? Our DB currently marks option index 2 \"Зупинитися, тільки якщо шлагбауми почали опускатися\" (stop ONLY if barriers started lowering) as correct=true. This is wrong and directly contradicts the official ПДР.\n\nI independently verified the official rule: ПДР України п. 20.5 lists conditions under which movement through a crossing is prohibited, including sub-point (в): \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.\" I confirmed this verbatim from TWO authoritative ПДР sources: the official pdr.infotech.gov.ua (which enumerates 20.5 а/б/в/г/ґ, with (в) exactly as above) and vodiy.ua (which quotes the same clause and explicitly states the driver must stop when the prohibitive light/sound signal is on REGARDLESS of barrier position, even if the barrier is raised). Therefore passage is banned the instant the light+sound signalization activates — the driver must NOT wait for the barriers to begin lowering. The DB-marked option (stop only if barriers lowering) is the inverse of the rule and is mis-keyed.\n\nI also located the exact exam question externally: green-way.com.ua hosts it as question #898 (URL slug = the verbatim question text \"...увімкнулася світлова та звукова сигналізація, а шлагбауми ще не почали опускатися?\"). A targeted search surfaced its official correct answer as \"Зупинитися в передбаченому місці, ... проїзд через переїзд заборонений\" — which matches our DB option index 1 exactly. The options are clean and the correct answer is cleanly selectable, so this is a mis-keyed answer, not corrupted options.\n\nConclusion: the proposed correct answer \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" is authoritatively correct and differs from our current mark. Confirm the change.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official ПДР; п. 20.5(в) verbatim: \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\" — confirmed via WebFetch enumerating 20.5 а/б/в/г/ґ); https://vodiy.ua/pdr/20/ (authoritative ПДР; confirmed same 20.5(в) clause text and that the driver must stop regardless of barrier position); https://green-way.com.ua/uk/test-pdd/question/23/898 (hosts this EXACT exam question, slug matches verbatim question text); search confirmed its official correct answer is \"Зупинитися в передбаченому місці, ... проїзд через переїзд заборонений.\" File: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [27]."
+        }
+      },
+      {
+        "determine": {
+          "key": "20:9",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "correctOptionIndex": 1,
+          "reasoning": "The question asks how to act when light and sound signals have activated at a railway crossing but the barriers have not yet begun to lower. The currently-marked answer (index 2, \"Зупинитися, тільки якщо шлагбауми почали опускатися.\") is wrong: ПДР prohibits movement through a crossing whenever a prohibitory traffic-light or sound signal is on, REGARDLESS of barrier presence or position — so the driver must stop the moment the signals come on, before any barrier lowers. WebSearch on the verbatim question text returned the official answer from green-way.com.ua: \"Зупинитися в передбаченому місці, так як проїзд через переїзд заборонений.\" This matches our option index 1 verbatim (\"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\"). The option texts are clean and unambiguous; only the wrong option is flagged as correct. The genConcern's reasoning is independently corroborated.",
+          "pdrClause": "ПДР України розділ 20, п. 20.4 (в деяких редакціях 20.5): \"Рух транспортних засобів через залізничний переїзд забороняється, коли ... увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума.\" Отже, за увімкнення світлової та звукової сигналізації водій зобов'язаний зупинитися ще до початку опускання шлагбаумів.",
+          "webConfirmed": true,
+          "sources": "https://green-way.com.ua/uk/test-pdd/twenty-questions/898 (exact-question test page; search snippet gave official answer \"Зупинитися в передбаченому місці, так як проїзд через переїзд заборонений\"); https://pdr.infotech.gov.ua/theory/rules/20 (official government ПДР text, розділ 20, confirming prohibition \"незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (Theme 20 reference); cross-corroborated by WebSearch results for the verbatim question text.",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "20:9",
+          "decision": "confirm_change",
+          "correctOptionText": "Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.",
+          "reasoning": "Element [28] of keyconflict_candidates.json is question 20:9: \"Як ви повинні вчинити в цій ситуації, коли на залізничному переїзді увімкнулися світлова та звукова сигналізації, а шлагбауми ще не почали опускатися?\" Our DB currently marks option index 2 (\"Зупинитися, тільки якщо шлагбауми почали опускатися.\" — stop only if the barriers have started lowering) as correct=true. That is wrong: ПДР України розділ 20, п. 20.5(в) prohibits movement through a crossing \"коли увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\" — i.e. the driver must stop the instant the prohibitory light/sound signals activate, REGARDLESS of whether the barriers have begun to lower. So the marked answer's barrier condition is incorrect; the two \"drive through\" options are likewise prohibited. The proposed correct option (index 1) \"Зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений.\" is the right answer. My own independent WebSearch on the verbatim question text returned the official answer verbatim (\"зупинитися в передбаченому місці, оскільки проїзд через переїзд за цих умов заборонений / так як проїзд через переїзд заборонений\"), and the official government ПДР text (pdr.infotech.gov.ua/theory/rules/20) directly confirms clause 20.5(в). The proposed answer is authoritatively correct AND differs from our current mark (index 2 → index 1). Decision: confirm_change.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/theory/rules/20 (official government ПДР text — clause 20.5(в): рух через переїзд забороняється коли \"увімкнено заборонний сигнал світлофора чи звуковий сигнал незалежно від наявності та положення шлагбаума\"); https://vodiy.ua/pdr/20/ (Theme 20 reference, same clause); https://green-way.com.ua/uk/dovidniki/pdr/rozdil-20 (розділ 20 reference); WebSearch on the verbatim question text returned the official answer matching proposed option index 1 verbatim (\"зупинитися в передбаченому місці, оскільки/так як проїзд через переїзд за цих умов заборонений\"). Source file: /Users/clpc/drivers-school/.content-import/expl_audit/keyconflict_candidates.json element [28]."
+        }
+      },
+      {
+        "determine": {
+          "key": "40:19",
+          "verdict": "key_correct",
+          "correctOptionText": "Перед проїзною частиною чи тротуаром дати дорогу пішоходам і транспортним засобам, що рухаються по ній.",
+          "correctOptionIndex": 2,
+          "reasoning": "The question asks what a driver refueling a motorcycle and exiting onto the road from a gas station must do. Two authoritative Ukrainian driving-test sources confirm the marked answer. green-way.com.ua lists this as question 2239 (verbatim question text), and pomahach.com explicitly lays out the three options — option 1 being \"Перед проїзною частиною чи тротуаром дати дорогу пішоходам і транспортним засобам, що рухаються по ній\" — and marks it as the correct (green-highlighted) answer. The two competing options (yield only to cars+cyclists, or differentiate sidewalk vs roadway) wrongly narrow the set of road users to yield to. Our database has the correct option (index 2, the third option) marked correct=true, so the flag is a false alarm.",
+          "pdrClause": "ПДР України п. 10.4: \"Виїжджаючи на дорогу з житлової зони, дворів, місць стоянки, автозаправних станцій та інших прилеглих територій, водій повинен перед проїзною частиною чи тротуаром дати дорогу пішоходам і транспортним засобам, що рухаються по ній, а з'їжджаючи з дороги — велосипедистам і пішоходам, напрямок руху яких він перетинає.\" The driver must yield to ALL pedestrians and ALL vehicles moving on the road/sidewalk.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/2724-5072/vi-vodiy-zapravili-motocikl-palivom-i-viyizhdzhayuchi-na-dorogu/ (lists all 3 options and marks option 1 — \"дати дорогу пішоходам і транспортним засобам\" — as correct); https://green-way.com.ua/uk/test-pdd/twenty-questions/2239 (official test question 2239 with verbatim question text); ПДР України п. 10.4 (quoted via WebSearch of vodiy.ua / pdr.infotech.gov.ua corpus).",
+          "confidence": 0.97
+        },
+        "skeptic": null
+      }
+    ]
+  }
+}

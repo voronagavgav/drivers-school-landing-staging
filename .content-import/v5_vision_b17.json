@@ -1,0 +1,66 @@
+[
+  {
+    "section": "56",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_1_0.jpeg",
+    "confident": true,
+    "reason": "Shows orange truck with trailer on multi-lane road, left turn-signal lit, surrounding traffic — matches 'may the truck driver make the turn in this situation'."
+  },
+  {
+    "section": "56",
+    "qnum": 3,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Image is a gallery of six different trailer/semi-trailer types. Question asks which external lights must be switched on for a trailer — no lighting/illuminated-device scene depicted; content mismatch."
+  },
+  {
+    "section": "56",
+    "qnum": 5,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_5_0.jpeg",
+    "confident": true,
+    "reason": "Car towing a trailer near a 'Яблуневе/YABLUNEVE' settlement sign (within built-up area) — matches a max-speed-for-car-with-trailer question with a locality context."
+  },
+  {
+    "section": "56",
+    "qnum": 6,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_6_0.jpeg",
+    "confident": true,
+    "reason": "Car with trailer near 'Яблуневе/YABLUNEVE' settlement sign at an intersection — matches max-speed-for-vehicle-with-trailer in this case."
+  },
+  {
+    "section": "56",
+    "qnum": 7,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_7_0.jpeg",
+    "confident": true,
+    "reason": "White car towing a trailer with 'ЗА МЕЖАМИ НАСЕЛЕНОГО ПУНКТУ' (outside built-up area) text and a crossed-out Яблуневе sign — matches max-speed for the white car with trailer outside a locality."
+  },
+  {
+    "section": "56",
+    "qnum": 8,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_8_0.jpeg",
+    "confident": true,
+    "reason": "Truck-trailer approaching a bridge under a '10т' weight-limit sign, annotated '10 ТОНН' — matches 'is movement allowed if mass exceeds the norm'."
+  },
+  {
+    "section": "56",
+    "qnum": 9,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_9_0.jpeg",
+    "confident": true,
+    "reason": "Road train (truck with trailer) at an intersection with a '10т, 1км' weight-limit-ahead sign and a give-way/priority sign, annotated '15 ТОНН' — matches 'may the road-train driver continue straight ahead'."
+  },
+  {
+    "section": "56",
+    "qnum": 10,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/56_10_0.jpeg",
+    "confident": true,
+    "reason": "Several trucks/tractor at an intersection annotated '>3,5 ТОНН' — matches 'which of the truck drivers with permitted max mass violates the Rules'."
+  }
+]

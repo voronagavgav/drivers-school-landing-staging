@@ -1,0 +1,23 @@
+# wave19c-01 — captured reproduction output (static evidence for Goal criterion #4/#5)
+#
+# This is the verbatim stdout of `verify.sh`, which re-runs the FROZEN dial + point-p̃
+# reproduction through the REAL pure `poissonBinomialAtLeast` (lib/readiness-model.ts)
+# via a self-cleaning throwaway tsx script. Every `ok <label> got=X exp=X` line means the
+# real model reproduced the spec's scipy-1.18 frozen value to 6dp (tolerance 1e-6).
+# An evaluator can confirm criterion #4/#5 by READING this file — no need to run code.
+# Regenerate: `bash verify.sh > PREVERIFY-OUTPUT.txt 2>&1` (exit 0 == all 11 values match).
+#
+ok   indep weak got=0.003541 exp=0.003541
+ok   indep mid got=0.103036 exp=0.103036
+ok   indep strong got=0.827096 exp=0.827096
+ok   indep mixed got=0.317318 exp=0.317318
+ok   mean  weak got=0.001586 exp=0.001586
+ok   mean  mid got=0.022708 exp=0.022708
+ok   mean  strong got=0.196467 exp=0.196467
+ok   mean  mixed got=0.061504 exp=0.061504
+ok   point 0.6 got=0.569444 exp=0.569444
+ok   point 0.8 got=0.708333 exp=0.708333
+ok   point 0.95 got=0.812500 exp=0.812500
+nEff=2.272727
+REPRODUCTION OK
+PASS wave19c-01

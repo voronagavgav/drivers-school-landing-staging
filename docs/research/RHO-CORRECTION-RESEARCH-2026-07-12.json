@@ -1,0 +1,70 @@
+{
+  "question": "For an exam-readiness dial computing P(pass ≥18/20 MCQ) from per-item mastery estimates (FSRS retrievability per question, grouped in correlated within-topic blocks, ICC ρ≈0.3): what is the statistically correct way to make the dial HONEST (never over-state readiness, especially for weak students) given within-topic correlation? Compare: (a) draw-side beta-binomial variance inflation (we proved it RAISES P(pass) when the student's mean is below the threshold — wrong direction for weak students); (b) estimation-side corrections — effective sample size n_eff=n/(1+(n−1)ρ) shrinking per-item p estimates toward a conservative prior; (c) reporting a lower credible bound of P(pass) under the p-estimate posterior; (d) hierarchical/latent-ability (bifactor, Lord-Wingersky) approaches. Deliver: the recommended correction with exact formulas, its direction guarantees (proof sketch that it never raises a weak student's dial above the independence baseline), and 3–5 worked numeric examples with exact values computable by scipy — to be frozen as test oracles for implementation.",
+  "summary": "Draw-side beta-binomial variance inflation (option a) is provably the WRONG correction: positive within-topic correlation leaves the mean score at Np but fattens both tails, so for any student whose mean is below the 18/20 threshold it RAISES P(pass) — e.g., at n=20, ρ=0.3, per-item p=0.6, P(pass) jumps from 0.003611 (independence) to 0.214233 — and mean-preserving-spread theory gives no conservatism guarantee because the pass indicator 1{score≥18} is not concave. The honest correction acts on the ESTIMATION side: shrink each topic block's evidence to its effective sample size n_eff = n/(1+(n−1)ρ) (Kish/Rao-Scott design effect; n_eff = 2.273 for a 5-item topic at ρ=0.3), form a Jeffreys posterior Beta(p̂·n_eff+½, n_eff−p̂·n_eff+½) per topic, take a lower credible quantile clamped at p̂ (option b + c), and feed the corrected per-item p's through the exact Lord-Wingersky/Poisson-binomial recursion f_r(x)=q_r f_{r−1}(x)+p_r f_{r−1}(x−1). The direction guarantee is two monotonicities: the clamp forces every corrected p_i ≤ p̂_i, and the Poisson-binomial tail P(S≥k) is monotone nondecreasing in each p_i (standard coupling), so the dial can never exceed the independence baseline for ANY student; additionally, smaller n_eff monotonically widens the posterior and lowers the quantile (Dean-Pagano direction result), so more correlation always means a lower dial. The fully principled long-run route is option (d) — bifactor/testlet models via Lord-Wingersky 2.0/2.5, which handle within-topic dependence exactly and show that ignoring it inflates apparent precision (reliability 0.56 vs true 0.47) — but the b+c pipeline is the correct, simple, scipy-oracle-friendly implementation now. Five worked oracle sets were recomputed exactly with scipy 1.18 and are frozen in the findings.",
+  "findings": [
+    {
+      "claim": "Exact compute engine (independence baseline): the Poisson-binomial distribution and Lord's compound binomial are the same conditional-on-ability score distribution, computed exactly by the Lord-Wingersky recursion f_r(x|θ)=q_r·f_{r−1}(x|θ)+p_r·f_{r−1}(x−1|θ), f_r(0|θ)=f_{r−1}(0|θ)·q_r. This is exact under local independence (given θ, items independent with probabilities p_i) and is the correct machine for P(pass ≥ 18/20) from heterogeneous per-item FSRS retrievabilities. Merges claims [0][1][2][16].",
+      "confidence": "high",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5978503/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366368/"
+      ],
+      "evidence": "PMC5978503 (González, Wiberg & von Davier, APM 2016): 'the PB and the CB distributions lead to equivalent probabilities... one of the proposed algorithms to calculate the PB probabilities coincides exactly with the well-known Lord and Wingersky (LW) algorithm.' Verifier reproduced the recursion against brute-force 2^8 enumeration to machine precision (max err 5.55e-17). Re-verified here with scipy: recursion is monotone in each p_i (spot check passed).",
+      "vote": "3-0 on all four constituent claims"
+    },
+    {
+      "claim": "Option (a) — draw-side beta-binomial variance inflation — is anti-conservative for weak students and must be rejected. Positive within-block correlation leaves the mean exactly at Np (linearity of expectation; variance Np(1−p)[1+(N−1)ρ]) but fattens BOTH tails, so when the student's mean is below the pass threshold it strictly raises P(pass). Formal basis: mean-preserving increases in risk via single-crossing spreads raise every above-crossing exceedance probability, and the Rothschild-Stiglitz concave-utility equivalence shows MPIR gives conservatism guarantees ONLY for concave objectives — the step indicator 1{score≥18} is not concave, so 'add variance to be safe' fails categorically. Merges claims [3][4][5][14][15].",
+      "confidence": "high",
+      "sources": [
+        "https://nvlpubs.nist.gov/nistpubs/jres/124/jres.124.026.pdf",
+        "https://shs.hal.science/halshs-00212281/document"
+      ],
+      "evidence": "NIST J.Res. 124.026 (Zhang 2019): Var[Y]=Np(1−p){1+(N−1)r(2)}, means invariant across approximation orders, and 'when r(2) is positive, the tail probabilities... are larger than those with independent X.' Chateauneuf-Cohen-Meilijson (J. Math. Econ. 2004) for the MPIR/single-crossing/concave-utility theory. Recomputed exactly with scipy (n=20, k≥18, mean-matched beta-binomial a=p·s, b=(1−p)·s, s=(1−ρ)/ρ): p=0.5: 0.000201→0.123373 (613×); p=0.6: 0.003611→0.214233; p=0.75: 0.091260→0.430157; p=0.8: 0.206085→0.525649; p=0.85: 0.404896→0.632421; p=0.88: 0.563132→0.701330; p=0.899: 0.671220→0.746590; even ρ=0.01 at p=0.85: →0.423724. Every weak student's dial goes UP — the exact failure mode in the question.",
+      "vote": "3-0 on all five constituent claims"
+    },
+    {
+      "claim": "Option (b) — effective sample size n_eff = n/(1+(n−1)ρ) — is the statistically standard estimation-side correction with deep lineage: Kish design effect DEFF = 1+(c−1)ρ derives exactly from the exchangeable within-cluster correlation model; Rao-Scott (Biometrics 1992) grounds clustered-binary inference in it; the standard CI construction replaces n by n_eff and X by p̂·n_eff (without rounding) in any binomial interval (Wilson, Jeffreys, Clopper-Pearson); optimal minimum-variance weighting of clustered binary data weights each cluster by exactly n/{1+(n−1)ρ}, validating n_eff as the true information content of a correlated block. Magnitude intuition: a published beta-binomial design example needed n=208 clustered vs 107 independent observations (DEFF≈1.94). For a 5-item topic at ρ=0.3: n_eff = 5/2.2 = 2.272727. Merges claims [6][7][8][11][12][13].",
+      "confidence": "high",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1637980/",
+        "https://math.umd.edu/~slud/s770/SurveyConfidenceIntervals/JSSAM-2017-065-FINAL.pdf",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0895435606002484",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040008/"
+      ],
+      "evidence": "Rao-Scott abstract: 'based on the concepts of design effect and effective sample size widely used in sample surveys.' Franco-Little-Louis-Slud (JSSAM) eq. (9): n̂_eff = n/Deff = p̂(1−p̂)/Var(p̂), 'n is replaced by n̂_eff and X by p̂·n̂_eff without rounding'; eq. (15) derives Var ∝ [1+(c−1)ρ̂] under Corr(Y_i,Y_j)=ρ within cluster. PMC3040008 optimal-weight formula divides by E[N{1+(N−1)ρ}^{−1}]. All primary peer-reviewed sources, unanimous votes.",
+      "vote": "3-0 on all six constituent claims"
+    },
+    {
+      "claim": "Option (c) — lower credible bound — is necessary on top of (b), and shrinking n_eff has a guaranteed conservative direction: the JSSAM study shows ALL n_eff-substituted binomial CIs still UNDERCOVER when the design effect is naively estimated (a naive plug-in is not conservative enough; superpopulation-model estimation of n_eff restores calibration), and the Dean-Pagano result states explicitly that a smaller effective sample size yields wider intervals and higher coverage — a monotone direction guarantee: reducing n_eff can only lower the reported lower bound, never raise it. Merges claims [9][10].",
+      "confidence": "high",
+      "sources": [
+        "https://math.umd.edu/~slud/s770/SurveyConfidenceIntervals/JSSAM-2017-065-FINAL.pdf"
+      ],
+      "evidence": "Abstract: 'all intervals undercover when there is clustering and design effects are computed from a simple design-based estimator... Coverage can be better calibrated... by improving estimation of the effective sample size through superpopulation modeling.' Direction quote: 'This replacement yields a smaller ratio, smaller effective sample size, wider confidence intervals and higher coverage.' Since t_d > z for finite df, the (z/t_d)² factor shrinks n_eff monotonically as clustering grows. One 2-1 vote on the Dean-Pagano claim (verifier confirmed the quote verbatim and the algebra); the undercoverage claim was 3-0 with a minor enumeration slip (Wald vs Logit in the list of seven) that does not affect substance.",
+      "vote": "3-0 and 2-1"
+    },
+    {
+      "claim": "Option (d) — hierarchical/bifactor latent-ability modeling — is the exact, fully principled treatment of within-topic dependence: Lord-Wingersky 2.0 (Cai, Psychometrika 2015) and 2.5 (Huang & Cai, Psychometrika 2021) extend the recursion to bifactor/testlet/two-tier models via a two-stage scheme (accumulate within-cluster summed-score likelihoods over general+specific dimensions using the standard PB recursion, integrate out the specific dimension, treat clusters as polytomous items), with the marginal score distribution and the ability posterior obtained by quadrature. Ignoring the specific dimensions inflates apparent precision — marginal reliability 0.56 vs the correct 0.47, ~20% upward bias — which is the formal analogue of the dial overstating readiness under assumed independence. Rudner's classification-accuracy method (normal at θ̂ with SD = SE(θ̂), area between cuts) models uncertainty ONCE at the latent level rather than as independent per-item draws — the same structural insight: correlation lives in the ability estimate, not the draws. Merges claims [17][18][19][20][21][22][23].",
+      "confidence": "high",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366368/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8636413/",
+        "https://rdrr.io/cran/cacIRT/man/class.Rud.html"
+      ],
+      "evidence": "Cai 2015: 'conditional on the general dimension(s), the testlets or item clusters become the fungible units'; reliability 0.56 vs 0.47 ('almost 20% upward bias'). Huang & Cai 2021 Stage-I recursion verified verbatim (eq. 3) — conditional on (η, ξ_n) it IS the Poisson-binomial recursion; all correlation is carried by integrating latent dimensions. cacIRT docs: 'a normal distribution... mean at the ability estimate and standard deviation equal to the standard error.' All 3-0 votes, primary peer-reviewed sources (except cacIRT docs, which match Rudner's primary reports).",
+      "vote": "3-0 on all seven constituent claims"
+    },
+    {
+      "claim": "RECOMMENDED CORRECTION (synthesis) — exact formulas, direction guarantee, and frozen scipy oracles. Pipeline per topic block t of n_t items with block mean retrievability p̂_t: (1) n_eff,t = n_t/(1+(n_t−1)ρ); (2) Jeffreys pseudo-posterior Beta(p̂_t·n_eff,t + ½, (1−p̂_t)·n_eff,t + ½); (3) corrected p̃_t = min(p̂_t, Beta^{-1}(α; ·, ·)) with α ∈ [0.05, 0.2] (Šidák α = 1−γ^{1/T} for joint coverage γ over T topics; α=0.025996 for γ=0.9, T=4); (4) run the LW/PB recursion on the corrected per-item p's; dial = Σ_{x≥18} f_20(x). DIRECTION GUARANTEE (proof sketch): (i) the min-clamp forces p̃_i ≤ p̂_i for every item; (ii) P(S≥k) under the PB recursion is monotone nondecreasing in each p_i (couple U_i~Unif(0,1) per item; raising p_i can only turn 0s into 1s, so S is pointwise nondecreasing); therefore dial(p̃) ≤ dial(p̂) = independence baseline for EVERY student, weak included — draw-side inflation violates exactly this. (iii) Beta lower-α-quantile is monotone increasing in effective sample size, so more correlation (smaller n_eff) only lowers the dial (Dean-Pagano direction). FROZEN ORACLES (scipy 1.18, n=20 = 4 topics × 5 items, k≥18, ρ=0.3, n_eff=2.272727/topic, α=0.2): weak p̂=(.55,.60,.65,.60): indep 0.003541 → b-only(posterior mean) 0.001586 → b+c(q20) ≈ 0.000000; mid (.75,.80,.70,.78): 0.103036 → 0.022708 → 0.000078; strong (.92,.95,.90,.94): 0.827096 → 0.196467 → 0.009722; mixed (.95,.95,.55,.90): 0.317318 → 0.061504 → 0.000722. Corrected q20 topic-p values e.g. p̂=.60→0.339343, .80→0.511245, .95→0.665395; posterior-mean values p̃=(p̂·n_eff+0.5)/(n_eff+1) e.g. .60→0.569444, .80→0.708333, .95→0.8125. Plus the option-(a) rejection oracles listed in finding 2 (e.g. p=0.6: 0.003611 indep vs 0.214233 beta-binomial ρ=0.3). All values recomputed in this session and safe to freeze as tests.",
+      "confidence": "high",
+      "sources": [
+        "scipy 1.18 direct computation (oracle.py/oracle2.py in session scratchpad)",
+        "https://math.umd.edu/~slud/s770/SurveyConfidenceIntervals/JSSAM-2017-065-FINAL.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5978503/",
+        "https://nvlpubs.nist.gov/nistpubs/jres/124/jres.124.026.pdf"
+      ],
+      "evidence": "Every number above was computed exactly in this session (Poisson-binomial recursion cross-validated to 5.55e-17 by the verifier; beta-binomial tails via exact pmf; Beta quantiles via scipy.stats.beta.ppf). Monotonicity spot-check passed (raising one p_i from 0.75→0.9 raised the tail). The oracle scripts use only scipy.stats.binom/beta and an 8-line recursion — trivially reproducible in the implementation's test suite.",
+      "vote": "synthesis of unanimous findings + direct computation"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Heavy / regenerable raw artifacts — not committed.
+.venv/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+polotno.txt
+questions_pymupdf.json
+__pycache__/
+# Committed (reproducible pipeline + validated data):
+#   *.py, PROGRESS.md, import_plan.json, answers_by_section.json,
+#   image_map.json, questions.json, ans_page_*.json
+
+# workflow agent scratch
+_*.py
+_*.json

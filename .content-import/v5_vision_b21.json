@@ -1,0 +1,10 @@
+[
+  {"section":"11","qnum":5,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a plain numeric answer-key table (Розділ/Питання/Відповідь grids), not a road sign or scene image; nothing depicts the required content."},
+  {"section":"12","qnum":25,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"12","qnum":27,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"13","qnum":5,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"14","qnum":23,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"14","qnum":24,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"14","qnum":35,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."},
+  {"section":"14","qnum":39,"keep":false,"correctImagePath":null,"confident":true,"reason":"akey-002.jpg is a numeric answer-key table with no pictorial sign/scene content; no match."}
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 265,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_265_0.png",
+    "confident": true,
+    "reason": "Single road sign: red car with an explosion symbol inside a red-bordered circle (no entry for vehicles carrying dangerous/explosive goods). Matches a 'depicted road sign' question."
+  },
+  {
+    "section": "33",
+    "qnum": 268,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_268_0.png",
+    "confident": true,
+    "reason": "Single road sign: red-bordered circle with '2,7 М' and width arrows (width-limit prohibition sign). Clear single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 272,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_272_0.png is a strip of THREE different prohibition signs (no right turn, no left turn, no U-turn) i.e. an answer-options grid, not a single 'depicted road sign'. Fallback 33_271_0.png is a driving scene, not a sign. Neither cleanly depicts one sign."
+  },
+  {
+    "section": "33",
+    "qnum": 273,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_273_0.png",
+    "confident": true,
+    "reason": "Single road sign: two cars (left one red) in a red-bordered circle (no overtaking). Clear single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 277,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_277_0.png",
+    "confident": true,
+    "reason": "Single road sign: red-bordered circle with '50' (speed-limit sign). Clear single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 280,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_280_0.png",
+    "confident": true,
+    "reason": "Single road sign: rectangular plate 'ЗОНА' over a red-bordered '50' circle (speed-limit zone sign). Clear single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 282,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Primary image 33_282_0.png does not exist on disk. Fallback 33_281_0.png is a 5-sign answer-options strip (numbered 1-5: end-of-overtaking/zone-end signs), not a single depicted road sign. No clean single-sign image available."
+  },
+  {
+    "section": "33",
+    "qnum": 284,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_284_0.png",
+    "confident": true,
+    "reason": "Single road sign: red truck and a black car in a red-bordered circle (no overtaking by trucks). Clear single depicted sign."
+  }
+]

@@ -1,0 +1,4 @@
+# scratch + intermediate (keep the provenance JSON + extract_sample.mjs)
+_*
+*.log
+chunk_*.json

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "16.2",
+    "qnum": 50,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan (Питання/Відповідь grids for Розділ 15-17), not a road sign or driving scene. Does not depict any sign/scene a question requires."
+  },
+  {
+    "section": "16.2",
+    "qnum": 54,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  },
+  {
+    "section": "16.2",
+    "qnum": 56,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  },
+  {
+    "section": "16.2",
+    "qnum": 78,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  },
+  {
+    "section": "17",
+    "qnum": 8,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  },
+  {
+    "section": "17",
+    "qnum": 10,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-003.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  },
+  {
+    "section": "19",
+    "qnum": 10,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-004.jpg is an answer-key table scan (Питання/Відповідь grids for Розділ 18-31), not a road sign or driving scene."
+  },
+  {
+    "section": "19",
+    "qnum": 11,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-004.jpg is an answer-key table scan, not an illustrative road-sign/scene image."
+  }
+]

@@ -1,0 +1,4 @@
+# exploration renders are ephemeral (links in style_links*.txt). Keep only the locked exemplars.
+*.png
+!proof_scenario.png
+!proof_hero.png

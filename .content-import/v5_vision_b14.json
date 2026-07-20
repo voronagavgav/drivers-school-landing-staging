@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 344,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_344_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue circular mandatory sign showing a tire with snow chains (snow chains compulsory). A legible road sign matching the generic 'depicted road sign' prompt."
+  },
+  {
+    "section": "33",
+    "qnum": 345,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue circular sign depicting a car and a bicycle (motor-vehicle/bicycle lane sign). A legible road sign matching the generic prompt."
+  },
+  {
+    "section": "33",
+    "qnum": 346,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Primary image 33_346_0.png does not exist on disk. The only fallback (33_345_0.png) is question 345's car+bicycle sign, which is the wrong content for question 346. No correct image available."
+  },
+  {
+    "section": "33",
+    "qnum": 347,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_347_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue lane-direction information sign with per-lane speed limits (90 and 50 in circles, up arrows). A legible road sign matching the generic prompt."
+  },
+  {
+    "section": "33",
+    "qnum": 350,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_350_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue square information sign showing an anchor (watercraft/mooring area). A legible road sign matching the generic prompt."
+  },
+  {
+    "section": "33",
+    "qnum": 353,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_353_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue rectangular sign with a bicycle and down arrow on the left lane plus an up arrow on the right (lane-direction/bicycle sign). A legible road sign matching the generic prompt."
+  },
+  {
+    "section": "33",
+    "qnum": 356,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_356_0.png",
+    "confident": true,
+    "reason": "Primary image is a clear blue rectangular sign with a bicycle and a left arrow over a right arrow (direction of bicycle traffic). A legible road sign matching the generic prompt."
+  },
+  {
+    "section": "52",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_1_0.jpeg",
+    "confident": true,
+    "reason": "Question asks what two road signs have in common. 52_1_0.jpeg shows exactly two prohibition signs (3.1 no-traffic white-circle and 3.21 red no-entry) — both red-bordered prohibitory signs, matching the prompt. The other candidate (52_1_1.jpeg) is a photo of a minibus, not signs."
+  }
+]

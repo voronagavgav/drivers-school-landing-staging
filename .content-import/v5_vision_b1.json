@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 17,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_17_0.png",
+    "confident": true,
+    "reason": "Clean single blue circular sign depicting a car (Дорога для автомобілів / motor-vehicle road) — a valid single depicted road sign."
+  },
+  {
+    "section": "33",
+    "qnum": 19,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_19_0.png",
+    "confident": true,
+    "reason": "Clean single blue circular sign with a bicycle (Доріжка для велосипедистів / cycle path) — a valid single depicted road sign; fallback 33_18_0 is a driving scene, not a sign."
+  },
+  {
+    "section": "33",
+    "qnum": 22,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_22_0.png",
+    "confident": true,
+    "reason": "Clean single blue square sign with white up-arrow and red diagonal slash (end of one-way / priority road) — a valid single depicted road sign; fallback 33_21_0 missing."
+  },
+  {
+    "section": "33",
+    "qnum": 23,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_23_0.png",
+    "confident": true,
+    "reason": "Clean single blue square sign with a vertical double-headed arrow (two-way traffic / Двосторонній рух) — a valid single depicted road sign."
+  },
+  {
+    "section": "33",
+    "qnum": 26,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_26_0 is a panel of 5 numbered answer-option signs, not a single depicted sign; fallback 33_25_0 does not exist. No valid question image."
+  },
+  {
+    "section": "33",
+    "qnum": 27,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_27_0.png",
+    "confident": true,
+    "reason": "Clean single blue rectangular lane-direction sign (arrows over lanes incl. a bus lane) — a valid single depicted road sign; fallback 33_26_0 is a 5-option panel."
+  },
+  {
+    "section": "33",
+    "qnum": 28,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_28_0 is a panel of 3 numbered answer-option signs, not a single depicted sign. Fallback 33_27_0 is a real single sign but it belongs to question 27, so using it here would be wrong content."
+  },
+  {
+    "section": "33",
+    "qnum": 29,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_29_0.png",
+    "confident": true,
+    "reason": "Clean single blue rectangular sign with a straight up-arrow and dashed lane markings (lane/number-of-lanes sign) — a valid single depicted road sign; fallback 33_28_0 is a 3-option panel."
+  }
+]

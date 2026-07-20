@@ -1,0 +1,36 @@
+wave19d-09 PRE-VERIFICATION — captured verbatim stdout of the REAL recomputeReadiness
+(release model "lm-gh1") against the freshly-seeded dev.db. STATIC EVIDENCE — READ, do not run.
+
+Command: npx tsx --conditions=react-server preverify-19d09.ts   (script removed after capture)
+NOW = 2026-07-12T12:00:00.000Z ; both populations seeded with reps:1 across the 4 blueprint blocks
+(structure 4 · safety 4 · medical 2 · pdr 10 = 20 = READINESS_MIN_SEEN).
+
+These are the LITERALS frozen into lib/server/readiness-estimation.integration.test.ts. They come from
+the real production `recomputeReadiness` path. The never-above-independence direction (dialPercent ≤
+dialIndep) binds on BOTH: weak 0 ≤ 0 (unseen-prior floor), strong 85 ≤ 95 (mixture strictly below the
+independence baseline).
+
+Fixtures: weak = stability 0.05 / age 365d (R≈0) ; strong = stability 30 / age 10d (R≈0.9).
+
+----------------------------------------------------------------------------------------------------
+avail: { structure: 50, safety: 177, medical: 59, pdr: 1471 }
+
+=== weak ===
+dialPercent: 0
+passProbability: 2.1878446831991027e-9
+dialIndep: 0
+sufficientData: true seenCount: 20
+model: lm-gh1 sigma: 0.9411342775092676 nodeCount: 20
+blocks: [{"quota":4,"meanProb":0.25444593887303657},{"quota":4,"meanProb":0.25444593887303657},{"quota":2,"meanProb":0.25444593887303657},{"quota":10,"meanProb":0.2544459388730366}]
+blockStats: [{"nSeen":4,"C":0.2544},{"nSeen":4,"C":0.2544},{"nSeen":2,"C":0.2544},{"nSeen":10,"C":0.2544}]
+rhoEst: 0.3 tier: off nEff: [2.1053,2.1053,1.5385,2.7027]
+
+=== strong ===
+dialPercent: 85
+passProbability: 0.8454244497929322
+dialIndep: 95
+sufficientData: true seenCount: 20
+model: lm-gh1 sigma: 0.9411342775092676 nodeCount: 20
+blocks: [{"quota":4,"meanProb":0.9573357955610086},{"quota":4,"meanProb":0.9573357955610086},{"quota":2,"meanProb":0.9573357955610086},{"quota":10,"meanProb":0.9573357955610085}]
+blockStats: [{"nSeen":4,"C":0.5},{"nSeen":4,"C":0.5},{"nSeen":2,"C":0.5},{"nSeen":10,"C":0.5}]
+rhoEst: 0.3 tier: off nEff: [2.1053,2.1053,1.5385,2.7027]

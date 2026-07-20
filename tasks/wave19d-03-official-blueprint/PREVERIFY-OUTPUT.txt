@@ -1,0 +1,49 @@
+wave19d-03-official-blueprint — STATIC EVIDENCE (read, do NOT run)
+=================================================================
+Captured 2026-07-13 on ClPcs-Mac-mini. These are the verbatim results of the
+runnable Goal criteria (typecheck / purity / test-pass counts) that a static
+read-only judge cannot execute. Read this file to confirm those criteria; the
+structural criteria (blueprint shape, block keys, sections) are confirmed by
+reading lib/exam-blueprint.ts directly per the ## Acceptance table in journal.md.
+
+--- Criterion 6a: purity grep on lib/exam-blueprint.ts (expect NO matches) ------
+$ grep -nE 'server-only|@/lib/db|@prisma/client|lib/generated|Math\.random|Date\.now|new Date' lib/exam-blueprint.ts
+CLEAN: no purity tokens
+
+--- Criterion 6b: typecheck (expect exit 0) -------------------------------------
+$ npm run -s typecheck        # bare tsc --noEmit
+typecheck exit: 0
+
+--- Criteria 3/4/5 + composer/apportionment: the affected pure test files -------
+$ npx vitest run lib/exam-blueprint.test.ts lib/test-engine/blueprint-selection.test.ts lib/test-engine/diagnostic.test.ts --reporter=verbose
+ ✓ lib/test-engine/diagnostic.test.ts > V1: ample pool ⇒ EXACT per-block picks 3·3·2·7 (sum 15)
+ ✓ lib/test-engine/diagnostic.test.ts > V2: medical has only 1 candidate ⇒ deficit seat cycles to structure (4·3·1·7)
+ ✓ lib/test-engine/diagnostic.test.ts > V3..V6 (thin pool / determinism / ordering / sanity)
+ ✓ lib/exam-blueprint.test.ts > groupCandidatesByBlock buckets each candidate by its section, remainder-catching the rest
+ ✓ lib/exam-blueprint.test.ts > has exactly the four official strata (structure/safety/medical/pdr) with fixed counts
+ ✓ lib/exam-blueprint.test.ts > resolves the quota the server uses: {structure:4, safety:4, medical:2, pdr:10}
+ ✓ lib/exam-blueprint.test.ts > claimedSections is exactly the three non-remainder strata; no ПДР-core section claimed
+ ✓ lib/test-engine/blueprint-selection.test.ts > honours the fixed official quotas (4/4/2); pdr fills the remainder to 10
+ ✓ lib/test-engine/blueprint-selection.test.ts > (24 more: full pools / degradation / dedup / generic blueprint)
+
+ Test Files  3 passed (3)
+      Tests  26 passed (26)
+
+--- Criterion 6c: full pure unit set (expect all pass, no fail) -----------------
+$ npm run -s test
+ Test Files  67 passed (67)
+      Tests  711 passed | 13 skipped (724)
+
+--- Collection: exam-blueprint.test.ts IS collected (verify.sh gate) ------------
+$ npx vitest list | grep exam-blueprint.test
+lib/exam-blueprint.test.ts > ...   (collected; 6 cases listed)
+
+--- Overall: verify.sh green -----------------------------------------------------
+PASS: wave19d-03
+
+NO SELF-REFERENTIAL-ORACLE TRAP: expected values are the OFFICIAL ГСЦ МВС strata
+(structure 4 · safety 4 · medical 2 · pdr 10, sum 20) fixed by the external spec
+in tasks/wave19d-01-topic-stratum-mapping/FINDINGS.md; the diagnostic/composer
+per-block vectors (3·3·2·7, 4·3·1·7, 4/4/2/10) are re-derived from the documented
+largest-remainder apportionment ALGORITHM applied to those nominals, NOT read back
+from the implementation under test.

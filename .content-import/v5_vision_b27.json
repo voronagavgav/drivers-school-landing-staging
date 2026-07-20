@@ -1,0 +1,18 @@
+[
+  {
+    "section": "61",
+    "qnum": 7,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-010.jpg is a scanned answer-key table (rows of 'Питання'/'Відповідь' across розділ 54-63 with a signature block from Павло СФІМЕНКО), not a road sign or scene. The question is about how many fire extinguishers a tram must carry and where to secure them; no matching image is present."
+  },
+  {
+    "section": "63",
+    "qnum": 9,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-010.jpg is the same scanned answer-key table, not a road sign or scene. Question text is empty so nothing to match, and the image clearly does not depict any sign/scene."
+  }
+]

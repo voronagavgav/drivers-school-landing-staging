@@ -1,0 +1,18 @@
+{
+ "options": [
+  {
+   "n": 1,
+   "text": "Якщо        поряд    облаштовано велосипедну доріжку."
+  },
+  {
+   "n": 2,
+   "text": "Якщо проїзна частина звужена."
+  },
+  {
+   "n": 3,
+   "text": "Відповіді 1 і 2."
+  }
+ ],
+ "answer": 1,
+ "_note": "v12 verbatim exam-base: 3->1 (https://testpdr.online/test.php?test=all&q=122)"
+}

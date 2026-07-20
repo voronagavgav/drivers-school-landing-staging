@@ -1,0 +1,24 @@
+=== wave21-06 simulation direction gate — static pre-verify evidence ===
+(read, do not run; frozen from npx tsx probe-final.ts, seed 12345)
+
+FSRS sanity: new+Good -> S=2.306500 R@dueAt=0.900000 (==target 0.9 by construction)
+
+CALM pool=120: d0(unseen->0)=16  maxOldOneShot=25 (<=MAX 40)
+  d16 unseen=0 quota=33 maint=1 old=2
+  d17 unseen=0 quota=30 maint=1 old=2
+  d18 unseen=0 quota=28 maint=1 old=3
+  d19 unseen=0 quota=26 maint=1 old=2
+  d20 unseen=0 quota=22 maint=1 old=2
+  d21 unseen=0 quota=22 maint=1 old=2
+  d22 unseen=0 quota=20 maint=1 old=3
+  d23 unseen=0 quota=20 maint=1 old=3
+  d24 unseen=0 quota=19 maint=1 old=2
+  d25 unseen=0 quota=19 maint=1 old=3
+  d26 unseen=0 quota=18 maint=1 old=3
+  d27 unseen=0 quota=18 maint=1 old=5
+  d28 unseen=0 quota=21 maint=1 old=8
+  d29 unseen=0 quota=25 maint=1 old=13
+  d30 unseen=0 quota=26 maint=1 old=25
+
+HEAVY pool=320 (realistic, never caught up): lastDay unseen=76 due=27 OLD one-shot=103 (>>MAX 40, 2-3 digit) newQuota=40
+heavy exhausted? false

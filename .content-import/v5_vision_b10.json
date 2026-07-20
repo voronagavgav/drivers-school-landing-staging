@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 196,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_196_0.png",
+    "confident": true,
+    "reason": "Single 'Give way' (Дати дорогу) inverted red triangle sign; matches a 'the depicted sign applies:' question."
+  },
+  {
+    "section": "33",
+    "qnum": 201,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_201_0.png",
+    "confident": true,
+    "reason": "Single warning triangle with cattle silhouette (Перегін худоби / cattle crossing); clean single-sign image."
+  },
+  {
+    "section": "33",
+    "qnum": 202,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_202_0.png",
+    "confident": true,
+    "reason": "Single warning triangle with leaping deer (Дикі тварини / wild animals); clean single-sign image."
+  },
+  {
+    "section": "33",
+    "qnum": 203,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_203_0.png",
+    "confident": true,
+    "reason": "Single warning triangle with worker digging (Дорожні роботи / road works); clean single-sign image."
+  },
+  {
+    "section": "33",
+    "qnum": 205,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_205_0.png",
+    "confident": true,
+    "reason": "Single warning triangle with two cars in queue (Затор / traffic congestion); clean single-sign image."
+  },
+  {
+    "section": "33",
+    "qnum": 207,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_207_0.png",
+    "confident": true,
+    "reason": "Single warning triangle with exclamation mark (Інша небезпека / other dangers); clean single-sign image."
+  },
+  {
+    "section": "33",
+    "qnum": 261,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Primary image is a numbered montage of three different prohibitory signs (no right/left turn, no U-turn), not a single depicted sign; fallback is a driving scene with a no-U-turn plate. Neither is a clean single-sign image the 'depicted sign means:' question requires."
+  },
+  {
+    "section": "33",
+    "qnum": 264,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Primary image is a numbered montage of four different prohibitory signs (no cars, no tankers, no explosives, 7t limit), not a single depicted sign; fallback is a driving scene. Neither is a clean single-sign image the question requires."
+  }
+]

@@ -1,0 +1,424 @@
+[
+{
+"key": "51:12",
+"current": 1,
+"official": 4,
+"options": [
+"Обмежувати оглядовість водія, створювати шум, піднімати пил і забруднювати проїзну частину.",
+"Закривати зовнішні світлові прилади, світлоповертачі, номерні й розпізнавальні знаки.",
+"Мати характерний неприємний запах.",
+"Відповіді 1, 2.",
+"Відповіді 1, 2, 3."
+],
+"source": "https://api.testpdr.com/v1/questions",
+"note": "Official GSC backend (api.testpdr.com, API behind state pdr.infotech.gov.ua) question id 4202: option flagged correct:1 is 'Вiдповiдi 1, 2.' = our index 4. Explanation cites PDR 22.3 (list excludes 'unpleasant smell'), so option 3 / option 5 are distractors. Stored answer 1 is wrong; both options 1 and 2 are rule items so the answer must be the combined 'Вiдповiдi 1, 2.' Matches alt_read=4. AI summaries of green-way/pdr-online that claimed option 5 were hallucinated from JS-rendered pages."
+},
+{
+"key": "6:5",
+"current": 3,
+"official": 1,
+"options": [
+"Якщо        поряд    облаштовано велосипедну доріжку.",
+"Якщо проїзна частина звужена.",
+"Відповіді 1 і 2."
+],
+"source": "https://pdr.infotech.gov.ua/theory/rules/6",
+"note": "PDR clause 6.6 forbids cyclists on the carriageway only when a bicycle path is built nearby (=option 1). The rules contain NO 'narrowed carriageway' (звужена проїзна частина) prohibition, so option 2 and thus 'Відповіді 1 і 2' (our stored answer 3) are wrong. Official rule text + testpdr.online/manualov mirror both give option 1; the pomahach.com source claiming '1 і 2' is contradicted by the actual PDR text. Maps to our index 1; current_answer=3 is wrong."
+},
+{
+"key": "51:28",
+"current": 3,
+"official": 4,
+"options": [
+"Вантажних автомобілів, дозволена максимальна маса яких перевищує 3,5 т.",
+"Тракторів.",
+"Автобусів.",
+"Відповіді 1, 2 і 3.",
+"Відповіді 1 і 2."
+],
+"source": "https://green-way.com.ua/uk/test-pdd/twenty-questions/1027",
+"note": "ПДР 28.2(б): trucks >3.5t, tractors AND buses must use противідкотні упори on mountain roads/grades. Correct = 'Відповіді 1, 2 і 3' = our index 4 (matches alt_read). Stored answer 3 ('Автобусів.') is wrong."
+},
+{
+"key": "6:13",
+"current": 2,
+"official": 1,
+"options": [
+"Заборонено.",
+"Дозволено."
+],
+"source": "https://pomahach.com/question/3765-80799/chi-dozvoleno-velosipedistam-ruhatisya-avtomagistralyami-dorog/",
+"note": "Official PDR p.6.6 (pdr.infotech.gov.ua) prohibits cyclists on motorways/auto-roads and on the carriageway when a bicycle path is nearby. Question asks 'Чи дозволено...' -> answer NO -> option 1 'Заборонено.'. pomahach marks 'Заборонено.' correct (list-group-item-success). Stored current_answer=2 ('Дозволено.') is wrong; correct is option 1."
+},
+{
+"key": "51:25",
+"current": 1,
+"official": 2,
+"options": [
+"За наявності водійського стажу понад п'ять років.",
+"За наявності водійського посвідчення категорій «С і D».",
+"За наявності будь-якої із перерахованих вище умов."
+],
+"source": "https://testpdr.online/test.php?test=all&q=1693",
+"note": "Source (manualov/testpdr, options match ours verbatim) marks opt2 'категорій «С і D»' correct. Matches ПДР 21.10: >8 passengers (incl. cab) needs categories C and D. Opt1 '5 years experience' is wrong (rule is >3 years). Stored answer 1 is wrong; correct is 2."
+},
+{
+"key": "9:16",
+"current": 2,
+"official": 5,
+"options": [
+"Встановити знак аварійної зупинки або миготливий червоний ліхтар на відстані від транспортного засобу, встановленій Правилами дорожнього руху.",
+"Увімкнути габаритні ліхтарі разом з аварійною сигналізацією.",
+"Увімкнути аварійну сигналізацію.",
+"Відповіді 1 і 2.",
+"Відповіді 1 і 3."
+],
+"source": "https://pomahach.com/question/3685-19830/yak-vodiy-povinen-poznachiti-transportniy-zasib-pid-chas-vimushe/",
+"note": "Exact question; options match ours word-for-word. Source marks 'Відповіді 1 і 3' (opt 5) correct: ПДР requires hazard lights (opt 3) PLUS sign/red lamp (opt 1) in <100m limited-visibility. Stored answer 2 (parking lights) is wrong; correct=5 (=alt_read). Corroborated by two WebSearches and pdr.infotech.gov.ua ticket/4451."
+},
+{
+"key": "6:4",
+"current": 1,
+"official": 2,
+"options": [
+"Дозволено за відсутності велосипедної доріжки.",
+"Дозволено тільки дітям до 7 років на дитячих велосипедах під наглядом дорослих.",
+"Дозволено в будь-якому випадку."
+],
+"source": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/3990",
+"note": "Official ПДР base marks 'Дозволено тільки дітям до 7 років на дитячих велосипедах під наглядом дорослих' (our opt 2) correct; confirmed by pdrtest.com 6.4 and ПДР п.6.10. Our stored answer 1 ('за відсутності велосипедної доріжки') is wrong. One outlier source (pomahach.com) claimed opt2-by-its-order = absence-of-lane but its option ordering differs; ground truth (official rule + official base) settles it. Matches alt_read=2."
+},
+{
+"key": "51:18",
+"current": 2,
+"official": 3,
+"options": [
+"Негайно зупинити транспортний засіб і залишатися на місці пригоди.",
+"Увімкнути аварійну світлову сигналізацію та встановити знак аварійної зупинки.",
+"Виконати всі перелічені дії."
+],
+"source": "https://pomahach.com/question/2559-88846/scho-povinen-zrobiti-vodiy-transportnogo-zasobu-v-razi-dtp/",
+"note": "Official base: driver must BOTH stop+stay AND turn on hazards+set warning sign. Our opt1 (stop/stay) and opt2 (hazards+sign) are both required, so correct = opt3 'Виконати всі перелічені дії'. Confirmed by manualov/testpdr q1662, pomahach, green-way 6528 (all give 'Відповіді 2 і 3' / 'do all listed'). Stored answer 2 is wrong; should be 3."
+},
+{
+"key": "19:9",
+"current": 2,
+"official": 1,
+"options": [
+"Заборонено.",
+"Дозволено."
+],
+"source": "https://testpdr.online/test.php?test=all&q=740",
+"note": "PDR 19.5: in dark hours on unlit roads fog lights only WITH low/high beam, so driving on fog lights alone is Заборонено (our opt 1). Stored answer 2 (Дозволено) is wrong. Confirmed by pdr.infotech.gov.ua rule text + testpdr.online marking 'Заборонено' correct."
+},
+{
+"key": "51:14",
+"current": 3,
+"official": 2,
+"options": [
+"У бік заднього борту транспортного засобу.",
+"У бік переднього борту транспортного засобу.",
+"У бік лівого борту транспортного засобу.",
+"У бік правого борту транспортного засобу."
+],
+"source": "https://testpdr.online/test.php?test=all&q=1682",
+"note": "Braking shifts unsecured cargo forward by inertia -> correct is 'У бік переднього борту' = our option 2. Stored answer 3 (left) is wrong. Confirmed by testpdr.online (q1682) and WebSearch consensus."
+},
+{
+"key": "17:9",
+"current": 2,
+"official": 1,
+"options": [
+"Має право рухатися.",
+"Не має права рухатися."
+],
+"source": "https://testpdr.online/test.php?test=all&q=712",
+"note": "Question asks if a taxi may drive ON A ROAD that has a route-vehicle lane. Source marks option 1 'Має право рухатися' correct (84.8% respondents); ПДР explanation: on such a road taxis are explicitly exempted from the lane prohibition, so a taxi certainly may drive on the road. Our current_answer=2 ('Не має права рухатися') is wrong; correct = our index 1. Official infotech page (pdr.infotech.gov.ua/.../4653) has identical wording but did not expose the key in static HTML."
+},
+{
+"key": "14:34",
+"current": 2,
+"official": 3,
+"options": [
+"Рух по крайній лівій смузі з більш високою швидкістю, ніж швидкість руху в крайній правій смузі.",
+"Рух по правому узбіччі, оскільки швидкість руху транспортного засобу, який обганяють, менш ніж 30 км/год.",
+"Випередження одного або кількох транспортних засобів, пов'язане з виїздом на смугу зустрічного руху.",
+"Відповіді, зазначені в пунктах 1, 2."
+],
+"source": "https://testpdr.online/test.php?test=all&q=470",
+"note": "Official PDR definition of obhin: vyperedzhennia povyazane z vyizdom na smuhu zustrichnoho rukhu = our option 3. Source has identical question text and identical option wording/order, marks option 3 correct; corroborated by pdd.in.ua/exam/question-guest/181. Our stored answer 2 (rukh po pravomu uzbichchi) is wrong; alt_read 3 was correct."
+},
+{
+"key": "12:31",
+"current": 2,
+"official": 1,
+"options": [
+"При якій водій мав змогу зупинити транспортний засіб у межах видимості дороги.",
+"При якій гальмівний шлях дорівнює або не перевищує видимості в напрямку руху.",
+"При якій гальмівний шлях перевищує видимість за напрямком руху."
+],
+"source": "https://kodeksy.com.ua/pdr/12.2.htm",
+"note": "PDR rule 12.2 states verbatim: 'швидкість руху повинна бути такою, щоб водій мав змогу зупинити транспортний засіб у межах видимості дороги' = our option 1 word-for-word. The 'гальмівний шлях' (braking distance, excludes reaction time) options 2/3 are distractors not used by the regulation. Confirmed by vodiy.ua and pdr-online regulation text. Stored answer 2 is wrong; correct is 1 (matches alt_read). Note: some test mirrors (pdrtest/infotech AI-summary) disagreed, but the literal regulation 12.2 is the ground truth."
+},
+{
+"key": "19:16",
+"current": 3,
+"official": 2,
+"options": [
+"Задній протитуманний ліхтар та аварійна світлова сигналізація.",
+"Габаритні ліхтарі та аварійна світлова сигналізація.",
+"Аварійна світлова сигналізація."
+],
+"source": "https://testpdr.online/test.php?test=all&q=747",
+"note": "Correct = 'Габаритні ліхтарі та аварійна світлова сигналізація' (our opt 2). Confirmed by testpdr.online q747 and pdr.infotech.gov.ua ticket 5606; consistent with ПДР 19.1 (габаритні at night) + towing hazard-light rule. Stored answer 3 (hazard only) is wrong; alt_read=2 matches."
+},
+{
+"key": "9:26",
+"current": 1,
+"official": 2,
+"options": [
+"Витягнете праву руку вбік і зігнете під прямим кутом вгору.",
+"Витягнете ліву руку в бік або праву руку вбік і зігнете у лікті під прямим кутом вгору.",
+"Витягнете ліву руку і зігнете у лікті під прямим кутом вгору."
+],
+"source": "https://testpdr.online/test.php?test=all&q=253",
+"note": "Exact text-match source (manualov/testpdr q253) marks option 2 correct: 'Витягнете ліву руку в бік або праву руку вбік і зігнете у лікті під прямим кутом вгору.' Our options match verbatim; stored answer was 1 (right-arm-only) which is wrong. Confirmed by pdrtest.com 9.26 search snippets too."
+},
+{
+"key": "44:15",
+"current": 3,
+"official": 1,
+"options": [
+"Менше дев'яти.",
+"Більше сімнадцяти.",
+"Більше дев'яти."
+],
+"source": "https://zdai.online/explanations/yaku-maksymalnu-kilkist-pasazhyriv-maye-pravo-perevozyty-vodiy-z-katehoriyeyu-v",
+"note": "Category B = light vehicle with up to 9 seats incl. driver => max 8 passengers = 'Менше дев'яти'. Two text-matching sources (zdai.online, testpdr.online/manualov q1487) mark option 1 'Менше дев'яти' correct. Stored answer 3 ('Більше дев'яти') is wrong."
+},
+{
+"key": "14:37",
+"current": 3,
+"official": 2,
+"options": [
+"Дозволяється.",
+"Забороняється.",
+"Дозволяється тільки на регульованих залізничних переїздах."
+],
+"source": "https://pomahach.com/question/3444-39102/chi-dozvolyayetsya-obgin-na-zaliznichnih-pereyizdah/",
+"note": "Exact text match. Correct option is 'Забороняється.' = our index 2 (ПДР 14.6.b: overtaking forbidden at railway crossings & within 100m, unconditional). Stored answer 3 ('only at regulated crossings') is wrong; alt_read=2 matches."
+},
+{
+"key": "9:13",
+"current": 1,
+"official": 4,
+"options": [
+"Потрібно ввімкнути ближнє світло фар.",
+"Необхідно встановити ззаду на транспортному засобі знак аварійної зупинки.",
+"Необхідно встановити ззаду на транспортному засобі миготливий червоний ліхтар.",
+"Виконати вимогу, вказану у відповіді 2 або у відповіді 3.",
+"Виконати вимогу, вказану у відповідях 1 і 2."
+],
+"source": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4448",
+"note": "Official gov source: options match ours 1-5 in same order; correct = opt 4 'Виконати вимогу, вказану у відповіді 2 або у відповіді 3'. Stored current_answer=1 (ближнє світло) is wrong; matches alt_read=4. Corroborated by pdrtest.com/question/9.13 and two WebSearch summaries."
+},
+{
+"key": "51:17",
+"current": 2,
+"official": 1,
+"options": [
+"З'їхати на узбіччя й увімкнути аварійну сигналізацію.",
+"З'їхати на узбіччя та почати негайно міняти колесо.",
+"Не робити ніяких дій."
+],
+"source": "https://pdr-online.com.ua/testi/testi-po-temam/?theme=58",
+"note": "Exact wording match (pdr-online Q17 + testpdr.online): correct = 'З'їхати на узбіччя й увімкнути аварійну сигналізацію' = our index 1, not 2. alt_read confirms."
+},
+{
+"key": "20:11",
+"current": 1,
+"official": 4,
+"options": [
+"Коли є можливість, послати двох чоловік уздовж колій в обидва боки від переїзду не менш як на 1000 м (якщо одного, то в бік імовірної появи поїзда, а на одноколійних переїздах - у бік гіршої видимості залізничної колії), пояснивши їм правила подавання сигналу зупинки машиністу поїзда (локомотива, дрезини), що наближається.",
+"Залишатися біля транспортного засобу і, подаючи сигнали загальної тривоги, вживати всіх заходів для звільнення переїзду.",
+"У разі появи поїзда бігти йому назустріч, подаючи сигнал зупинки.",
+"Виконати все перераховане."
+],
+"source": "https://pomahach.com/question/3115-3286/yakih-zahodiv-povinen-vzhiti-vodiy-transportnogo-zasobu-v-razi/",
+"note": "Rule 20.4 lists all three measures (а,б,в) as required. Two sources (pomahach, driver-autoshkola.kyiv.ua) mark 'Виконати все перераховане' correct = our option 4. Stored answer 1 ('послати двох чоловік...') is wrong."
+},
+{
+"key": "14:36",
+"current": 2,
+"official": 1,
+"options": [
+"Перешкоджати обгону шляхом підвищення швидкості руху.",
+"Повертати праворуч або зупинятися."
+],
+"source": "https://testpdr.online/test.php?test=all&q=472",
+"note": "Official ПДР 14.3: driver being overtaken must not obstruct overtaking by increasing speed. Source marks option 1 ('Перешкоджати обгону шляхом підвищення швидкості руху') correct; exact 2-option text match. Our stored answer was 2 (wrong)."
+},
+{
+"key": "44:14",
+"current": 1,
+"official": 5,
+"options": [
+"Реєстраційний документ на транспортний засіб.",
+"Посвідчення водія на право керування транспортним засобом відповідної категорії і поліс (сертифікат) обов'язкового страхування цивільно-правової відповідальності власників наземних транспортних засобів (крім водіїв, які відповідно до законодавства звільняються від обов’язкового страхування цивільно-правової відповідальності власників наземних транспортних засобів на території України).",
+"Генеральна довіреність на транспортний засіб або тимчасовий реєстраційний талон.",
+"Усе перелічене вище.",
+"Відповіді 1 і 2."
+],
+"source": "https://pomahach.com/question/3891-21100/yaki-dokumenti-povinen-mati-pri-sobi-vodiy-mehanichnogo-transp/",
+"note": "Official ПДР: driver must carry registration doc (opt1) AND license+insurance (opt2). Correct = 'Відповіді 1 і 2' = our option 5 (matches alt_read). Stored answer 1 is wrong. Option wording matches exactly on pdr.infotech.gov.ua/ticket/4308; correct-answer marking confirmed by pomahach (green highlight)."
+},
+{
+"key": "17:7",
+"current": 3,
+"official": 1,
+"options": [
+"Зменшити швидкість, а в разі потреби зупинитися, щоб дати можливість маршрутному транспортному засобу розпочати рух.",
+"Обов’язково перестроїтись на ліву смугу.",
+"Проїхати повз автобус не зменшуючи швидкості, бо водій автобусу перед початком руху повинен надати дорогу."
+],
+"source": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4583",
+"note": "Official pdr.infotech.gov.ua and turbo-drive.od.ua both mark option 1 ('Зменшити швидкість, а в разі потреби зупинитися...') correct, per ПДР 17.4 (give way to route transport leaving a marked stop in a lay-by within a populated area). Our options match verbatim. Stored answer 3 is wrong; correct index = 1."
+},
+{
+"key": "15:67",
+"current": 4,
+"official": 3,
+"options": [
+"Виконати стоянку тільки за межами дороги.",
+"Виконати стоянку тільки на майданчиках для стоянки.",
+"Виконати стоянку тільки на майданчиках для стоянки або за межами дороги.",
+"Виконати стоянку на узбіччі, включивши тільки стоянкові ліхтарі."
+],
+"source": "https://pdr.infotech.gov.ua/theory/rules/15",
+"note": "PDR clause 15.11: 'У темну пору доби і в умовах недостатньої видимості стоянка поза населеними пунктами дозволяється лише на майданчиках для стоянки або за межами дороги' -> our option 3. Official test pdr.infotech.gov.ua/novi-testy-pdr/ticket/4627 lists identical option wordings. Current stored answer 4 (узбіччя + стоянкові ліхтарі) is exactly what the rule forbids."
+},
+{
+"key": "51:30",
+"current": 4,
+"official": 3,
+"options": [
+"Місткістю кузова транспортного засобу.",
+"Масою наявного вантажу.",
+"Технічною характеристикою транспортного засобу.",
+"Нормами, визначеними відповідними органами."
+],
+"source": "https://pdr.infotech.gov.ua/theory/rules/22",
+"note": "PDR rule 22.1: 'Маса вантажу... не повинні перевищувати величин, визначених технічною характеристикою даного транспортного засобу' -> option 3 'Технічною характеристикою транспортного засобу'. Confirmed by pdrtest.com/question/51.30 and green-way. Stored answer 4 ('Нормами, визначеними відповідними органами') is wrong; alt_read 3 is correct."
+},
+{
+"key": "9:35",
+"current": 1,
+"official": 3,
+"options": [
+"У населених пунктах, окрім випадків, коли без цього неможливо запобігти дорожньо-транспортній пригоді.",
+"Поза населеними пунктами, в місцях, де встановлений знак «Подавання звукового сигналу заборонено», крім випадків, коли без цього неможливо запобігти дорожньо-транспортній пригоді.",
+"Відповіді 1 і 2."
+],
+"source": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4468",
+"note": "Official infotech.gov.ua + testpdr.online both mark 'Відповіді 1 і 2' (our option 3) correct; options match our wording exactly. PDR 9.5: horn prohibited both in populated areas and at the 'no horn' sign. Stored answer 1 is wrong; should be 3."
+},
+{
+"key": "9:19",
+"current": 1,
+"official": 2,
+"options": [
+"Встановити знак аварійної зупинки по одну сторону від транспортного засобу, миготливий червоний ліхтар – по іншу сторону від транспортного засобу.",
+"Установити знак аварійної зупинки або миготливий червоний ліхтар з боку гіршої видимості для інших учасників дорожнього руху."
+],
+"source": "https://protocol.ua/ua/pdr_ukraini_9_11_poperedguvalni_signali/",
+"note": "Official PDR 9.11(b): 'треба встановити знак аварійної зупинки АБО миготливий червоний ліхтар ... з боку гіршої видимості для інших учасників дорожнього руху' (case 9.10b = обмежена оглядовість <100 м). This matches option 2 verbatim (sign OR lantern, on the worse-visibility side). Option 1 (sign on one side AND lantern on the other) contradicts the rule's either/or wording, so it is wrong. Confirmed via pdr.infotech.gov.ua rules/9 and vodiy/green-way test mirrors carrying the identical 2-option question. Current stored answer is 1 -> wrong; correct is 2."
+},
+{
+"key": "9:18",
+"current": 1,
+"official": 3,
+"options": [
+"Встановити знак аварійної зупинки.",
+"Встановити миготливий червоний ліхтар.",
+"Виконати одну з дій, указаних у відповідях 1 і 2."
+],
+"source": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4453",
+"note": "Official source (pdr.infotech.gov.ua) and multiple test bases (pdrtest.com 9.18, manualov, green-way) all give option 3 'Виконати одну з дій, указаних у відповідях 1 і 2'; option wordings match ours verbatim. Stored answer was 1 (wrong); matches alt_read=3."
+},
+{
+"key": "43:5",
+"current": 3,
+"official": 5,
+"options": [
+"Натиснути переднє і заднє гальмо.",
+"Повністю натиснути переднє гальмо, трохи пригальмовуючи заднім.",
+"Використовувати тільки заднє гальмо, не чіпаючи передній.",
+"Використовувати обидва гальма, як в суху погоду.",
+"Гальмувати, плавно і акуратно натискаючи переднє і заднє гальмо."
+],
+"source": "https://testpdr.online/test.php?test=rozdil&r=45",
+"note": "Two sources (testpdr.online, pdr-online.com.ua) list identical options in same order and mark option 5 'Гальмувати, плавно і акуратно натискаючи переднє і заднє гальмо.' correct. Stored answer 3 (only rear brake) is wrong; correct = 5 (matches alt_read)."
+},
+{
+"key": "51:27",
+"current": 2,
+"official": 3,
+"options": [
+"Користуватися гальмовою системою.",
+"Використовувати ввімкнення передачі.",
+"Користуватися противідкотними упорами."
+],
+"source": "https://green-way.com.ua/uk/dovidniki/pdr/rozdil-15",
+"note": "Official PDR clause 15.7: drivers of trucks >3.5t, tractors and buses must use anti-rollback chocks (противідкотні упори) when stopping/parking on mountain roads/ascents/descents. Matches our option 3. Stored answer 2 (ввімкнення передачі) is wrong."
+},
+{
+"key": "51:31",
+"current": 3,
+"official": 1,
+"options": [
+"Заборонене.",
+"Дозволене.",
+"Дозволене за маршрутом, узгодженим із відповідними органами."
+],
+"source": "https://pdr.infotech.gov.ua/theory/rules/22",
+"note": "ПДР 22.1: маса вантажу і розподіл навантаження на осі НЕ повинні перевищувати величин технічної характеристики ТЗ -> перевищення заборонене. Test bases (green-way #927, autoshkola §51) mark 'Заборонене' correct = our option 1. Stored answer 3 ('Дозволене за маршрутом...') is wrong."
+},
+{
+"key": "6:6",
+"current": 2,
+"official": 3,
+"options": [
+"На велосипеді несправні гальма і звуковий сигнал.",
+"Рухатися у темну пору доби та в умовах недостатньої видимості — з вимкненим ліхтарем (фарою) чи без світлоповертачів.",
+"Відповіді 1 і 2."
+],
+"source": "https://testpdr.online/test.php?test=all&q=123",
+"note": "Exact 3-option text match in same order; source marks option 3 'Відповіді 1 і 2' correct. ПДР §6.6 prohibits riding both with faulty brakes/horn AND at night/low-visibility without lamp/reflectors, so both 1 and 2 apply. Our stored answer=2 is wrong; correct=3 (matches alt_read)."
+},
+{
+"key": "19:12",
+"current": 3,
+"official": 2,
+"options": [
+"У темну пору доби на неосвітлених ділянках доріг.",
+"В умовах недостатньої видимості.",
+"У будь-яких умовах."
+],
+"source": "https://testpdr.online/test.php?test=all&q=743",
+"note": "Official ПДР 19.5: rear fog lamp allowed only 'В умовах недостатньої видимості' (option 2). Source options match ours verbatim; correct=option 2. Stored answer is 3 ('У будь-яких умовах') which is wrong. Cross-confirmed by pdrtest.com/question/19.12 and green-way.com.ua."
+},
+{
+"key": "42:17",
+"current": 1,
+"official": 5,
+"options": [
+"Посвідчення водія відповідної категорії, реєстраційний документ на транспортний засіб або пред’явити електронне посвідчення водія та електронне свідоцтво про реєстрацію транспортного засобу.",
+"Чинний страховий поліс (страховий сертифікат «Зелена картка») про укладання       договору     обов'язкового  страхування    цивільно-правової відповідальності власників наземних транспортних засобів або чинний внутрішній електронний договір зазначеного виду обов’язкового страхування у візуальній формі страхового поліса (на паперовому чи електронному носії або відображення інформації про його наявність в електронному свідоцтві про реєстрацію транспортного засобу).",
+"Дійсну медичну довідку встановленого зразка.",
+"Відповіді 1, 2 і 3.",
+"Відповіді, зазначені в пунктах 1 і 2."
+],
+"source": "https://testpdr.online/test.php?test=all&q=1435",
+"note": "Two text-matching sources (testpdr.online/manualov q1435, pomahach.com 2692-50336) mark correct = 'Відповіді 1 і 2' (license+registration AND insurance, NOT medical cert). Maps to our option 5. Stored answer 1 is wrong; matches alt_read=5."
+}
+]

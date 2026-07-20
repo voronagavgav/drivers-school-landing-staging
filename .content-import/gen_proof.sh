@@ -1,0 +1,9 @@
+#!/bin/zsh
+cd ~/drivers-school
+T="soft-touch matte finish, rounded chamfered edges, on a soft graduated neutral-gray seamless studio background (mid-gray fading to lighter gray, NO pure white, NO colored tint), elevated isometric high three-quarter aerial camera, near-orthographic, subject large and centered with calm negative space. Soft large key light from upper-left, low contrast, single gentle highlight and one soft contact shadow, no chrome no glare. Calm low-saturation palette on neutral slate-gray with sparing road-sign blue #1e5bbf, lane amber #f2b705 and signal green #1f9d55 accents, paper-white road markings, slate dark detail. Clean minimal geometry, premium toy-realistic, instantly readable like a diagram. No words or letters on signs. high detail, crisp, 1:1"
+: > .content-import/style_links_proof.txt
+node .content-import/gen_demo_image.mjs "Premium Apple-keynote 3D product render of a four-way road intersection with two small cars approaching (one from the left, one from the right), a traffic light showing amber, and two blank-faced round road signs on slim posts at the corners, simple clean road geometry with crosswalk, $T" proof_scenario max 2>&1 | tail -1
+url=$(curl -s --max-time 40 -F "reqtype=fileupload" -F "fileToUpload=@public/demo-images/proof_scenario.png" https://catbox.moe/user/api.php); echo "scenario -> $url" | tee -a .content-import/style_links_proof.txt
+node .content-import/gen_demo_image.mjs "Premium Apple-keynote 3D product render of a single small modern city car, soft slate-gray body with a thin road-sign-blue accent stripe, gentle three-quarter view, $T" proof_hero max 2>&1 | tail -1
+url=$(curl -s --max-time 40 -F "reqtype=fileupload" -F "fileToUpload=@public/demo-images/proof_hero.png" https://catbox.moe/user/api.php); echo "hero -> $url" | tee -a .content-import/style_links_proof.txt
+echo DONE

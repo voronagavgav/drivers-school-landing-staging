@@ -1,0 +1,5 @@
+car_hero -> https://files.catbox.moe/r2sogz.png
+intersection -> https://files.catbox.moe/uvn40r.png
+trafficlight -> https://files.catbox.moe/rttrq2.png
+diorama -> https://files.catbox.moe/m0wv6w.png
+car_neutral -> https://files.catbox.moe/y3a2fr.png

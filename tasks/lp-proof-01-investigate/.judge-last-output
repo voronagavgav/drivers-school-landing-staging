@@ -1,0 +1,18 @@
+/Users/clpc/mesa/bin/driver.sh: line 194: describe.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: it.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: ctx.skip: command not found
+All acceptance criteria are objectively met. I independently verified every factual claim in FINDINGS.md against the actual source — not the journal's self-report:
+
+**VERDICT: ACCEPT**
+
+Evidence checked directly against reality:
+
+- **(a) Markup** — `_body.tsx:760–779` proof band, `c.proof.stats.map` at 770–776; classes `proof-card/proof-top/proof-grid/proof-cell/proof-val/proof-lab/proof-sub` all present. CSS confirmed at 189–200 (`grid-template-columns:repeat(3,1fr)`, `.proof-cell + .proof-cell::before` divider, `.proof-val clamp(2rem,5vw,3rem)`) and responsive at 416–419. ✓
+- **(b) Copy key** — `copy.ts:69–77` matches the pasted block verbatim; constants `BANK_B_FMT="1 757"` (L21), `IMG_FMT="986"` (L23), `SECTIONS=45` (L24) all exact; `lead` present but genuinely unrendered by the markup. ✓
+- **(c) External consumers = NONE** — `grep "v36/copy"` returns nothing; only `app/lp/v36/copy.ts:69` is v36's proof key, consumed solely by `_body.tsx`. v6/v8 own separate copy.ts with different shapes. ✓
+- **(d) Guard scope** — `FUNNEL_FILES` array (L35–46) matches the pasted list verbatim; contains no `app/lp/**` file, so it's a global always-green check. ✓
+- **(e) Route** — `page.tsx` renders `<V36Body hero={<HeroProspekt />} navDark />`; path `/lp/v36`, public unauth. ✓
+- **(f) Browser convention** — `design-shots.sh` confirmed: `ORIGIN` default `100.110.64.90:3100`, `DRIVER_BROWSER_CMD`, `set viewport`→`sleep 0.4`→`eval 'window.innerWidth'`. ✓
+- **AC2** — `git status --porcelain -- app lib components scripts bin` is empty; only `tasks/` and `specs/` are untracked. No source touched. ✓
+
+Structural-trap check: this is an investigation-only task whose deliverable is a readable artifact with no test/oracle/fixture, so self-referential-test traps (a)–(e) are inapplicable by construction. `verify.sh` runs green (`OK lp-proof-01`) and every required anchor exists as substance, not a placeholder.

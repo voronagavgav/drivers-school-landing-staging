@@ -1,0 +1,132 @@
+static evidence — read, do not run
+wave21 study-plan honesty reference oracle — stdlib-only, network-free
+model sources: specs/wave21-plan-honesty.md · docs/research/PLAN-REVALIDATION-2026-07-14.md
+reference oracle — the TS impl MUST match this; never regenerate these values from TS.
+MAX_DAILY_QUOTA = 40; jsround(x) = floor(x + 0.5) (matches JS Math.round for x >= 0).
+
+# (a) quota/feasible/message-CLASS census — todayKey 2026-07-02
+ok (a).nodate.class got=NODATE exp=NODATE
+ok (a).nodate.quota got=15 exp=15
+ok (a).nodate.feasible got=True exp=True
+ok (a).nodate.daysLeft got=null exp=null
+   (a) nodate       class=NODATE          quota= 15 feasible=True daysLeft=null
+ok (a).pace.class got=PACE exp=PACE
+ok (a).pace.quota got=12 exp=12
+ok (a).pace.feasible got=True exp=True
+ok (a).pace.daysLeft got=10 exp=10
+   (a) pace         class=PACE            quota= 12 feasible=True daysLeft=10
+ok (a).priori.class got=PRIORITIZE exp=PRIORITIZE
+ok (a).priori.quota got=40 exp=40
+ok (a).priori.feasible got=False exp=False
+ok (a).priori.daysLeft got=2 exp=2
+   (a) priori       class=PRIORITIZE      quota= 40 feasible=False daysLeft=2
+ok (a).maint.class got=MAINT exp=MAINT
+ok (a).maint.quota got=8 exp=8
+ok (a).maint.feasible got=True exp=True
+ok (a).maint.daysLeft got=10 exp=10
+   (a) maint        class=MAINT           quota=  8 feasible=True daysLeft=10
+ok (a).explode.class got=MAINT exp=MAINT
+ok (a).explode.quota got=45 exp=45
+ok (a).explode.feasible got=True exp=True
+ok (a).explode.daysLeft got=3 exp=3
+   (a) explode      class=MAINT           quota= 45 feasible=True daysLeft=3
+ok (a).today_ok.class got=EXAM_TODAY_OK exp=EXAM_TODAY_OK
+ok (a).today_ok.quota got=10 exp=10
+ok (a).today_ok.feasible got=True exp=True
+ok (a).today_ok.daysLeft got=0 exp=0
+   (a) today_ok     class=EXAM_TODAY_OK   quota= 10 feasible=True daysLeft=0
+ok (a).today_over.class got=EXAM_TODAY_OVER exp=EXAM_TODAY_OVER
+ok (a).today_over.quota got=30 exp=30
+ok (a).today_over.feasible got=False exp=False
+ok (a).today_over.daysLeft got=0 exp=0
+   (a) today_over   class=EXAM_TODAY_OVER quota= 30 feasible=False daysLeft=0
+ok (a).today_clamp.class got=EXAM_TODAY_OVER exp=EXAM_TODAY_OVER
+ok (a).today_clamp.quota got=40 exp=40
+ok (a).today_clamp.feasible got=False exp=False
+ok (a).today_clamp.daysLeft got=0 exp=0
+   (a) today_clamp  class=EXAM_TODAY_OVER quota= 40 feasible=False daysLeft=0
+ok (a).fresh.class got=PACE exp=PACE
+ok (a).fresh.quota got=10 exp=10
+ok (a).fresh.feasible got=True exp=True
+ok (a).fresh.daysLeft got=10 exp=10
+   (a) fresh        class=PACE            quota= 10 feasible=True daysLeft=10
+ok (a).maint0.class got=MAINT exp=MAINT
+ok (a).maint0.quota got=0 exp=0
+ok (a).maint0.feasible got=True exp=True
+ok (a).maint0.daysLeft got=5 exp=5
+   (a) maint0       class=MAINT           quota=  0 feasible=True daysLeft=5
+   # documented, NOT asserted: explode OLD formula ceil((U+D)/daysLeft)=ceil((0+200)/3)=67 — old verdict infeasible (> 40); the pre-existing defect this wave fixes.
+ok (a).fresh.new_eq_old got=10 exp=10
+   # fresh-user anchor: new quota 10 == old ceil((100+0)/10) = 10 (identical to today)
+
+# (b) clamp property — displayed quota <= MAX_DAILY_QUOTA for unseen>0-infeasible & exam-today-overflow
+ok (b).clamp.priori<=max got=40 <= 40 exp=TRUE
+ok (b).clamp.today_over<=max got=30 <= 40 exp=TRUE
+ok (b).clamp.today_clamp<=max got=40 <= 40 exp=TRUE
+ok (b).clamp.max_over_infeasible got=40 exp=40
+   clamp.max_over_infeasible = 40 <= 40
+ok (b).maint_exempt.explode>max got=45 > 40 exp=TRUE
+   explode.quota = 45 > 40 (MAINT exempt — maintenance is a truthful flow, never clamped)
+
+# (c) monotonicity in daysLeft — fixed U=100, reviewLoad=2, G=15
+ok (c).monotone.base got=102 52 22 12 7 3 exp=102 52 22 12 7 3
+ok (c).monotone.displayed got=40 40 22 12 7 3 exp=40 40 22 12 7 3
+ok (c).base.strictly_decreasing[1] got=52 < 102 exp=TRUE
+ok (c).displayed.non_increasing[1] got=40 <= 40 exp=TRUE
+ok (c).base.strictly_decreasing[2] got=22 < 52 exp=TRUE
+ok (c).displayed.non_increasing[2] got=22 <= 40 exp=TRUE
+ok (c).base.strictly_decreasing[3] got=12 < 22 exp=TRUE
+ok (c).displayed.non_increasing[3] got=12 <= 22 exp=TRUE
+ok (c).base.strictly_decreasing[4] got=7 < 12 exp=TRUE
+ok (c).displayed.non_increasing[4] got=7 <= 12 exp=TRUE
+ok (c).base.strictly_decreasing[5] got=3 < 7 exp=TRUE
+ok (c).displayed.non_increasing[5] got=3 <= 7 exp=TRUE
+   monotone.base      = 102 52 22 12 7 3
+   monotone.displayed = 40 40 22 12 7 3
+
+# (d) reviewLoad estimator — sum of 1/max(1,S) (6dp) -> jsround -> cap at seen count
+ok (d).reviewload.sum[[1, 2, 4, 10]] got=1.850000 exp=1.850000 (6dp)
+ok (d).reviewload.value[[1, 2, 4, 10]] got=2 exp=2
+   (d) stab=[1, 2, 4, 10]        sum=1.850000 reviewLoad=2 (seen=4)
+ok (d).reviewload.sum[[0.5, 0.5, 0.5]] got=3.000000 exp=3.000000 (6dp)
+ok (d).reviewload.value[[0.5, 0.5, 0.5]] got=3 exp=3
+   (d) stab=[0.5, 0.5, 0.5]      sum=3.000000 reviewLoad=3 (seen=3)
+ok (d).reviewload.sum[[50, 50, 50]] got=0.060000 exp=0.060000 (6dp)
+ok (d).reviewload.value[[50, 50, 50]] got=0 exp=0
+   (d) stab=[50, 50, 50]         sum=0.060000 reviewLoad=0 (seen=3)
+ok (d).reviewload.sum[[1, 1, 1, 1, 1]] got=5.000000 exp=5.000000 (6dp)
+ok (d).reviewload.value[[1, 1, 1, 1, 1]] got=5 exp=5
+   (d) stab=[1, 1, 1, 1, 1]      sum=5.000000 reviewLoad=5 (seen=5)
+ok (d).reviewload.sum[[2, 3, 7, 20, 100]] got=1.036190 exp=1.036190 (6dp)
+ok (d).reviewload.value[[2, 3, 7, 20, 100]] got=1 exp=1
+   (d) stab=[2, 3, 7, 20, 100]   sum=1.036190 reviewLoad=1 (seen=5)
+ok (d).reviewload.sum[[0.1, 0.1]] got=2.000000 exp=2.000000 (6dp)
+ok (d).reviewload.value[[0.1, 0.1]] got=2 exp=2
+   (d) stab=[0.1, 0.1]           sum=2.000000 reviewLoad=2 (seen=2)
+
+# (e) boundary census — daysLeft {0,1}, unseen 0, dueCount 0, reviewLoad 0; NODATE regression pin
+ok (e).boundary.d0_all0.class got=EXAM_TODAY_OK exp=EXAM_TODAY_OK
+ok (e).boundary.d0_all0.quota got=0 exp=0
+   (e) daysLeft=0 U=0 D=0 reviewLoad=0 -> class=EXAM_TODAY_OK quota=0 feasible=True
+ok (e).boundary.d1_unseen0.class got=MAINT exp=MAINT
+ok (e).boundary.d1_unseen0.quota got=0 exp=0
+   (e) daysLeft=1 U=0 D=0 reviewLoad=0 -> class=MAINT quota=0 feasible=True
+ok (e).boundary.nodate_g5.class got=NODATE exp=NODATE
+ok (e).boundary.nodate_g5.quota got=5 exp=5
+ok (e).boundary.nodate_g5.feasible got=True exp=True
+ok (e).boundary.nodate_g5.daysLeft got=null exp=null
+   (e) NODATE defaultGoal= 5 -> quota=5 feasible=True daysLeft=null
+ok (e).boundary.nodate_g15.class got=NODATE exp=NODATE
+ok (e).boundary.nodate_g15.quota got=15 exp=15
+ok (e).boundary.nodate_g15.feasible got=True exp=True
+ok (e).boundary.nodate_g15.daysLeft got=null exp=null
+   (e) NODATE defaultGoal=15 -> quota=15 feasible=True daysLeft=null
+ok (e).boundary.nodate_g30.class got=NODATE exp=NODATE
+ok (e).boundary.nodate_g30.quota got=30 exp=30
+ok (e).boundary.nodate_g30.feasible got=True exp=True
+ok (e).boundary.nodate_g30.daysLeft got=null exp=null
+   (e) NODATE defaultGoal=30 -> quota=30 feasible=True daysLeft=null
+
+# SUMMARY
+checks: 86 passed, 0 failed, 86 total
+RESULT: ALL 86 CHECKS PASSED

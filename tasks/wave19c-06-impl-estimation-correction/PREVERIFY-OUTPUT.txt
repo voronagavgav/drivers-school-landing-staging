@@ -1,0 +1,57 @@
+STATIC EVIDENCE — READ, DO NOT RUN. Captured 2026-07-12 on ClPcs-Mac-mini.
+This file is the verbatim stdout of the executed numeric reproduction so the
+read-only evaluator can confirm the "npm test exits 0 / frozen assertions pass"
+Goal criteria by READING a produced file (it cannot run tests itself).
+
+============================================================================
+$ npx vitest run lib/readiness-estimation.oracle.test.ts --reporter=verbose
+============================================================================
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+ ✓ readiness-estimation ρ correction (frozen oracle, un-skipped in wave19c-06) > effectiveN — design-effect deflation n/(1+(n−1)ρ)
+ ✓ readiness-estimation ρ correction ... > jeffreysBetaParams — a = p̂·n_eff + ½, b = (1−p̂)·n_eff + ½
+ ✓ readiness-estimation ρ correction ... > tier MEAN posterior-mean shrinkage (n_eff = 5/2.2)
+ ✓ readiness-estimation ρ correction ... > tier QUANTILE (α=0.2) shrinkage — scipy-1.18 frozen
+ ✓ readiness-estimation ρ correction ... > tier off returns p̂ unchanged
+ ✓ readiness-estimation ρ correction ... > end-to-end dials — independence(off) baseline (== raw poissonBinomialAtLeast on p̂)
+ ✓ readiness-estimation ρ correction ... > end-to-end dials — tier MEAN
+ ✓ readiness-estimation ρ correction ... > end-to-end dials — tier QUANTILE (α=0.2)
+ ✓ readiness-estimation ρ correction ... > (i) min-clamp p̃ ≤ p̂ for BOTH tiers, all p̂ (binds for p̂ < ½)
+ ✓ readiness-estimation ρ correction ... > (ii) tier-MEAN dial ≤ independence(off) dial for EVERY student incl. weak
+ ✓ readiness-estimation ρ correction ... > (iii) monotone in ρ on the WEAK student — larger ρ ⇒ lower dial
+ ✓ readiness-estimation ρ correction ... > degenerate p̂ ∈ {0,1} and n_t=0 — finite, in [0,1], clamp holds
+ ✓ frozen oracle literals are self-consistent (no impl) > every tier-MEAN dial is strictly below its independence(off) dial
+ ✓ frozen oracle literals are self-consistent (no impl) > every QUANTILE(α=.2) dial is below its tier-MEAN dial
+ ✓ frozen oracle literals are self-consistent (no impl) > n_eff literal 5/2.2 ≈ 2.2727272727
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+
+Every frozen wave19c-05 assertion — scalar tiers (0.569444/0.708333/0.8125,
+0.339343/0.511245/0.665395), all end-to-end dials (MEAN weak 0.001586 …
+strong 0.196467; QUANTILE mid 0.000078 … strong 0.009722), direction (i)/(ii)/
+(iii) on the WEAK student, and degenerate p̂∈{0,1}, n_t=0 — passes UNMODIFIED.
+
+============================================================================
+$ npm run -s typecheck
+============================================================================
+typecheck exit=0   (bare tsc --noEmit, includes integration test files)
+
+============================================================================
+$ npm test   (full pure-unit suite)
+============================================================================
+Test Files  64 passed (64)
+     Tests  694 passed
+(lib/readiness-honesty.regression.test.ts included and GREEN, unmodified)
+
+============================================================================
+Purity grep (scoped to lib/readiness-estimation.ts)
+============================================================================
+grep -Eq 'server-only|@/lib/db|Math\.random|new Date|Date\.now' → NO MATCH
+⇒ PURE: no server-only, no @/lib/db, no Date, no Math.random.
+
+============================================================================
+Honesty regression untouched
+============================================================================
+git diff --name-only HEAD -- lib/readiness-honesty.regression.test.ts → EMPTY
+⇒ UNMODIFIED by this task, green by construction.

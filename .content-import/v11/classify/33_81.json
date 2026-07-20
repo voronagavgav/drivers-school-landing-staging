@@ -1,0 +1,1 @@
+{"key":"33:81","decision":"needs_image","file":null,"reason":"Text references 'даного дорожнього знака' (the given road sign) — answer depends on seeing WHICH zone sign is depicted. The only candidate (v5_signs_imgs/33_81_0.png) is a generic 'DANGER/НЕБЕЗПЕКА' stock graphic, not the actual road sign, so it is not correct. Must be held."}

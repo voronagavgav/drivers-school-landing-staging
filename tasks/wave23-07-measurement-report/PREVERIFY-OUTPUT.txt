@@ -1,0 +1,38 @@
+static evidence — read, do not run
+============================================================================
+Verbatim stdout of a single deterministic run of the Wave 23 exam-allocator
+simulation spike (wave23-07 deliverable). Captured 2026-07-14 on mac-mini via:
+
+    npx tsx scripts/spikes/exam-allocator-sim.ts
+
+The run is byte-deterministic (seed 42, no DB/clock/RNG global — wave23-06
+determinism gate), so re-running reproduces every number below exactly. This
+file is the static-judge evidence: READ it, do NOT re-execute — the report
+transcribes these rows and the VERDICT line verbatim.
+============================================================================
+
+# exam-allocator simulation — allocator vs current queue baseline
+# grid: {weak,median,strong} × {14,30,60}d × {15,30}/day · 50 replicas · seed 42
+# pool per stratum = quota × 6 (pdr:10/60 structure:4/24 safety:4/24 medical:2/12)
+# lift = allocator − baseline exam pass-prob (percentage points)
+
+weak    h=14  B=15  base= 14.92%  alloc= 14.86%  lift=-0.06pp  CI[-0.37,0.26]pp  below
+weak    h=14  B=30  base= 81.89%  alloc= 82.46%  lift=+0.58pp  CI[-0.03,1.18]pp  below
+weak    h=30  B=15  base= 88.44%  alloc= 87.24%  lift=-1.20pp  CI[-1.88,-0.53]pp  below
+weak    h=30  B=30  base= 99.99%  alloc= 99.99%  lift=-0.00pp  CI[-0.00,0.00]pp  ready
+weak    h=60  B=15  base= 99.99%  alloc= 99.98%  lift=-0.00pp  CI[-0.01,-0.00]pp  ready
+weak    h=60  B=30  base=100.00%  alloc=100.00%  lift=-0.00pp  CI[-0.00,-0.00]pp  ready
+median  h=14  B=15  base= 57.30%  alloc= 56.92%  lift=-0.38pp  CI[-1.12,0.37]pp  below
+median  h=14  B=30  base= 99.12%  alloc= 99.12%  lift=-0.00pp  CI[-0.10,0.09]pp  ready
+median  h=30  B=15  base= 99.31%  alloc= 99.09%  lift=-0.22pp  CI[-0.36,-0.07]pp  ready
+median  h=30  B=30  base= 99.99%  alloc= 99.99%  lift=-0.00pp  CI[-0.00,0.00]pp  ready
+median  h=60  B=15  base= 99.99%  alloc= 99.99%  lift=-0.00pp  CI[-0.00,-0.00]pp  ready
+median  h=60  B=30  base=100.00%  alloc=100.00%  lift=-0.00pp  CI[-0.00,-0.00]pp  ready
+strong  h=14  B=15  base= 96.62%  alloc= 96.10%  lift=-0.52pp  CI[-0.82,-0.21]pp  ready
+strong  h=14  B=30  base= 99.94%  alloc= 99.93%  lift=-0.00pp  CI[-0.01,0.00]pp  ready
+strong  h=30  B=15  base= 99.90%  alloc= 99.90%  lift=-0.00pp  CI[-0.01,0.01]pp  ready
+strong  h=30  B=30  base=100.00%  alloc=100.00%  lift=-0.00pp  CI[-0.00,-0.00]pp  ready
+strong  h=60  B=15  base=100.00%  alloc=100.00%  lift=-0.00pp  CI[-0.00,0.00]pp  ready
+strong  h=60  B=30  base=100.00%  alloc=100.00%  lift=-0.00pp  CI[-0.00,-0.00]pp  ready
+
+VERDICT: NO-GO | below-threshold mean lift = -0.27pp (target >= 2.00pp) | worst-cell lift = -1.20pp (harm gate >= -0.50pp) | cells=18 below=4 replicas=50

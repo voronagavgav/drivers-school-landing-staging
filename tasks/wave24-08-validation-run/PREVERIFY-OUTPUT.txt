@@ -1,0 +1,13 @@
+static evidence — read, do not run
+# wave24-08 validation run  seed=20260715 n_users=30 cards=200 recovery_reviews=2000 true_w20=0.185040
+ok curve reviews=200 n_reviews=6000 fitted_w20=0.250625 w20_err=0.065585
+ok curve reviews=500 n_reviews=15000 fitted_w20=0.130820 w20_err=0.054220
+ok curve reviews=1000 n_reviews=30000 fitted_w20=0.170930 w20_err=0.014110
+ok curve reviews=2000 n_reviews=60000 fitted_w20=0.173049 w20_err=0.011991
+ok recovery default_logloss=0.206385 fitted_logloss=0.177824 fitted_w20=0.173049
+ok null default_logloss=0.203194 fitted_logloss=0.196904
+PASS RECOVERY(i)  fitted_logloss < default_logloss
+PASS RECOVERY(ii) fitted_w20 > 0.1542
+PASS NULL         null_improvement <= max(0.005, 0.35*recovery_improvement) [0.006290 <= 0.009997]
+PASS CURVE        w20_err(2000) < w20_err(200)
+wrote /Users/clpc/drivers-school/tasks/wave24-08-validation-run/VALIDATION-RESULTS.json

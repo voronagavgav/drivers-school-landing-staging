@@ -1,0 +1,89 @@
+wave24-07-gen-synthetic — STATIC EVIDENCE (read, do NOT run)
+============================================================
+Verbatim stdout captured 2026-07-15 on ClPcs-Mac-mini. Every runnable Goal
+criterion is reproduced below so the evaluator can CONFIRM it by READING this
+file — no execution needed. verify.sh is green (see ## Verify in journal.md).
+
+------------------------------------------------------------
+[Goal 2] import lines of scripts/fsrs-fit/gen-synthetic.ts
+  $ grep -nE '^import' scripts/fsrs-fit/gen-synthetic.ts
+------------------------------------------------------------
+24:import { writeFileSync } from "node:fs";
+25:import { FSRS_DEFAULT_WEIGHTS } from "@/lib/fsrs";
+26:import type { Grade, ReviewMemoryState } from "@/lib/fsrs";
+27:import { retrievabilityW, scheduleW } from "./param-engine";
+
+  -> imports scheduleW/retrievabilityW from "./param-engine" (present).
+  -> imports NOTHING from "fsrs"/py-fsrs.
+  -> the ONLY "@/lib/fsrs" import is the FSRS_DEFAULT_WEIGHTS constant + a
+     `type` import; NO `schedule` value is imported (the state model is the
+     parametrized engine, not the hard-wired one).
+
+------------------------------------------------------------
+[Goal 2] no hard-wired `schedule` value import from @/lib/fsrs
+  $ grep -nE 'import\s*\{[^}]*\bschedule\b[^}]*\}\s*from\s*"@/lib/fsrs"' scripts/fsrs-fit/gen-synthetic.ts
+------------------------------------------------------------
+none-found(good)
+
+------------------------------------------------------------
+[Goal 3] purity: no Math.random anywhere in the generator
+  $ grep -nE 'Math\.random' scripts/fsrs-fit/gen-synthetic.ts
+------------------------------------------------------------
+none-found(good)
+  -> the ONLY randomness is the seeded Numerical-Recipes LCG (class Lcg,
+     a=1664525, c=1013904223, m=2^32), gen-synthetic.ts:45-60.
+
+------------------------------------------------------------
+[Goal 4 / 4b / 5] determinism + perturbation + regime unit test
+  $ npx vitest run scripts/fsrs-fit/gen-synthetic.determinism.test.ts --reporter=verbose
+------------------------------------------------------------
+ok determinism sameSeedEqual=true diffSeedDiffers=true
+ ✓ ... > ok determinism sameSeedEqual + diffSeedDiffers 10ms
+ ✓ ... > perturbation flow: default vs perturbed weights produce different arrays 2ms
+ ✓ ... > regime: every per-user review count is within [300, 1500] 1ms
+ ✓ ... > rows carry the CSV schema fields with sampled Good/Again ratings 3ms
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+
+  -> Goal 4  = printed line `ok determinism sameSeedEqual=true diffSeedDiffers=true`.
+  -> Goal 4b = "perturbation flow" test green (default vs perturbed differ).
+  -> Goal 5  = "regime" test green (all per-user counts within [300, 1500]).
+
+------------------------------------------------------------
+[Goal 6] full unit suite green
+  $ npm test
+------------------------------------------------------------
+ Test Files  78 passed (78)
+      Tests  809 passed (809)
+  -> exits 0.
+
+------------------------------------------------------------
+[Goal 6] determinism file is COLLECTED by vitest
+  $ npx vitest list   (token-retry, filtered to gen-synthetic)
+------------------------------------------------------------
+scripts/fsrs-fit/gen-synthetic.determinism.test.ts > gen-synthetic determinism > ok determinism sameSeedEqual + diffSeedDiffers
+scripts/fsrs-fit/gen-synthetic.determinism.test.ts > gen-synthetic determinism > perturbation flow: default vs perturbed weights produce different arrays
+scripts/fsrs-fit/gen-synthetic.determinism.test.ts > gen-synthetic determinism > regime: every per-user review count is within [300, 1500]
+scripts/fsrs-fit/gen-synthetic.determinism.test.ts > gen-synthetic determinism > rows carry the CSV schema fields with sampled Good/Again ratings
+
+------------------------------------------------------------
+[Goal 7] typecheck clean
+  $ npm run -s typecheck   (bare tsc --noEmit)
+------------------------------------------------------------
+(no output)
+typecheck exit=0
+
+------------------------------------------------------------
+[Goal 1] CLI writes a CSV whose first line is the header
+  $ npx tsx --conditions=react-server scripts/fsrs-fit/gen-synthetic.ts \
+      --seed 7 --users 2 --cards 5 --reviews 300 --weights perturbed --out <tmp>.csv
+------------------------------------------------------------
+ok gen-synthetic users=2 cards=5 reviews=300 weights=perturbed rows=600 out=<tmp>.csv
+  first line: card_id,review_time,review_rating
+  line count: 601   (header + 600 rows = 2 users * 300 reviews)
+  sample rows:
+    0,1767225600000,3
+    5,1767225600000,3
+    1,1767247200000,3
+  -> first CSV line is exactly `card_id,review_time,review_rating` (wave24-05 schema);
+     card_id is a globally-unique int (user*cards + cardIndex); ratings in {1,3}.

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "52",
+    "qnum": 2,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_2_0.jpeg",
+    "confident": true,
+    "reason": "Five numbered road signs; #5 is the bus symbol with 'Розклад руху' (timetable) panel — the boarding-platform/bus-stop sign the question requires. Matches."
+  },
+  {
+    "section": "52",
+    "qnum": 3,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_3_0.jpeg",
+    "confident": true,
+    "reason": "Driver-view of a blue bus on a road with crossed-out 'Одеса' settlement signs (leaving built-up area). Matches the blue-bus speed scenario."
+  },
+  {
+    "section": "52",
+    "qnum": 4,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_4_0.jpeg",
+    "confident": true,
+    "reason": "Red bus on a road with a green motorway (автомагістраль) sign. Matches red bus + motorway."
+  },
+  {
+    "section": "52",
+    "qnum": 5,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_5_0.jpeg",
+    "confident": true,
+    "reason": "Red full-size bus with a blue 'road for motor vehicles' sign. Matches a general bus (not minibus) speed scenario."
+  },
+  {
+    "section": "52",
+    "qnum": 6,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_6_0.jpeg",
+    "confident": true,
+    "reason": "White minibus on a road with a green motorway sign. Matches minibus + motorway."
+  },
+  {
+    "section": "52",
+    "qnum": 7,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_7_0.jpeg",
+    "confident": true,
+    "reason": "Driver-view of a white minibus on an open road with a '?' bubble. Matches minibus-on-road speed question."
+  },
+  {
+    "section": "52",
+    "qnum": 8,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Image is identical to 52_3 and shows a full-size BLUE BUS with settlement-exit signs, not a MINIBUS as the question requires. Content mismatch."
+  },
+  {
+    "section": "52",
+    "qnum": 9,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_9_0.jpeg",
+    "confident": true,
+    "reason": "Top-down one-way street (one-way signs) with several vehicles stopped along the curb (red car, blue car, yellow truck, green tractor). Matches the stopping/parking-violation question."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 287,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_287_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: no-overtaking (red car + black car in red circle) with a '500 м' supplementary distance plate. Exactly the single depicted sign the 'Зображений дорожній знак позначає' question needs. Second path 33_286_0.png does not exist."
+  },
+  {
+    "section": "33",
+    "qnum": 290,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_290_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: no-overtaking (red car + black car in red circle, white background). Matches the single depicted sign required. 33_289_0.png is a driving scene, not the sign itself, so not used."
+  },
+  {
+    "section": "33",
+    "qnum": 292,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_292_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: end-of-no-overtaking / end-of-restriction (white circle crossed with diagonal lines). Matches the single depicted sign. 33_291_0.png is a numbered multi-sign comparison grid, not a single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 294,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Both candidates are numbered multi-option comparison grids (33_294_0.png = STOP octagon / STOP text / give-way triangle; 33_293_0.png = no-vehicles/parking-restriction signs 1-5). Neither depicts the single road sign the 'Зображений дорожній знак позначає' question requires."
+  },
+  {
+    "section": "33",
+    "qnum": 296,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_296_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: priority over oncoming traffic (red circle with black/red down arrow and red up arrow). Matches the single depicted sign for 'Зображений дорожній знак встановлюється'. 33_295_0.png is a numbered multi-sign grid."
+  },
+  {
+    "section": "33",
+    "qnum": 301,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_301_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: advantage/priority over oncoming traffic (blue square, red down arrow + white up arrow). Matches the single depicted sign. 33_300_0.png is a numbered multi-sign comparison grid."
+  },
+  {
+    "section": "33",
+    "qnum": 303,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_303_0.png",
+    "confident": true,
+    "reason": "Single clear road sign: end of priority road (yellow diamond with white border crossed out by diagonal lines). Matches the single depicted sign. 33_302_0.png is a driving scene, not the sign itself."
+  },
+  {
+    "section": "33",
+    "qnum": 310,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Neither candidate is a single depicted sign: 33_310_0.png is a numbered comparison grid (give-way triangle / STOP octagon), 33_309_0.png is a driving scene with traffic lights. Neither matches the single 'Зображений дорожній знак' the question requires."
+  }
+]

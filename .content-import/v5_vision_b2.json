@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 30,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_30_0.png",
+    "confident": true,
+    "reason": "33_30_0 clearly shows a lane-direction road sign (three lanes with arrows, no-trucks symbol on the middle lane) appropriate to 'the depicted road sign denotes'. The alternate 33_29_0 is a different (lane-merge) sign."
+  },
+  {
+    "section": "33",
+    "qnum": 32,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_32_0.png",
+    "confident": true,
+    "reason": "33_32_0 clearly shows a 'lane for route vehicles / bus lane' road sign (bus symbol with up arrow). The alternate 33_31_0 is a multi-panel answer-options collage, not a single question sign."
+  },
+  {
+    "section": "33",
+    "qnum": 37,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_37_0.png",
+    "confident": true,
+    "reason": "33_37_0 clearly shows a one-way-street road sign (blue rectangle, white horizontal arrow). The alternate 33_36_0 is a driving-scene photograph, not a sign."
+  },
+  {
+    "section": "33",
+    "qnum": 38,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_38_0.png",
+    "confident": true,
+    "reason": "33_38_0 clearly shows a 'road with a lane for route vehicles' sign (oncoming bus lane plus through-traffic arrows). The alternate 33_37_0 is a one-way-street sign."
+  },
+  {
+    "section": "33",
+    "qnum": 39,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_39_0.png",
+    "confident": true,
+    "reason": "33_39_0 clearly shows an 'end of road for route vehicles' sign (route-vehicle lane sign with a red diagonal strike). The alternate 33_38_0 is the non-cancelled version."
+  },
+  {
+    "section": "33",
+    "qnum": 42,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_42_0.png",
+    "confident": true,
+    "reason": "33_42_0 clearly shows a lane-configuration road sign (blue square with lane arrows). The alternate 33_41_0 is an intersection scene photo with answer labels, not a sign."
+  },
+  {
+    "section": "33",
+    "qnum": 43,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_43_0.png",
+    "confident": true,
+    "reason": "33_43_0 clearly shows the 'No stopping' prohibitory sign (blue circle, red border, red X), matching a question about which vehicles the sign does not apply to. The alternate 33_42_0 is a lane sign."
+  },
+  {
+    "section": "33",
+    "qnum": 44,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_44_0.png",
+    "confident": true,
+    "reason": "33_44_0 clearly shows the 'No parking' prohibitory sign (blue circle, red border, single red diagonal slash). The alternate 33_43_0 is the 'No stopping' sign."
+  }
+]

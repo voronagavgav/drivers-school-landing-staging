@@ -1,0 +1,171 @@
+[
+ {
+  "key": "52:2",
+  "votes": {
+   "5": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:8",
+  "votes": {
+   "5": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:12",
+  "votes": {
+   "4": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:25",
+  "votes": {
+   "4": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:36",
+  "votes": {
+   "4": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:40",
+  "votes": {
+   "4": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "52:43",
+  "votes": {
+   "5": 3
+  },
+  "reason": "out of range (1..3)"
+ },
+ {
+  "key": "48:73",
+  "votes": {
+   "5": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:74",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:75",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:76",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:77",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:78",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:79",
+  "votes": {
+   "4": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:80",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:81",
+  "votes": {
+   "4": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:82",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:83",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:84",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:85",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:86",
+  "votes": {
+   "3": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:87",
+  "votes": {
+   "2": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "48:88",
+  "votes": {
+   "1": 1
+  },
+  "reason": "no majority (<2 agree)"
+ },
+ {
+  "key": "53:37",
+  "votes": {
+   "3": 1,
+   "2": 1
+  },
+  "reason": "no majority (<2 agree)"
+ }
+]

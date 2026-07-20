@@ -1,0 +1,36 @@
+{
+ "vision_keeps": 123,
+ "vision_conflicts": [
+  [
+   "56",
+   8
+  ]
+ ],
+ "kept": {
+  "signs": 95,
+  "newcats": 262,
+  "recover": 4
+ },
+ "dropped": {
+  "signs": 24,
+  "newcats": 12,
+  "recover": 1120
+ },
+ "overlay_by_label": {
+  "33": 99,
+  "52": 65,
+  "53": 40,
+  "54": 36,
+  "55": 30,
+  "56": 15,
+  "57": 5,
+  "58": 3,
+  "59": 15,
+  "60": 18,
+  "61": 7,
+  "62": 16,
+  "63": 12
+ },
+ "import_plan_rows": 1436,
+ "staged_images": 123
+}

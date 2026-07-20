@@ -1,0 +1,67 @@
+# ==========================================================================
+# static evidence — read, do not run.  wave23 allocator reference oracle.
+# reference oracle — the TS impl MUST match this; never regenerate these
+# values from TS.  Source: specs/wave23-exam-allocator-spike.md (Deliverable 1).
+# ==========================================================================
+
+## --- design constants (from wave19d; re-encoded, not imported) ---
+TOTAL=20 THRESHOLD=18 PRIOR=0.5 RHO=0.35 N_NODES=20 M0=1.0
+SIGMA0=1.33096485926781
+quotas: pdr=10 safety=4 build=4 medical=2
+REVIEW_MASS=8.0 SLOPE=1.0 background_R=0.95
+
+## --- fixture: 6 items / 2 blocks (build + safety), background fixed @0.95 ---
+item i1: block=build before=0.6 afterCorrect=0.85 afterWrong=0.4 p_correct=0.6
+item i2: block=build before=0.75 afterCorrect=0.9 afterWrong=0.5 p_correct=0.75
+item i3: block=build before=0.88 afterCorrect=0.95 afterWrong=0.6 p_correct=0.88
+item i4: block=safety before=0.65 afterCorrect=0.88 afterWrong=0.42 p_correct=0.65
+item i5: block=safety before=0.8 afterCorrect=0.92 afterWrong=0.55 p_correct=0.8
+item i6: block=safety before=0.94 afterCorrect=0.98 afterWrong=0.65 p_correct=0.94
+
+## --- (a) ΔP_i values (6dp) + baseline dial ---
+ok dial_before final=0.624559
+ok dP item=i1 dP=0.018348
+ok dP item=i2 dP=0.013055
+ok dP item=i3 dP=0.007272
+ok dP item=i4 dP=0.018686
+ok dP item=i5 dP=0.012259
+ok dP item=i6 dP=0.005315
+
+## --- (b) allocator ranking (descending ΔP; ties by id ascending) ---
+ok rank order=i4,i1,i2,i5,i3,i6
+
+## --- (c) expected-outcome blend arithmetic (chosen item i1) ---
+ok blend item=i1 dCorrect=0.064417 dWrong=-0.050755 p=0.600000 dP=0.018348
+ok blend_identity holds=true
+
+## --- (d) budget boundaries ---
+ok budget_zero reviewed=0 selected=- gain=0.000000
+ok budget_saturate reviewed=6 selected=i1,i2,i3,i4,i5,i6
+
+## --- (e) baseline-policy ranking (queue.ts scoreCandidate, re-encoded) ---
+baseline_score i1=0.976667
+baseline_score i2=1.008333
+baseline_score i3=0.317143
+baseline_score i4=1.032500
+baseline_score i5=1.010909
+baseline_score i6=0.166153
+ok baseline order=i4,i5,i2,i1,i3,i6
+ok policies_differ differs=true
+
+## --- (f) monotone sanity ---
+mono correct-path item=i1 dCorrect=0.064417
+ok mono correct_delta_nonneg=true
+mono weak=i1 dP=0.018348 strong=i6 dP=0.005315
+ok mono weak_gt_strong=true
+
+## --- self-check (properties a-f on the frozen values) ---
+ok check blend_identity holds=true
+ok check budget_zero_empty holds=true
+ok check budget_saturate_all6 holds=true
+ok check rank_is_permutation holds=true
+ok check baseline_is_permutation holds=true
+ok check mono_correct_nonneg holds=true
+ok check mono_weak_gt_strong holds=true
+ok check gh_normw_sums_to_1 holds=true
+ok check dial_before_in_0_1 holds=true
+ok all_checks holds=true

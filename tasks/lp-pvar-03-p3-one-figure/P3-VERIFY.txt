@@ -1,0 +1,4 @@
+typecheck OK
+W=390 bands=1 docOverflow=0 bandOverflow=0 hasAll=1 fsBig=64.0 fsSmall=15.2 minBody=6.71 minLarge=11.47
+W=768 bands=1 docOverflow=0 bandOverflow=0 hasAll=1 fsBig=115.2 fsSmall=15.2 minBody=6.71 minLarge=11.47
+W=1440 bands=1 docOverflow=0 bandOverflow=0 hasAll=1 fsBig=137.6 fsSmall=16.3 minBody=6.71 minLarge=6.71

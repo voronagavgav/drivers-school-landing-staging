@@ -1,0 +1,56 @@
+=== STATIC EVIDENCE — read, do NOT run ===
+Captured 2026-07-13 from live prisma/dev.db via the verify.sh section-inventory query.
+Published (isPublished=1, isActive=1, archivedAt IS NULL) cat-B (Category.code='B') questions,
+grouped by наказ section decoded from questionKey (q_<section>_<qnum>).
+
+section|pub
+1|79
+2|37
+3|16
+4|26
+5|16
+6|22
+7|8
+8|91
+9|60
+10|76
+11|39
+12|41
+13|13
+14|56
+15|97
+16|142
+17|11
+18|19
+19|33
+20|31
+21|12
+22|6
+23|20
+24|14
+25|8
+26|12
+27|13
+28|8
+29|1
+30|14
+31|18
+32|5
+33|357
+34|35
+35|170
+36|8
+37|59
+38|14
+39|6
+44|16
+45|32
+46|9
+47|7
+
+--- stratum availability rollup (derived) ---
+medical   = §37                = 59      (quota 2)  OK
+structure = §31+§45            = 18+32   = 50   (quota 4)  OK
+safety    = §35+§47            = 170+7   = 177  (quota 4)  OK
+pdr (rem) = 1757-59-50-177     = 1471    (quota 10) OK
+TOTAL published cat-B sections = 1757

@@ -1,0 +1,28 @@
+{
+  "summary": "Regenerate the 2 wrong_explanation items (correct answer, contradictory explanation) grounded in the marked answer",
+  "agentCount": 4,
+  "logs": [
+    "Regenerated 2/2 wrong_explanation. ok=2"
+  ],
+  "result": {
+    "total": 2,
+    "results": [
+      {
+        "key": "23:10",
+        "ok": true,
+        "short": "УВАГА — РОЗХОДЖЕННЯ З ОФІЦІЙНИМИ ПДР: транспортний засіб із рульовим керуванням, що не діє, дозволено буксирувати ЛИШЕ способом часткового навантаження на платформу або спеціальне опорне пристосування (п. 23.7 → п. 23.2 «б»), тому правильна відповідь — «Лише способом часткового навантаження», а не позначений у файлі варіант із жорстким зчепленням.",
+        "detailed": "Згідно з п. 23.7 ПДР України механічний транспортний засіб із рульовим керуванням, що не діє, повинен буксируватися відповідно до вимог підпункту «б» пункту 23.2 — тобто ВИКЛЮЧНО способом часткового навантаження буксированого ТЗ на платформу чи спеціальне опорне пристосування. Жорстке зчеплення тут неприпустиме, бо п. 23.4 вимагає, щоб на жорсткому зчепленні в буксированому ТЗ діяло справне рульове керування (а на гнучкому — і рульове керування, і робоча гальмова система); коли кермо не діє, керувати траєкторією буксированого авто неможливо, тому єдиний безпечний спосіб — підняти його колеса частковим навантаженням. Отже варіанти з гнучким зчепленням, з жорстким зчепленням і комбінований «жорстке зчеплення або часткове навантаження» суперечать п. 23.2 «б»/23.7 і є хибними. ПРИМІТКА ДЛЯ РЕВ'Ю: поле markedCorrect у файлі аудиту («На жорсткому зчепленні або способом часткового навантаження») само є помилковим — за офіційними ПДР (infotech.gov.ua, vodiy.ua, kodeksy.com.ua, pdrtest.com) правильний ключ має бути «Лише способом часткового навантаження»; ключ цього питання слід перекерувати перед публікацією цього пояснення.",
+        "legalRef": "ПДР п. 23.7 (із посиланням на п. 23.2 «б»; пор. п. 23.4)",
+        "note": "VERIFIED AGAINST GROUND TRUTH — the proposed explanation is correct; the reviewerNote and the file's markedCorrect are the ones in error. Official ПДР text (verbatim from infotech.gov.ua): п.23.7 = \"Механічний транспортний засіб з рульовим керуванням, що не діє, повинен буксируватися відповідно до вимог підпункту «б» пункту 23.2\"; п.23.2«б» = \"із частковим навантаженням буксированого транспортного засобу на платформу або на спеціальне опорне пристосування\" (subpoint «а» = rigid/flexible coupling is NOT referenced by 23.7); п.23.4 = on rigid coupling the towed vehicle's steering must be FUNCTIONING — which it is not here, so rigid coupling is independently forbidden. The reviewerNote misread 23.4 as permitting \"rigid coupling OR partial loading\" — it does not. Independent sources pdrtest.com/question/23.10 and vodiy.ua confirm the official test answer is \"Лише способом часткового навантаження.\" This is a ground-truth-tiebreak: the two verify passes disagreed and the authoritative external regulation resolves it in favor of the proposed regeneration. The explanation does NOT repeat the \"prior mistake\" — that framing in reviewerNote is itself wrong. ACTION ITEM flagged in proposed text stands: the question's markedCorrect key should be changed from \"На жорсткому зчепленні або способом часткового навантаження\" to \"Лише способом часткового навантаження\" before publishing. Echoed short/detailed/legalRef back with one trivial wording trim (\"ведучі/керовані колеса\" → \"колеса\", since steering-axle wheels are what matter and the precise axle wording is not in the regulation)."
+      },
+      {
+        "key": "9:17",
+        "ok": true,
+        "short": "Перед початком руху і перед зупинкою водій згідно з ПДР п. 9.2 «а» подає попереджувальний сигнал відповідним покажчиком повороту, тому правильна відповідь — «Покажчик повороту».",
+        "detailed": "Пункт 9.2 ПДР прямо вимагає подавати сигнал світловими покажчиками повороту відповідного напрямку «а) перед початком руху і зупинкою; б) перед перестроюванням, поворотом або розворотом», а за їх відсутності чи несправності — рукою; саме покажчик повороту попереджає інших учасників руху про намір рушити чи зупинитися. Варіант «Аварійна сигналізація» хибний, бо аварійну сигналізацію вмикають лише у випадках з п. 9.9 (вимушена зупинка в небезпечному місці, ДТП, буксирування, осліплення тощо), а не перед звичайним початком руху чи зупинкою. Варіант «Стоянкові вогні» теж невірний — вони позначають транспортний засіб, що стоїть, і не є попереджувальним сигналом про маневр. (Увага: позначена як правильна відповідь «Аварійну сигналізацію» суперечить ПДР п. 9.2 — за чинними Правилами правильною є «Покажчик повороту»; ключ слід виправити.)",
+        "legalRef": "ПДР п. 9.2",
+        "note": "Explanation is factually and legally CORRECT and does NOT repeat the prior mistake (the old text was internally contradictory — described turn signal while key said hazard lights; the new text is coherent and explicitly flags the key error). Verified against authoritative ПДР sources (pdr.infotech.gov.ua, kodeksy.com.ua): п. 9.2 «а» requires turn-signal indicators before starting movement and stopping; hazard lights belong to п. 9.9 (forced stop, accident, towing, etc.). IMPORTANT CAVEAT: the explanation does NOT justify markedCorrect ('Аварійну сигналізацію') because markedCorrect is itself WRONG per ПДР. The correct answer is option 1 'Покажчик повороту.' The explanation correctly flags this and recommends fixing the key. Set ok=true because the explanation is sound, but the markedCorrect/key for 9:17 must be corrected from 'Аварійну сигналізацію.' to 'Покажчик повороту.' — do not trust the stored key."
+      }
+    ]
+  }
+}

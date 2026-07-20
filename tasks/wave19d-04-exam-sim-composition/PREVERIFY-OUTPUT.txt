@@ -1,0 +1,36 @@
+wave19d-04-exam-sim-composition — STATIC EVIDENCE (read, do NOT run)
+====================================================================
+This file is a verbatim capture of the executed verification, committed so a
+static read-only evaluator can CONFIRM the runnable Goal criteria (integration
+test pass counts) by READING, without executing anything itself.
+Captured 2026-07-13 on ClPcs-Mac-mini. exp = the new 4-strata blueprint (task 03
+data change), got = the real production path (startSession + finishSession).
+
+--- npm run -s typecheck ---
+(exit 0, no output — tsc --noEmit clean)
+TYPECHECK EXIT: 0
+
+--- npm run -s db:seed (reseed before DB-backed run, CLAUDE.md ordering rule) ---
+upserted 2322 official questions in 65 topics (skipped 2 within-section identical
+  duplicates; deactivated 0 absent-from-source). questions with no correct option: 0
+official: 2322 questions
+
+--- npx vitest run -c vitest.integration.config.ts lib/server/exam-blueprint.integration.test.ts --reporter=verbose ---
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+ ✓ exam-blueprint.integration.test.ts > PIN: official section → topic title on the LIVE seed > §31 (ТЕХНІЧНИЙ СТАН) sits at displayOrder 132, §33 (ДОРОЖНІ ЗНАКИ) at 134
+ ✓ exam-blueprint.integration.test.ts > cat-B EXAM_SIMULATION follows the official 4-strata blueprint > returns exactly 20 questions in the FIXED per-stratum quotas 4/4/2/10 (Goal #1)
+ ✓ exam-blueprint.integration.test.ts > every published cat-B question maps to one of the 4 strata (Goal #3) > groupCandidatesByBlock yields only {structure,safety,medical,pdr} and covers every id
+ ✓ exam-blueprint.integration.test.ts > cat-B EXAM_SIMULATION scores unanswered questions as wrong (Goal #5, timeout rule п.11) > answering 17 correctly and leaving 3 unanswered ⇒ FAILED (3 errors > 2 budget)
+ ✓ exam-blueprint.integration.test.ts > blueprint bucketing drives the readiness p-vector by section (Goal #4) > routes signs to pdr (meanProb ≥ .8) + small blocks weak (≤ .3); het pass-prob < homogeneous (Goal #4)
+ ✓ exam-blueprint.integration.test.ts > a category WITHOUT a blueprint is unaffected (legacy uniform-random) > runs the short pool as-is (no blueprint composition)
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+
+--- verify.sh gate greps ---
+grep -nE '\bc\.(medicine|law|general)\b' T   → no match (old 6-block keys gone) ✓
+grep -qE 'medical' T                         → match (new stratum present) ✓
+grep -qE '20 - \(7 \+' T                      → no match (stale remainder arithmetic gone) ✓
+
+RESULT: PASS: wave19d-04  — all 6 integration tests green, none skipped, typecheck 0.

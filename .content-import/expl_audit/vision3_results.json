@@ -1,0 +1,61 @@
+{
+  "summary": "Vision pass: read the diagram for the 3 quarantined image-based ПДР questions, ground-truth the answer + skeptic",
+  "agentCount": 3,
+  "logs": [
+    "Vision-verified 3/3. confirmedFixes=0, key_correct=3, unresolved=0"
+  ],
+  "result": {
+    "total": 3,
+    "confirmedFixes": [],
+    "keyCorrect": [
+      "15:9",
+      "15:11",
+      "15:38"
+    ],
+    "unresolved": [],
+    "raw": [
+      {
+        "determine": {
+          "key": "15:9",
+          "verdict": "key_correct",
+          "correctOptionText": "У місці А.",
+          "correctOptionIndex": 0,
+          "imageDescription": "A wide multi-lane road runs toward the horizon where a bridge/overpass (естакада/міст) spans a river. Three yellow cars are shown. The driver's car is at the bottom of the frame on the right-hand side of the roadway. From it, two grey arrows point to two candidate stopping positions: position А (circled label) is on the right side of the roadway, partway up, BEFORE the bridge; position Б (circled label) is further ahead, on the roadway right at/under the bridge structure near the river. The driver must choose where stopping is allowed.",
+          "reasoning": "The question \"У якому з місць водієві дозволено виконати зупинку?\" with options \"У місці А.\", \"У місці Б.\", \"У місцях А і Б.\" matches official ПДР test question (manualov.net q.491 / testpdr.online q.491 / pdrtest.com 15.9). The diagram shows position Б located on/under the bridge (естакада/міст) and position А before the bridge. Per ПДР п.15.9: stopping is prohibited on overpasses, bridges, underpasses and beneath them, and in tunnels — so Б is forbidden, making \"У місцях А і Б\" also wrong. Position А, before the bridge, is permitted. The authoritative external source (testpdr.online, formerly manualov.net q.491 — the identical verbatim question) explicitly marks the correct answer as \"У місці А\". This matches our DB's markedCorrect = \"У місці А.\". The genConcern's worry is unfounded; our key is correct.",
+          "webConfirmed": true,
+          "sources": "https://testpdr.online/test.php?test=all&q=491 (redirect target of manualov.net/online-test-pdr.php?question=491) — explicitly states correct answer \"У місці А\", citing rule \"Зупинка на естакадах, мостах, шляхопроводах і під ними, а також у тунелях забороняється\"; also referenced pdrtest.com/question/15.9 and ПДР п.15.9 (pdr.infotech.gov.ua/theory/rules/15).",
+          "confidence": 0.95
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "15:11",
+          "verdict": "key_correct",
+          "correctOptionText": "Дозволено.",
+          "correctOptionIndex": 0,
+          "imageDescription": "First-person driver's POV (steering wheel, hand, dashboard with gauges in foreground) approaching/entering a road tunnel. Concrete tunnel walls arch overhead on both sides with ceiling-mounted tunnel lights running along the top; a bright circular tunnel-exit portal (\"light at the end of the tunnel\") is visible straight ahead. The two-lane carriageway has a dashed centre line. On the right, a person in an orange shirt stands on the raised sidewalk/walkway at the tunnel area, with an arm extended toward the car (hailing it, as a passenger wanting to be picked up). No numbered figures or multiple vehicles — a single ego-vehicle POV plus one pedestrian.",
+          "reasoning": "Question: \"Чи дозволено зупинитися в цьому місці для посадки пасажирів?\" Options: [0] \"Дозволено.\" [1] \"Заборонено.\" [2] \"Дозволено тільки в світлий час доби.\" DB marks \"Дозволено.\" (index 0). The verbatim question with this exact 3-option set is a documented official ПДР test item (Section 15, Зупинка і стоянка). Multiple Ukrainian driving-test sources analyzing this exact question (obozrevatel.com, companion.ua, pdrtest.com 15.10, pomahach.com 3548-38693 which matches the question text and options verbatim) converge on the marked answer \"Дозволено.\" The official rationale: п. 15.9(в) prohibits stopping IN a tunnel, but the designated passenger-boarding stop here is at/before the tunnel area where that prohibition does not bind, so stopping for passenger boarding is permitted — and it is NOT limited to daylight hours (so option 2 is wrong; option 1 \"Заборонено\" contradicts the situation). The genConcern itself only disputes options 1 and 2, not the marked answer. Caveat: our rendered image reads strongly as a tunnel interior (POV from inside the bore), which on a naive read could suggest \"Заборонено\"; however this is the standard official illustration for this permitted-stop item and the verbatim question's authoritative answer is \"Дозволено.\" Hence verdict key_correct.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3548-38693/chi-dozvoleno-zupinitisya-v-comu-misci-dlya-posadki-pasazhiriv/ (verbatim question text + identical 3 options: \"Дозволено тільки в світлий час доби\" / \"Дозволено\" / \"Заборонено\", correct highlighted green); https://www.obozrevatel.com/ukr/avto-oboz/chi-mozhna-zupinitisya-dlya-posadki-pasazhiriv-zavdannya-z-pdr.htm (official answer \"Дозволяється/Дозволено\"; п.15.9 bans stopping inside tunnel, not before it); https://companion.ua/chy-dozvolena-zupynka-pered-tunelem-dlia-posadky-pasazhyriv/ (same question, tunnel + passenger boarding, allowed); https://pdrtest.com/question/15.10 and https://pdrtest.com/questions/16 (Section 15 tunnel stop variant, answer \"Дозволено\"); ПДР п.15.9(в) \"Зупинка забороняється ... у тунелях\".",
+          "confidence": 0.66
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "15:38",
+          "verdict": "key_correct",
+          "correctOptionText": "На другому.",
+          "correctOptionIndex": 1,
+          "imageDescription": "The diagram has two numbered pictures side by side, taken from a driver's first-person view down a road in a populated area. Picture 1 (left, labeled \"1\"): two passenger cars standing on the carriageway; the left side of the road has a wide white-edged marked strip/sidewalk area, but there is NO one-way road sign — this is a two-way road. Picture 2 (right, labeled \"2\"): two passenger cars standing on the road, and a blue square \"one-way road\" sign (road sign 5.5 — blue square with a white upward arrow) is displayed beside the picture, indicating a one-way street.",
+          "reasoning": "Question 15.38: \"На якому з малюнків транспортні засоби поставлені правильно на дорогах у населених пунктах?\" Options: [0] \"На першому.\", [1] \"На другому.\", [2] \"На обох.\" DB marks \"На другому.\" (index 1). Per ПДР п. 15.9, in populated areas stopping/parking on the LEFT side of the road is permitted only on roads with one lane in each direction (no tram tracks) OR on one-way roads. Picture 2 carries the blue one-way-road sign (5.5), so the vehicles' placement there is legal. Picture 1 is a two-way road with no one-way sign, so the placement is not permitted — therefore \"На обох\" is wrong and only the second picture is correct. The diagram + rule + two independent authoritative Ukrainian test sources all confirm \"На другому\". DB marked answer matches.",
+          "webConfirmed": true,
+          "sources": "Web search summaries from green-way.com.ua/uk/test-pdd/twenty-questions/4662, pdrtest.com/question/15.38, pomahach.com/question/3589-22323/, manualov.net/online-test-pdr.php?question=520 (redirects to testpdr.online/test.php?test=all&q=520), and vodiy.ua (Зупинка і стоянка). Two independent WebSearch result summaries explicitly stated the official correct answer is \"На другому\" (On the second). Direct page fetches of pdrtest.com returned HTTP 429 (rate-limited) and other pages render the answer only via a green highlight not present in extracted text, but the search-engine snapshots of these official-base ticket pages consistently report \"На другому\".",
+          "confidence": 0.93
+        },
+        "skeptic": null
+      }
+    ]
+  }
+}

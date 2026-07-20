@@ -1,0 +1,154 @@
+static evidence — read, do not run
+wave22 Elo item-difficulty reference oracle — stdlib-only, network-free
+model source: specs/wave22-elo-difficulty.md (Goal + Design + Deliverable 1)
+reference oracle — the TS impl MUST match this; never regenerate these values from TS.
+constants: ELO_K_MAX=0.4 ELO_K_HALFLIFE=20 ELO_GUESS_MAX=0.45 ELO_MIN_ITEM_ANSWERS=200 initBeta=0.0 initTheta=0.0
+
+# (a″) K schedule points — K(n) = ELO_K_MAX / (1 + n/ELO_K_HALFLIFE)
+ok k_schedule K(0)=0.400000 K(10)=0.266667 K(200)=0.036364 decreasing=true
+
+# (a′) plain-vs-guess single update — theta=0 beta=0 y=1 K=K(0)=0.4
+ok a_prime beta_plain=-0.200000 theta_plain=0.200000 beta_g020=-0.160000 theta_g020=0.160000
+
+# (a) single-update grid, guess-adjusted — theta,beta in {-1,0,1}, y in {0,1}, g in {0.20,0.45}, K at n in {0,10,200}  (3*3*2*2*3 = 108 lines)
+ok upd_g th=-1_be=-1_y=0_g0.20_n0 beta=-0.760000 theta=-1.240000
+ok upd_g th=-1_be=-1_y=0_g0.20_n10 beta=-0.840000 theta=-1.160000
+ok upd_g th=-1_be=-1_y=0_g0.20_n200 beta=-0.978182 theta=-1.021818
+ok upd_g th=-1_be=-1_y=0_g0.45_n0 beta=-0.710000 theta=-1.290000
+ok upd_g th=-1_be=-1_y=0_g0.45_n10 beta=-0.806667 theta=-1.193333
+ok upd_g th=-1_be=-1_y=0_g0.45_n200 beta=-0.973636 theta=-1.026364
+ok upd_g th=-1_be=-1_y=1_g0.20_n0 beta=-1.160000 theta=-0.840000
+ok upd_g th=-1_be=-1_y=1_g0.20_n10 beta=-1.106667 theta=-0.893333
+ok upd_g th=-1_be=-1_y=1_g0.20_n200 beta=-1.014545 theta=-0.985455
+ok upd_g th=-1_be=-1_y=1_g0.45_n0 beta=-1.110000 theta=-0.890000
+ok upd_g th=-1_be=-1_y=1_g0.45_n10 beta=-1.073333 theta=-0.926667
+ok upd_g th=-1_be=-1_y=1_g0.45_n200 beta=-1.010000 theta=-0.990000
+ok upd_g th=-1_be=0_y=0_g0.20_n0 beta=0.166061 theta=-1.166061
+ok upd_g th=-1_be=0_y=0_g0.20_n10 beta=0.110708 theta=-1.110708
+ok upd_g th=-1_be=0_y=0_g0.20_n200 beta=0.015096 theta=-1.015096
+ok upd_g th=-1_be=0_y=0_g0.45_n0 beta=0.239167 theta=-1.239167
+ok upd_g th=-1_be=0_y=0_g0.45_n10 beta=0.159445 theta=-1.159445
+ok upd_g th=-1_be=0_y=0_g0.45_n200 beta=0.021742 theta=-1.021742
+ok upd_g th=-1_be=0_y=1_g0.20_n0 beta=-0.233939 theta=-0.766061
+ok upd_g th=-1_be=0_y=1_g0.20_n10 beta=-0.155959 theta=-0.844041
+ok upd_g th=-1_be=0_y=1_g0.20_n200 beta=-0.021267 theta=-0.978733
+ok upd_g th=-1_be=0_y=1_g0.45_n0 beta=-0.160833 theta=-0.839167
+ok upd_g th=-1_be=0_y=1_g0.45_n10 beta=-0.107222 theta=-0.892778
+ok upd_g th=-1_be=0_y=1_g0.45_n200 beta=-0.014621 theta=-0.985379
+ok upd_g th=-1_be=1_y=0_g0.20_n0 beta=1.118145 theta=-1.118145
+ok upd_g th=-1_be=1_y=0_g0.20_n10 beta=1.078763 theta=-1.078763
+ok upd_g th=-1_be=1_y=0_g0.20_n200 beta=1.010740 theta=-1.010740
+ok upd_g th=-1_be=1_y=0_g0.45_n0 beta=1.206225 theta=-1.206225
+ok upd_g th=-1_be=1_y=0_g0.45_n10 beta=1.137483 theta=-1.137483
+ok upd_g th=-1_be=1_y=0_g0.45_n200 beta=1.018748 theta=-1.018748
+ok upd_g th=-1_be=1_y=1_g0.20_n0 beta=0.718145 theta=-0.718145
+ok upd_g th=-1_be=1_y=1_g0.20_n10 beta=0.812097 theta=-0.812097
+ok upd_g th=-1_be=1_y=1_g0.20_n200 beta=0.974377 theta=-0.974377
+ok upd_g th=-1_be=1_y=1_g0.45_n0 beta=0.806225 theta=-0.806225
+ok upd_g th=-1_be=1_y=1_g0.45_n10 beta=0.870816 theta=-0.870816
+ok upd_g th=-1_be=1_y=1_g0.45_n200 beta=0.982384 theta=-0.982384
+ok upd_g th=0_be=-1_y=0_g0.20_n0 beta=-0.686061 theta=-0.313939
+ok upd_g th=0_be=-1_y=0_g0.20_n10 beta=-0.790708 theta=-0.209292
+ok upd_g th=0_be=-1_y=0_g0.20_n200 beta=-0.971460 theta=-0.028540
+ok upd_g th=0_be=-1_y=0_g0.45_n0 beta=-0.659167 theta=-0.340833
+ok upd_g th=0_be=-1_y=0_g0.45_n10 beta=-0.772778 theta=-0.227222
+ok upd_g th=0_be=-1_y=0_g0.45_n200 beta=-0.969015 theta=-0.030985
+ok upd_g th=0_be=-1_y=1_g0.20_n0 beta=-1.086061 theta=0.086061
+ok upd_g th=0_be=-1_y=1_g0.20_n10 beta=-1.057374 theta=0.057374
+ok upd_g th=0_be=-1_y=1_g0.20_n200 beta=-1.007824 theta=0.007824
+ok upd_g th=0_be=-1_y=1_g0.45_n0 beta=-1.059167 theta=0.059167
+ok upd_g th=0_be=-1_y=1_g0.45_n10 beta=-1.039445 theta=0.039445
+ok upd_g th=0_be=-1_y=1_g0.45_n200 beta=-1.005379 theta=0.005379
+ok upd_g th=0_be=0_y=0_g0.20_n0 beta=0.240000 theta=-0.240000
+ok upd_g th=0_be=0_y=0_g0.20_n10 beta=0.160000 theta=-0.160000
+ok upd_g th=0_be=0_y=0_g0.20_n200 beta=0.021818 theta=-0.021818
+ok upd_g th=0_be=0_y=0_g0.45_n0 beta=0.290000 theta=-0.290000
+ok upd_g th=0_be=0_y=0_g0.45_n10 beta=0.193333 theta=-0.193333
+ok upd_g th=0_be=0_y=0_g0.45_n200 beta=0.026364 theta=-0.026364
+ok upd_g th=0_be=0_y=1_g0.20_n0 beta=-0.160000 theta=0.160000
+ok upd_g th=0_be=0_y=1_g0.20_n10 beta=-0.106667 theta=0.106667
+ok upd_g th=0_be=0_y=1_g0.20_n200 beta=-0.014545 theta=0.014545
+ok upd_g th=0_be=0_y=1_g0.45_n0 beta=-0.110000 theta=0.110000
+ok upd_g th=0_be=0_y=1_g0.45_n10 beta=-0.073333 theta=0.073333
+ok upd_g th=0_be=0_y=1_g0.45_n200 beta=-0.010000 theta=0.010000
+ok upd_g th=0_be=1_y=0_g0.20_n0 beta=1.166061 theta=-0.166061
+ok upd_g th=0_be=1_y=0_g0.20_n10 beta=1.110708 theta=-0.110708
+ok upd_g th=0_be=1_y=0_g0.20_n200 beta=1.015096 theta=-0.015096
+ok upd_g th=0_be=1_y=0_g0.45_n0 beta=1.239167 theta=-0.239167
+ok upd_g th=0_be=1_y=0_g0.45_n10 beta=1.159445 theta=-0.159445
+ok upd_g th=0_be=1_y=0_g0.45_n200 beta=1.021742 theta=-0.021742
+ok upd_g th=0_be=1_y=1_g0.20_n0 beta=0.766061 theta=0.233939
+ok upd_g th=0_be=1_y=1_g0.20_n10 beta=0.844041 theta=0.155959
+ok upd_g th=0_be=1_y=1_g0.20_n200 beta=0.978733 theta=0.021267
+ok upd_g th=0_be=1_y=1_g0.45_n0 beta=0.839167 theta=0.160833
+ok upd_g th=0_be=1_y=1_g0.45_n10 beta=0.892778 theta=0.107222
+ok upd_g th=0_be=1_y=1_g0.45_n200 beta=0.985379 theta=0.014621
+ok upd_g th=1_be=-1_y=0_g0.20_n0 beta=-0.638145 theta=0.638145
+ok upd_g th=1_be=-1_y=0_g0.20_n10 beta=-0.758763 theta=0.758763
+ok upd_g th=1_be=-1_y=0_g0.20_n200 beta=-0.967104 theta=0.967104
+ok upd_g th=1_be=-1_y=0_g0.45_n0 beta=-0.626225 theta=0.626225
+ok upd_g th=1_be=-1_y=0_g0.45_n10 beta=-0.750816 theta=0.750816
+ok upd_g th=1_be=-1_y=0_g0.45_n200 beta=-0.966020 theta=0.966020
+ok upd_g th=1_be=-1_y=1_g0.20_n0 beta=-1.038145 theta=1.038145
+ok upd_g th=1_be=-1_y=1_g0.20_n10 beta=-1.025430 theta=1.025430
+ok upd_g th=1_be=-1_y=1_g0.20_n200 beta=-1.003468 theta=1.003468
+ok upd_g th=1_be=-1_y=1_g0.45_n0 beta=-1.026225 theta=1.026225
+ok upd_g th=1_be=-1_y=1_g0.45_n10 beta=-1.017483 theta=1.017483
+ok upd_g th=1_be=-1_y=1_g0.45_n200 beta=-1.002384 theta=1.002384
+ok upd_g th=1_be=0_y=0_g0.20_n0 beta=0.313939 theta=0.686061
+ok upd_g th=1_be=0_y=0_g0.20_n10 beta=0.209292 theta=0.790708
+ok upd_g th=1_be=0_y=0_g0.20_n200 beta=0.028540 theta=0.971460
+ok upd_g th=1_be=0_y=0_g0.45_n0 beta=0.340833 theta=0.659167
+ok upd_g th=1_be=0_y=0_g0.45_n10 beta=0.227222 theta=0.772778
+ok upd_g th=1_be=0_y=0_g0.45_n200 beta=0.030985 theta=0.969015
+ok upd_g th=1_be=0_y=1_g0.20_n0 beta=-0.086061 theta=1.086061
+ok upd_g th=1_be=0_y=1_g0.20_n10 beta=-0.057374 theta=1.057374
+ok upd_g th=1_be=0_y=1_g0.20_n200 beta=-0.007824 theta=1.007824
+ok upd_g th=1_be=0_y=1_g0.45_n0 beta=-0.059167 theta=1.059167
+ok upd_g th=1_be=0_y=1_g0.45_n10 beta=-0.039445 theta=1.039445
+ok upd_g th=1_be=0_y=1_g0.45_n200 beta=-0.005379 theta=1.005379
+ok upd_g th=1_be=1_y=0_g0.20_n0 beta=1.240000 theta=0.760000
+ok upd_g th=1_be=1_y=0_g0.20_n10 beta=1.160000 theta=0.840000
+ok upd_g th=1_be=1_y=0_g0.20_n200 beta=1.021818 theta=0.978182
+ok upd_g th=1_be=1_y=0_g0.45_n0 beta=1.290000 theta=0.710000
+ok upd_g th=1_be=1_y=0_g0.45_n10 beta=1.193333 theta=0.806667
+ok upd_g th=1_be=1_y=0_g0.45_n200 beta=1.026364 theta=0.973636
+ok upd_g th=1_be=1_y=1_g0.20_n0 beta=0.840000 theta=1.160000
+ok upd_g th=1_be=1_y=1_g0.20_n10 beta=0.893333 theta=1.106667
+ok upd_g th=1_be=1_y=1_g0.20_n200 beta=0.985455 theta=1.014545
+ok upd_g th=1_be=1_y=1_g0.45_n0 beta=0.890000 theta=1.110000
+ok upd_g th=1_be=1_y=1_g0.45_n10 beta=0.926667 theta=1.073333
+ok upd_g th=1_be=1_y=1_g0.45_n200 beta=0.990000 theta=1.010000
+# grid lines emitted: 108
+
+# (b) fold determinism — fixed 40-answer stream (5 users × 8 items) folded once
+ok fold_item q0 beta=0.040006 n=5
+ok fold_item q1 beta=0.357102 n=5
+ok fold_item q2 beta=0.015452 n=5
+ok fold_item q3 beta=0.334477 n=5
+ok fold_item q4 beta=-0.004230 n=5
+ok fold_item q5 beta=0.316126 n=5
+ok fold_item q6 beta=-0.020299 n=5
+ok fold_item q7 beta=0.301000 n=5
+ok fold_user u0 theta=-0.287736 n=8
+ok fold_user u1 theta=-0.247050 n=8
+ok fold_user u2 theta=-0.257149 n=8
+ok fold_user u3 theta=-0.220105 n=8
+ok fold_user u4 theta=-0.232242 n=8
+
+# (c) order sensitivity — SAME multiset, fixed shuffle -> different final beta
+ok order_sensitive differs=true item=q0 beta_sorted=0.040006 beta_shuffled=-0.033619
+
+# (d) convergence direction — hard item X above pool mean; easy item Y below
+ok converge_hard beta_X=1.101059 mean=-0.228332 gt=true
+ok converge_easy beta_Y=-0.556856 mean=-0.228332 lt=true
+
+# (e) guess-adjustment direction — identical CORRECT streams, 2-option vs 5-option
+ok guess_weakens delta2=-0.454524 delta5=-0.632620 lt=true
+
+# (f) K decay — first three |Δβ| for one repeatedly-answered item, monotone non-increasing
+ok k_decay monotone=true deltas=0.160000,0.140216,0.123783
+
+# SUMMARY
+checks asserted: 12
+RESULT: ALL 12 PROPERTY CHECKS PASSED

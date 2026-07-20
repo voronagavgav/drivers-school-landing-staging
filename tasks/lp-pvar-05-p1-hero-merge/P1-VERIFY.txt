@@ -1,0 +1,9 @@
+typecheck OK
+W=390 proofBands=0 afterFeatures=1 docOverflow=0 claim=1 hasFigs=1 f757=32.0 f986=12.5 f45=16.0
+W=768 proofBands=0 afterFeatures=1 docOverflow=0 claim=1 hasFigs=1 f757=33.6 f986=13.1 f45=16.0
+W=1280 proofBands=0 afterFeatures=1 docOverflow=0 claim=1 hasFigs=1 f757=42.2 f986=13.1 f45=16.0
+W=1920 proofBands=0 afterFeatures=1 docOverflow=0 claim=1 hasFigs=1 f757=42.4 f986=13.1 f45=16.0
+safe-zone shot tasks/lp-pvar-05-p1-hero-merge/shots/p1-390x844.png (284498 bytes) — evaluator confirms monument visible/unobstructed
+safe-zone shot tasks/lp-pvar-05-p1-hero-merge/shots/p1-768x1024.png (723859 bytes) — evaluator confirms monument visible/unobstructed
+safe-zone shot tasks/lp-pvar-05-p1-hero-merge/shots/p1-1280x800.png (875985 bytes) — evaluator confirms monument visible/unobstructed
+safe-zone shot tasks/lp-pvar-05-p1-hero-merge/shots/p1-1920x1080.png (1762333 bytes) — evaluator confirms monument visible/unobstructed

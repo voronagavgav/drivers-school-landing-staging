@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 311,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_0.png",
+    "confident": true,
+    "reason": "33_311_0.png shows a road-sign comparison panel (yield triangle, STOP, priority-road yellow diamond, end-of-priority) — valid content for a 'depicted road sign' identification question."
+  },
+  {
+    "section": "33",
+    "qnum": 312,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Own image 33_312_0.png does not exist; fallback 33_311_0.png is question 311's four-sign panel, not 312's sign — wrong content."
+  },
+  {
+    "section": "33",
+    "qnum": 319,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_319_0.png",
+    "confident": true,
+    "reason": "33_319_0.png clearly shows a round prohibitory sign with a tractor (no agricultural tractors) — a single legible road sign matching a sign-ID question."
+  },
+  {
+    "section": "33",
+    "qnum": 320,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_320_0.png",
+    "confident": true,
+    "reason": "33_320_0.png clearly shows a round prohibitory sign with a moped (no mopeds) — a single legible road sign matching a sign-ID question."
+  },
+  {
+    "section": "33",
+    "qnum": 321,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_321_0.png",
+    "confident": true,
+    "reason": "33_321_0.png clearly shows a round prohibitory sign with a bicycle (no bicycles) — a single legible road sign matching a sign-ID question."
+  },
+  {
+    "section": "33",
+    "qnum": 338,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_338_0.png",
+    "confident": true,
+    "reason": "33_338_0.png clearly shows a blue square informational sign with an up arrow and a bicycle (bicycle path) — a single legible road sign matching a sign-ID question."
+  },
+  {
+    "section": "33",
+    "qnum": 342,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Own image 33_342_0.png does not exist; fallback 33_341_0.png is the round 'no tractors and horse-drawn vehicles' sign belonging to question 341 — wrong content for 342."
+  },
+  {
+    "section": "33",
+    "qnum": 343,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_343_0.png",
+    "confident": true,
+    "reason": "33_343_0.png clearly shows a blue square split sign with a bicycle and pedestrians (combined cycle/pedestrian path) — a single legible road sign matching a sign-ID question."
+  }
+]

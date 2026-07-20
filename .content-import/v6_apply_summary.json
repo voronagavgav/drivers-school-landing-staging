@@ -1,0 +1,27 @@
+{
+ "kept": {
+  "recover": 248,
+  "s33boundary": 9
+ },
+ "dropped": {
+  "recover": 0,
+  "s33boundary": 0
+ },
+ "overlay_by_label": {
+  "10": 28,
+  "18": 3,
+  "31": 14,
+  "32": 5,
+  "35": 56,
+  "37": 46,
+  "40": 15,
+  "45": 6,
+  "48": 26,
+  "49": 49,
+  "33": 9
+ },
+ "v5_base_rows": 1436,
+ "import_plan_rows": 1693,
+ "staged_v6_images": 9,
+ "s33boundary_drop_reasons": {}
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "14",
+    "qnum": 42,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-002.jpg is an answer-key table (Питання/Відповідь number grid for Розділ 10-14), not a road sign or driving scene. Wrong content type."
+  },
+  {
+    "section": "14",
+    "qnum": 48,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-002.jpg is an answer-key table (numbered question/answer grid), not a sign or scene image."
+  },
+  {
+    "section": "14",
+    "qnum": 51,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-002.jpg is an answer-key table, not a sign/scene. No matching image."
+  },
+  {
+    "section": "15",
+    "qnum": 32,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Both candidates akey-002.jpg and akey-003.jpg are answer-key tables (Питання/Відповідь grids by Розділ), not road signs or scenes."
+  },
+  {
+    "section": "15",
+    "qnum": 70,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Question is about what a driver must confirm before opening the vehicle door (text/scenario, no sign required). Both candidates are answer-key tables, not scene/sign images."
+  },
+  {
+    "section": "15",
+    "qnum": 71,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Both candidates akey-002.jpg and akey-003.jpg are answer-key tables, not signs or scenes."
+  },
+  {
+    "section": "16.2",
+    "qnum": 37,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-003.jpg is an answer-key table (numbered question/answer grid for Розділ 15-17), not a road sign or scene."
+  },
+  {
+    "section": "16.2",
+    "qnum": 40,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-003.jpg is an answer-key table, not a sign/scene. No matching image."
+  }
+]

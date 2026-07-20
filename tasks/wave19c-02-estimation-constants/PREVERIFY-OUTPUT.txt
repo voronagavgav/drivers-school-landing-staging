@@ -1,0 +1,23 @@
+STATIC EVIDENCE — READ, DO NOT RUN.
+Captured verbatim stdout of the two executable Goal criteria (typecheck 0, npm test 0)
+so the read-only evaluator can confirm criteria #5 and #6 by READING this file,
+without executing anything. Captured 2026-07-12 on ClPcs-Mac-mini.
+
+=== `npm run -s typecheck` (Goal #5) ===
+(no diagnostics printed)
+typecheck exit: 0
+
+=== `npm test` (Goal #6) ===
+> drivers-school@0.1.0 test
+> vitest run
+
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+ Test Files  62 passed (62)
+      Tests  670 passed (670)
+
+npm test exit: 0
+
+Conclusion: typecheck exits 0 and all 62 test files / 670 tests pass with the three
+new estimation-side constants added (lib/constants.ts:204/208/210) and the draw-side
+READINESS_TOPIC_CORRELATION (lib/constants.ts:196) unchanged at 0. No behavior change.

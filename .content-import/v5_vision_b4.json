@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 73,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_73_0.png",
+    "confident": true,
+    "reason": "33_73_0.png is a clean single blue mandatory sign 'movement straight ahead only' (вперед прямо) — matches the 'Зображений дорожній знак' single-sign question format. The fallback 33_72_0.png is a different sign (keep right)."
+  },
+  {
+    "section": "33",
+    "qnum": 77,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_77_0.png",
+    "confident": true,
+    "reason": "33_77_0.png is a single sign reading CUSTOMS / МИТНИЦЯ (priority/special regulation sign) — a clean single depicted sign. Fallback 33_76_0.png is a numbered 1-4 grid of no-parking signs (wrong format, multi-sign)."
+  },
+  {
+    "section": "33",
+    "qnum": 80,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_80_0.png",
+    "confident": true,
+    "reason": "33_80_0.png is a clean single sign 'end of all restrictions' (white circle with diagonal black bars). Matches the single-sign question format. Fallback 33_79_0.png does not exist on disk."
+  },
+  {
+    "section": "33",
+    "qnum": 97,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_97_0.png",
+    "confident": true,
+    "reason": "33_97_0.png is a single blue service sign showing a train + clock (railway/train station stop). Clean single depicted sign. Fallback 33_96_0.png is a numbered 1-4 grid of service signs (wrong multi-sign format)."
+  },
+  {
+    "section": "33",
+    "qnum": 98,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_98_0.png",
+    "confident": true,
+    "reason": "33_98_0.png is a single blue service/information sign showing a bus + clock (bus stop / зупинка автобуса). Matches 'Зображений дорожній знак інформує' single-sign format. Fallback 33_97_0.png is the train sign (different)."
+  },
+  {
+    "section": "33",
+    "qnum": 99,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_99_0.png",
+    "confident": true,
+    "reason": "33_99_0.png is a single blue service sign showing an EV charging pump (green) with '800м' distance plate. Clean single depicted sign. Fallback 33_98_0.png is the bus-stop sign (different)."
+  },
+  {
+    "section": "33",
+    "qnum": 100,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_0.png",
+    "confident": true,
+    "reason": "33_100_0.png is a single blue service sign showing a fuel/petrol station pump with '800м' distance plate. Clean single depicted sign. Fallback 33_99_0.png is the EV charging sign (different)."
+  },
+  {
+    "section": "33",
+    "qnum": 101,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Primary image 33_101_0.png does not exist on disk. The only available fallback 33_100_0.png is the previous question's fuel-station sign — a known mismatch, not q101's own sign. No clearly-matching image, so omit."
+  }
+]

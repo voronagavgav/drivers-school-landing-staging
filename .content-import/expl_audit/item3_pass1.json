@@ -1,0 +1,3273 @@
+{
+  "summary": "Exhaustive per-item verify of all 718 remaining text-only UNREVIEWED ПДР explanations; promote correct, flag wrong answer keys",
+  "agentCount": 40,
+  "logs": [
+    "[verify:chunk_4] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_3] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_1] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_5] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_0] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_2] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_7] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_8] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_10] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "[verify:chunk_6] failed: API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com.",
+    "Verified 538 items across 30/40 chunks. counts={\"correct\":531,\"wrong_key\":1,\"wrong_explanation\":1,\"minor\":5}. wrong_key=1, wrong_explanation=1"
+  ],
+  "result": {
+    "chunksDone": 30,
+    "total": 538,
+    "counts": {
+      "correct": 531,
+      "wrong_key": 1,
+      "wrong_explanation": 1,
+      "minor": 5
+    },
+    "verdicts": [
+      {
+        "key": "15:56",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "15:57",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "15:58",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "15:86",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "15:61",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:62",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "15:63",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:64",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "15:66",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "15:67",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "15:72",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "15:73",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "15:74",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "15:76",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "42:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:79",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "15:80",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:82",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "19:13",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "19:14",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "19:15",
+        "verdict": "wrong_key",
+        "confidence": 0.6,
+        "issue": "ПДР 19.1 requires a moving mechanical TZ in poor visibility to have low (high) beam ON, with fog lights only ADDITIONALLY permitted. Fog lights alone do not satisfy the requirement. Option 3 ('Фари ближнього (дального) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом...') is the option that fully states the ПДР rule and is the likely correct answer. The marked answer 'Протитуманні фари' (fog lights alone) appears wrong. Confidence moderate because some ГСЦ base variants pair this stem with a different option set; the explanation itself reads as strained, hinting the key may be off."
+      },
+      {
+        "key": "19:16",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "19:17",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "19:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "19:22",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "19:23",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "19:24",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "19:25",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "19:26",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "19:31",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "20:11",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "20:17",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "20:18",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "20:19",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "20:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "20:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "20:23",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "20:27",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "20:28",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "20:29",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "21:1",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "21:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "21:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "22:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "22:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "22:5",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "22:6",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "23:1",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:5",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "23:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:7",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "23:8",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "23:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:10",
+        "verdict": "wrong_explanation",
+        "confidence": 0.9,
+        "issue": "Marked key 'На жорсткому зчепленні або способом часткового навантаження' is correct (ПДР п.23.4 allows rigid coupling OR partial-loading for a vehicle with non-functioning steering). But short+detailed claim ONLY partial-loading is allowed and explicitly say rigid coupling does NOT meet the requirement — this contradicts and undermines the correct marked answer. Explanation needs regen to state both rigid coupling and partial loading are permitted."
+      },
+      {
+        "key": "23:12",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "23:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:15",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "23:16",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "23:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "23:19",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "56:16",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "24:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "24:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "24:9",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "24:10",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "24:11",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "24:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "25:1",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "25:2",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "25:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "25:5",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "25:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "25:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "26:7",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "26:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "26:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "26:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "26:13",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "27:6",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "27:8",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "27:9",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "27:10",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "27:11",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "27:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "27:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "28:2",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Conclusion correct (descending vehicle yields); detailed rationale phrasing is slightly imprecise but not misleading."
+      },
+      {
+        "key": "28:4",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "28:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "28:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "28:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "28:8",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "56:21",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "31:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "31:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "31:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "45:7",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "45:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "57:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "31:9",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "31:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "31:14",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "31:15",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "31:16",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "31:17",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "32:1",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "32:2",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "32:3",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "32:4",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "32:5",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "33:322",
+        "verdict": "minor",
+        "confidence": 0.6,
+        "issue": "Marked answer 'Дозволено' is correct and the explanation about the 'обслуговування' exception is consistent with ПДР sign exemptions (3.21/3.22 etc.). However the question text is oddly truncated/contextless (likely tied to a specific sign image not shown here), so the explanation generalizes a context it can't fully see — safe to display but justification is speculative about which sign applies."
+      },
+      {
+        "key": "33:335",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "33:337",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:7",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:9",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:10",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "35:11",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "35:12",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:13",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "35:15",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:16",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:19",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "35:20",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "35:21",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:22",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:25",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "35:26",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:27",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:28",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:30",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "35:31",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:33",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:146",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:35",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:36",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:37",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "35:38",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "35:42",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:43",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:44",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "Marked answer 'Ні' is correct: Ukrainian law sets a single 0.2 permille blood-alcohol threshold for all drivers regardless of experience, so the 0.3 permille claim in the question is false. Explanation accurately cites 0.2 permille."
+      },
+      {
+        "key": "35:54",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:55",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:56",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:57",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "35:68",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:69",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:78",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:81",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:82",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "35:114",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:117",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "35:121",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:122",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:125",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:132",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:133",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "35:144",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "35:168",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "35:171",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "36:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "36:4",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "36:5",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "36:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "36:8",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "37:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "37:4",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "37:5",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "37:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:7",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:8",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:9",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:13",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "37:14",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:15",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:16",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "37:18",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "37:34",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:21",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "37:23",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:24",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:25",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:26",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:27",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:29",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:30",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:31",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:32",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:33",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:35",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:37",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:48",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "37:49",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:50",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:52",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "37:53",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "37:54",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:56",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:57",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "37:58",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "37:59",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "37:60",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "38:4",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "38:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "38:6",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "38:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "38:10",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "38:11",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "39:2",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "39:3",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "39:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "39:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "39:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "40:15",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:18",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "40:19",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "40:20",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:21",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "40:22",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:24",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "40:26",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:28",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "40:29",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "40:30",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "42:8",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "41:3",
+        "verdict": "correct",
+        "confidence": 0.82,
+        "issue": "6000 km clutch-check interval is plausible per the exam base but I cannot independently confirm the exact figure; explanation is safe."
+      },
+      {
+        "key": "41:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "41:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "41:6",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "41:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "41:9",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "41:10",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "41:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "41:13",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "42:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "42:9",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "42:10",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "42:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "42:13",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "42:14",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "42:15",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "Verified against ПДР п.12.6 — mopeds are limited to 60 km/h outside settlements. Marked answer 60 km/h is correct."
+      },
+      {
+        "key": "42:17",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "42:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "42:19",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "42:20",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:5",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "43:6",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "43:7",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "43:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:10",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "43:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:12",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "43:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:15",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "43:16",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "43:17",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "43:18",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "43:19",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "43:21",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "43:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:23",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:24",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:25",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "43:26",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "43:31",
+        "verdict": "correct",
+        "confidence": 0.8,
+        "issue": "Marked answer 250 m. Standard ПДР dazzle-switch distance for cars is 'not less than 250 m'; this motorcycle item uses the same figure, consistent with the official base. Lower confidence as the exact figure is hard to confirm independently, but 250 m matches the canonical ПДР value."
+      },
+      {
+        "key": "43:33",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "43:34",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "44:4",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "44:5",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "44:6",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "44:8",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "44:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "44:15",
+        "verdict": "minor",
+        "confidence": 0.8,
+        "issue": "Answer 'Більше дев'яти' is correct: category B is limited to vehicles with up to 8 seats besides the driver, so the MAXIMUM number of passengers a B driver may carry exceeds 9 only when phrased about seats. The short text is self-contradictory/confusing: it first says 'кількості сидячих місць більше дев'яти' then parenthetically '(включно з водієм — не більш як вісім місць крім водія)'. The marked answer matches the official base, but the justification conflates passenger count with seat count and is imprecise; safe to show but weak."
+      },
+      {
+        "key": "45:6",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "45:10",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "46:1",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "46:2",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "46:3",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "46:5",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "46:6",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "46:7",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "46:8",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "46:9",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "47:1",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "47:2",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "47:3",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "47:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "47:7",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "48:52",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "52:45",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "48:56",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "48:57",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "52:50",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "48:59",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "48:60",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "52:20",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:33",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "52:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "52:23",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "52:55",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "48:68",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "52:46",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "52:47",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "48:72",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "48:75",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "48:77",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "48:79",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "48:80",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "48:81",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "48:83",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:49",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "48:87",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "49:2",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:21",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:12",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:2",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "53:5",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "49:11",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:7",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:20",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "53:18",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "49:17",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "49:18",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "49:19",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "49:20",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "49:21",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "49:22",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "49:24",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "53:16",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "53:17",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "49:29",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "53:26",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:28",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "49:32",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:29",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:30",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:31",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "49:36",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "49:37",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "53:32",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "49:40",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "53:25",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:34",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "53:35",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:23",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:36",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "49:47",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:38",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "49:49",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "49:50",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:41",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "53:42",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:43",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:44",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "54:35",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "54:22",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "54:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "50:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "50:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "50:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "50:11",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "51:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:3",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "51:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "51:5",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "51:6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:27",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:8",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "51:18",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "51:20",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:24",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:25",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "51:27",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "51:28",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "51:29",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "51:30",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "51:32",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:33",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "51:34",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:24",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "55:23",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:22",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "51:38",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "51:40",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:41",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "51:42",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "51:43",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "52:12",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:15",
+        "verdict": "minor",
+        "confidence": 0.8,
+        "issue": "Answer 'Дозволено' is right, but explanation is generic boilerplate ('навіть якщо для іншого транспорту він був би обмежений') with no reference to the actual depicted sign/markings; safe to show but weak justification for an image-based question."
+      },
+      {
+        "key": "52:18",
+        "verdict": "minor",
+        "confidence": 0.8,
+        "issue": "Marked answer 'Дозволено' is consistent with marshrut-ТЗ allowances, but explanation is pure boilerplate about route exemptions without describing the depicted situation; safe but uninformative."
+      },
+      {
+        "key": "52:17",
+        "verdict": "minor",
+        "confidence": 0.78,
+        "issue": "Answer 'Дозволено' is right; explanation is generic ('якщо знаки та розмітка не забороняють') and doesn't ground itself in the depicted scene. Safe to show, weak justification."
+      },
+      {
+        "key": "52:58",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:30",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "52:25",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "52:26",
+        "verdict": "correct",
+        "confidence": 0.82,
+        "issue": ""
+      },
+      {
+        "key": "52:44",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "54:34",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "52:31",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "52:32",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:34",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "52:36",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:37",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:38",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "52:39",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:42",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "Weekly driving time incl. overtime max 48 h is the standard road-transport norm; answer and explanation consistent."
+      },
+      {
+        "key": "52:48",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "52:52",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Max length of coupled (towed) route TVs is 30 m; detailed is null but short correctly states the answer."
+      },
+      {
+        "key": "52:53",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Route TV over 25 m must move by special (oversized) rules; consistent with ПДР large-size limits."
+      },
+      {
+        "key": "52:54",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:56",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:59",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:60",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": "Route 500 km+ beyond settlement requires two drivers; standard professional-driver regime norm."
+      },
+      {
+        "key": "52:61",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "52:62",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Double-crew daily rest min 8 consecutive hours; consistent with the regime norms."
+      },
+      {
+        "key": "52:63",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Daily (inter-shift) rest within any 24-h period min 10 consecutive hours for single driver; matches norm and contrasts correctly with 8 h double-crew case."
+      },
+      {
+        "key": "52:64",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "52:65",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "54:26",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "Transport of organized groups of children in the dark is prohibited per ПДР 22; the third option contains an embedded section-header artifact but the marked answer and explanation are correct."
+      },
+      {
+        "key": "53:3",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "53:4",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "Pressure-limiting valve reduces pressure in the front-axle brake chambers (limits front braking force to prevent steered-wheel lockup); answer and explanation correct."
+      },
+      {
+        "key": "53:6",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "53:15",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:24",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:27",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:33",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "53:40",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "53:45",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "54:1",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "54:27",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:6",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "54:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:13",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "54:14",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:16",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:17",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "54:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:19",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "54:20",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:24",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "54:25",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:28",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:29",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "54:33",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "54:36",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "55:4",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "55:5",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "55:7",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "55:9",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "55:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:12",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "55:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:14",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "55:16",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "55:17",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "55:18",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "55:19",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "55:20",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "55:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:25",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "55:26",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "55:29",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "59:13",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "56:14",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "59:14",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "56:17",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "56:18",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "56:19",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "56:20",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "57:2",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "57:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "57:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "58:1",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "58:3",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "59:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "59:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "59:4",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "59:5",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "59:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "59:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "59:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "59:10",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "59:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "59:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "60:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "60:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "60:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "60:10",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "60:11",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "60:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "60:13",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "60:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "60:16",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "60:17",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "60:18",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "61:1",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "61:2",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "61:3",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "61:4",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "62:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "61:6",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "61:7",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "62:2",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "62:9",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "62:10",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "62:11",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "62:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "62:13",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "62:14",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "62:15",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "63:1",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "63:2",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "63:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "63:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "63:6",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "63:7",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "63:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "63:11",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      }
+    ],
+    "wrongKey": [
+      {
+        "key": "19:15",
+        "verdict": "wrong_key",
+        "confidence": 0.6,
+        "issue": "ПДР 19.1 requires a moving mechanical TZ in poor visibility to have low (high) beam ON, with fog lights only ADDITIONALLY permitted. Fog lights alone do not satisfy the requirement. Option 3 ('Фари ближнього (дального) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом...') is the option that fully states the ПДР rule and is the likely correct answer. The marked answer 'Протитуманні фари' (fog lights alone) appears wrong. Confidence moderate because some ГСЦ base variants pair this stem with a different option set; the explanation itself reads as strained, hinting the key may be off."
+      }
+    ],
+    "wrongExpl": [
+      {
+        "key": "23:10",
+        "verdict": "wrong_explanation",
+        "confidence": 0.9,
+        "issue": "Marked key 'На жорсткому зчепленні або способом часткового навантаження' is correct (ПДР п.23.4 allows rigid coupling OR partial-loading for a vehicle with non-functioning steering). But short+detailed claim ONLY partial-loading is allowed and explicitly say rigid coupling does NOT meet the requirement — this contradicts and undermines the correct marked answer. Explanation needs regen to state both rigid coupling and partial loading are permitted."
+      }
+    ]
+  }
+}

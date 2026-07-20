@@ -1,0 +1,66 @@
+[
+  {
+    "section": "7",
+    "qnum": 3,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table (rows of 'Питання'/'Відповідь' numbers in a grid), not a road sign or driving scene. Cannot match any sign/scene question."
+  },
+  {
+    "section": "8.1",
+    "qnum": 38,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "8.1",
+    "qnum": 39,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "8.1",
+    "qnum": 59,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "8.1",
+    "qnum": 60,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "9",
+    "qnum": 14,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "9",
+    "qnum": 27,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  },
+  {
+    "section": "9",
+    "qnum": 28,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key table, not a road sign or scene image. No match."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "section": "57",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/57_1_0.jpeg",
+    "confident": true,
+    "reason": "Passenger car (category B) towing a trailer/caravan — exactly a B+trailer (BE) combination, matching the category-BE vehicle-type question."
+  },
+  {
+    "section": "60",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/60_1_0.jpeg",
+    "confident": true,
+    "reason": "Tram at an intersection with two traffic-light heads (green X over round signals on the left; red X plus green arrow on the right) — a tram-signal scene matching 'how should the tram driver act'."
+  },
+  {
+    "section": "60",
+    "qnum": 2,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/60_2_0.jpeg",
+    "confident": true,
+    "reason": "Tram at an intersection with a tram signal head (four-round-light type) and a red X signal — matches 'in which direction is the tram allowed to move'."
+  },
+  {
+    "section": "60",
+    "qnum": 3,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/60_3_0.jpeg",
+    "confident": true,
+    "reason": "Diagram of four numbered tram signal heads (1-4) with different lit-light configurations — exactly the 'on which traffic light does the signal allowing the tram to go straight light up' multiple-choice image."
+  },
+  {
+    "section": "60",
+    "qnum": 4,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/60_4_0.jpeg",
+    "confident": true,
+    "reason": "Tram at an intersection with a traffic controller (police officer, inset) and tram signals — matches 'in which direction is the tram allowed to move'."
+  },
+  {
+    "section": "60",
+    "qnum": 5,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/60_5_0.jpeg",
+    "confident": true,
+    "reason": "Tram at an intersection with a traffic controller (arm extended, inset) and tram signals — matches 'in which direction is the tram allowed to move'."
+  },
+  {
+    "section": "6",
+    "qnum": 10,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-001.jpg is a scanned answer-key table (Питання/Відповідь grids), not an illustration of bicycle equipment for night/low-visibility riding."
+  },
+  {
+    "section": "6",
+    "qnum": 14,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-001.jpg is a scanned answer-key table, not an illustration relevant to whether towing a bicycle is permitted."
+  }
+]

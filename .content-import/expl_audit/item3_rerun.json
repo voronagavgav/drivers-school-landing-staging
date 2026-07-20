@@ -1,0 +1,1151 @@
+{
+  "summary": "Re-run the 10 chunks that hit transient 529 errors in the exhaustive explanation verify",
+  "agentCount": 10,
+  "logs": [
+    "Re-ran 10/10 chunks → 180 items. counts={\"correct\":170,\"wrong_key\":7,\"minor\":2,\"wrong_explanation\":1}"
+  ],
+  "result": {
+    "chunksDone": 10,
+    "total": 180,
+    "counts": {
+      "correct": 170,
+      "wrong_key": 7,
+      "minor": 2,
+      "wrong_explanation": 1
+    },
+    "verdicts": [
+      {
+        "key": "2:2",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "2:10",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "2:11",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "2:13",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:14",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "2:15",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:16",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:17",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "2:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "2:19",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:20",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "2:22",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "2:23",
+        "verdict": "wrong_key",
+        "confidence": 0.78,
+        "issue": "Per ПДР п.2.10, the seatbelt exemptions (водії з інвалідністю; водії/пасажири оперативних і спеціальних ТЗ; instructors when a learner is driving; водії і пасажири таксі в населених пунктах) — but importantly п.2.10 lists exemptions that apply REGARDLESS of inside/outside settlement for several categories. The detailed explanation claims ALL exemptions are limited to within settlements only, which is not accurate: водії з інвалідністю and оперативні/спеціальні ТЗ exemptions are NOT geographically limited to населений пункт. The taxi exemption IS limited to settlements. So 'Усі зобов'язані пристібатися' is likely WRONG for outside-settlement: водії з інвалідністю and operational/special vehicle occupants may still not buckle up outside settlements. The marked answer should likely be reconsidered. NOTE: low-moderate confidence — official ГСЦ base for this exact question may indeed accept 'all must buckle' framing if the official question intends the taxi-specific exemption; recommend cross-check against official ПДР п.2.10."
+      },
+      {
+        "key": "2:24",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:25",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "2:26",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "2:27",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "2:28",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "2:30",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "44:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "2:32",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "2:33",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "2:34",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "3:8",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "3:11",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "3:12",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "3:13",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "3:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "4:4",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "4:5",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "4:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "4:15",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "4:16",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "4:17",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "4:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "4:19",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "4:21",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "4:26",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "5:1",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "5:2",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "5:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "5:5",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "5:6",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "5:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "5:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "5:11",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "5:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "5:13",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "5:14",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "6:3",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "6:4",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "6:5",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "6:6",
+        "verdict": "minor",
+        "confidence": 0.6,
+        "issue": "Marked answer is right per the official base (this question variant asks specifically about night/low-visibility lighting). The explanation correctly identifies option 2 as the chosen answer, but its phrasing 'в цьому запитанні правильним визнано саме варіант про відсутність освітлення' is a bit hedging/weak — it acknowledges option 1 (несправні гальма і звуковий сигнал) is also a real ПДР violation (п.6.7 forbids riding a bicycle with faulty brakes/horn) yet does not crisply explain why the combined 'Відповіді 1 і 2' is not the key here. Safe to show but the justification is imprecise rather than clearly grounding why only option 2."
+      },
+      {
+        "key": "6:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "6:8",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "6:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "6:11",
+        "verdict": "wrong_key",
+        "confidence": 0.9,
+        "issue": "Marked answer is the single 'lit lamp (ліхтар/фара)' option, but per ПДР 6.3 a bicycle must be equipped with ALL of: a sound signal, reflectors (front white / sides orange / rear red), AND a lit lamp at night/low visibility. Multiple official exam-base sources (pomahach, pdrtest 6.11, green-way) give the correct answer as option 4 'Відповіді 1, 2, 3'. The DB key (and the explanation) are both wrong; correct answer = 'Відповіді 1, 2, 3.'"
+      },
+      {
+        "key": "6:12",
+        "verdict": "wrong_key",
+        "confidence": 0.88,
+        "issue": "Marked answer 'З 10 років' contradicts ПДР 6.1, which allows riding a bicycle on roads only from 14 years. Official exam sources for this exact question give the answer as 'З 14 років.' The explanation itself hedges ('За офіційною базою питань... з 10 років'), signalling a likely transcription error. Correct answer = 'З 14 років.'"
+      },
+      {
+        "key": "7:2",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "7:4",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "7:5",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "7:6",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "7:7",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "8.1:71",
+        "verdict": "wrong_key",
+        "confidence": 0.85,
+        "issue": "Per ПДР 1.10, a регулювальник is a police officer AND equated persons: military road-safety inspection officer, road-exploitation service worker, and railway-crossing/ferry duty officer (all with proper ID, armband, baton/disc/flag, uniform). All four listed options describe persons who qualify, so the official answer is option 5 'Відповіді 1, 2, 3 і 4' — confirmed by official exam sources (green-way 1097, pomahach). The DB marks only option 2 (military inspection), which is wrong/incomplete."
+      },
+      {
+        "key": "8.1:74",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "8.1:76",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "8.1:77",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "8.1:81",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:12",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "9:13",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:15",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:16",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:17",
+        "verdict": "wrong_explanation",
+        "confidence": 0.95,
+        "issue": "Marked answer is 'Аварійну сигналізацію' but BOTH the short and detailed explanations contradict it: short says 'водій подає попереджувальний сигнал відповідним покажчиком повороту' and detailed says 'для цього використовують покажчики повороту'. The explanations justify option 1 (purchase indicator/turn signal), not the marked answer (hazard lights). Per ПДР 9.2 the warning signal before starting movement and before stopping is the turn-signal indicator (or hand), so the explanations actually describe the correct ПДР rule — which makes the marked KEY itself suspect. However, the explanations directly contradict the marked answer, so at minimum the explanation needs regen; and the key may be wrong (correct should be 'Покажчик повороту')."
+      },
+      {
+        "key": "9:18",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "9:24",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:26",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:33",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "44:11",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "9:38",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "9:41",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "9:42",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:44",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "9:49",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": ""
+      },
+      {
+        "key": "9:50",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:51",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:52",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:53",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "9:55",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:56",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:57",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "9:58",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": ""
+      },
+      {
+        "key": "9:59",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:27",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:28",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:31",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:33",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "10:35",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:38",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "10:41",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:42",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "10:44",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "10:45",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "10:46",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "10:47",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:48",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "10:50",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "10:51",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "10:52",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "10:54",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "10:55",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "10:56",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "10:57",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "10:58",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "10:59",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "10:60",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "10:74",
+        "verdict": "correct",
+        "confidence": 0.98,
+        "issue": ""
+      },
+      {
+        "key": "10:75",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "11:18",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "11:19",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "11:20",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "11:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "11:23",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "11:24",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "11:25",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "11:27",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "11:28",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "11:29",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "11:31",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "11:32",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "11:33",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "11:34",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "11:36",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "11:38",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "12:3",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "12:22",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "12:23",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "12:24",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "12:26",
+        "verdict": "wrong_key",
+        "confidence": 0.7,
+        "issue": "Per ПДР 12.1, безпечна швидкість обирається з урахуванням ВСІХ перелічених чинників: дорожньої обстановки, особливостей вантажу та стану ТЗ. Оскільки серед варіантів є 'Відповіді 1, 2 і 3', саме він має бути правильним, а не лише 'Дорожня обстановка'. Зовнішня перевірка офіційної бази дає відповідь 'все перераховане'. Сама пояснювалка це підтверджує ('за Правилами враховуються всі названі чинники'), тобто ключ суперечить власному поясненню — схоже на помилку транскрипції. Believe correct answer = 'Відповіді 1, 2 і 3'. (Невелика ймовірність, що існує офіційний варіант питання з іншим набором опцій, де відповідь — лише 'Дорожня обстановка' — звідси неповна впевненість.)"
+      },
+      {
+        "key": "12:28",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "12:29",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "12:30",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "12:31",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "12:32",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "12:34",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "12:35",
+        "verdict": "wrong_key",
+        "confidence": 0.88,
+        "issue": "Marked answer is 60 км/год, but per current ПДР 12.6(б) the maximum for drivers with <2 years experience on all roads outside settlements is 70 км/год. Confirmed against three authoritative sources: official pdr.infotech.gov.ua rules sec.12, green-way.com.ua punkt 12.6_b, vodiy.ua/pdr/12 — all quote 'транспортним засобам, якими керують водії зі стажем до 2 років, — не більше 70 км/год'. Correct option should be '70 км/год'. (60 km/h is a common pre-reform confusion.)"
+      },
+      {
+        "key": "12:37",
+        "verdict": "wrong_key",
+        "confidence": 0.93,
+        "issue": "Marked correct is option 3 'Швидкість яка визначена технічною характеристикою даного транспортного засобу', but the official ПДР term 1.10 defines безпечна швидкість as 'швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах' — that is OPTION 2. The item's own short/detailed text correctly describes option 2, contradicting the marked answer. Correct option should be option 2."
+      },
+      {
+        "key": "12:38",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "12:40",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "13:9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "13:10",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "44:7",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "13:12",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "Confirmed: on steep climb/descent (signs 1.6/1.7) the vehicle going UP has priority and the one going DOWN gives way regardless of obstacle (ПДР 13.4). Driver is on the climb, so proceeds first."
+      },
+      {
+        "key": "13:13",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "14:33",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "14:37",
+        "verdict": "correct",
+        "confidence": 0.78,
+        "issue": "Marked 'дозволяється тільки на регульованих залізничних переїздах' matches the long-standing ГСЦ МВС exam-base answer for this item; literal ПДР 14.6 bans overtaking AT crossings and 100m before, but this is the established transcribed answer and the explanation is consistent. Moderate confidence."
+      },
+      {
+        "key": "14:40",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "14:41",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "14:43",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "14:45",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "14:50",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "15:55",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:84",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "15:85",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": ""
+      },
+      {
+        "key": "15:87",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": ""
+      },
+      {
+        "key": "15:88",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "17:7",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "17:9",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": ""
+      },
+      {
+        "key": "18:7",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "18:14",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "18:16",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "19:2",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": ""
+      },
+      {
+        "key": "19:3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "19:4",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": ""
+      },
+      {
+        "key": "19:5",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "19:6",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": ""
+      },
+      {
+        "key": "19:7",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "19:8",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": ""
+      },
+      {
+        "key": "19:9",
+        "verdict": "minor",
+        "confidence": 0.78,
+        "issue": "Answer key 'Дозволено' is correct per ПДР п.19.5 (front fog lamps may be used alone in conditions of insufficient visibility, which can occur during dark hours e.g. fog at night). Explanation is acceptable but slightly imprecise: it frames the example as 'у тумані вдень' while the question specifically asks about темна пора доби — the real basis is that fog lamps may substitute when insufficient visibility coincides with darkness. Safe to show, justification weak."
+      },
+      {
+        "key": "19:12",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": "Marked answer 'У будь-яких умовах' matches ПДР п.19.7 which permits the rear fog lamp in conditions of insufficient visibility both day and night (effectively any conditions where it improves visibility). The 'detailed' field is null and 'short' is a thin deferral to the question base, but it is not misleading and the key is right."
+      }
+    ],
+    "wrongKey": [
+      {
+        "key": "2:23",
+        "verdict": "wrong_key",
+        "confidence": 0.78,
+        "issue": "Per ПДР п.2.10, the seatbelt exemptions (водії з інвалідністю; водії/пасажири оперативних і спеціальних ТЗ; instructors when a learner is driving; водії і пасажири таксі в населених пунктах) — but importantly п.2.10 lists exemptions that apply REGARDLESS of inside/outside settlement for several categories. The detailed explanation claims ALL exemptions are limited to within settlements only, which is not accurate: водії з інвалідністю and оперативні/спеціальні ТЗ exemptions are NOT geographically limited to населений пункт. The taxi exemption IS limited to settlements. So 'Усі зобов'язані пристібатися' is likely WRONG for outside-settlement: водії з інвалідністю and operational/special vehicle occupants may still not buckle up outside settlements. The marked answer should likely be reconsidered. NOTE: low-moderate confidence — official ГСЦ base for this exact question may indeed accept 'all must buckle' framing if the official question intends the taxi-specific exemption; recommend cross-check against official ПДР п.2.10."
+      },
+      {
+        "key": "6:11",
+        "verdict": "wrong_key",
+        "confidence": 0.9,
+        "issue": "Marked answer is the single 'lit lamp (ліхтар/фара)' option, but per ПДР 6.3 a bicycle must be equipped with ALL of: a sound signal, reflectors (front white / sides orange / rear red), AND a lit lamp at night/low visibility. Multiple official exam-base sources (pomahach, pdrtest 6.11, green-way) give the correct answer as option 4 'Відповіді 1, 2, 3'. The DB key (and the explanation) are both wrong; correct answer = 'Відповіді 1, 2, 3.'"
+      },
+      {
+        "key": "6:12",
+        "verdict": "wrong_key",
+        "confidence": 0.88,
+        "issue": "Marked answer 'З 10 років' contradicts ПДР 6.1, which allows riding a bicycle on roads only from 14 years. Official exam sources for this exact question give the answer as 'З 14 років.' The explanation itself hedges ('За офіційною базою питань... з 10 років'), signalling a likely transcription error. Correct answer = 'З 14 років.'"
+      },
+      {
+        "key": "8.1:71",
+        "verdict": "wrong_key",
+        "confidence": 0.85,
+        "issue": "Per ПДР 1.10, a регулювальник is a police officer AND equated persons: military road-safety inspection officer, road-exploitation service worker, and railway-crossing/ferry duty officer (all with proper ID, armband, baton/disc/flag, uniform). All four listed options describe persons who qualify, so the official answer is option 5 'Відповіді 1, 2, 3 і 4' — confirmed by official exam sources (green-way 1097, pomahach). The DB marks only option 2 (military inspection), which is wrong/incomplete."
+      },
+      {
+        "key": "12:26",
+        "verdict": "wrong_key",
+        "confidence": 0.7,
+        "issue": "Per ПДР 12.1, безпечна швидкість обирається з урахуванням ВСІХ перелічених чинників: дорожньої обстановки, особливостей вантажу та стану ТЗ. Оскільки серед варіантів є 'Відповіді 1, 2 і 3', саме він має бути правильним, а не лише 'Дорожня обстановка'. Зовнішня перевірка офіційної бази дає відповідь 'все перераховане'. Сама пояснювалка це підтверджує ('за Правилами враховуються всі названі чинники'), тобто ключ суперечить власному поясненню — схоже на помилку транскрипції. Believe correct answer = 'Відповіді 1, 2 і 3'. (Невелика ймовірність, що існує офіційний варіант питання з іншим набором опцій, де відповідь — лише 'Дорожня обстановка' — звідси неповна впевненість.)"
+      },
+      {
+        "key": "12:35",
+        "verdict": "wrong_key",
+        "confidence": 0.88,
+        "issue": "Marked answer is 60 км/год, but per current ПДР 12.6(б) the maximum for drivers with <2 years experience on all roads outside settlements is 70 км/год. Confirmed against three authoritative sources: official pdr.infotech.gov.ua rules sec.12, green-way.com.ua punkt 12.6_b, vodiy.ua/pdr/12 — all quote 'транспортним засобам, якими керують водії зі стажем до 2 років, — не більше 70 км/год'. Correct option should be '70 км/год'. (60 km/h is a common pre-reform confusion.)"
+      },
+      {
+        "key": "12:37",
+        "verdict": "wrong_key",
+        "confidence": 0.93,
+        "issue": "Marked correct is option 3 'Швидкість яка визначена технічною характеристикою даного транспортного засобу', but the official ПДР term 1.10 defines безпечна швидкість as 'швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах' — that is OPTION 2. The item's own short/detailed text correctly describes option 2, contradicting the marked answer. Correct option should be option 2."
+      }
+    ],
+    "wrongExpl": [
+      {
+        "key": "9:17",
+        "verdict": "wrong_explanation",
+        "confidence": 0.95,
+        "issue": "Marked answer is 'Аварійну сигналізацію' but BOTH the short and detailed explanations contradict it: short says 'водій подає попереджувальний сигнал відповідним покажчиком повороту' and detailed says 'для цього використовують покажчики повороту'. The explanations justify option 1 (purchase indicator/turn signal), not the marked answer (hazard lights). Per ПДР 9.2 the warning signal before starting movement and before stopping is the turn-signal indicator (or hand), so the explanations actually describe the correct ПДР rule — which makes the marked KEY itself suspect. However, the explanations directly contradict the marked answer, so at minimum the explanation needs regen; and the key may be wrong (correct should be 'Покажчик повороту')."
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+[
+ {
+  "key": "6:10",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "6:14",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "9:2",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "9:14",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "9:20",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "9:27",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "9:28",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "9:30",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "9:36",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "9:39",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "9:40",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "9:45",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "9:46",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "9:47",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "4": 3
+  }
+ },
+ {
+  "key": "9:48",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "14:29",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "14:35",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "14:38",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "5": 3
+  }
+ },
+ {
+  "key": "14:39",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "14:42",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "14:53",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "16.2:104",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "17:8",
+  "reason": "n=2 aligned=False indep=True img_v11=False",
+  "votes": {
+   "2": 1,
+   "3": 2
+  }
+ },
+ {
+  "key": "17:10",
+  "reason": "n=1 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "18:1",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:2",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:3",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:4",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:5",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:6",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "18:8",
+  "reason": "no focused read",
+  "votes": {}
+ },
+ {
+  "key": "19:10",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "19:11",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "34:14",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "40:25",
+  "reason": "n=1 aligned=False indep=True img_v11=False",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "44:16",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "3": 3
+  }
+ },
+ {
+  "key": "51:9",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "51:15",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "2": 3
+  }
+ },
+ {
+  "key": "51:19",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "51:26",
+  "reason": "n=3 aligned=False indep=False img_v11=False",
+  "votes": {
+   "1": 3
+  }
+ },
+ {
+  "key": "52:8",
+  "reason": "n=3 aligned=True indep=True img_v11=False",
+  "votes": {
+   "5": 3
+  }
+ }
+]

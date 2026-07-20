@@ -1,0 +1,127 @@
+[
+  {
+    "stability": 1,
+    "elapsedDays": 0,
+    "r": 1
+  },
+  {
+    "stability": 1,
+    "elapsedDays": 1,
+    "r": 0.9
+  },
+  {
+    "stability": 1,
+    "elapsedDays": 10,
+    "r": 0.692827
+  },
+  {
+    "stability": 1,
+    "elapsedDays": 1,
+    "r": 0.9
+  },
+  {
+    "stability": 1,
+    "elapsedDays": 2,
+    "r": 0.845885
+  },
+  {
+    "stability": 10,
+    "elapsedDays": 0,
+    "r": 1
+  },
+  {
+    "stability": 10,
+    "elapsedDays": 1,
+    "r": 0.985682
+  },
+  {
+    "stability": 10,
+    "elapsedDays": 10,
+    "r": 0.9
+  },
+  {
+    "stability": 10,
+    "elapsedDays": 10,
+    "r": 0.9
+  },
+  {
+    "stability": 10,
+    "elapsedDays": 20,
+    "r": 0.845885
+  },
+  {
+    "stability": 50,
+    "elapsedDays": 0,
+    "r": 1
+  },
+  {
+    "stability": 50,
+    "elapsedDays": 1,
+    "r": 0.99701
+  },
+  {
+    "stability": 50,
+    "elapsedDays": 10,
+    "r": 0.97277
+  },
+  {
+    "stability": 50,
+    "elapsedDays": 50,
+    "r": 0.9
+  },
+  {
+    "stability": 50,
+    "elapsedDays": 100,
+    "r": 0.845885
+  },
+  {
+    "stability": 100,
+    "elapsedDays": 0,
+    "r": 1
+  },
+  {
+    "stability": 100,
+    "elapsedDays": 1,
+    "r": 0.998497
+  },
+  {
+    "stability": 100,
+    "elapsedDays": 10,
+    "r": 0.985682
+  },
+  {
+    "stability": 100,
+    "elapsedDays": 100,
+    "r": 0.9
+  },
+  {
+    "stability": 100,
+    "elapsedDays": 200,
+    "r": 0.845885
+  },
+  {
+    "stability": 365,
+    "elapsedDays": 0,
+    "r": 1
+  },
+  {
+    "stability": 365,
+    "elapsedDays": 1,
+    "r": 0.999586
+  },
+  {
+    "stability": 365,
+    "elapsedDays": 10,
+    "r": 0.995921
+  },
+  {
+    "stability": 365,
+    "elapsedDays": 365,
+    "r": 0.9
+  },
+  {
+    "stability": 365,
+    "elapsedDays": 730,
+    "r": 0.845885
+  }
+]

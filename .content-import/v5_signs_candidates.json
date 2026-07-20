@@ -1,0 +1,4223 @@
+{
+ "candidates": [
+  {
+   "section": "33",
+   "qnum": 1,
+   "text": "Зображений дорожній знак має таке значення:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволяє виконати поворот ліворуч у зазначеному місці."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволяє повернути тільки ліворуч."
+    },
+    {
+     "letter": "C",
+     "text": "Дозволяє об'їзд перешкоди тільки з лівого боку."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_1_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_2_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_2_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 3,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок ділянки дороги, на якій встановлено особливий режим руху."
+    },
+    {
+     "letter": "B",
+     "text": "Початок ділянки дороги, що належить до автомагістралі (дороги, на якій діють особливі умови дорожнього руху, передбачені розділом 27 Правил дорожнього руху)."
+    },
+    {
+     "letter": "C",
+     "text": "Початок ділянки дороги, яка за режимом руху належить до доріг для автомобілів."
+    },
+    {
+     "letter": "D",
+     "text": "Початок ділянки дороги, рух на якій дозволено тільки механічним транспортним засобам."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_3_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_2_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_2_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_4_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_4_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 5,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець дороги для автомобілів."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець автомагістралі."
+    },
+    {
+     "letter": "C",
+     "text": "Кінець обмеження мінімальної швидкості руху."
+    },
+    {
+     "letter": "D",
+     "text": "Кінець дії вимог, що стосуються руху в населених пунктах."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_5_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_4_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_4_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_6_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_6_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 7,
+   "text": "Зображеним дорожнім знаком позначається:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дорога, на якій по одній або кількох смугах напрямок руху може змінюватися на протилежний."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволений напрямок руху транспортних засобів по смузі."
+    },
+    {
+     "letter": "C",
+     "text": "Дорога або відокремлена проїзна частина, по якій рух транспортних засобів по всій ширині здійснюється лише в одному напрямку."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_7_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_7_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_6_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_6_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_8_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_8_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 10,
+   "text": "Зображений дорожній знак дозволяє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Зі швидкістю, що не перевищує зазначену на знакові."
+    },
+    {
+     "letter": "B",
+     "text": "Зі швидкістю, яка дорівнює тій, що вказана на знаку."
+    },
+    {
+     "letter": "C",
+     "text": "Зі швидкістю не меншою від тієї, що вказана на знаку."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_10_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_9_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_9_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_11_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_11_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 12,
+   "text": "Зображений дорожній знак дозволяє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Пішоходів."
+    },
+    {
+     "letter": "B",
+     "text": "Велосипедистів."
+    },
+    {
+     "letter": "C",
+     "text": "На мопедах і пішоходам."
+    },
+    {
+     "letter": "D",
+     "text": "Пішоходів і велосипедистів."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_12_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_11_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_11_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_13_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_13_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 15,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На перехресті, через яке організовано об'їзд."
+    },
+    {
+     "letter": "B",
+     "text": "На перехресті з круговим рухом; вимагає об'їзду клумби в напрямку, показаному стрілками."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_15_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_14_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_14_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_16_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 16,
+   "text": "Зображений дорожній знак дозволяє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Легкових автомобілів і мотоциклів."
+    },
+    {
+     "letter": "B",
+     "text": "Автобусів і маршрутних транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Вантажних автомобілів, дозволена максимальна маса яких не перевищує 3,5 т."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_16_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_15_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_17_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 17,
+   "text": "Яким транспортним засобам заборонено рух у зону дії зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Велосипедам."
+    },
+    {
+     "letter": "B",
+     "text": "Мопедам."
+    },
+    {
+     "letter": "C",
+     "text": "Гужовим возам."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_17_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_16_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_18_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_18_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 19,
+   "text": "Зображений дорожній знак дозволяє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На велосипедах і мопедах."
+    },
+    {
+     "letter": "B",
+     "text": "На мопедах і велосипедах з підвісним мотором."
+    },
+    {
+     "letter": "C",
+     "text": "На велосипедах."
+    },
+    {
+     "letter": "D",
+     "text": "На велосипедах, а також пішоходам за умови, що поряд немає тротуару або доріжки для руху пішоходів."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_19_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_18_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_18_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_20_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_20_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_20_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/33_20_1.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 22,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець ділянки дороги, на одній або кількох смугах якої напрямок руху може змінюватися на протилежний."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець смуги для руху маршрутних транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Кінець дороги з розділювальною смугою."
+    },
+    {
+     "letter": "D",
+     "text": "Кінець дороги або відокремленої проїзної частини, по всій ширині якої рух транспортних засобів здійснюється тільки в одному напрямку."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_22_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_23_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 23,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок ділянки дороги з двостороннім рухом після одностороннього."
+    },
+    {
+     "letter": "B",
+     "text": "Початок ділянки дороги з одностороннім рухом."
+    },
+    {
+     "letter": "C",
+     "text": "Початок ділянки дороги, де на одній або кількох смугах напрямок руху може змінюватися на протилежний."
+    },
+    {
+     "letter": "D",
+     "text": "Початок окремої смуги для руху маршрутних транспортних засобів."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_23_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_22_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_24_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_24_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 26,
+   "text": "Зображений     дорожній    знак         вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволені напрямки руху на перехресті."
+    },
+    {
+     "letter": "B",
+     "text": "Те, що на дорозі, яка перетинається, двосторонній рух."
+    },
+    {
+     "letter": "C",
+     "text": "Напрямок руху по смузі для маршрутних транспортних засобів."
+    },
+    {
+     "letter": "D",
+     "text": "На виїзд на дорогу з реверсивним рухом."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_25_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_25_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_25_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_27_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 27,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Те, що смуга використовується для руху тільки певних видів транспортних засобів у зазначених напрямках."
+    },
+    {
+     "letter": "B",
+     "text": "Кількість смуг на перехресті і дозволені напрямки руху на кожній з них."
+    },
+    {
+     "letter": "C",
+     "text": "Обидва варіанти правильні."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_27_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_28_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_28_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 28,
+   "text": "Який із зображених дорожніх знаків показує кількість смуг на перехресті й дозволені напрямки руху на кожній з них?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знаки 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_28_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_28_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_27_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_29_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 29,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок дороги, по всій ширині якої рух транспортних засобів здійснюється тільки в одному напрямку."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволений напрямок руху транспортних засобів на перехресті, дія знака поширюється на всю ширину проїзної частини."
+    },
+    {
+     "letter": "C",
+     "text": "Дозволений напрямок руху по смузі, над якою його встановлено."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_29_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_28_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_28_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_30_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 30,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволені напрямки руху транспортних засобів по смугах на перехресті."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволені напрямки руху транспортних засобів по реверсивній смузі."
+    },
+    {
+     "letter": "C",
+     "text": "Те, що смуга використовується для руху тільки певних видів транспортних засобів у зазначених напрямках."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_30_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_29_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_31_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_31_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 32,
+   "text": "Дія зображеного дорожнього знака поширюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Тільки на праву смугу, коли знак встановлено по центру над дорогою."
+    },
+    {
+     "letter": "B",
+     "text": "Тільки на ту смугу, над якою його встановлено."
+    },
+    {
+     "letter": "C",
+     "text": "Тільки на праву смугу, коли знак встановлено праворуч від дороги."
+    },
+    {
+     "letter": "D",
+     "text": "Усі наведені вище відповіді."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 2 і 3."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_32_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_31_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_31_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_33_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_33_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 37,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволений напрямок руху – тільки ліворуч."
+    },
+    {
+     "letter": "B",
+     "text": "Напрямок головної дороги на перехресті."
+    },
+    {
+     "letter": "C",
+     "text": "Напрямок руху на дорозі, що перетинається, якщо на ній організовано односторонній рух."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_37_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_36_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_36_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_38_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 38,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дорогу, на якій рух транспортних засобів здійснюється по двох зустрічних смугах."
+    },
+    {
+     "letter": "B",
+     "text": "Дорогу, на якій рух транспортних засобів здійснюється за встановленим маршрутом по спеціально відведеній смузі, розташованій з правого боку проїзної частини."
+    },
+    {
+     "letter": "C",
+     "text": "Дорогу, на якій по спеціально відведеній смузі здійснюється рух транспортних засобів за встановленим маршрутом, мопедів, мотоциклів (за винятком мотоциклів з боковим причепом, мотоколясок, триколісних транспортних засобів) та велосипедистів."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_38_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_37_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_39_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 39,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець дороги, на якій по спеціально відведеній смузі здійснюється рух транспортних засобів за встановленим маршрутом, мопедів, мотоциклів (за винятком       мотоциклів        з      боковим        причепом,      мотоколясок, триколіснихтранспортнихзасобів) та велосипедистів."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець дороги, на якій рух транспортних засобів здійснюється за встановленим           маршрутом            по           спеціальновідведенійсмузі, розташованійзправогобокупроїзноїчастини."
+    },
+    {
+     "letter": "C",
+     "text": "Кінець дороги, на якій рух транспортних засобів здійснюється по двох зустрічних смугах."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_39_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_38_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_40_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_40_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 42,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про початок смуги гальмування з правого боку."
+    },
+    {
+     "letter": "B",
+     "text": "Про початок додаткової смуги руху на підйомі."
+    },
+    {
+     "letter": "C",
+     "text": "Про дозволені напрямки руху транспортних засобів на перехресті."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_42_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_41_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_41_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_43_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 43,
+   "text": "На кого (які транспортні засоби) не поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На таксі, що здійснюють посадку або висадку пасажирів (розвантаження чи завантаження вантажу)."
+    },
+    {
+     "letter": "B",
+     "text": "На транспортні засоби, що рухаються за встановленими маршрутами."
+    },
+    {
+     "letter": "C",
+     "text": "На водіїв з інвалідністю, що керують мотоколяскою або автомобілем, позначеними розпізнавальним знаком «Водій з інвалідністю»."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_43_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_42_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_44_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 44,
+   "text": "На кого (які транспортні засоби) не поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На таксі з увімкненим таксометром."
+    },
+    {
+     "letter": "B",
+     "text": "На автомобілі, що належать громадянам, які проживають у зоні дії знака."
+    },
+    {
+     "letter": "C",
+     "text": "На водії з інвалідністю, що керують мотоколясками або автомобілями, позначеними розпізнавальним знаком «Водій з інвалідністю»."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_44_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_43_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_45_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_45_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 46,
+   "text": "Чи дозволено водіям транспортних засобів виконувати посадку або висадку пасажирів у зоні дії зображеного знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "C",
+     "text": "Дозволено на час до 5 хвилин."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_46_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_45_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_45_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_47_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_47_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 51,
+   "text": "Який час дається водіям для перестановки транспортних засобів з одного боку дороги на другий у разі одночасного встановлення зображених дорожніх знаків?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "З 17:00 до 23:00."
+    },
+    {
+     "letter": "B",
+     "text": "З 19:00 до 24:00."
+    },
+    {
+     "letter": "C",
+     "text": "З 7:00 до 24:00."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_51_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_52_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_52_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 53,
+   "text": "Зображений дорожній знак забороняє:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Зупинку і стоянку всіх транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Зупинку транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Стоянку транспортних засобів."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_53_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_52_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_52_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_54_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_54_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 63,
+   "text": "Дія якого із зображених дорожніх знаків поширюється тільки на той бік дороги, над яким він встановлений?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "E",
+     "text": "Усі перелічені вище знаки."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_63_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_63_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_62_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_62_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_64_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 64,
+   "text": "Зображений дорожній знак:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Забороняє стоянку всіх транспортних засобів на тому боці дороги, на якому він встановлений."
+    },
+    {
+     "letter": "B",
+     "text": "Не дозволяє зупинку всіх транспортних засобів на тому боці дороги, на якому він встановлений."
+    },
+    {
+     "letter": "C",
+     "text": "Визначає територію в населеному пункті, на якій тривалість стоянки обмежена незалежно від того, чи справляється за це плата."
+    },
+    {
+     "letter": "D",
+     "text": "Визначає територію в населеному пункті, на якій заборонено зупинку всіх транспортних засобів."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_64_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_63_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_63_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_65_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_65_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 67,
+   "text": "Зображений дорожній знак дозволяє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Тільки ліворуч."
+    },
+    {
+     "letter": "B",
+     "text": "Ліворуч або на розворот."
+    },
+    {
+     "letter": "C",
+     "text": "Тільки на розворот."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_67_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_66_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_66_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_68_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_68_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 69,
+   "text": "На які з перелічених транспортних        засобів не   поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На транспортні засоби осіб, які працюють або проживають у зоні, куди заборонено поворот."
+    },
+    {
+     "letter": "B",
+     "text": "На транспортні засоби, що рухаються з увімкненим проблисковим маячком оранжевого кольору."
+    },
+    {
+     "letter": "C",
+     "text": "На маршрутні транспортні засоби, що рухаються за встановленим маршрутом."
+    },
+    {
+     "letter": "D",
+     "text": "На транспортні засоби, позначені розпізнавальним знаком «Водій з інвалідністю», якими керують водії з інвалідністю."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2, 3 і 4."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_69_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_68_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_68_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_70_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_70_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 72,
+   "text": "Зображений дорожній знак має таке значення:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволяє виконати поворот праворуч у зазначеному місці."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволяє повернути тільки праворуч."
+    },
+    {
+     "letter": "C",
+     "text": "Дозволяє об'їзд перешкоди тільки з правого боку."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_72_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_71_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_71_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_73_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 73,
+   "text": "На які з перелічених транспортних         засобів не     поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На транспортні засоби осіб, які працюють або проживають у зоні, куди заборонено поворот."
+    },
+    {
+     "letter": "B",
+     "text": "На транспортні засоби, що рухаються з увімкненим проблисковим маячком оранжевого кольору."
+    },
+    {
+     "letter": "C",
+     "text": "На маршрутні транспортні засоби, що рухаються за встановленим маршрутом."
+    },
+    {
+     "letter": "D",
+     "text": "На транспортні засоби, позначені розпізнавальним знаком «Водій з інвалідністю», якими керують водії з інвалідністю."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2, 3 і 4."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_73_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_72_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_74_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_74_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 77,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Перед митними пунктами, біля яких зупинка не обов'язкова."
+    },
+    {
+     "letter": "B",
+     "text": "Перед митними пунктами, біля яких зупинка обов'язкова."
+    },
+    {
+     "letter": "C",
+     "text": "Перед контрольними пунктами пропуску, біля яких зупинка обов'язкова."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_77_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_76_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_76_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_78_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_78_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_78_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 80,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець дії всіх раніше встановлених дорожніх знаків."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець дії всіх заборон і обмежень, запроваджених Правилами дорожнього руху."
+    },
+    {
+     "letter": "C",
+     "text": "Кінець дії всіх заборон і обмежень, запроваджених деякими заборонними дорожніми знаками."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_80_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_81_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 97,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про місце розташування залізничного вокзалу."
+    },
+    {
+     "letter": "B",
+     "text": "Про місце розташування пункту зупинки поїздів."
+    },
+    {
+     "letter": "C",
+     "text": "Про місце розташування метро."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_97_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_96_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_96_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_98_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 98,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про початок місця зупинки автобусів."
+    },
+    {
+     "letter": "B",
+     "text": "Про місце розташування автовокзалу або автостанції."
+    },
+    {
+     "letter": "C",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_98_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_97_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_99_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 99,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Пункт технічного обслуговування."
+    },
+    {
+     "letter": "B",
+     "text": "Електрозарядні станції."
+    },
+    {
+     "letter": "C",
+     "text": "Автозаправні та електрозарядні станції."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_99_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_98_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_1.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 100,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Пункт технічного обслуговування."
+    },
+    {
+     "letter": "B",
+     "text": "Електрозарядні станції."
+    },
+    {
+     "letter": "C",
+     "text": "Автозаправні та електрозарядні станції."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_99_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 101,
+   "text": "Зображений    дорожній    знак         інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про наближення до поста Національної поліції."
+    },
+    {
+     "letter": "B",
+     "text": "Про можливе здійснення контролю за порушенням Правил дорожнього руху за допомогою спеціальних технічних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Про наближення до місця фіксації швидкості руху."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_100_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_102_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 102,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про місце розташування телефону громадського користування."
+    },
+    {
+     "letter": "B",
+     "text": "Про місце розташування телефону для виклику аварійних служб."
+    },
+    {
+     "letter": "C",
+     "text": "Про місце розташування відділення зв'язку."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_102_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_103_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 103,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про місце розташування газозаправної станції."
+    },
+    {
+     "letter": "B",
+     "text": "Про місце розташування спільної автозаправної станції."
+    },
+    {
+     "letter": "C",
+     "text": "Про місце розташування автозаправної станції одного виду пального."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_103_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_102_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_104_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 116,
+   "text": "Яка з табличок встановлюється         із зображеним дорожнім знаком?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Табличка 1."
+    },
+    {
+     "letter": "B",
+     "text": "Табличка 2."
+    },
+    {
+     "letter": "C",
+     "text": "Табличка 3."
+    },
+    {
+     "letter": "D",
+     "text": "Табличка 4."
+    },
+    {
+     "letter": "E",
+     "text": "Усі перелічені вище таблички."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_116_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_116_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_115_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_115_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_117_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 127,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про початок смуги гальмування."
+    },
+    {
+     "letter": "B",
+     "text": "Про мінімально допустиму швидкість на лівій смузі, що веде на підйом."
+    },
+    {
+     "letter": "C",
+     "text": "Про наявність смуги призначеної для руху транспортних засобів, що рухаються за встановленими маршрутами."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_127_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_126_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_128_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 128,
+   "text": "Зображений дорожній знак вказує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дозволені напрямки руху на перехресті."
+    },
+    {
+     "letter": "B",
+     "text": "Дороги, які не мають наскрізного проїзду."
+    },
+    {
+     "letter": "C",
+     "text": "Дороги, рух по яких заборонено."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_128_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_127_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_129_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_129_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 131,
+   "text": "Зображений дорожній знак застосовується для:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Зазначення швидкості, з якою рекомендується рух на даній ділянці дороги."
+    },
+    {
+     "letter": "B",
+     "text": "Зазначення обмеження максимальної швидкості на даній ділянці дороги."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_131_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_131_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_130_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_130_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_132_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_132_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 133,
+   "text": "Про що інформує зображений дорожній знак?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про в'їзд на територію, яка є пішохідною зоною."
+    },
+    {
+     "letter": "B",
+     "text": "Про в'їзд на прилеглу територію."
+    },
+    {
+     "letter": "C",
+     "text": "Про в'їзд на територію, що є житловою зоною."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_133_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_132_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_132_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_134_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_134_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 135,
+   "text": "Про що інформує зображений             дорожній знак?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про в'їзд на територію, яка є пішохідною зоною."
+    },
+    {
+     "letter": "B",
+     "text": "Про в'їзд на прилеглу територію."
+    },
+    {
+     "letter": "C",
+     "text": "Про в'їзд на територію, що є житловою зоною."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_135_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_134_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_134_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_136_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_136_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 137,
+   "text": "Зображені дорожні знаки вказують:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Рекомендований напрямок руху для вантажних автомобілів."
+    },
+    {
+     "letter": "B",
+     "text": "Рекомендований напрямок руху для самохідних машин."
+    },
+    {
+     "letter": "C",
+     "text": "Обов'язкові напрямки руху для вантажних автомобілів і самохідних машин."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_137_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_137_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_136_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_136_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_138_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 138,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Зону за довжиною для розвороту транспортних засобів; поворот ліворуч у такому місці дозволено."
+    },
+    {
+     "letter": "B",
+     "text": "Зону за довжиною для розвороту тільки вантажних транспортних засобів; поворот ліворуч у такому місці заборонено."
+    },
+    {
+     "letter": "C",
+     "text": "Зону за довжиною для розвороту транспортних засобів; поворот ліворуч у такому місці заборонено."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_138_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_137_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_137_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_139_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 139,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про початок додаткової смуги зліва або початок смуги гальмування перед перехрестям для повороту ліворуч або розвороту."
+    },
+    {
+     "letter": "B",
+     "text": "Про дозволені напрямки руху транспортних засобів на перехресті."
+    },
+    {
+     "letter": "C",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_139_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_138_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_140_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 140,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про наявність смуги для розгону транспортних засобів, яка прилягає з правого боку до проїзної частини."
+    },
+    {
+     "letter": "B",
+     "text": "Про прилягання справа до проїзної частини смуги, по якій здійснюється рух транспортних засобів у тому ж напрямку."
+    },
+    {
+     "letter": "C",
+     "text": "Про закінчення додаткової смуги або смуги розгону справа."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_140_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_139_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_141_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 141,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про прилягання справа до проїзної частини смуги, по якій здійснюється рух транспортних засобів у тому ж напрямку."
+    },
+    {
+     "letter": "B",
+     "text": "Про закінчення смуги для розгону."
+    },
+    {
+     "letter": "C",
+     "text": "Про закінчення смуги, призначеної для руху в даному напрямку."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 2 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_141_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_140_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_142_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_142_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 145,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про напрямок руху для повернення на проїзну частину праворуч після об'їзду закритої для руху ділянки проїзної частини дороги з розділювальною смугою."
+    },
+    {
+     "letter": "B",
+     "text": "Про маршрут руху на перехресті в разі заборони окремих маневрів або про дозволені напрямки руху на складному перехресті."
+    },
+    {
+     "letter": "C",
+     "text": "Про маршрут об'їзду ділянки дороги, яка тимчасово закрита для руху."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_145_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_144_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_144_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_146_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 146,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про наближення до повороту дороги, на якому є в’їзд на прилеглу територію."
+    },
+    {
+     "letter": "B",
+     "text": "Про початок смуги гальмування."
+    },
+    {
+     "letter": "C",
+     "text": "Про розташування смуги, спеціально підготовленої для аварійної зупинки транспортних засобів у разі відмови гальмівної системи."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_146_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_145_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_147_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_147_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 148,
+   "text": "Зображеними дорожніми знаками позначаються:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місця, призначені для руху пішоходів по проїзній частині."
+    },
+    {
+     "letter": "B",
+     "text": "Підземні пішохідні переходи."
+    },
+    {
+     "letter": "C",
+     "text": "Надземні пішохідні переходи."
+    },
+    {
+     "letter": "D",
+     "text": "Пішохідні доріжки."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_148_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_147_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_147_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_149_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 149,
+   "text": "Зображений дорожній знак інформує:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про можливість використання дороги."
+    },
+    {
+     "letter": "B",
+     "text": "Про відстань до населених пунктів."
+    },
+    {
+     "letter": "C",
+     "text": "Про швидкісні обмеження, що запроваджують на даній дорозі."
+    },
+    {
+     "letter": "D",
+     "text": "Про загальні обмеження швидкості та строк застосування денних ходових вогнів (ближнього світла фар)."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_149_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_148_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_150_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_150_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 151,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "В населеному пункті."
+    },
+    {
+     "letter": "B",
+     "text": "Поза населеним пунктом."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_151_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_151_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_150_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_150_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_152_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_152_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 153,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок населеного пункту, в якому діють вимоги Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "B",
+     "text": "Початок населеного пункту, в якому на даній дорозі не діють вимоги Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "C",
+     "text": "Межу, де починається забудова безпосередньо поблизу проїзної частини (за умови наявності такої забудови). Означає обмеження максимальної дозволеної швидкості до 50 км/год."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_153_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_152_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_152_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_154_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_154_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 155,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Те, що за цим знаком тимчасово змінено схему руху і (або) встановлено нові дорожні знаки."
+    },
+    {
+     "letter": "B",
+     "text": "Те, що за цим знаком на постійній основі змінено схему руху і (або) встановлено нові дорожні знаки."
+    },
+    {
+     "letter": "C",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_155_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_154_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_154_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_156_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_156_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 157,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок населеного пункту, в якому діють вимоги даних Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "B",
+     "text": "Початок населеного пункту, в якому на даній дорозі не діють вимоги Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "C",
+     "text": "Початок забудови населеного пункту безпосередньо біля проїзної частини."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_157_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_156_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_156_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_158_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 158,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок населеного пункту, в якому діють вимоги Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "B",
+     "text": "Початок населеного пункту, в якому не діють вимоги Правил дорожнього руху, що визначають порядок руху в населених пунктах."
+    },
+    {
+     "letter": "C",
+     "text": "Початок щільної забудови безпосередньо біля проїзної частини."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_158_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_157_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_159_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 159,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Початок посадкового майданчика автобуса."
+    },
+    {
+     "letter": "B",
+     "text": "Початок смуги для руху маршрутних транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Початок смуги для руху тільки автобусів."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_159_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_158_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_160_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_160_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 160,
+   "text": "Якими із зображених дорожніх знаків позначаються місця, призначені для переходу пішоходами по проїзній частині?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знаки 1, 2, 3."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_160_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_160_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_159_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_161_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 161,
+   "text": "Зображеним дорожнім знаком позначаються:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місця, призначені для руху пішоходів по проїзній частині."
+    },
+    {
+     "letter": "B",
+     "text": "Підземні пішохідні переходи."
+    },
+    {
+     "letter": "C",
+     "text": "Надземні пішохідні переходи."
+    },
+    {
+     "letter": "D",
+     "text": "Пішохідні доріжки."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_161_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_160_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_160_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_162_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 162,
+   "text": "Зображеним дорожнім знаком позначаються:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місця, призначені для руху пішоходів по проїзній частині."
+    },
+    {
+     "letter": "B",
+     "text": "Підземні пішохідні переходи."
+    },
+    {
+     "letter": "C",
+     "text": "Надземні пішохідні переходи."
+    },
+    {
+     "letter": "D",
+     "text": "Пішохідні доріжки."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_162_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_161_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_163_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 163,
+   "text": "Зображений дорожній знак застосовується:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Для позначення місць і майданчиків під накриттям для стоянки транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Для позначення місць і майданчиків для стоянки транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Для позначення місць і майданчиків з дахом для стоянки транспортних засобів, де є можливість пересадки на маршрутні транспортні засоби."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_163_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_162_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_164_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 164,
+   "text": "Зображений дорожній знак застосовується:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Для позначення критих (підземних та надземних) стоянок."
+    },
+    {
+     "letter": "B",
+     "text": "Для позначення місць і майданчиків для стоянки транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Для позначення місць і майданчиків під накриттям для стоянки транспортних засобів, де є можливість пересадки на маршрутні транспортні засоби."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_164_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_163_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 165,
+   "text": "Зображений      дорожній    знак     в поєднанні   з   табличкою   7.28.2 застосовується:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Для позначення місць і майданчиків з дахом для стоянки транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Для позначення місць і майданчиків для стоянки транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Для позначення стоянки поблизу зупинки маршрутних транспортних засобів."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_164_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_166_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 166,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місце для стоянки транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Зону, де дозволено стоянку транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Місце для посадки і висадки пасажирів."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_166_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_167_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 167,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець зони обмеженої стоянки транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець зони стоянки транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Місце виїзду з майданчика для стоянки транспортних засобів."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_167_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_166_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_168_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_168_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 170,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Безпосередньо перед залізничним переїздом без шлагбаума з однією колією."
+    },
+    {
+     "letter": "B",
+     "text": "Безпосередньо перед залізничним переїздом без шлагбаума з двома і більше коліями."
+    },
+    {
+     "letter": "C",
+     "text": "На залізничному переїзді зі шлагбаумом з однією колією."
+    },
+    {
+     "letter": "D",
+     "text": "На залізничному переїзді зі шлагбаумом з двома і більше коліями."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_170_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_169_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_171_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_171_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 176,
+   "text": "Зображений дорожній знак попереджає про наближення до:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Нерегульованого пішохідного переходу."
+    },
+    {
+     "letter": "B",
+     "text": "Будь-якого пішохідного переходу."
+    },
+    {
+     "letter": "C",
+     "text": "Місця перетину велосипедної доріжки."
+    },
+    {
+     "letter": "D",
+     "text": "Місця, на якому можлива поява дітей."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_176_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_175_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_175_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_177_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_177_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 178,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Безпосередньо перед залізничним переїздом без шлагбаума з однією колією."
+    },
+    {
+     "letter": "B",
+     "text": "Безпосередньо перед залізничним переїздом без шлагбаума з двома і більше коліями."
+    },
+    {
+     "letter": "C",
+     "text": "На залізничному переїзді зі шлагбаумом з однією колією."
+    },
+    {
+     "letter": "D",
+     "text": "На залізничному переїзді зі шлагбаумом з двома і більше коліями."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_178_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_177_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_177_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_179_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_179_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 188,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Нерегульованим пішохідним переходом."
+    },
+    {
+     "letter": "B",
+     "text": "Місцем масового скупчення людей."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги, на якій можлива поява дітей з території дитячого закладу, прилеглого безпосередньо до дороги."
+    },
+    {
+     "letter": "D",
+     "text": "Ділянкою дороги, на якій можливий вихід людей на проїзну частину."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_188_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_187_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_189_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 189,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місцем перехрещення з велосипедною доріжкою поза перехрестям."
+    },
+    {
+     "letter": "B",
+     "text": "Місцем, поблизу якого проходить велосипедна доріжка."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги, на якій можлива поява велосипедистів."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_189_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_188_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_190_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_190_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 191,
+   "text": "Зображеними дорожніми знаками позначають:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ділянку дороги з двома і більше розташованими один за одним небезпечними поворотами."
+    },
+    {
+     "letter": "B",
+     "text": "Звуження дороги."
+    },
+    {
+     "letter": "C",
+     "text": "Напрямок повороту."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_191_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_190_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_190_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_192_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_192_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 192,
+   "text": "Який із зображених дорожніх знаків повторюється перед небезпечною ділянкою дороги за межами населених пунктів?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "E",
+     "text": "Усі зображені дорожні знаки."
+    }
+   ],
+   "proposedAnswer": "E",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_192_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_192_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_191_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_193_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_193_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 193,
+   "text": "Який із зображених дорожніх знаків повторюється перед небезпечною ділянкою дороги за межами населених пунктів?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "E",
+     "text": "Усі зображені дорожні знаки."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_193_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_193_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_192_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_192_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_194_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_194_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 194,
+   "text": "Який із зображених дорожніх знаків повторюється перед небезпечними ділянками дороги в населених пунктах?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знаки 1 і 2."
+    },
+    {
+     "letter": "E",
+     "text": "Знаки 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_194_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_194_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_193_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_193_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_195_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_195_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 196,
+   "text": "Зображений дорожній знак діє:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На регульованому перехресті."
+    },
+    {
+     "letter": "B",
+     "text": "На нерегульованому перехресті."
+    },
+    {
+     "letter": "C",
+     "text": "На регульованому і нерегульованому перехрестях."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_196_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_196_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_195_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_195_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 201,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ділянкою дороги, на якій можлива поява диких тварин."
+    },
+    {
+     "letter": "B",
+     "text": "Ділянкою дороги, на якій можлива поява будь-яких тварин."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги, на якій можлива поява худоби."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_201_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_200_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_200_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_202_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 202,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ділянкою дороги, на якій можлива поява худоби."
+    },
+    {
+     "letter": "B",
+     "text": "Ділянкою дороги, на якій можлива поява будь-яких тварин."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги, на якій можлива поява диких тварин."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_202_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_201_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_203_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 203,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ділянкою дороги, на якій є нерівності проїзної частини."
+    },
+    {
+     "letter": "B",
+     "text": "Ділянкою дороги, на якій обмежено дорожній рух."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги, на якій виконують дорожні роботи."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_203_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_202_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_204_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 205,
+   "text": "Зображений дорожній знак встановлюється перед:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ділянкою дороги, на якій проходять ремонтні роботи."
+    },
+    {
+     "letter": "B",
+     "text": "Ділянкою дороги, де звуження проїзної частини спричиняє затори в дорожньому русі."
+    },
+    {
+     "letter": "C",
+     "text": "Ділянкою дороги з інтенсивним рухом."
+    },
+    {
+     "letter": "D",
+     "text": "Ділянкою дороги з багатосмуговим рухом."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_205_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_204_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_206_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_206_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 207,
+   "text": "Зображений дорожній знак попереджає водіїв:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Про наближення до ділянки дороги у місці, де геометричні параметри проїзної частини, радіуси вертикальних і горизонтальних кривих тощо не відповідають вимогам будівельних норм."
+    },
+    {
+     "letter": "B",
+     "text": "Про наближення до місця, де звуження проїзної частини спричиняє затори в дорожньому русі."
+    },
+    {
+     "letter": "C",
+     "text": "Правильні обидва варіанти."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_207_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_206_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_206_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_208_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 261,
+   "text": "Який із зображених дорожніх знаків забороняє розворот?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знаки 2 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_261_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_261_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_260_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_260_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_262_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 264,
+   "text": "Який із зображених дорожніх знаків забороняє рух транспортних засобів, що перевозять вибухові та легкозаймисті вантажі?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "E",
+     "text": "Знаки 2 і 3."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_264_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_264_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_263_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_263_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_265_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_265_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 265,
+   "text": "Зображений дорожній знак забороняє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Транспортних засобів, що перевозять речовини, які забруднюють навколишнє середовище."
+    },
+    {
+     "letter": "B",
+     "text": "Транспортних засобів, що перевозять великовагові вантажі."
+    },
+    {
+     "letter": "C",
+     "text": "Транспортних засобів, що перевозять небезпечні вантажі."
+    },
+    {
+     "letter": "D",
+     "text": "Транспортних засобів, що перевозять вибухові та легкозаймисті вантажі."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_265_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_265_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_264_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_264_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_266_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_266_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 268,
+   "text": "Зображений дорожній знак забороняє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Вантажних автомобілів, габаритна ширина яких (з вантажем чи без нього) більша від зазначеної на знакові."
+    },
+    {
+     "letter": "B",
+     "text": "Автобусів, ширина яких більша від зазначеної на знакові."
+    },
+    {
+     "letter": "C",
+     "text": "Тракторів і самохідних машин та механізмів, габаритна ширина яких (з вантажем чи без нього) більша від зазначеної на знакові."
+    },
+    {
+     "letter": "D",
+     "text": "Усіх транспортних засобів, габаритна ширина яких (з вантажем чи без нього) більша від зазначеної на знакові."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_268_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_267_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_267_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_269_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_269_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 272,
+   "text": "Дія зображених дорожніх знаків поширюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На ділянку дороги від місця встановлення до найближчого перехрестя за ним."
+    },
+    {
+     "letter": "B",
+     "text": "На перехрещення проїзних частин та інші місця, перед якими встановлено один із цих знаків."
+    },
+    {
+     "letter": "C",
+     "text": "У населених пунктах, де немає перехресть, – до кінця населеного пункту."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_272_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_271_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_271_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_273_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 273,
+   "text": "Зображений дорожній знак забороняє:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Обгін усіх транспортних засобів, крім поодиноких, що рухаються зі швидкістю менш ніж 30 км/год."
+    },
+    {
+     "letter": "B",
+     "text": "Обгін усіх транспортних засобів, крім поодиноких, що рухаються зі швидкістю менш ніж 40 км/год."
+    },
+    {
+     "letter": "C",
+     "text": "Обгін усіх транспортних засобів, крім велосипедів і гужових возів."
+    },
+    {
+     "letter": "D",
+     "text": "Обгін усіх вантажних автомобілів і тракторів."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_273_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_272_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_274_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_274_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 277,
+   "text": "Зображений дорожній знак має таке значення:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Заборонено рух транспортних засобів зі швидкістю не меншою, ніж зазначено на знакові."
+    },
+    {
+     "letter": "B",
+     "text": "Заборонено рух транспортних засобів зі швидкістю, що перевищує зазначену на знакові."
+    },
+    {
+     "letter": "C",
+     "text": "Заборонено рух транспортних засобів, загальна фактична маса яких перевищує зазначену на знакові."
+    },
+    {
+     "letter": "D",
+     "text": "Заборонено рух транспортних засобів, довжина яких (з вантажем чи без нього) перевищує зазначену на знакові."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_277_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_278_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_278_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 280,
+   "text": "Зображений дорожній знак має таке значення:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На ділянці дороги, перед якою встановлений, забороняє рух зі швидкістю, що перевищує зазначену на знакові."
+    },
+    {
+     "letter": "B",
+     "text": "У зоні, на в'їзді в яку встановлений, забороняє рух зі швидкістю, що перевищує зазначену на знакові."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_280_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_279_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_279_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_281_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_281_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_281_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 282,
+   "text": "Чи дозволено в зоні дії               зображеного   дорожнього   знака користуватися звуковим сигналом?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "B",
+     "text": "Дозволено тільки для привернення уваги водія під час обгону транспортного засобу."
+    },
+    {
+     "letter": "C",
+     "text": "Дозволено тільки в тому разі, коли без цього неможливо запобігти дорожньо- транспортній пригоді."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_281_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_281_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_281_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_283_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_283_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 284,
+   "text": "На які транспортні засоби поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На всі вантажні автомобілі та трактори."
+    },
+    {
+     "letter": "B",
+     "text": "На вантажні автомобілі з дозволеною максимальною масою понад 3,5 т, а також на трактори."
+    },
+    {
+     "letter": "C",
+     "text": "На всі транспортні засоби."
+    },
+    {
+     "letter": "D",
+     "text": "На трактори."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_284_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_283_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_283_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_285_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_285_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_285_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/33_285_1.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 287,
+   "text": "За якої з умов дозволено виконати обгін транспортного засобу після проїзду зображеного дорожнього знака, встановленого з табличкою?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Якщо поодинокий транспортний засіб рухається зі швидкістю 40 км/год."
+    },
+    {
+     "letter": "B",
+     "text": "Якщо обгін закінчиться не більш ніж через 500 м після проїзду даних дорожніх знаків."
+    },
+    {
+     "letter": "C",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_287_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_288_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_288_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 290,
+   "text": "На які види транспортних засобів не поширюється дія зображеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На механічні транспортні засоби."
+    },
+    {
+     "letter": "B",
+     "text": "На немеханічні транспортні засоби."
+    },
+    {
+     "letter": "C",
+     "text": "Дія зображеного дорожнього знака поширюється на всі без винятку транспортні засоби."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_290_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_289_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_289_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_291_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_291_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 292,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Кінець зони дії знака «Обгін вантажним автомобілям заборонено»."
+    },
+    {
+     "letter": "B",
+     "text": "Кінець дії всіх заборон і обмежень, запроваджених заборонними дорожніми знаками."
+    },
+    {
+     "letter": "C",
+     "text": "Кінець зони дії знака «Обгін заборонено»."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_292_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_291_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_291_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_293_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_293_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 294,
+   "text": "Вимога якого із зображених знаків зобов'язує водія транспортного засобу обов'язково зупинитися на нерегульованому перехресті або залізничному переїзді?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Усі зображені дорожні знаки."
+    },
+    {
+     "letter": "E",
+     "text": "Знаки 1 і 2."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_294_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_294_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_293_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_293_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_295_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_295_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 296,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На перехресті з обмеженою оглядовістю дороги."
+    },
+    {
+     "letter": "B",
+     "text": "На нерегульованих перехрестях."
+    },
+    {
+     "letter": "C",
+     "text": "На вузьких ділянках дороги, в місцях, де обмежено зустрічний роз'їзд транспортних засобів."
+    },
+    {
+     "letter": "D",
+     "text": "На підйомах і спусках."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_296_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_296_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_295_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_295_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_297_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_297_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 301,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "На перехресті з обмеженою оглядовістю дороги."
+    },
+    {
+     "letter": "B",
+     "text": "На нерегульованих перехрестях."
+    },
+    {
+     "letter": "C",
+     "text": "На вузьких ділянках дороги, в місцях, де ускладнено зустрічний роз'їзд транспортних засобів."
+    },
+    {
+     "letter": "D",
+     "text": "На підйомах і спусках."
+    },
+    {
+     "letter": "E",
+     "text": "У місцях, де закінчується односторонній рух."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_301_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_300_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_300_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_302_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_302_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 303,
+   "text": "Зображений дорожній знак встановлюється:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Перед перехрестями, на яких скасовується право першочергового проїзду нерегульованих перехресть."
+    },
+    {
+     "letter": "B",
+     "text": "Перед перехрестями, на яких водієві транспортного засобу надається право першочергового проїзду нерегульованих перехресть."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_303_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_303_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_302_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_302_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_304_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_304_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 310,
+   "text": "Який із зображених знаків зобов'язує дати дорогу транспортним засобам, що рухаються по дорозі, яка перетинається, на нерегульованих перехрестях?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Обидва знаки."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_310_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_310_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_309_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_309_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_311_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 311,
+   "text": "Який із зображених дорожніх знаків надає першочергове право проїзду перед транспортними засобами, що рухаються по дорозі, яка перетинається, на нерегульованих перехрестях?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "B",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "C",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "D",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "E",
+     "text": "Знаки 1 і 2."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_311_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_310_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_310_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 312,
+   "text": "Зображений дорожній знак, встановлений на нерегульованому перехресті:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Зобов'язує водія дати дорогу транспортним засобам, які під'їжджають до нерегульованого перехрестя по дорозі, що перетинається."
+    },
+    {
+     "letter": "B",
+     "text": "Зобов'язує водія дати дорогу транспортним засобам, які під'їжджають до нерегульованого перехрестя по дорозі, що перетинається, з обов'язковою зупинкою перед розміткою «Стоп-лінія»."
+    },
+    {
+     "letter": "C",
+     "text": "Надає водієві право на першочерговий проїзд перехрестя."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_311_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_311_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_313_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_313_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 319,
+   "text": "Зображений дорожній знак забороняє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Тракторів."
+    },
+    {
+     "letter": "B",
+     "text": "Самохідних машин і механізмів."
+    },
+    {
+     "letter": "C",
+     "text": "Вантажних автомобілів і транспортних составів з дозволеною максимальною масою понад 3,5 т."
+    },
+    {
+     "letter": "D",
+     "text": "Відповіді 1 і 2."
+    },
+    {
+     "letter": "E",
+     "text": "Відповіді 1, 2 і 3."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_319_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_318_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_318_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_320_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 320,
+   "text": "Дія зображеного дорожнього знака поширюється на:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Мотоцикли та мопеди."
+    },
+    {
+     "letter": "B",
+     "text": "Мотоцикли, мопеди і велосипеди з підвісними двигунами."
+    },
+    {
+     "letter": "C",
+     "text": "Мопеди."
+    },
+    {
+     "letter": "D",
+     "text": "Мопеди і велосипеди з підвісними двигунами."
+    },
+    {
+     "letter": "E",
+     "text": "Мопеди і велосипеди."
+    }
+   ],
+   "proposedAnswer": "D",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_320_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_319_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_321_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_321_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_321_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 321,
+   "text": "Зображений дорожній знак забороняє рух:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Велосипедів, мопедів і мотоциклів."
+    },
+    {
+     "letter": "B",
+     "text": "Велосипедів і мопедів."
+    },
+    {
+     "letter": "C",
+     "text": "Велосипедів."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_321_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_321_1.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_321_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_320_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 338,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Велосипедну смугу."
+    },
+    {
+     "letter": "B",
+     "text": "Велосипедну доріжку."
+    },
+    {
+     "letter": "C",
+     "text": "Велосипедний переїзд."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_338_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_339_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 342,
+   "text": "Зображений дорожній знак:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Забороняє рух зазначених на ньому транспортних засобів."
+    },
+    {
+     "letter": "B",
+     "text": "Забороняє обгін зазначених на ньому транспортних засобів."
+    },
+    {
+     "letter": "C",
+     "text": "Забороняє рух усіх транспортних засобів."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_342_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_341_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_343_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 343,
+   "text": "Зображений дорожній знак інформує про:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Суміжні пішохідний перехід та велосипедний переїзд."
+    },
+    {
+     "letter": "B",
+     "text": "Доріжку для пішоходів та велосипедистів."
+    },
+    {
+     "letter": "C",
+     "text": "Суміжну пішохідну та велосипедну доріжки."
+    }
+   ],
+   "proposedAnswer": "C",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_343_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_342_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_344_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 344,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Рух із застосуванням ланцюгів проти ковзання."
+    },
+    {
+     "letter": "B",
+     "text": "Рух лише вантажних автомобілів із застосуванням ланцюгів проти ковзання."
+    },
+    {
+     "letter": "C",
+     "text": "Місця розташування шиномонтажу."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_344_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_343_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_1.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 345,
+   "text": "Зображений дорожній знак інформує про дорогу:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Із зустрічною велосипедною смугою."
+    },
+    {
+     "letter": "B",
+     "text": "Для суміщеного руху легкових автомобілів та велосипедистів."
+    },
+    {
+     "letter": "C",
+     "text": "Де велосипедна доріжка перетинає проїзну частину."
+    }
+   ],
+   "proposedAnswer": "B",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_344_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 346,
+   "text": "Зображений дорожній знак позначає виїзд на дорогу, де рух транспортних засобів, що рухаються за встановленими маршрутами, здійснюється спеціально відведеною смугою, позначеною знаком 5.11:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Попутно загальному потоку."
+    },
+    {
+     "letter": "B",
+     "text": "Назустріч загальному потоку."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_345_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_347_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 347,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Мінімальну швидкість на різних смугах руху."
+    },
+    {
+     "letter": "B",
+     "text": "Обмеження максимальної швидкості на різних смугах руху."
+    },
+    {
+     "letter": "C",
+     "text": "Початок додаткової смуги руху."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_347_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_348_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 350,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Місце розташування автовокзалу чи автостанції."
+    },
+    {
+     "letter": "B",
+     "text": "Місце розташування морського (річкового) порту чи вокзалу."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_350_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_349_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_351_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 353,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Дорогу, на якій по спеціально виділеній і відокремленій розміткою смузі, організовано рух велосипедистів у зустрічному до загального потоку транспортних засобів напрямку."
+    },
+    {
+     "letter": "B",
+     "text": "Велосипедну смугу."
+    },
+    {
+     "letter": "C",
+     "text": "Місця, де велосипедна доріжка перетинає проїзну частину."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_353_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_353_1.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_352_0.png"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "33",
+   "qnum": 356,
+   "text": "Зображений дорожній знак позначає:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Виїзд на дорогу з одностороннім рухом і зустрічною велосипедною смугою."
+    },
+    {
+     "letter": "B",
+     "text": "Велосипедний переїзд."
+    },
+    {
+     "letter": "C",
+     "text": "Велосипедну смугу."
+    }
+   ],
+   "proposedAnswer": "A",
+   "answerValidated": true,
+   "categoryCodes": [
+    "A",
+    "B",
+    "C"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_356_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_355_0.png",
+    "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_357_0.png",
+    "/Users/clpc/drivers-school/.content-import/images/33_357_0.jpeg"
+   ],
+   "needsVision": true
+  }
+ ]
+}

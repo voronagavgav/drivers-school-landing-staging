@@ -1,0 +1,19 @@
+/Users/clpc/mesa/bin/driver.sh: line 194: describe.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: it.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: ctx.skip: command not found
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+All seven acceptance criteria verified against reality:
+
+**Artifacts inspected directly:**
+- `scripts/fsrs-fit/export-logs.ts`: `exportUserRevlog(prisma, userId): Promise<string>` queries `where: { userId, engine: REVIEW_ENGINE_VERSION }`, importing `REVIEW_ENGINE_VERSION` from `@/lib/fsrs` (barrel → `lib/fsrs/constants.ts:69` = `"fsrs6-bkt2"`) — **no hard-coded literal** (crit 1 ✓). Header const is exactly `card_id,review_time,review_rating` (crit 2 ✓). Header comment (lines 13–21) documents the pre-bkt2 exclusion + grade-semantics-segmentation rationale (crit 3 ✓).
+- `lib/server/fsrs-export.integration.test.ts`: seeds ONE fixture user, 6 ReviewLog rows — 3 `fsrs6-bkt2`, 1 `null` (on card A, which *also* has bkt2 rows), 1 `null` (card C), 1 `fsrs6-bkt1` (card C) — drives the **real** `exportUserRevlog` and asserts (a) only the 3 bkt2 rows appear + card C absent, (b) (card_id, review_time) ordering (card A's two rows seeded out-of-order so the sort does real work), (c) rating==grade, plus the exact header. Cleanup deletes user (cascade) then fixture (crit 4 ✓).
+
+**Ran the gates myself:**
+- typecheck → EXIT 0 (crit 7 ✓)
+- db:seed → then full `test:integration` → **69 files / 285 tests, EXIT 0** (crit 6 ✓)
+- targeted run of the file → 1 passed
+- `vitest list --config vitest.integration.config.ts` → `fsrs-export` collected (crit 5 ✓)
+
+**Structural-trap audit:** Expected values are hand-authored fixtures (known grades/times/engine tags), *not* derived from the implementation — no self-referential test (a). The test drives the same `exportUserRevlog` the CLI calls, not a bypassed helper (b). Oracle is the spec-defined py-fsrs CSV schema + engine-tag semantics, external to the impl (c). No test weakening (d). No fixture-dodging — the mix genuinely exercises the filter: card A carries a bkt2 *and* an excluded null row, card C carries *only* excluded rows and is asserted absent (e).
+
+VERDICT: ACCEPT — all 7 acceptance criteria objectively met, no structural self-consistency traps.

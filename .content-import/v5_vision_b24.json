@@ -1,0 +1,66 @@
+[
+  {
+    "section": "20",
+    "qnum": 10,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-004.jpg is an answer-key table (Розділ 18-31 Питання/Відповідь grids of question numbers and answers), not a road sign or scene. Does not match."
+  },
+  {
+    "section": "20",
+    "qnum": 13,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-004.jpg is an answer-key index table, not an illustrative road-sign/scene image. No match."
+  },
+  {
+    "section": "20",
+    "qnum": 15,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-004.jpg is an answer-key index table, not an illustrative road-sign/scene image. No match."
+  },
+  {
+    "section": "23",
+    "qnum": 11,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-004.jpg is an answer-key index table, not an illustrative road-sign/scene image. No match."
+  },
+  {
+    "section": "34",
+    "qnum": 4,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-006.jpg is an answer-key index table (Розділ 33-34 Питання/Відповідь grids), not a road sign or scene. No match."
+  },
+  {
+    "section": "34",
+    "qnum": 14,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-006.jpg is an answer-key index table, not an illustrative road-sign/scene image. No match."
+  },
+  {
+    "section": "43",
+    "qnum": 3,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Question asks which vehicles may be operated without a fire extinguisher, requiring vehicle illustrations. Candidate akey-008.jpg is an answer-key index table (Розділ 41-48 Питання/Відповідь grids), not vehicle images. No match."
+  },
+  {
+    "section": "43",
+    "qnum": 28,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-008.jpg is an answer-key index table, not an illustrative road-sign/scene image. No match."
+  }
+]

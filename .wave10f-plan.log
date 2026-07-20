@@ -1,0 +1,56 @@
+Planning complete. I decomposed `specs/wave10f-review-fixes.md` into **19 atomic task journals** under `tasks/`, each with `**Driver:** auto`, boolean acceptance criteria, scope/Non-Goal constraints, a first increment, and an executable `verify.sh` (all syntax-checked).
+
+## Self-clarification (done from spec + repo, not asked)
+- **Problem/Goal:** Fix the 18 confirmed adversarial-review defects in Wave-10's SRS foundation (root cause: self-referential tests) and add the missing EXTERNAL FSRS reference gate. No features, no UI.
+- **Core actions:** (1) correct the FSRS/readiness/queue math against an independent reference; (2) un-strip & wire the SRS server fields end-to-end with whole-transaction idempotency; (3) schema hygiene (FK Restrict, drift-zero) + two investigation spikes.
+- **Non-Goals:** per-topic empirical-Bayes prior, event-id namespacing, client `reviewedAt`, any UI/PWA production wiring, confidence capture (all Wave 11/13).
+- **Success:** typecheck/test (incl. green `reference-vectors`)/integration/build all 0; migrate-diff empty; static invariants hold.
+- **Constraints:** Wave-10 RULES verbatim — purity, injected clock/rng, hand-authored migrations (never migrate-dev), Ukrainian copy, stable-key architecture untouched.
+
+## Task ordering (investigation-adjacent → engine → server → schema → spikes → gate)
+The keystone two-step is encoded: **01** authors the external golden-vector test RED (verify only checks it exists + is collected); **02** fixes the prior-difficulty bug and flips it into the `npm test` green gate.
+
+Task dirs created:
+- `tasks/wave10f-01-fsrs-golden-vectors` (A, keystone, EVAL)
+- `tasks/wave10f-02-fsrs-prior-difficulty-fix` (B1, EVAL)
+- `tasks/wave10f-03-fsrs-curve-constants-docs` (B2+B4)
+- `tasks/wave10f-04-fsrs-easy-no-confidence` (B3)
+- `tasks/wave10f-05-readiness-beta-mock` (C1, EVAL)
+- `tasks/wave10f-06-readiness-blueprint-heterogeneity` (C2, EVAL)
+- `tasks/wave10f-07-readiness-unseen-prior-honesty` (C3, EVAL)
+- `tasks/wave10f-08-queue-additive-scoring` (D1, EVAL)
+- `tasks/wave10f-09-queue-newitemshare-cap` (D2)
+- `tasks/wave10f-10-validation-unstrip-srs-fields` (E1)
+- `tasks/wave10f-11-client-sends-srs-fields` (E2)
+- `tasks/wave10f-12-idempotency-whole-transaction` (E3, EVAL)
+- `tasks/wave10f-13-gate-adaptive-review` (E4)
+- `tasks/wave10f-14-srs-integration-tests` (E5, EVAL)
+- `tasks/wave10f-15-schema-fk-restrict-migration` (F1+F2, EVAL)
+- `tasks/wave10f-16-schema-drift-cleanup` (F3+F4)
+- `tasks/wave10f-17-spike-serwist` (G, investigation)
+- `tasks/wave10f-18-spike-sharp-avif` (H, investigation)
+- `tasks/wave10f-19-verify-wave10f` (I, final gate, EVAL)
+
+8 tasks flagged `**Evaluate:** yes` (correctness-critical math, idempotency/data-loss, the irreversible FK migration, and the final gate). No increments were run, nothing marked done, no commits made.
+=== planned tasks (prefix 'wave10f') ===
+  wave10f-01-fsrs-golden-vectors ⚠ OVERSIZED (8 criteria > 7) — likely not atomic; consider splitting
+  wave10f-02-fsrs-prior-difficulty-fix ok (5 criteria, verify.sh: yes)
+  wave10f-03-fsrs-curve-constants-docs ok (6 criteria, verify.sh: yes)
+  wave10f-04-fsrs-easy-no-confidence ok (6 criteria, verify.sh: yes)
+  wave10f-05-readiness-beta-mock ok (6 criteria, verify.sh: yes)
+  wave10f-06-readiness-blueprint-heterogeneity ok (5 criteria, verify.sh: yes)
+  wave10f-07-readiness-unseen-prior-honesty ok (5 criteria, verify.sh: yes)
+  wave10f-08-queue-additive-scoring ok (7 criteria, verify.sh: yes)
+  wave10f-09-queue-newitemshare-cap ok (5 criteria, verify.sh: yes)
+  wave10f-10-validation-unstrip-srs-fields ok (5 criteria, verify.sh: yes)
+  wave10f-11-client-sends-srs-fields ok (5 criteria, verify.sh: yes)
+  wave10f-12-idempotency-whole-transaction ok (5 criteria, verify.sh: yes)
+  wave10f-13-gate-adaptive-review ok (5 criteria, verify.sh: yes)
+  wave10f-14-srs-integration-tests ok (5 criteria, verify.sh: yes)
+  wave10f-15-schema-fk-restrict-migration ok (5 criteria, verify.sh: yes)
+  wave10f-16-schema-drift-cleanup ok (5 criteria, verify.sh: yes)
+  wave10f-17-spike-serwist       ok (5 criteria, verify.sh: yes)
+  wave10f-18-spike-sharp-avif    ok (4 criteria, verify.sh: yes)
+  wave10f-19-verify-wave10f      ok (6 criteria, verify.sh: yes)
+NOTE: 1 task(s) exceeded taskMaxCriteria (7), policy=warn — split them for cleaner atomic execution.
+Planned 19 complete task(s). Next: /Users/clpc/mesa/bin/driver.sh run-all   # drive the backlog to done

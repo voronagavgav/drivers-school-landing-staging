@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 149,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_149_0.png",
+    "confident": true,
+    "reason": "First image is a single clear 'UKRAINE' border speed-limit plate (50/90/130 by road type with locality/highway silhouettes) — a self-contained road sign matching 'the depicted sign means'. Fallback 33_148_0 is an unrelated pedestrian-crossing pair."
+  },
+  {
+    "section": "33",
+    "qnum": 151,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_151_0.png",
+    "confident": true,
+    "reason": "First image is a single green advance directional sign (route numbers Київ/Харків/Чернігів, 800 м, roundabout layout) — a clear depicted sign. Fallback 33_150_0 is an answer-options grid, not a single sign."
+  },
+  {
+    "section": "33",
+    "qnum": 153,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_153_0.png",
+    "confident": true,
+    "reason": "First image clearly depicts a single sign: a black city-skyline silhouette (built-up area / locality marker). Fallback 33_152_0 is an answer-options grid."
+  },
+  {
+    "section": "33",
+    "qnum": 155,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_155_0.png",
+    "confident": true,
+    "reason": "First image is a single clear red information sign 'ПОПЕРЕДЖЕ ВСТАНОВЛЕНІ НОВІ ДОРОЖНІ ЗНАКИ / NEW ROAD SIGNS AHEAD'. Fallback 33_154_0 is an options grid of end-of-zone signs."
+  },
+  {
+    "section": "33",
+    "qnum": 157,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_157_0.png",
+    "confident": true,
+    "reason": "First image is a single clear blue place-name/locality sign 'Рудня / Rudnia'. Fallback 33_156_0 is an answer-options grid (airport/parking signs)."
+  },
+  {
+    "section": "33",
+    "qnum": 158,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_158_0.png",
+    "confident": true,
+    "reason": "First image is a single clear blue place-name/locality sign 'Одеса / Odesa' — a self-contained depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 159,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_159_0.png",
+    "confident": true,
+    "reason": "First image is a single clear blue bus-stop sign (bus silhouette on white field) — a self-contained depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 160,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "First image 33_160_0 is an answer-options grid (three numbered groups of pedestrian/stairs/crossing signs), not a single depicted sign the question asks about. Fallback 33_159_0 is a bus-stop sign, unrelated to a pedestrian-sign question. No single clear matching sign image."
+  }
+]

@@ -1,0 +1,4 @@
+q_roundabout -> https://files.catbox.moe/ro4snk.png
+q_unreg_intersection -> https://files.catbox.moe/a68slx.png
+q_ped_crossing -> https://files.catbox.moe/1a74f2.png
+q_left_turn -> https://files.catbox.moe/f7ehr5.png

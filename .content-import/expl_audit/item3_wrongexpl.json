@@ -1,0 +1,25 @@
+[
+  {
+    "key": "23:10",
+    "question": "Яким способом необхідно буксирувати транспортний засіб із рульовим керуванням, що не діє?",
+    "options": [
+      "Тільки на гнучкому зчепленні.",
+      "Тільки на жорсткому зчепленні.",
+      "На жорсткому зчепленні або способом часткового навантаження.",
+      "Лише способом часткового навантаження."
+    ],
+    "markedCorrect": "На жорсткому зчепленні або способом часткового навантаження.",
+    "reviewerNote": "Marked key 'На жорсткому зчепленні або способом часткового навантаження' is correct (ПДР п.23.4 allows rigid coupling OR partial-loading for a vehicle with non-functioning steering). But short+detailed claim ONLY partial-loading is allowed and explicitly say rigid coupling does NOT meet the requirement — this contradicts and undermines the correct marked answer. Explanation needs regen to state both rigid coupling and partial loading are permitted."
+  },
+  {
+    "key": "9:17",
+    "question": "Який попереджувальний сигнал Ви як водій повинні вмикати на транспортному засобі перед початком руху і зупинкою?",
+    "options": [
+      "Покажчик повороту.",
+      "Аварійну сигналізацію.",
+      "Стоянкові вогні."
+    ],
+    "markedCorrect": "Аварійну сигналізацію.",
+    "reviewerNote": "Marked answer is 'Аварійну сигналізацію' but BOTH the short and detailed explanations contradict it: short says 'водій подає попереджувальний сигнал відповідним покажчиком повороту' and detailed says 'для цього використовують покажчики повороту'. The explanations justify option 1 (purchase indicator/turn signal), not the marked answer (hazard lights). Per ПДР 9.2 the warning signal before starting movement and before stopping is the turn-signal indicator (or hand), so the explanations actually describe the correct ПДР rule — which makes the marked KEY itself suspect. However, the explanations directly contradict the marked answer, so at minimum the explanation needs regen; and the key may be wrong (correct should be 'Покажчик повороту')."
+  }
+]

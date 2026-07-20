@@ -1,0 +1,50 @@
+[
+  {
+    "key": "23:10",
+    "section": "23",
+    "sectionTitle": "БУКСИРУВАННЯ ТА ЕКСПЛУАТАЦІЯ ТРАНСПОРТНИХ СОСТАВІВ",
+    "question": "Яким способом необхідно буксирувати транспортний засіб із рульовим керуванням, що не діє?",
+    "options": [
+      {
+        "text": "Тільки на гнучкому зчепленні.",
+        "correct": false
+      },
+      {
+        "text": "Тільки на жорсткому зчепленні.",
+        "correct": false
+      },
+      {
+        "text": "На жорсткому зчепленні або способом часткового навантаження.",
+        "correct": true
+      },
+      {
+        "text": "Лише способом часткового навантаження.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "На жорсткому зчепленні або способом часткового навантаження.",
+    "genConcern": "VERIFIED AGAINST GROUND TRUTH — the proposed explanation is correct; the reviewerNote and the file's markedCorrect are the ones in error. Official ПДР text (verbatim from infotech.gov.ua): п.23.7 = \"Механічний транспортний засіб з рульовим керуванням, що не діє, повинен буксируватися відповідно до вимог підпункту «б» пункту 23.2\"; п.23.2«б» = \"із частковим навантаженням буксированого транспортного"
+  },
+  {
+    "key": "9:17",
+    "section": "9",
+    "sectionTitle": "ПОПЕРЕДЖУВАЛЬНІ СИГНАЛИ",
+    "question": "Який попереджувальний сигнал Ви як водій повинні вмикати на транспортному засобі перед початком руху і зупинкою?",
+    "options": [
+      {
+        "text": "Покажчик повороту.",
+        "correct": false
+      },
+      {
+        "text": "Аварійну сигналізацію.",
+        "correct": true
+      },
+      {
+        "text": "Стоянкові вогні.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "Аварійну сигналізацію.",
+    "genConcern": "Explanation is factually and legally CORRECT and does NOT repeat the prior mistake (the old text was internally contradictory — described turn signal while key said hazard lights; the new text is coherent and explicitly flags the key error). Verified against authoritative ПДР sources (pdr.infotech.gov.ua, kodeksy.com.ua): п. 9.2 «а» requires turn-signal indicators before starting movement and stop"
+  }
+]

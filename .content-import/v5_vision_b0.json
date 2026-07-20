@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_1_0.png",
+    "confident": true,
+    "reason": "Single blue circular sign with a white arrow pointing down-left (mandatory direction of movement). Matches the stem 'the depicted road sign means'. The 33_2_0 candidates are a multi-sign option grid (end-of-restriction signs), not a single depicted sign."
+  },
+  {
+    "section": "33",
+    "qnum": 3,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_3_0.png",
+    "confident": true,
+    "reason": "Single green rectangular 'Motorway / автомагістраль' sign. Matches stem 'the depicted road sign indicates'. The 33_4_0 candidates are a multi-sign option grid; 33_2_0 belongs to another question."
+  },
+  {
+    "section": "33",
+    "qnum": 5,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_5_0.png",
+    "confident": true,
+    "reason": "Single green motorway sign with a diagonal red strike-through = 'End of motorway'. Matches stem 'the depicted road sign indicates'. The 33_6_0 candidates are a driving scene (U-turn near one-way signs), not a single sign; 33_4_0 is an option grid."
+  },
+  {
+    "section": "33",
+    "qnum": 7,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_7_0.png",
+    "confident": true,
+    "reason": "Single blue square sign with an upward white arrow = 'One-way road'. Matches stem 'is indicated by the depicted road sign'. 33_7_1 is a parking+bus combo, 33_8_0 is an option grid, 33_6_0 is a scene."
+  },
+  {
+    "section": "33",
+    "qnum": 10,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_10_0.png",
+    "confident": true,
+    "reason": "Single blue circular sign with white '50' = minimum-speed sign, which prescribes/allows movement at not less than the indicated speed. Matches stem 'the depicted road sign allows movement'. 33_9_0 is a scene; 33_11_0 is an option grid."
+  },
+  {
+    "section": "33",
+    "qnum": 12,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_12_0.png",
+    "confident": true,
+    "reason": "Single blue circular sign showing a pedestrian and a bicycle = 'Pedestrian and bicycle path', which allows movement of pedestrians and cyclists. Matches stem 'the depicted road sign allows movement'. 33_11_0 is an option grid."
+  },
+  {
+    "section": "33",
+    "qnum": 15,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_15_0.png",
+    "confident": true,
+    "reason": "Single blue circular sign with three white circular arrows = 'Roundabout' (круговий рух). Matches stem 'the depicted road sign indicates'. 33_14_0 is a driving scene (Б/А fork), not a single sign."
+  },
+  {
+    "section": "33",
+    "qnum": 16,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_16_0.png",
+    "confident": true,
+    "reason": "Single blue circular sign with a white car silhouette = motor-vehicle-only directional sign, allowing movement of the indicated vehicles. Matches stem 'the depicted road sign allows movement'. 33_15_0 is the roundabout sign (a different question)."
+  }
+]

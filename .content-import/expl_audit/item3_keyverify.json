@@ -1,0 +1,225 @@
+{
+  "summary": "Ground-truth verify the 8 wrong-answer-key flags from the exhaustive explanation verify; skeptic-confirm every change",
+  "agentCount": 15,
+  "logs": [
+    "Verified 8/8. verdicts={\"key_wrong_options_ok\":7,\"key_correct\":1}. confirmedFixes=7, key_correct=1, unresolved=0"
+  ],
+  "result": {
+    "total": 8,
+    "byVerdict": {
+      "key_wrong_options_ok": 7,
+      "key_correct": 1
+    },
+    "confirmedFixes": [
+      {
+        "key": "19:15",
+        "correctOptionText": "Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР 19.1 — \"Зовнішні світлові прилади повинні бути ввімкнені... в умовах недостатньої видимості: на всіх механічних транспортних засобах - фари ближнього (дальнього) світла\". Примітка/доповнення: в умовах недостатньої видимості дозволяється замість фар ближнього (дальнього) світла ввімкнути протитуманні фари, а також увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар. Таким чином базова вимога — фари ближнього (дальнього) світла, а не самі лише протитуманні фари.",
+        "sources": "https://testpdr.online/test.php?test=all&q=746 (=manualov.net online-test-pdr question=746) — lists the identical four options as our DB and marks Option 3 (\"Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.\") as correct, 87.2% correct responses; https://vodiy.ua/pdr/19/ — ПДР 19.1 text: \"на всіх механічних транспортних засобах - фари ближнього (дальнього)\", fog lights permitted as substitute; https://pdrtest.com/question/19.15 (question 19.15, title verbatim match — page intermittently 429); https://green-way.com.ua/uk/test-pdd/twenty-questions/4852 (verbatim title match); WebSearch summary confirming \"Правильна відповідь: Фари ближнього (дальнього) світла.\""
+      },
+      {
+        "key": "6:11",
+        "correctOptionText": "Відповіді 1, 2, 3.",
+        "correctOptionIndex": 3,
+        "pdrClause": "ПДР України, Розділ 6 (Вимоги до велосипедистів), п.6.2: велосипед, яким керують на дорозі, має бути обладнаний звуковим сигналом та світлоповертачами (спереду — білого кольору, по боках — оранжевого, ззаду — червоного); п.6.3 (рух у темну пору доби / в умовах недостатньої видимості): на велосипеді має бути встановлений і увімкнений ліхтар (фара). Усі три види обладнання обов'язкові → правильна відповідь охоплює всі три.",
+        "sources": "https://pomahach.com/question/3763-24798/chim-maye-buti-obladnaniy-velosiped/ (WebFetched: option \"Відповіді 1, 2, 3\" marked correct); https://pdrtest.com/question/6.11 (search-confirmed, official base item 6.11); https://green-way.com.ua/uk/test-pdd/twenty-questions/177 ; https://vodiy.ua/pdr/6/ ; https://pdr.infotech.gov.ua/theory/rules/6"
+      },
+      {
+        "key": "6:12",
+        "correctOptionText": "З 14 років.",
+        "correctOptionIndex": 2,
+        "pdrClause": "ПДР України п. 6.1: \"Рухатися по дорозі на велосипедах дозволяється особам, які досягли 14-річного віку.\" (Riding bicycles on the road is permitted only to persons who have reached 14 years of age.)",
+        "sources": "https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-6/punkt-1 (ПДР clause 6.1 text confirming age 14, fetched); WebSearch official ГСЦ exam answer for this exact question = \"З 14 років\"; https://pomahach.com/question/3764-18844/z-yakogo-viku-dozvoleno-ruhatisya-po-dorogah-na-velosipedi/ (identical stem + identical 4 options verbatim, fetched); https://pdrtest.com/question/6.12 ; https://green-way.com.ua/uk/test-pdd/twenty-questions/4176 ; https://vodiy.ua/pdr/6/ ; https://pdr.infotech.gov.ua/theory/rules/6"
+      },
+      {
+        "key": "8.1:71",
+        "correctOptionText": "Відповіді 1, 2, 3 і 4.",
+        "correctOptionIndex": 4,
+        "pdrClause": "ПДР України п.1.10 (термін \"Регулювальник\"): уповноважена особа, яка регулює дорожній рух за допомогою сигналів, установлених Правилами, і має відповідні розпізнавальні знаки та екіпірування — поліцейський, а також працівник військової інспекції безпеки дорожнього руху, дорожньо-експлуатаційної служби, черговий на залізничному переїзді, поромній переправі (за наявності посвідчення, нарукавної пов'язки, жезла, диска з червоним сигналом чи світлоповертачем, червоного ліхтаря або прапорця, у форменому одязі). Усі чотири категорії прирівнюються до регулювальника.",
+        "sources": "https://pomahach.com/question/3821-43954/zgidno-z-pravilami-dorozhnogo-ruhu-regulyuvalnikom-vvazhayets/ (official exam-base mirror — marks option 5 \"Відповіді 1, 2, 3 і 4.\" correct); https://green-way.com.ua/uk/test-pdd/twenty-questions/1097 (same question, correct = \"Answers 1,2,3 and 4\"); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-1/punkt-10_reguljuvalnyk and https://pdr.infotech.gov.ua/theory/rules/1 (ПДР п.1.10 term \"Регулювальник\"); https://vodiy.ua/question/tg/15533"
+      },
+      {
+        "key": "12:26",
+        "correctOptionText": "Відповіді 1, 2 і 3.",
+        "correctOptionIndex": 3,
+        "pdrClause": "ПДР України п.12.1 — \"Під час вибору в установлених межах безпечної швидкості руху водій повинен ураховувати дорожню обстановку, а також особливості вантажу, що перевозиться, і стан транспортного засобу, щоб мати змогу постійно контролювати його рух та безпечно керувати ним.\"",
+        "sources": "https://pomahach.com/question/3489-51715/scho-vrahovuyetsya-pid-chas-viboru-bezpechnoyi-shvidkosti-ruhu/ (official exam-answer base — marks option 4 \"Відповіді 1, 2 і 3\" correct, same 4-option set as our DB); https://pdr.infotech.gov.ua/theory/rules/12 (official ГСЦ МВС ПДР portal — verbatim п.12.1 lists all three factors); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-12/punkt-1 (п.12.1 confirmation)"
+      },
+      {
+        "key": "12:35",
+        "correctOptionText": "70 км/год.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п.12.6(б): за межами населених пунктів на всіх дорогах транспортним засобам, якими керують водії із стажем до 2 років, дозволено рух — не більше 70 км/год.",
+        "sources": "Official ПДР text (clause 12.6(б), quoted verbatim \"не більше 70 км/год\"): https://pdr.infotech.gov.ua/theory/rules/12 | Exam question base, exact item, correct answer 70 km/h with same 5-option set: https://testpdr.online/test.php?test=all&q=421 (redirected from https://manualov.net/ua/online-test-pdr.php?question=421) | Same exact item indexed (search-confirmed, 70 km/h): https://pdrtest.com/question/12.35 | Corroborating speed-limit explainer: https://green-way.com.ua/uk/dovidniki/pdr/rozdil-12"
+      },
+      {
+        "key": "12:37",
+        "correctOptionText": "Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.",
+        "correctOptionIndex": 1,
+        "pdrClause": "ПДР України п.1.10 (Загальні положення): \"Безпечна швидкість — швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.\"",
+        "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/5181 (official ГСЦ МВС test ticket — marks the \"безпечно керувати... у конкретних дорожніх умовах\" option correct); https://pomahach.com/question/3500-62763/scho-dlya-vas-vvazhayetsya-bezpechnoyu-shvidkistyu/ (answer key — same option green/correct); https://kodeksy.com.ua/pdr/1.10.htm and https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-1/punkt-10_bezpechna-shvydkist (ПДР п.1.10 verbatim definition of безпечна швидкість)"
+      }
+    ],
+    "keyCorrect": [
+      "2:23"
+    ],
+    "unresolved": [],
+    "raw": [
+      {
+        "determine": {
+          "key": "19:15",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.",
+          "correctOptionIndex": 2,
+          "reasoning": "Our DB marks option index 1 \"Протитуманні фари.\" (fog lights alone) as correct. This contradicts ПДР 19.1 and the official ГСЦ exam base. ПДР 19.1 requires that during movement in conditions of insufficient visibility ALL mechanical vehicles have low (high) beam headlights switched on (\"на всіх механічних транспортних засобах - фари ближнього (дальнього)\"), with fog lights permitted as a substitute or addition — not fog lights alone as the bare requirement. The option set in our DB is intact and matches the official base verbatim; only the wrong option is flagged correct. The authoritative testpdr.online/manualov.net question page (same four options, identical wording) marks Option 3 — index 2 in 0-based terms — \"Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.\" as correct (with 87.2% correct-response stat). WebSearch results (green-way 4852, pdrtest 19.15, vodiy.ua/pdr/19) all corroborate that low/high beam is the required device. The reviewer's genConcern hypothesis is confirmed. correctOptionText/Index match the DB option verbatim at index 2.",
+          "pdrClause": "ПДР 19.1 — \"Зовнішні світлові прилади повинні бути ввімкнені... в умовах недостатньої видимості: на всіх механічних транспортних засобах - фари ближнього (дальнього) світла\". Примітка/доповнення: в умовах недостатньої видимості дозволяється замість фар ближнього (дальнього) світла ввімкнути протитуманні фари, а також увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар. Таким чином базова вимога — фари ближнього (дальнього) світла, а не самі лише протитуманні фари.",
+          "webConfirmed": true,
+          "sources": "https://testpdr.online/test.php?test=all&q=746 (=manualov.net online-test-pdr question=746) — lists the identical four options as our DB and marks Option 3 (\"Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.\") as correct, 87.2% correct responses; https://vodiy.ua/pdr/19/ — ПДР 19.1 text: \"на всіх механічних транспортних засобах - фари ближнього (дальнього)\", fog lights permitted as substitute; https://pdrtest.com/question/19.15 (question 19.15, title verbatim match — page intermittently 429); https://green-way.com.ua/uk/test-pdd/twenty-questions/4852 (verbatim title match); WebSearch summary confirming \"Правильна відповідь: Фари ближнього (дальнього) світла.\"",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "19:15",
+          "decision": "confirm_change",
+          "correctOptionText": "Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.",
+          "reasoning": "Independently verified. The DB question (key 19:15) is the official ГСЦ base item: its stem and all four options match the official base verbatim (manualov.net / testpdr.online question #746, pdrtest 19.15, green-way 4852). Our DB wrongly marks index 1 \"Протитуманні фари.\" (fog lights alone) as correct. My own authoritative check: testpdr.online/test.php?q=746 (the canonical manualov.net mirror of the ГСЦ base) shows the identical four options and marks Option 3 — 0-based index 2 — \"Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.\" as correct, with an 87.2% correct-response statistic. This is grounded in ПДР 19.1, whose text (confirmed at vodiy.ua) reads \"на всіх механічних транспортних засобах - фари ближнього (дальнього) світла\", with the Примітка permitting fog lights only as a substitute/addition, never as the bare requirement on their own. WebSearch summaries across green-way, vodiy.ua, and pdr.infotech.gov.ua all corroborate that low/high beam is the mandatory device. The proposed answer is authoritatively correct AND differs from the current DB key (index 1 -> index 2), so the change should be confirmed. The reviewer's \"moderate confidence\" caveat about ГСЦ variant option sets did not materialize — the authoritative source carries the exact same option set verbatim.",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "2:23",
+          "verdict": "key_correct",
+          "correctOptionText": "Усі зобов’язані пристібатися.",
+          "correctOptionIndex": 4,
+          "reasoning": "The official ГСЦ МВС exam base (pdr.infotech.gov.ua ticket 3920) lists the EXACT same five-option set as our DB and marks option 5 \"Усі зобов'язані пристібатися\" as correct — matching our transcription verbatim, including options 1-4 (водії з інвалідністю; водії і пасажири оперативних та спеціальних ТЗ; водії і пасажири таксі; особи, що навчають водінню, якщо за кермом учень). The question stem is \"Під час руху поза населеним пунктом ременями безпеки можуть не пристібатися:\" — i.e. OUTSIDE a settlement. Per ПДР п.2.10 every listed seatbelt exemption (disability, operational/special vehicles, taxi, instructor) is explicitly scoped \"у населеному пункті\" (within a settlement); outside a settlement none of those exemptions apply, so everyone must buckle up. The genConcern hypothesis (that disability and operational/special-vehicle exemptions are NOT geographically limited) is incorrect — the ПДР clause text limits all of them to settlements. One source (pomahach) returned a stale variant ending in \"Відповіді 1, 2, 3 і 4\", but the authoritative official base and the ПДР clause itself both resolve the conflict in favour of \"Усі зобов'язані пристібатися.\" Our marked answer is RIGHT.",
+          "pdrClause": "ПДР п.2.10 — у населеному пункті дозволяється не пристібатися ременями безпеки: водіям і пасажирам з інвалідністю, фізіологічні особливості яких унеможливлюють користування ременями; водіям і пасажирам оперативних та спеціальних транспортних засобів; водіям і пасажирам таксі; особам, що навчають водінню. Ці послаблення діють ЛИШЕ в межах населеного пункту; поза населеним пунктом усі зобов'язані пристібатися.",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/3920 (official ГСЦ МВС base — confirms exact 5-option set, correct = \"Усі зобов'язані пристібатися\"); https://pdr.infotech.gov.ua/theory/rules/2 (ПДР Розділ 2 / п.2.10 — exemptions scoped to settlements); https://green-way.com.ua/uk/test-pdd/question/102/5121 and https://green-way.com.ua/uk/dovidniki/pdr/rozdil-2 (corroborate clause + answer). Conflicting stale variant noted at https://pomahach.com/question/3881-46326/ (different \"Відповіді 1,2,3 і 4\" option set) — overruled by the official base.",
+          "confidence": 0.95
+        },
+        "skeptic": null
+      },
+      {
+        "determine": {
+          "key": "6:11",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1, 2, 3.",
+          "correctOptionIndex": 3,
+          "reasoning": "Question: \"Чим має бути обладнаний велосипед?\" Our DB marks option index 2 (\"Під час руху в темний час доби і в умовах недостатньої видимості має бути встановлений і увімкнений ліхтар (фара).\") as correct. This is the single-component \"lit lamp\" option and is WRONG. Per ПДР, a bicycle must be equipped with ALL THREE: (1) a sound signal (звуковий сигнал), (2) reflectors — front white / sides orange / rear red (світлоповертачі), AND (3) a lit lamp/headlight (ліхтар/фара) for riding at night or in poor visibility. Since all three options describe mandatory equipment and an \"all of the above\" choice exists, the correct answer is option index 3 \"Відповіді 1, 2, 3.\" This matches the reviewer's genConcern hypothesis. Confirmed: pomahach.com (WebFetched directly) explicitly marks option 4 \"Відповіді 1, 2, 3\" as correct, and the multi-source search consensus (pomahach, pdrtest question 6.11, green-way 177/4177) all give the same answer. The four options in our DB match the official option set exactly, so options are intact — only the marked key is wrong (transcription error). OUR transcription contradicts the official base, so per the rule our key is the error.",
+          "pdrClause": "ПДР України, Розділ 6 (Вимоги до велосипедистів), п.6.2: велосипед, яким керують на дорозі, має бути обладнаний звуковим сигналом та світлоповертачами (спереду — білого кольору, по боках — оранжевого, ззаду — червоного); п.6.3 (рух у темну пору доби / в умовах недостатньої видимості): на велосипеді має бути встановлений і увімкнений ліхтар (фара). Усі три види обладнання обов'язкові → правильна відповідь охоплює всі три.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3763-24798/chim-maye-buti-obladnaniy-velosiped/ (WebFetched: option \"Відповіді 1, 2, 3\" marked correct); https://pdrtest.com/question/6.11 (search-confirmed, official base item 6.11); https://green-way.com.ua/uk/test-pdd/twenty-questions/177 ; https://vodiy.ua/pdr/6/ ; https://pdr.infotech.gov.ua/theory/rules/6",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "6:11",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1, 2, 3.",
+          "reasoning": "Independently verified. Question: \"Чим має бути обладнаний велосипед?\" The DB marks option index 2 (\"Під час руху в темний час доби і в умовах недостатньої видимості має бути встановлений і увімкнений ліхтар (фара).\") as correct — this is only ONE of three mandatory components, so it is wrong. The official government ПДР text (pdr.infotech.gov.ua, Розділ 6) clause 6.2, fetched directly, requires a bicycle to be equipped with a sound signal (звуковий сигнал) AND reflectors (світлоповертачі: front white/sides orange/rear red), AND an installed+switched-on lamp/headlight (ліхтар/фара) for night/low-visibility riding — all three are mandatory. The four DB options exactly match the official option set (options intact). Independent test source pomahach.com (fetched directly) explicitly marks option 4 \"Відповіді 1, 2, 3\" as correct, and WebSearch consensus across green-way (177/4177), pdrtest 6.11, vodiy, and naurok all agree. The proposed answer \"Відповіді 1, 2, 3.\" (option index 3) differs from the current marked key AND is the authoritatively correct answer. This is a transcription error in the key, confirming the reviewer's hypothesis.",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "6:12",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "З 14 років.",
+          "correctOptionIndex": 2,
+          "reasoning": "Question: \"З якого віку дозволено рухатися по дорогах на велосипеді?\" (From what age is riding a bicycle on roads allowed?). The four options in our DB — \"З 10 років.\", \"З 12 років.\", \"З 14 років.\", \"З 16 років.\" — match the official exam-base options verbatim (confirmed against pomahach question 3764-18844, identical stem and identical 4 options), so the options are intact (not corrupted). Our DB currently marks option index 0 (\"З 10 років.\") as correct. This contradicts ПДР clause 6.1, which states riders must be at least 14: \"Рухатися по дорозі на велосипедах дозволяється особам, які досягли 14-річного віку\" (verified via green-way ПДР 6.1 fetch). The official ГСЦ МВС exam answer for this exact question is \"З 14 років\" (confirmed by WebSearch returning the official ГСЦ test answer, and by green-way / vodiy / pdr.infotech.gov.ua / pdrtest 6.12 sources for this exact stem). Since the official answers are correct by definition, our transcription of the marked-correct flag is wrong: it should be index 2 (\"З 14 років.\"), not index 0. This matches the reviewer's genConcern hypothesis. Verdict: key_wrong_options_ok — wrong option marked, options themselves are fine.",
+          "pdrClause": "ПДР України п. 6.1: \"Рухатися по дорозі на велосипедах дозволяється особам, які досягли 14-річного віку.\" (Riding bicycles on the road is permitted only to persons who have reached 14 years of age.)",
+          "webConfirmed": true,
+          "sources": "https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-6/punkt-1 (ПДР clause 6.1 text confirming age 14, fetched); WebSearch official ГСЦ exam answer for this exact question = \"З 14 років\"; https://pomahach.com/question/3764-18844/z-yakogo-viku-dozvoleno-ruhatisya-po-dorogah-na-velosipedi/ (identical stem + identical 4 options verbatim, fetched); https://pdrtest.com/question/6.12 ; https://green-way.com.ua/uk/test-pdd/twenty-questions/4176 ; https://vodiy.ua/pdr/6/ ; https://pdr.infotech.gov.ua/theory/rules/6",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "6:12",
+          "decision": "confirm_change",
+          "correctOptionText": "З 14 років.",
+          "reasoning": "Independently verified. The question \"З якого віку дозволено рухатися по дорогах на велосипеді?\" tests ПДР clause 6.1, whose text I confirmed verbatim via three independent fetches (green-way ПДР 6.1 reference page, vodiy.ua/pdr/6, and a WebSearch summary): \"Рухатися по дорозі на велосипедах дозволяється особам, які досягли 14-річного віку.\" => minimum age 14. The official exam answer for this exact stem was independently confirmed as \"З 14 років\" via WebSearch (explicitly marking \"З 14 років ✓ CORRECT ANSWER\" against the identical 4-option set 10/12/14/16). The DB's four options match the official set verbatim, so options are intact (not corrupted). The DB currently marks index 0 (\"З 10 років.\") correct, which is wrong; the correct option is index 2 (\"З 14 років.\"). Proposed answer is authoritatively correct AND differs from current => confirm_change. (pdrtest.com 6.12 and pomahach were rate-limited / did not expose the marked flag in fetched text, but the clause text + the search-confirmed official answer are sufficient and consistent.)",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "8.1:71",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1, 2, 3 і 4.",
+          "correctOptionIndex": 4,
+          "reasoning": "Our DB marks ONLY option 2 (military road-safety inspection officer) as correct. This contradicts ПДР and the official exam base. ПДР п.1.10 defines a регулювальник as a police officer (option 3) AND equates several other persons to a регулювальник when they hold proper ID + armband + baton/red-signal disc/reflector/red light/flag and regulate traffic in uniform: a road-exploitation service worker (option 1), a military road-safety inspection officer (option 2), and a railway-crossing/ferry-crossing duty officer (option 4). All four listed persons therefore qualify, so the official answer is option 5, \"Відповіді 1, 2, 3 і 4.\" pomahach (official ГСЦ exam-base mirror, question 3821-43954) explicitly marks option 5 as correct; green-way question 1097 and a WebSearch summary both independently return \"Answers 1, 2, 3 and 4\" as the correct answer. The marked option 2 alone is incomplete/wrong — this is a transcription error in our key. The exact verbatim text of the correct option in our file is \"Відповіді 1, 2, 3 і 4.\" at 0-based index 4.",
+          "pdrClause": "ПДР України п.1.10 (термін \"Регулювальник\"): уповноважена особа, яка регулює дорожній рух за допомогою сигналів, установлених Правилами, і має відповідні розпізнавальні знаки та екіпірування — поліцейський, а також працівник військової інспекції безпеки дорожнього руху, дорожньо-експлуатаційної служби, черговий на залізничному переїзді, поромній переправі (за наявності посвідчення, нарукавної пов'язки, жезла, диска з червоним сигналом чи світлоповертачем, червоного ліхтаря або прапорця, у форменому одязі). Усі чотири категорії прирівнюються до регулювальника.",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3821-43954/zgidno-z-pravilami-dorozhnogo-ruhu-regulyuvalnikom-vvazhayets/ (official exam-base mirror — marks option 5 \"Відповіді 1, 2, 3 і 4.\" correct); https://green-way.com.ua/uk/test-pdd/twenty-questions/1097 (same question, correct = \"Answers 1,2,3 and 4\"); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-1/punkt-10_reguljuvalnyk and https://pdr.infotech.gov.ua/theory/rules/1 (ПДР п.1.10 term \"Регулювальник\"); https://vodiy.ua/question/tg/15533",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "8.1:71",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1, 2, 3 і 4.",
+          "reasoning": "The DB currently marks ONLY option 2 (працівник військової інспекції безпеки дорожнього руху) as correct, which is incomplete/wrong. ПДР п.1.10 defines \"Регулювальник\" as a поліцейський (option 3) AND explicitly equates to a регулювальник: a дорожньо-експлуатаційна служба worker (option 1), a військова інспекція безпеки дорожнього руху officer (option 2), and a черговий на залізничному переїзді/поромній переправі (option 4) — each when holding proper ID + armband + baton/red-signal disc/reflector/red light/flag and regulating in uniform. All four listed persons qualify, so the correct answer is option 5 \"Відповіді 1, 2, 3 і 4.\" I independently verified this with THREE authoritative sources: (1) ПДР п.1.10 term text via green-way mirror and a WebSearch of the official rules, which confirms all four categories are equated to a регулювальник; (2) pomahach.com question 3821-43954 (official ГСЦ exam-base mirror) marks option 5 correct; (3) testpdr.online (manualov.net) question 210, an independent exam-base mirror, also marks option 5 \"Відповіді 1, 2, 3 і 4\" correct. The proposed answer \"Відповіді 1, 2, 3 і 4.\" (verbatim, 0-based index 4) is authoritatively correct and differs from the current single-option key, so the change is confirmed.",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "12:26",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Відповіді 1, 2 і 3.",
+          "correctOptionIndex": 3,
+          "reasoning": "ПДР clause 12.1 (verbatim from official pdr.infotech.gov.ua): \"Під час вибору в установлених межах безпечної швидкості руху водій повинен ураховувати дорожню обстановку, а також особливості вантажу, що перевозиться, і стан транспортного засобу, щоб мати змогу постійно контролювати його рух та безпечно керувати ним.\" All THREE factors — road situation, cargo characteristics, and vehicle condition — must be considered. The option set includes a combined option \"Відповіді 1, 2 і 3.\", which is therefore the correct answer. The official exam-answer base (pomahach) explicitly marks option 4 \"Відповіді 1, 2 і 3\" as correct, listing the same 4 options as our DB. Our current marked answer is option index 0 \"Дорожня обстановка.\" (single factor), which is incomplete and contradicts both ПДР 12.1 and the official base — this is a transcription error in our key. The genConcern hypothesis is confirmed. Correct = index 3 \"Відповіді 1, 2 і 3.\".",
+          "pdrClause": "ПДР України п.12.1 — \"Під час вибору в установлених межах безпечної швидкості руху водій повинен ураховувати дорожню обстановку, а також особливості вантажу, що перевозиться, і стан транспортного засобу, щоб мати змогу постійно контролювати його рух та безпечно керувати ним.\"",
+          "webConfirmed": true,
+          "sources": "https://pomahach.com/question/3489-51715/scho-vrahovuyetsya-pid-chas-viboru-bezpechnoyi-shvidkosti-ruhu/ (official exam-answer base — marks option 4 \"Відповіді 1, 2 і 3\" correct, same 4-option set as our DB); https://pdr.infotech.gov.ua/theory/rules/12 (official ГСЦ МВС ПДР portal — verbatim п.12.1 lists all three factors); https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-12/punkt-1 (п.12.1 confirmation)",
+          "confidence": 0.95
+        },
+        "skeptic": {
+          "key": "12:26",
+          "decision": "confirm_change",
+          "correctOptionText": "Відповіді 1, 2 і 3.",
+          "reasoning": "Independently verified, not a re-vote. (1) ПДР clause 12.1 from the official ГСЦ МВС portal (pdr.infotech.gov.ua/theory/rules/12) states the driver must consider ALL THREE factors when choosing a safe speed: road situation (дорожня обстановка), characteristics of the cargo being transported (особливості вантажу), and vehicle condition (стан транспортного засобу). A single-factor answer is therefore incomplete. (2) The exam-answer base at pomahach.com confirms the SAME 4-option set as our DB and marks option 4 \"Відповіді 1, 2 і 3.\" as the correct answer; quoted options verbatim match ours. (3) Two independent WebSearch queries (the verbatim ПДР clause and the verbatim question stem) both independently returned \"Відповіді 1, 2 і 3\" as correct. Our DB currently marks index 0 \"Дорожня обстановка.\" (single factor) correct — incomplete and contradicting clause 12.1. The proposed answer (index 3) is authoritatively correct AND differs from the current key. I checked the option-set caveat raised in the genConcern (possible alternate variant where only \"Дорожня обстановка\" is correct): the authoritative sources all use this exact 4-option set with the combined option, so the caveat does not apply. Confirm.",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "12:35",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "70 км/год.",
+          "correctOptionIndex": 1,
+          "reasoning": "Question: \"З якою максимальною швидкістю дозволено рух транспортних засобів, якими керують водії зі стажем до двох років, на всіх дорогах за межами населених пунктів?\" Our DB marks \"60 км/год.\" (index 0) as correct. This contradicts the official ПДР and the exam base. The official ПДР clause 12.6(б) (fetched from pdr.infotech.gov.ua/theory/rules/12) states verbatim: \"транспортним засобам, якими керують водії із стажем до 2 років, — не більше 70 км/год.\" The exam question base for this exact item (testpdr.online q=421, redirected from manualov.net, same 5-option set 60/70/80/90/50) marks \"70 km/h\" as the correct answer, with the explanation \"drivers with less than 2 years of experience are allowed to drive at speeds not exceeding 70 km/h on all roads outside populated areas.\" pdrtest.com/question/12.35 indexes the identical question (returned HTTP 429 so not fetched, but the search snippet and the matching ПДР clause confirm 70). The option list in our DB is intact and matches the official source exactly (five options, same texts) — only the marked key is wrong: it should be index 1 \"70 км/год.\" not index 0 \"60 км/год.\" This matches the reviewer's genConcern (60 km/h is pre-reform confusion).",
+          "pdrClause": "ПДР України п.12.6(б): за межами населених пунктів на всіх дорогах транспортним засобам, якими керують водії із стажем до 2 років, дозволено рух — не більше 70 км/год.",
+          "webConfirmed": true,
+          "sources": "Official ПДР text (clause 12.6(б), quoted verbatim \"не більше 70 км/год\"): https://pdr.infotech.gov.ua/theory/rules/12 | Exam question base, exact item, correct answer 70 km/h with same 5-option set: https://testpdr.online/test.php?test=all&q=421 (redirected from https://manualov.net/ua/online-test-pdr.php?question=421) | Same exact item indexed (search-confirmed, 70 km/h): https://pdrtest.com/question/12.35 | Corroborating speed-limit explainer: https://green-way.com.ua/uk/dovidniki/pdr/rozdil-12",
+          "confidence": 0.97
+        },
+        "skeptic": {
+          "key": "12:35",
+          "decision": "confirm_change",
+          "correctOptionText": "70 км/год.",
+          "reasoning": "Independently verified, not a re-vote of the prior reviewer. The DB question is verbatim \"З якою максимальною швидкістю дозволено рух транспортних засобів, якими керують водії зі стажем до двох років, на всіх дорогах за межами населених пунктів?\" with options 60/70/80/90/50 км/год, currently marking index 0 (60 км/год.) correct. (1) Fetched the official ПДР clause 12.6(б) directly from pdr.infotech.gov.ua/theory/rules/12: verbatim \"не більше 70 км/год\" for drivers with experience up to 2 years outside populated areas — corroborated independently by green-way.com.ua (rules section and dedicated punkt-6_b page). (2) Searching the exact verbatim question resolves it to the official exam base on pdr.infotech.gov.ua/novi-testy-pdr/ticket/5161 and ПДР Тест Центр indexes it as item 12.35 with the identical 5-option set, confirming the question/option list is intact. (3) Search-confirmed the marked correct answer for item 12.35: \"Правильна відповідь: 70 км/год\" with the matching explanation. The DB key (60 км/год.) contradicts every authoritative source; the true answer is index 1, \"70 км/год.\" (60 km/h is a pre-reform confusion). Proposed answer is authoritatively correct AND differs from the current key. pdrtest.com/question/12.35 returned HTTP 429 (consistent with the prior reviewer), but four other independent sources resolve the same answer, so this is not a single-source claim.",
+          "webConfirmed": true
+        }
+      },
+      {
+        "determine": {
+          "key": "12:37",
+          "verdict": "key_wrong_options_ok",
+          "correctOptionText": "Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.",
+          "correctOptionIndex": 1,
+          "reasoning": "Our DB marks option index 2 (\"Швидкість яка визначена технічною характеристикою даного транспортного засобу.\") as correct. This is wrong. The official ГСЦ МВС exam base and ПДР term 1.10 define \"безпечна швидкість\" as the speed at which the driver can safely control the vehicle and its movement in specific road conditions — which is our option index 1 (\"Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.\"). Two authoritative sources (pdr.infotech.gov.ua official test ticket 5181 and pomahach answer page) both mark that option as the correct one, and it matches the ПДР 1.10 definition verbatim. The genConcern hypothesis is confirmed: the marked answer should be the control-under-conditions option, not the technical-characteristics option. The options text is intact (matches official sources, including the same shuffled order); only the correct flag is on the wrong option, hence key_wrong_options_ok.",
+          "pdrClause": "ПДР України п.1.10 (Загальні положення): \"Безпечна швидкість — швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.\"",
+          "webConfirmed": true,
+          "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/5181 (official ГСЦ МВС test ticket — marks the \"безпечно керувати... у конкретних дорожніх умовах\" option correct); https://pomahach.com/question/3500-62763/scho-dlya-vas-vvazhayetsya-bezpechnoyu-shvidkistyu/ (answer key — same option green/correct); https://kodeksy.com.ua/pdr/1.10.htm and https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-1/punkt-10_bezpechna-shvydkist (ПДР п.1.10 verbatim definition of безпечна швидкість)",
+          "confidence": 0.98
+        },
+        "skeptic": {
+          "key": "12:37",
+          "decision": "confirm_change",
+          "correctOptionText": "Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.",
+          "reasoning": "Question \"Що для Вас вважається безпечною швидкістю?\". The DB currently flags option index 2 (\"Швидкість яка визначена технічною характеристикою даного транспортного засобу.\") as correct, which is wrong. I independently verified via three authoritative external sources. (1) The official ПДР України clause 1.10 defines \"безпечна швидкість — швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах\" (confirmed verbatim at green-way.com.ua punkt 1.10), which matches option index 1 nearly word-for-word. (2) The official ГСЦ МВС test base (pdr.infotech.gov.ua ticket 5181) marks the \"безпечно керувати... у конкретних дорожніх умовах\" option as the correct answer. (3) The independent answer-key site pomahach.com marks the same option green/correct. All three options' text is intact and matches the official sources; only the correct flag sits on the wrong option. The proposed answer (the control-under-conditions option, index 1) is authoritatively correct and differs from the currently marked answer (technical-characteristics option, index 2), so the change should be confirmed.",
+          "webConfirmed": true
+        }
+      }
+    ]
+  }
+}

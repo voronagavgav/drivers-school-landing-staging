@@ -1,0 +1,14 @@
+{
+ "options": [
+  {
+   "n": 1,
+   "text": "Так."
+  },
+  {
+   "n": 2,
+   "text": "Ні."
+  }
+ ],
+ "answer": 2,
+ "_note": "v12 expl-gen audit + web ground-truth: 1->2 (житлова зона = 20 км/год, не 30 -> Ні)"
+}

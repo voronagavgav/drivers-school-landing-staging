@@ -1,0 +1,44 @@
+[
+  {
+    "key": "19:15",
+    "correctOptionText": "Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.",
+    "pdrClause": "ПДР 19.1 — \"Зовнішні світлові прилади повинні бути ввімкнені... в умовах недостатньої видимості: на всіх механічних транспортних засобах - фари ближнього (дальнього) світла\". Примітка/доповнення: в умовах недостатньої видимості дозволяється замість фар ближнього (дальнього) світла ввімкнути протитуманні фари, а також увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар. Таким чином базова вимога — фари ближнього (дальнього) світла, а не самі лише протитуманні фари.",
+    "sources": "https://testpdr.online/test.php?test=all&q=746 (=manualov.net online-test-pdr question=746) — lists the identical four options as our DB and marks Option 3 (\"Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.\") as cor"
+  },
+  {
+    "key": "6:11",
+    "correctOptionText": "Відповіді 1, 2, 3.",
+    "pdrClause": "ПДР України, Розділ 6 (Вимоги до велосипедистів), п.6.2: велосипед, яким керують на дорозі, має бути обладнаний звуковим сигналом та світлоповертачами (спереду — білого кольору, по боках — оранжевого, ззаду — червоного); п.6.3 (рух у темну пору доби / в умовах недостатньої видимості): на велосипеді має бути встановлений і увімкнений ліхтар (фара). Усі три види обладнання обов'язкові → правильна відповідь охоплює всі три.",
+    "sources": "https://pomahach.com/question/3763-24798/chim-maye-buti-obladnaniy-velosiped/ (WebFetched: option \"Відповіді 1, 2, 3\" marked correct); https://pdrtest.com/question/6.11 (search-confirmed, official base item 6.11); https://green-way.com.ua/uk/test-pdd/twenty-questions/177 ; https://vodiy.ua/pdr/6/ ; "
+  },
+  {
+    "key": "6:12",
+    "correctOptionText": "З 14 років.",
+    "pdrClause": "ПДР України п. 6.1: \"Рухатися по дорозі на велосипедах дозволяється особам, які досягли 14-річного віку.\" (Riding bicycles on the road is permitted only to persons who have reached 14 years of age.)",
+    "sources": "https://green-way.com.ua/uk/dovidniki/pdr-single/rozdil-6/punkt-1 (ПДР clause 6.1 text confirming age 14, fetched); WebSearch official ГСЦ exam answer for this exact question = \"З 14 років\"; https://pomahach.com/question/3764-18844/z-yakogo-viku-dozvoleno-ruhatisya-po-dorogah-na-velosipedi/ (identic"
+  },
+  {
+    "key": "8.1:71",
+    "correctOptionText": "Відповіді 1, 2, 3 і 4.",
+    "pdrClause": "ПДР України п.1.10 (термін \"Регулювальник\"): уповноважена особа, яка регулює дорожній рух за допомогою сигналів, установлених Правилами, і має відповідні розпізнавальні знаки та екіпірування — поліцейський, а також працівник військової інспекції безпеки дорожнього руху, дорожньо-експлуатаційної служби, черговий на залізничному переїзді, поромній переправі (за наявності посвідчення, нарукавної пов'язки, жезла, диска з червоним сигналом чи світлоповертачем, червоного ліхтаря або прапорця, у форменому одязі). Усі чотири категорії прирівнюються до регулювальника.",
+    "sources": "https://pomahach.com/question/3821-43954/zgidno-z-pravilami-dorozhnogo-ruhu-regulyuvalnikom-vvazhayets/ (official exam-base mirror — marks option 5 \"Відповіді 1, 2, 3 і 4.\" correct); https://green-way.com.ua/uk/test-pdd/twenty-questions/1097 (same question, correct = \"Answers 1,2,3 and 4\"); https://"
+  },
+  {
+    "key": "12:26",
+    "correctOptionText": "Відповіді 1, 2 і 3.",
+    "pdrClause": "ПДР України п.12.1 — \"Під час вибору в установлених межах безпечної швидкості руху водій повинен ураховувати дорожню обстановку, а також особливості вантажу, що перевозиться, і стан транспортного засобу, щоб мати змогу постійно контролювати його рух та безпечно керувати ним.\"",
+    "sources": "https://pomahach.com/question/3489-51715/scho-vrahovuyetsya-pid-chas-viboru-bezpechnoyi-shvidkosti-ruhu/ (official exam-answer base — marks option 4 \"Відповіді 1, 2 і 3\" correct, same 4-option set as our DB); https://pdr.infotech.gov.ua/theory/rules/12 (official ГСЦ МВС ПДР portal — verbatim п.12.1 "
+  },
+  {
+    "key": "12:35",
+    "correctOptionText": "70 км/год.",
+    "pdrClause": "ПДР України п.12.6(б): за межами населених пунктів на всіх дорогах транспортним засобам, якими керують водії із стажем до 2 років, дозволено рух — не більше 70 км/год.",
+    "sources": "Official ПДР text (clause 12.6(б), quoted verbatim \"не більше 70 км/год\"): https://pdr.infotech.gov.ua/theory/rules/12 | Exam question base, exact item, correct answer 70 km/h with same 5-option set: https://testpdr.online/test.php?test=all&q=421 (redirected from https://manualov.net/ua/online-test-"
+  },
+  {
+    "key": "12:37",
+    "correctOptionText": "Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.",
+    "pdrClause": "ПДР України п.1.10 (Загальні положення): \"Безпечна швидкість — швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.\"",
+    "sources": "https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/5181 (official ГСЦ МВС test ticket — marks the \"безпечно керувати... у конкретних дорожніх умовах\" option correct); https://pomahach.com/question/3500-62763/scho-dlya-vas-vvazhayetsya-bezpechnoyu-shvidkistyu/ (answer key — same option green/correct);"
+  }
+]

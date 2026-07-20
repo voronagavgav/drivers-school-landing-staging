@@ -1,0 +1,66 @@
+[
+  {
+    "section": "52",
+    "qnum": 10,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_10_0.jpeg",
+    "confident": true,
+    "reason": "Green route bus at a 4-way intersection with a mandatory-direction sign (straight or left) plus the white route-bus exception plate. Matches a question about a right-turn permission for a scheduled-route bus."
+  },
+  {
+    "section": "52",
+    "qnum": 11,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_11_0.jpeg",
+    "confident": true,
+    "reason": "White minibus driving on a road with a children/pedestrian warning sign and a motorway sign shown. Matches a max-speed-for-minibus scenario."
+  },
+  {
+    "section": "52",
+    "qnum": 13,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_13_0.jpeg",
+    "confident": true,
+    "reason": "Yellow SHKILNYI (school) bus full of children with the 'Children' identification/warning sign. Directly matches the yellow-bus-carrying-children speed question."
+  },
+  {
+    "section": "52",
+    "qnum": 14,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_14_2.jpeg",
+    "confident": true,
+    "reason": "Of the four candidates, 52_14_2 shows the route bus at an intersection with a 'no left turn' prohibition plus the route-bus exception plate and a priority-road sign. This is the one about a LEFT turn for a scheduled-route bus (52_14_0=right/straight, 52_14_1=no right turn, 52_14_3=straight-only)."
+  },
+  {
+    "section": "52",
+    "qnum": 18,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/52_18_0.jpeg",
+    "confident": true,
+    "reason": "Green route bus at a T/intersection with a Give-Way sign and a mandatory 'turn right' sign carrying the route-bus exception plate. Matches the maneuver-permission question for a scheduled-route bus."
+  },
+  {
+    "section": "55",
+    "qnum": 1,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/55_1_0.jpeg",
+    "confident": true,
+    "reason": "Scene with a yellow bus ahead and a black car on the road, with question-mark/exclamation callouts. Matches the situation about what is forbidden to the bus driver when the black car has started moving."
+  },
+  {
+    "section": "55",
+    "qnum": 2,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/55_2_0.jpeg",
+    "confident": true,
+    "reason": "Green bus at a marked bus stop (bus-stop sign) with a car passing on the left. Matches the scenario of a bus that has signaled intent to pull out from a stop."
+  },
+  {
+    "section": "55",
+    "qnum": 3,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/images/55_3_0.jpeg",
+    "confident": true,
+    "reason": "Three numbered identification signs: (1) triangular children warning, (2) yellow 'K' square, (3) yellow square with running children. Matches the 'which identification sign marks a bus carrying children' selection question; answer 3 is the yellow children square."
+  }
+]

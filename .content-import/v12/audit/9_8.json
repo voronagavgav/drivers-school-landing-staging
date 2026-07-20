@@ -1,0 +1,1 @@
+{"key":"9:8","official_answer":1,"verdict":"current_wrong","confidence":"high","source":"https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4443","note":"Official gov source (infotech) embedded answer-key JSON: 'На першому.' is_correct=true; 'На другому.' & 'На третьому.' false. Maps to our index 1. Stored answer was 2 (wrong); alt_read=1 was correct."}

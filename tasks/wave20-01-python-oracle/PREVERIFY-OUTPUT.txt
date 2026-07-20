@@ -1,0 +1,124 @@
+static evidence — read, do not run
+wave20 grade-honesty reference oracle — stdlib-only, network-free
+model sources: specs/wave20-grade-honesty.md · docs/research/GRADE-MECHANISM-RESEARCH-2026-07-13.md · docs/research/GRADE-SIDE-PROBES-2026-07-13.md · lib/fsrs/{schedule,retrievability}.ts
+reference oracle — the TS impl MUST match this; never regenerate these values from TS.
+
+# derived FSRS-6 constants
+ok const.decay got=-0.154200 exp=-0.154200 |d|=0.00e+00 tol=1e-12
+ok const.factor got=0.980346 exp=0.980346 |d|=4.94e-07 tol=1e-06
+ok const.interval_eq_stability got=2.546000 exp=2.546000 |d|=0.00e+00 tol=1e-06
+
+# (a) blend fixtures — GRADE-MECHANISM table reproduced (g=1/3, pi at item's own R, D=5)
+ok blend_s50.R(50,10d) got=0.972770 exp=0.972800 |d|=3.04e-05 tol=5e-04
+ok blend_s50.S_again got=2.546093 exp=2.546000 |d|=9.27e-05 tol=1e-03
+ok blend_s50.S_hard got=63.396933 exp=63.400000 |d|=3.07e-03 tol=5e-02
+ok blend_s50.pi got=0.842731 exp=0.843000 |d|=2.69e-04 tol=1e-03
+ok blend_s50.S_log got=38.237590 exp=[37.0,39.0]
+ok blend_s50.S_linear got=53.826996 exp=53.800000 |d|=2.70e-02 tol=1e-01
+ok blend_s50.LOG<LINEAR (linear EXCLUDED: exceeds log) got=38.237590 exp=< 53.826996
+ok blend_s50.interval_days(S_log) got=38.237590 exp=38.237590 |d|=0.00e+00 tol=1e-06
+ok blend_s100.S_again got=3.323725 exp=3.324000 |d|=2.75e-04 tol=5e-03
+ok blend_s100.S_hard got=123.871725 exp=123.900000 |d|=2.83e-02 tol=1e-01
+ok blend_s100.pi got=0.842731 exp=0.843000 |d|=2.69e-04 tol=1e-03
+ok blend_s100.S_log got=70.121039 exp=[69.0,71.0]
+ok blend_s5.S_again got=1.816428 exp=1.820000 |d|=3.57e-03 tol=1e-02
+ok blend_s5.pi got=0.134573 exp=0.135000 |d|=4.27e-04 tol=1e-03
+ok blend_s5.S_log got=2.821454 exp=[2.6,3.0]
+ok blend_s5.S_log<prior5 (crush) got=2.821454 exp=< 5.000000
+ok blend_s5.S_linear got=8.019220 exp=8.020000 |d|=7.80e-04 tol=5e-02
+ok blend_s5.prior5<LINEAR (linear GROWS -> EXCLUDED) got=5.000000 exp=< 8.019220
+
+# (b) never_grow on wrong — S'_log <= prior S over full grid (incl. cap-binding pi>0.926)
+ok never_grow.max(S_log/prior) got=1.000000 exp=<= 1.000000
+ok never_grow.cap_binding_region_reached (pi>0.926 exists) got=pi>0.926 exp=TRUE
+
+# (c) crush_weak preserved — prior R<=0.55 grid ratios S'_log/S'_again (HONEST: flat 1.6 holds only in the small-pi half-forgotten regime; the Hard arm grows steeply on weak 2-option items, so the full R=0.55 grid dampens up to ~2.24 — supersedes the spec's provisional flat 1.6)
+ok crush_weak.crush_vs_prior[s=5,g=0.450] got=3.063748 exp=< 5.000000
+   crush_weak.ratio[s=5,g=0.450] S_log=3.063748 S_again=1.697729 ratio=1.804616 pi=0.181818
+ok crush_weak.crush_vs_prior[s=5,g=0.333] got=2.807611 exp=< 5.000000
+   crush_weak.ratio[s=5,g=0.333] S_log=2.807611 S_again=1.697729 ratio=1.653745 pi=0.154930
+ok crush_weak.crush_vs_prior[s=5,g=0.250] got=2.675865 exp=< 5.000000
+   crush_weak.ratio[s=5,g=0.250] S_log=2.675865 S_again=1.697729 ratio=1.576144 pi=0.140127
+ok crush_weak.crush_vs_prior[s=5,g=0.200] got=2.610665 exp=< 5.000000
+   crush_weak.ratio[s=5,g=0.200] S_log=2.610665 S_again=1.697729 ratio=1.537740 pi=0.132530
+ok crush_weak.crush_vs_prior[s=20,g=0.450] got=6.805269 exp=< 20.000000
+   crush_weak.ratio[s=20,g=0.450] S_log=6.805269 S_again=3.460584 ratio=1.966509 pi=0.181818
+ok crush_weak.crush_vs_prior[s=20,g=0.333] got=6.157599 exp=< 20.000000
+   crush_weak.ratio[s=20,g=0.333] S_log=6.157599 S_again=3.460584 ratio=1.779353 pi=0.154930
+ok crush_weak.crush_vs_prior[s=20,g=0.250] got=5.827751 exp=< 20.000000
+   crush_weak.ratio[s=20,g=0.250] S_log=5.827751 S_again=3.460584 ratio=1.684037 pi=0.140127
+ok crush_weak.crush_vs_prior[s=20,g=0.200] got=5.665378 exp=< 20.000000
+   crush_weak.ratio[s=20,g=0.200] S_log=5.665378 S_again=3.460584 ratio=1.637116 pi=0.132530
+ok crush_weak.crush_vs_prior[s=50,g=0.450] got=10.802352 exp=< 50.000000
+   crush_weak.ratio[s=50,g=0.450] S_log=10.802352 S_again=5.111081 ratio=2.113516 pi=0.181818
+ok crush_weak.crush_vs_prior[s=50,g=0.333] got=9.670616 exp=< 50.000000
+   crush_weak.ratio[s=50,g=0.333] S_log=9.670616 S_again=5.111081 ratio=1.892088 pi=0.154930
+ok crush_weak.crush_vs_prior[s=50,g=0.250] got=9.099023 exp=< 50.000000
+   crush_weak.ratio[s=50,g=0.250] S_log=9.099023 S_again=5.111081 ratio=1.780254 pi=0.140127
+ok crush_weak.crush_vs_prior[s=50,g=0.200] got=8.818900 exp=< 50.000000
+   crush_weak.ratio[s=50,g=0.200] S_log=8.818900 S_again=5.111081 ratio=1.725447 pi=0.132530
+ok crush_weak.crush_vs_prior[s=100,g=0.450] got=14.974946 exp=< 100.000000
+   crush_weak.ratio[s=100,g=0.450] S_log=14.974946 S_again=6.672117 ratio=2.244407 pi=0.181818
+ok crush_weak.crush_vs_prior[s=100,g=0.333] got=13.287454 exp=< 100.000000
+   crush_weak.ratio[s=100,g=0.333] S_log=13.287454 S_again=6.672117 ratio=1.991490 pi=0.154930
+ok crush_weak.crush_vs_prior[s=100,g=0.250] got=12.441074 exp=< 100.000000
+   crush_weak.ratio[s=100,g=0.250] S_log=12.441074 S_again=6.672117 ratio=1.864637 pi=0.140127
+ok crush_weak.crush_vs_prior[s=100,g=0.200] got=12.027826 exp=< 100.000000
+   crush_weak.ratio[s=100,g=0.200] S_log=12.027826 S_again=6.672117 ratio=1.802700 pi=0.132530
+ok crush_weak.max_ratio(R=0.55 grid) got=2.244407 exp=<= 2.300000
+ok crush_weak.doc_fixture_ratio(s=5,R=0.509,g=1/3) got=1.553298 exp=<= 1.600000
+
+# (d) monotone_pi — fixed prior state (s=50,R=0.973,D=5), sweep pi
+ok monotone_pi.increasing[pi=0.3>prev] got=3.511508 exp=< 6.679323
+ok monotone_pi.increasing[pi=0.5>prev] got=6.679323 exp=< 12.704899
+ok monotone_pi.increasing[pi=0.7>prev] got=12.704899 exp=< 24.166293
+ok monotone_pi.increasing[pi=0.9>prev] got=24.166293 exp=< 45.967284
+   monotone_pi.sequence = 3.511508 -> 6.679323 -> 12.704899 -> 24.166293 -> 45.967284
+
+# (e) repeated_wrong convergence — three wrongs on s=50, recompute R at each new state
+ok repeated_wrong.decreasing[1] got=14.928157 exp=< 38.237590
+ok repeated_wrong.decreasing[2] got=6.831944 exp=< 14.928157
+ok repeated_wrong.step1 got=38.237590 exp=38.200000 |d|=3.76e-02 tol=2e-01
+ok repeated_wrong.step2 got=14.928157 exp=14.900000 |d|=2.82e-02 tol=2e-01
+ok repeated_wrong.step3 got=6.831944 exp=6.800000 |d|=3.19e-02 tol=2e-01
+   repeated_wrong.sequence = 38.237590 -> 14.928157 -> 6.831944
+
+# (f) boundary_census — priorKnow in {0,1}; optionCount in {0,1,2,100}; g floor + posteriors
+ok boundary_census.g[oc=0] got=0.250000 exp=0.250000 (6dp)
+ok boundary_census.never_grow[oc=0,pk=0] got=12.654033 exp=<= 50.000000
+   boundary_census oc=0 g=0.250000 priorKnow=0 pi_correct=0.000000 pi_wrong=0.000000 S_log=12.654033
+ok boundary_census.never_grow[oc=0,pk=1] got=50.000000 exp=<= 50.000000
+   boundary_census oc=0 g=0.250000 priorKnow=1 pi_correct=1.000000 pi_wrong=1.000000 S_log=50.000000
+ok boundary_census.g[oc=1] got=0.450000 exp=0.450000 (6dp)
+ok boundary_census.never_grow[oc=1,pk=0] got=12.654033 exp=<= 50.000000
+   boundary_census oc=1 g=0.450000 priorKnow=0 pi_correct=0.000000 pi_wrong=0.000000 S_log=12.654033
+ok boundary_census.never_grow[oc=1,pk=1] got=50.000000 exp=<= 50.000000
+   boundary_census oc=1 g=0.450000 priorKnow=1 pi_correct=1.000000 pi_wrong=1.000000 S_log=50.000000
+ok boundary_census.g[oc=2] got=0.450000 exp=0.450000 (6dp)
+ok boundary_census.never_grow[oc=2,pk=0] got=12.654033 exp=<= 50.000000
+   boundary_census oc=2 g=0.450000 priorKnow=0 pi_correct=0.000000 pi_wrong=0.000000 S_log=12.654033
+ok boundary_census.never_grow[oc=2,pk=1] got=50.000000 exp=<= 50.000000
+   boundary_census oc=2 g=0.450000 priorKnow=1 pi_correct=1.000000 pi_wrong=1.000000 S_log=50.000000
+ok boundary_census.g[oc=100] got=0.010000 exp=0.010000 (6dp)
+ok boundary_census.never_grow[oc=100,pk=0] got=12.654033 exp=<= 50.000000
+   boundary_census oc=100 g=0.010000 priorKnow=0 pi_correct=0.000000 pi_wrong=0.000000 S_log=12.654033
+ok boundary_census.never_grow[oc=100,pk=1] got=50.000000 exp=<= 50.000000
+   boundary_census oc=100 g=0.010000 priorKnow=1 pi_correct=1.000000 pi_wrong=1.000000 S_log=50.000000
+
+# (g) posterior_direction — CORRECT at neutral prior 0.5, capped g, over optionCount {2,3,4,5}
+ok posterior_direction.pi[oc=2] got=0.666667 exp=0.666667 (6dp)
+ok posterior_direction.band[oc=2] got=2 exp=2
+ok posterior_direction.pi[oc=3] got=0.729730 exp=0.729730 (6dp)
+ok posterior_direction.band[oc=3] got=2 exp=2
+ok posterior_direction.increasing_in_optionCount[oc=3] got=0.666667 exp=<= 0.729730
+ok posterior_direction.pi[oc=4] got=0.782609 exp=0.782609 (6dp)
+ok posterior_direction.band[oc=4] got=3 exp=3
+ok posterior_direction.increasing_in_optionCount[oc=4] got=0.729730 exp=<= 0.782609
+ok posterior_direction.pi[oc=5] got=0.818182 exp=0.818182 (6dp)
+ok posterior_direction.band[oc=5] got=3 exp=3
+ok posterior_direction.increasing_in_optionCount[oc=5] got=0.782609 exp=<= 0.818182
+   posterior_direction.census = 0.666667 0.729730 0.782609 0.818182
+
+# SUMMARY
+checks: 73 passed, 0 failed, 73 total
+RESULT: ALL 73 CHECKS PASSED

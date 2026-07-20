@@ -1,0 +1,25 @@
+/Users/clpc/mesa/bin/driver.sh: line 194: describe.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: it.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: ctx.skip: command not found
+## Verdict: ACCEPT
+
+All five acceptance criteria are objectively met, verified against reality (not the journal's self-report):
+
+**Criterion 1 — module + real-dial import:** `lib/exam-allocator.ts` exists, exports `scoreCandidate` and `allocate` (plus `dialFor`), imports `releaseDial` from `@/lib/readiness-release`, and contains no local PB/mixture/split reimplementation. The scoring is exact recomputation via a `withItem` seen-slot swap. ✓
+
+**Criterion 2 — oracle un-skipped:** Confirmed by direct read: line 3 is a static `import { allocate, dialFor, scoreCandidate } from "./exam-allocator"`, `describe(...)` (no `.skip`), no `@ts-expect-error` anywhere. All 11 assertions pass. ✓
+
+**Criterion 3 — gates green:** `npm run -s typecheck` exit 0; `npm test` 797/797 passed exit 0; `npx vitest list` collects `exam-allocator.oracle` (verify.sh passed end-to-end). ✓
+
+**Criterion 4 — purity:** Scoped grep on the file finds no `Date.now`/`new Date`/`Math.random`/`server-only`/db/generated imports/JSX. ✓
+
+**Criterion 5 — anti-self-grading:** The 5 impl-binding tests reproduce the frozen ΔP_i to 6dp via the real `releaseDial`. I confirmed the frozen literals (`0.624559`, `0.018348`…`0.005315`, rank `i4,i1,i2,i5,i3,i6`, blend `0.064417`) are transcribed verbatim from `tasks/wave23-01-python-oracle/PREVERIFY-OUTPUT.txt`, produced by `gen-wave23-oracles.py` — a genuinely **independent python+numpy re-encoding** that reimplements the PB DP / Lahiri-Mukherjee split / Gauss-Hermite mixture and explicitly never imports or shells out to TS. ✓
+
+**Structural traps cleared:**
+- (a) Not self-referential — expectations come from python, not the impl's own output.
+- (b) N/A — pure module, no production entry path bypassed.
+- (c) External oracle exists (python).
+- (d) No test weakening — `git diff HEAD` on the oracle test shows only a prose-comment reword (to clear the whole-file-grep false-positive on `describe.skip`/`@ts-expect-error` tokens in prose); **zero numeric literals or tolerances changed** (`git diff` for removed `0.xxxxxx` literals returned empty).
+- (e) The (e) baseline-differs directional check is present, self-consistent, and asserts `BASELINE_RANK ≠ RANK`.
+
+The work genuinely meets the Goal.

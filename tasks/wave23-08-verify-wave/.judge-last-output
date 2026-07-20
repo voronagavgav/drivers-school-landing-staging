@@ -1,0 +1,21 @@
+/Users/clpc/mesa/bin/driver.sh: line 194: describe.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: it.skip: command not found
+/Users/clpc/mesa/bin/driver.sh: line 194: ctx.skip: command not found
+All 10 acceptance criteria independently verified by executing the real stack myself (not trusting the captured output):
+
+| # | Criterion | Independent verification |
+|---|-----------|--------------------------|
+| 1 | typecheck exits 0 | Ran `npm run -s typecheck` → exit 0 |
+| 2 | unit exits 0 + both allocator suites collected | Ran `npm test` → 799 passed, exit 0; `npx vitest list` → both `exam-allocator.oracle` and `exam-allocator-sim.determinism` collected |
+| 3 | integration exits 0, 0 skipped, after db:seed | Ran `db:seed` (exit 0) then `test:integration` → 284 passed, exit 0, no skip/todo lines |
+| 4 | build exits 0 | Ran `npm run -s build` → exit 0 |
+| 5 | no browser audit | `verify.sh:32` prints the skip banner; spike ships zero UI |
+| 6 | no product wiring | `git diff --name-only ced6b85 -- app lib/server prisma components` → empty; only shipped code is the 7 allocator/sim/oracle/spike/report files |
+| 7 | byte-untouched fsrs/readiness/oracles | `lib/fsrs` diff empty; all 7 readiness + wave19d/20/21/22 oracle files `git diff --quiet` clean |
+| 8 | no new prisma migration | `git diff --name-only ced6b85 -- prisma/migrations` → empty |
+| 9 | shipped libs pure | Neither lib contains `Date.now`/`Math.random` nor `server-only`/db/prisma imports |
+| 10 | report with GO/NO-GO verdict | `docs/research/EXAM-ALLOCATOR-SPIKE-2026-07-14.md` line 51: `**VERDICT: NO-GO**` |
+
+**Structural-trap check:** This task authors NO product code — it only runs the wave's pre-existing tests and git-diff scope/byte checks. Expected = the 10 spec criteria; actual = pre-existing wave23-01..07 code. No self-referential oracle (a), no bypassed entry path (b), no missing external oracle (c), no weakened test (d), no fixture-population dodge (e) — traps (a)–(e) are inapplicable by construction.
+
+VERDICT: ACCEPT — all 10 acceptance criteria objectively met, each confirmed by my own execution and inspection.

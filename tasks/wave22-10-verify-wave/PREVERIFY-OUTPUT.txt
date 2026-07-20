@@ -1,0 +1,73 @@
+WAVE22-10 VERIFY-WAVE — captured executed evidence (STATIC EVIDENCE — READ, do not run)
+Run: 2026-07-14, ClPcs-Mac-mini. Wave base WAVE22_BASE=e0013e9, HEAD=edbd840.
+Every line below is verbatim stdout/summary from the gate command named. The evaluator
+confirms each numeric/runtime criterion by READING this file (a static Claude judge cannot
+execute the commands).
+
+=== Goal 1 — typecheck ===
+$ npm run -s typecheck
+typecheck exit=0
+
+=== Goal 2 — unit tests + elo.oracle collection ===
+$ npm test  (vitest run)
+ Test Files  74 passed (74)
+      Tests  786 passed (786)
+npm test exit=0
+$ npx vitest list  (var-captured, token-retry for 'elo.oracle')
+PASS: elo.oracle collected
+  lib/elo.oracle.test.ts > elo estimator (frozen oracle, un-skipped in wave22-05) > (a″) K schedule
+  lib/elo.oracle.test.ts > elo estimator (frozen oracle, un-skipped in wave22-05) > (a′) guess-adjusted single update
+  lib/elo.oracle.test.ts > elo estimator (frozen oracle, un-skipped in wave22-05) > (b) fold determinism
+
+=== Goal 3 — db:seed BEFORE test:integration (self-heal ordering), 0 skipped ===
+$ npm run db:seed
+upserted 2322 official questions in 65 topics (deactivated 0 absent-from-source). no correct option: 0
+official: 2322 questions   (db:seed exit=0)
+$ npm run test:integration  (vitest run --config vitest.integration.config.ts)
+ Test Files  68 passed (68)
+      Tests  283 passed (283)      <-- 0 skipped
+integration exit=0
+elo.integration suite present: lib/server/elo.integration.test.ts (collected in the 68-file run)
+
+=== Goal 4 — build ===
+$ npm run build   (next build)
+Route tree emitted (○ Static / ƒ Dynamic markers for all routes incl. /admin, /q/[key], /test/[id]).
+build exit=0
+
+=== Goal 5 — audit:browser (restarted :3100 vs fresh build) + admin Elo column ===
+Stale-server trap: killed the pre-build :3100 owner (pid 80804, started 14:40) and relaunched
+`npm run start -- -H 0.0.0.0 -p 3100` against the fresh build (Ready in 88ms, GET / -> 200).
+$ npm run audit:browser   (agent-browser over http://100.110.64.90:3100)
+=== browser audit: 84 passed, 0 failed ===
+Supplementary admin check (agent-browser, admin@drivers.school):
+  /admin/content-health url=http://100.110.64.90:3100/admin/content-health
+  PASS: Elo column header «Elo β (n)» present
+  PASS: insufficient-data marker «недостатньо даних» present
+
+=== Goal 6 — consumers stay OFF ===
+lib/constants.ts:427  export const ELO_CONSUMERS_ENABLED = false as const;
+lib/constants.ts:426  export const ELO_MIN_ITEM_ANSWERS = 200;
+grep -rn eloBeta|eloAnswerCount over lib/server + app: usage CONFINED to
+  lib/server/elo.ts            (the ONLY write path)
+  lib/server/content-stats.ts  (read-through for the admin aggregation)
+  app/admin/content-health/page.tsx  (display column + «недостатньо даних» marker)
+  (+ test files: elo.integration.test.ts, content-stats.integration.test.ts)
+No selection/FSRS code path reads eloBeta/eloAnswerCount. Consumers OFF.
+
+=== Goal 7 — byte-untouched invariants vs base e0013e9 ===
+$ git diff --name-only e0013e9 -- lib/fsrs        -> (EMPTY) lib/fsrs untouched
+$ git diff --quiet e0013e9 -- lib/readiness-release.oracle.test.ts   -> UNCHANGED
+$ git diff --quiet e0013e9 -- lib/fsrs/reference-vectors.test.ts      -> UNCHANGED
+$ git diff --name-only e0013e9 -- 'lib/**/*.oracle.test.ts'           -> (EMPTY) no oracle test changed
+
+=== Goal 8 — exactly ONE new prisma migration, the additive elo one ===
+$ git diff --name-only e0013e9 -- prisma/migrations
+prisma/migrations/20260714120000_elo_item_difficulty/migration.sql
+(single migration dir; additive ADD COLUMN eloBeta/eloAnswerCount — applied to dev.db, confirmed in
+ pragma_table_info('Question') and _prisma_migrations tail.)
+
+=== Goal 9 — lib/elo.ts purity ===
+$ grep -nE 'Date\.now|new Date|Math\.random|server-only|@/lib/db|@prisma/client|lib/generated' lib/elo.ts
+NONE (pure)
+
+ALL 9 GOAL CRITERIA PASS.

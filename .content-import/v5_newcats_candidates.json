@@ -1,0 +1,7574 @@
+{
+ "candidates": [
+  {
+   "section": "52",
+   "qnum": 1,
+   "text": "Що спільного у цих двох дорожніх знаків?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Позначають заборону тільки для транзитного руху."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволяють рух спецтранспорту з помаранчевим маячком."
+    },
+    {
+     "letter": "3",
+     "text": "Дозволяють рух маршрутних транспортних засобів."
+    },
+    {
+     "letter": "4",
+     "text": "Після цих знаків починається зустрічний рух."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_1_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/52_1_1.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 2,
+   "text": "Який із зображених дорожніх знаків встановлюється в кінці посадкового майданчика зупинки автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Знак 1."
+    },
+    {
+     "letter": "2",
+     "text": "Знак 2."
+    },
+    {
+     "letter": "3",
+     "text": "Знак 3."
+    },
+    {
+     "letter": "4",
+     "text": "Знак 4."
+    },
+    {
+     "letter": "5",
+     "text": "Знак 5."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_2_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 3,
+   "text": "З якою максимальною швидкістю дозволено рух синього автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "100 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "110 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_3_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 4,
+   "text": "З якою максимальною швидкістю дозволено рух червоному автобусу на автомагістралі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "100 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_4_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 5,
+   "text": "З якою максимальною швидкістю дозволено рух автобусів (за винятком мікроавтобусів) на дорогах, позначених знаком «Дорога для автомобілів»?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "100 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_5_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 6,
+   "text": "Яка максимальна швидкість встановлена для руху мікроавтобусів на автомагістралі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_6_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 7,
+   "text": "З якою максимальною швидкістю допускається рух мікроавтобусів на дорогах з окремими проїзними частинами?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_7_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 8,
+   "text": "Яка максимальна швидкість встановлена для мікроавтобусів на цій дорозі за межами населених пунктів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "100 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "110 км/год."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_8_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 9,
+   "text": "Хто з водіїв зупинився з порушенням Правил дорожнього руху на дорозі в населеному пункті, якщо відомо, що водії трактора і вантажного автомобіля з дозволеною максимальною масою понад 3,5 т зупинилися без необхідності завантаження чи розвантаження, а водій автобуса - без необхідності посадки або висадки пасажирів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Водії вантажного автомобіля, трактора та автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Водії вантажного автомобіля і трактора."
+    },
+    {
+     "letter": "3",
+     "text": "Водії всіх транспортних засобів."
+    },
+    {
+     "letter": "4",
+     "text": "Ніхто не порушує."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_9_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 10,
+   "text": "Чи дозволено поворот праворуч водієві автобуса, що рухається за встановленим маршрутом, у зображеній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_10_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 11,
+   "text": "З якою максимальною швидкістю допускається рух мікроавтобусів на дорогах для автомобілів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_11_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 12,
+   "text": "З    якою     максимальною швидкістю дозволено рух білому мікроавтобусу, що перевозить організовані групи дітей, на цій дорозі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "130 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "80 км/год."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 13,
+   "text": "З якою максимальною швидкістю дозволено рух жовтого автобуса, що перевозить організовану групу дітей, на цій ділянці дороги за межами населених пунктів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "80 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_13_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 14,
+   "text": "Чи дозволено поворот ліворуч водієві автобуса, що рухається за встановленим маршрутом, у зображеній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_14_0.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/52_14_1.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/52_14_2.jpeg",
+    "/Users/clpc/drivers-school/.content-import/images/52_14_3.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 15,
+   "text": "Чи дозволено автобусу, який рухається        за     встановленим маршрутом, повернути праворуч на зображеному перехресті?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 16,
+   "text": "Чи дозволено водієві автобуса, що рухається за встановленим маршрутом, повернути ліворуч у зображеній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 17,
+   "text": "Чи дозволено водієві автобуса, що рухається за встановленим маршрутом, повернути праворуч у зображеній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 18,
+   "text": "Чи дозволено водієві автобуса,  що рухається        за   встановленим маршрутом, повернути ліворуч у зображеній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/52_18_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "52",
+   "qnum": 19,
+   "text": "Водій транспортного засобу, який обладнано тахографом, повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника."
+    },
+    {
+     "letter": "2",
+     "text": "Тахограф можна не використовувати."
+    },
+    {
+     "letter": "3",
+     "text": "Забезпечувати його надійне встановлення у транспортному засобі."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 20,
+   "text": "Тривалість щотижневого відпочинку водія має становити:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 42 годин поспіль."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 45 годин поспіль."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 47 годин поспіль."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 21,
+   "text": "Якщо протягом робочої зміни ТЗ керують два водії, кожний водій повинен мати щоденний відпочинок тривалістю:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 8 годин поспіль."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 12 годин поспіль."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 6 годин."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 22,
+   "text": "Як водії мають використовувати час перерви?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мають відпочивати в спеціально відведених місцях."
+    },
+    {
+     "letter": "2",
+     "text": "Мають відпочивати не покидаючи транспортний засіб."
+    },
+    {
+     "letter": "3",
+     "text": "На свій розсуд."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 23,
+   "text": "Чи зараховується перерва для відпочинку і харчування до робочого часу водія?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зараховується."
+    },
+    {
+     "letter": "2",
+     "text": "Не зараховується."
+    },
+    {
+     "letter": "3",
+     "text": "На розсуд роботодавця."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 24,
+   "text": "Яка мінімальна тривалість відпочинку та харчування водія після 4 годин керування, якщо не настає період щоденного (міжзмінного) відпочинку?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 45 хвилин."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 1 години."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 2 годин."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 25,
+   "text": "При управлінні автобусом, що бере участь у міжнародному русі, загальна тривалість робочого часу водія автобуса протягом двох тижнів поспіль реєструється тахографом. Відповідно до нормативних документів вона не має перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "56 годин."
+    },
+    {
+     "letter": "2",
+     "text": "60 годин."
+    },
+    {
+     "letter": "3",
+     "text": "70 годин."
+    },
+    {
+     "letter": "4",
+     "text": "90 годин."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 26,
+   "text": "Після скількох годин керування водій автобуса має зробити перерву для відпочинку?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Після 2 годин."
+    },
+    {
+     "letter": "2",
+     "text": "Після 4 годин."
+    },
+    {
+     "letter": "3",
+     "text": "Після 5 годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 27,
+   "text": "Яку мінімальну кількість водіїв направляють на автобусні маршрути протяжністю понад 500 км?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Досить одного."
+    },
+    {
+     "letter": "2",
+     "text": "Двох."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше трьох."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 28,
+   "text": "Як затягувати болти/гайки кріплення колеса до маточини?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Затягнути болти/гайки на колесі, що спирається на поверхню."
+    },
+    {
+     "letter": "2",
+     "text": "Затягнути болти/гайки на підвішеному колесі, дотягнути з необхідним моментом затягування на колесі, що спирається на поверхню."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 29,
+   "text": "До міжнародних перевезень пасажирів допускаються резиденти України, які мають досвід роботи на внутрішніх перевезеннях не менше:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Одного-двох років."
+    },
+    {
+     "letter": "2",
+     "text": "Трьох років."
+    },
+    {
+     "letter": "3",
+     "text": "П’яти років."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 30,
+   "text": "Якщо протягом робочої зміни ТЗ керують два водії, кожний водій повинен мати щоденний відпочинок тривалістю:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 6 годин поспіль."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 8 годин поспіль."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 10 годин поспіль."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 31,
+   "text": "При управлінні автобусом, що бере участь у міжнародному русі, тривалість робочого часу водія автобуса протягом тижня реєструється тахографом. Відповідно до нормативних документів вона не має перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "45 годин."
+    },
+    {
+     "letter": "2",
+     "text": "54 години."
+    },
+    {
+     "letter": "3",
+     "text": "56 годин."
+    },
+    {
+     "letter": "4",
+     "text": "60 годин."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 32,
+   "text": "Транспортним засобом категорії D1 вважається механічний транспортний засіб, конструктивно призначений для перевезення не більше:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "16 пасажирів на сидіннях, крім водія."
+    },
+    {
+     "letter": "2",
+     "text": "18 пасажирів на сидіннях, крім водія."
+    },
+    {
+     "letter": "3",
+     "text": "20 пасажирів на сидіннях, крім водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 33,
+   "text": "Скільки має тривати щоденний (міжзмінний) відпочинок водія протягом будь-якого 24-годинного періоду, рахуючи від початку робочого дня (зміни)?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 10 годин поспіль."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 12 годин поспіль."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 8 годин поспіль."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 34,
+   "text": "Скільки разів протягом тижня щоденний час перебування за кермом водія при управлінні автобусом, що бере участь у міжнародному русі, може бути збільшено до 10 годин?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Один раз."
+    },
+    {
+     "letter": "2",
+     "text": "Два рази."
+    },
+    {
+     "letter": "3",
+     "text": "Три рази."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 35,
+   "text": "Щоденний час перебування за кермом водія при керуванні автобусом, що бере участь у міжнародному русі, зареєстрований за допомогою тахографа, не має перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "8 годин."
+    },
+    {
+     "letter": "2",
+     "text": "9 годин."
+    },
+    {
+     "letter": "3",
+     "text": "10 годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 36,
+   "text": "Тахограф – це бортовий прилад, який встановлюється на автобусах, що беруть участь у міжнародному русі, та який реєструє:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Швидкість руху і пробіг автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Щодобовий робочий час водіїв."
+    },
+    {
+     "letter": "3",
+     "text": "Щодобовий час відпочинку водіїв."
+    },
+    {
+     "letter": "4",
+     "text": "Усі перелічені параметри."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 37,
+   "text": "Автобуси, які беруть участь у міжнародному русі, мають бути обов'язково обладнані:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Тахометром."
+    },
+    {
+     "letter": "2",
+     "text": "Тахографом."
+    },
+    {
+     "letter": "3",
+     "text": "Системою глобального позиціонування (GPS)."
+    },
+    {
+     "letter": "4",
+     "text": "Усіма переліченими приладами."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 38,
+   "text": "Поза населеними пунктами на дорогах, не позначених знаком 5.3 «Дорога для автомобілів», дозволена максимальна швидкість автобусів, крім мікроавтобусів, не перевищує:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 39,
+   "text": "Поза населеними пунктами на      дорогах, позначених знаком 5.3 «Дорога для автомобілів», дозволена максимальна швидкість автобусів, крім мікроавтобусів, не перевищує:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 40,
+   "text": "Водій транспортного засобу, який обладнано тахографом, повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника."
+    },
+    {
+     "letter": "2",
+     "text": "Своєчасно встановлювати, змінювати і заповнювати тахокарти та забезпечувати їх належне зберігання."
+    },
+    {
+     "letter": "3",
+     "text": "У випадку виходу тахографа з ладу не вживати ніяких заходів, доки прилад не буде відремонтовано."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 41,
+   "text": "Водій транспортного засобу, який обладнано тахографом, повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника."
+    },
+    {
+     "letter": "2",
+     "text": "У випадку виходу тахографа з ладу не вживати ніяких дій, доки прилад не буде відремонтовано."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 42,
+   "text": "Тривалість керування для водія на тиждень              з урахуванням понаднормових робіт не повинна перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "47 годин."
+    },
+    {
+     "letter": "2",
+     "text": "48 годин."
+    },
+    {
+     "letter": "3",
+     "text": "49 годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 43,
+   "text": "Перевезення пасажирів автобусами залежно від режиму їх організації можуть бути:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Регулярними і нерегулярними."
+    },
+    {
+     "letter": "2",
+     "text": "Регулярними спеціальними."
+    },
+    {
+     "letter": "3",
+     "text": "Нерегулярними спеціальними."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1, 2, 3."
+    },
+    {
+     "letter": "5",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 44,
+   "text": "Яку мінімальну кількість водіїв направляють на автобусні маршрути протяжністю понад 500 км?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Досить одного."
+    },
+    {
+     "letter": "2",
+     "text": "Два."
+    },
+    {
+     "letter": "3",
+     "text": "Три."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 45,
+   "text": "Тривалість керування водія на тиждень, включно з надурочними роботами, не повинна перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "46 годин."
+    },
+    {
+     "letter": "2",
+     "text": "48 годин."
+    },
+    {
+     "letter": "3",
+     "text": "50 годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 46,
+   "text": "Нормальна тривалість робочого часу водія не повинна перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "50 годин на тиждень."
+    },
+    {
+     "letter": "2",
+     "text": "45 годин на тиждень."
+    },
+    {
+     "letter": "3",
+     "text": "40 годин на тиждень."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 47,
+   "text": "Що належить до поняття відпочинок водія?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Безперервний період часу, який водій може використовувати на свій розсуд."
+    },
+    {
+     "letter": "2",
+     "text": "Безперервний період часу, який водій використовує для заповнення необхідних супровідних документів."
+    },
+    {
+     "letter": "3",
+     "text": "Безперервний період часу, який водій використовує виключно для сну."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 48,
+   "text": "У разі під'їзду до регульованого перехрестя транспортним засобом, яким керує водій з однією з категорій D, D1, що завжди потрібно ураховувати водієві?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Те, що перехрестя регульоване."
+    },
+    {
+     "letter": "2",
+     "text": "Маршрут руху."
+    },
+    {
+     "letter": "3",
+     "text": "Те, що через габарити транспортного засобу сигналів світлофора може бути не видно іншим учасникам дорожнього руху."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 49,
+   "text": "Як правильно встановлювати домкрат?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Якнайближче до колеса."
+    },
+    {
+     "letter": "2",
+     "text": "Якнайдалі від колеса."
+    },
+    {
+     "letter": "3",
+     "text": "Місце встановлення не має значення."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 50,
+   "text": "Як затягувати болти/гайки кріплення колеса до маточини?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Затягнути болти/гайки на підвішеному колесі."
+    },
+    {
+     "letter": "2",
+     "text": "Затягнути болти/гайки на колесі, що стоїть на поверхні."
+    },
+    {
+     "letter": "3",
+     "text": "Затягнути болти/гайки на підвішеному колесі, дотягнути з необхідним моментом затягування на колесі, що стоїть на поверхні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 51,
+   "text": "З якою максимальною швидкістю дозволено рух автобусів (за винятком мікроавтобусів) на всіх дорогах за межами населених пунктів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "50 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "60 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "90 км/год."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 52,
+   "text": "Вкажіть максимально допустиму довжину зчеплених при буксируванні маршрутних транспортних засобів.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "20 м."
+    },
+    {
+     "letter": "2",
+     "text": "22 м."
+    },
+    {
+     "letter": "3",
+     "text": "25 м."
+    },
+    {
+     "letter": "4",
+     "text": "30 м."
+    },
+    {
+     "letter": "5",
+     "text": "35 м."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 53,
+   "text": "Якої довжини маршрутний транспортний                засіб    повинен рухатися за спеціальними правилами?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Понад 21 м."
+    },
+    {
+     "letter": "2",
+     "text": "Понад 22 м."
+    },
+    {
+     "letter": "3",
+     "text": "Понад 23 м."
+    },
+    {
+     "letter": "4",
+     "text": "Понад 24 м."
+    },
+    {
+     "letter": "5",
+     "text": "Понад 25 м."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 54,
+   "text": "Після скількох годин керування водій повинен зробити перерву для відпочинку?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Після 3 годин."
+    },
+    {
+     "letter": "2",
+     "text": "Після 4 годин."
+    },
+    {
+     "letter": "3",
+     "text": "Після 5 годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 55,
+   "text": "Яка мінімальна тривалість відпочинку та харчування водія після 4 годин керування, якщо не настає період щоденного (міжзмінного) відпочинку?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 45 хвилин."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 50 хвилин."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 1 години."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 56,
+   "text": "У разі несправності або пошкодження тахографа водій транспортного засобу повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не вдаватися ні до яких дій, доки прилад не буде відремонтовано."
+    },
+    {
+     "letter": "2",
+     "text": "Записувати від руки дані про режим роботи і відпочинку."
+    },
+    {
+     "letter": "3",
+     "text": "Використання тахографа не обов’язкове."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 57,
+   "text": "Водій транспортного засобу, який обладнано тахографом, повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника."
+    },
+    {
+     "letter": "2",
+     "text": "Своєчасно встановлювати, змінювати й заповнювати тахокарти і забезпечувати їх належне зберігання."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 58,
+   "text": "Водій транспортного засобу, який обладнано тахографом, повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Забезпечувати правильну експлуатацію тахографа та управління режимами його роботи відповідно до інструкції виробника."
+    },
+    {
+     "letter": "2",
+     "text": "У разі поломки тахографа не вдаватися ні до яких дій, доки прилад не буде відремонтовано."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 59,
+   "text": "Що таке контрольний пристрій (тахограф)?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Обладнання, яке є засобом вимірювальної техніки, призначене для встановлення на транспортних засобах для показу та реєстрації в автоматичному чи напівавтоматичному режимі інформації про рух таких транспортних засобів та про певні періоди роботи їх водіїв."
+    },
+    {
+     "letter": "2",
+     "text": "Контрольний пристрій, що встановлюється на борту автотранспортних засобів. Призначений для реєстрації швидкості, режиму праці, відпочинку водіїв і членів екіпажу."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 60,
+   "text": "Яка повинна бути довжина маршруту, який виходить за межі населеного пункту, щоб на нього направляли двох водіїв?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "150 км."
+    },
+    {
+     "letter": "2",
+     "text": "250 км."
+    },
+    {
+     "letter": "3",
+     "text": "500 км і більше."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 61,
+   "text": "Тривалість щотижневого відпочинку водія повинна бути:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 40 послідовних годин."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 45 послідовних годин."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 50 послідовних годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 62,
+   "text": "Якщо протягом робочої зміни ТЗ керують два водії, кожен водій повинен мати щоденний відпочинок тривалістю:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 8 послідовних годин."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 10 послідовних годин."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 12 послідовних годин."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 63,
+   "text": "Яка повинна бути тривалість щоденного (міжзмінного) відпочинку водія протягом будь-якого 24-годинного періоду, рахуючи від початку робочого дня (зміни)?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не менше 8 послідовних годин."
+    },
+    {
+     "letter": "2",
+     "text": "Не менше 10 послідовних годин."
+    },
+    {
+     "letter": "3",
+     "text": "Не менше 12 послідовних годин."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 64,
+   "text": "Як водії повинні використовувати час перерви?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинні відпочивати, не залишаючи транспортного засобу."
+    },
+    {
+     "letter": "2",
+     "text": "Використовують час перерви на свій розсуд."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 65,
+   "text": "Чи входить перерва для відпочинку і харчування в робочий час водія?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Входить."
+    },
+    {
+     "letter": "2",
+     "text": "Не входить."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "52",
+   "qnum": 66,
+   "text": "Чи дозволено перевезення організованих груп дітей у темну пору доби?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "3",
+     "text": "Дозволено тільки в населених пунктах. 53.ДОДАТКОВІ ПИТАННЯ ЩОДОКАТЕГОРІЙD1, D (БУДОВА І ТЕРМІНИ)"
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 1,
+   "text": "Яку максимальну кількість пасажирів, враховуючи місце водія має право перевозити водій мікроавтобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не більшедев'ятнадцяти."
+    },
+    {
+     "letter": "2",
+     "text": "Не більше сімнадцяти."
+    },
+    {
+     "letter": "3",
+     "text": "Не більше шістнадцяти."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 2,
+   "text": "Виберіть правильну відповідь.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Після замінигальмівнихколодокзодногобокунеобхідноперевірити тисквресиверах."
+    },
+    {
+     "letter": "2",
+     "text": "У разі більшого зношення однієї фрикційної накладки, ніж іншої, їх необхідно поміняти місцями для рівномірного зношення."
+    },
+    {
+     "letter": "3",
+     "text": "Під час заміни гальмівних колодок з одного боку треба замінити колодки і з іншого боку."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 3,
+   "text": "Що може стати наслідком повного зносу фрикційних накладок гальмівних колодок?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Різкезменшенняефективностігальмівногомеханізму."
+    },
+    {
+     "letter": "2",
+     "text": "Перегрів гальмівногомеханізму."
+    },
+    {
+     "letter": "3",
+     "text": "Втрата керованостіавтомобіля."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 4,
+   "text": "Яку функцію виконує обмежувальний клапан тиску в пневматичному приводі гальмівної системи передньої осі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зменшує величинуходупередньої осі."
+    },
+    {
+     "letter": "2",
+     "text": "Обмежує кут поворотуколіспередньоїосі."
+    },
+    {
+     "letter": "3",
+     "text": "Зменшує тиск вгальмівнихкамерахпередньоїосі."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 5,
+   "text": "Для чого потрібен прискорювальний клапан в пневматичному приводі гальмівної системи?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Збільшеннядинамікирозгонуавтомобіля."
+    },
+    {
+     "letter": "2",
+     "text": "Збільшення швидкостіскидання зайвого тиску."
+    },
+    {
+     "letter": "3",
+     "text": "Прискорення спрацьовування задніх гальмівнихмеханізмів."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 6,
+   "text": "Які гальмівнімеханізми задіяніпідчас увімкнення гірського гальма?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Тільки передні."
+    },
+    {
+     "letter": "2",
+     "text": "Тільки задні."
+    },
+    {
+     "letter": "3",
+     "text": "Передні й задні."
+    },
+    {
+     "letter": "4",
+     "text": "Гальмівнімеханізми не задіяні."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 7,
+   "text": "Що таке ресивер?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "З'єднувальний механізм у пневматичному урухомнику гальм."
+    },
+    {
+     "letter": "2",
+     "text": "Гальмівна камера заднього гальмівного механізму."
+    },
+    {
+     "letter": "3",
+     "text": "Балон для зберігання стисненого повітря гальмівної системи."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 8,
+   "text": "Куди дівається повітря після відпускання педалі гальма?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Стравлюється в атмосферу."
+    },
+    {
+     "letter": "2",
+     "text": "Потрапляє назад в систему."
+    },
+    {
+     "letter": "3",
+     "text": "Подається у впускний колектор двигуна."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 9,
+   "text": "До якого вузла підключена педаль гальма у пневматичній гальмівній системі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "До головного гальмівного циліндра."
+    },
+    {
+     "letter": "2",
+     "text": "До гальмівного крану."
+    },
+    {
+     "letter": "3",
+     "text": "Безпосередньо до гальмівної камери."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 10,
+   "text": "У чому основна перевага гідравлічної гальмівної системи перед пневматичною гальмівною системою?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Відсутність гальмівної рідини."
+    },
+    {
+     "letter": "2",
+     "text": "Зменшення загальної маси деталей гальмівної системи."
+    },
+    {
+     "letter": "3",
+     "text": "Швидкість спрацьовування гальмівних механізмів."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 11,
+   "text": "Чи дозволено змішувати охолоджувальні рідини різних кольорів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено, тільки в пропорції 1/2."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено, тільки в пропорції 1/4."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 12,
+   "text": "Як позначиться на автомобілі порушення герметичності гальмівної камери з одного боку під час гальмування?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Ніяк не позначиться."
+    },
+    {
+     "letter": "2",
+     "text": "Буде чутно сильне шипіння."
+    },
+    {
+     "letter": "3",
+     "text": "Буде відчуватися відведення автомобіля."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 13,
+   "text": "Як визначити за краплиною моторної оливи потрапляння в систему мащення охолоджувальної рідини?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Моторна олива стає молочного кольору."
+    },
+    {
+     "letter": "2",
+     "text": "Моторна олива стає фіолетового кольору."
+    },
+    {
+     "letter": "3",
+     "text": "Визначити неможливо."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 14,
+   "text": "Транспортним засобом категорії D1 вважається механічний транспортний засіб, конструктивно призначений для перевезення не більше:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "16 пасажирів на сидіннях, крім водія."
+    },
+    {
+     "letter": "2",
+     "text": "18 пасажирів на сидіннях, крім водія."
+    },
+    {
+     "letter": "3",
+     "text": "20 пасажирів на сидіннях, крім водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 15,
+   "text": "Під терміном «маршрутний транспортний засіб» мається на увазі:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Транспортний засіб, що здійснює міжміські перевезення пасажирів громадськими дорогами з зупинками на автобусних станціях в проміжних населених пунктах."
+    },
+    {
+     "letter": "2",
+     "text": "Транспортний засіб загального користування (автобус, мікроавтобус, тролейбус, трамвай і таксі), що рухається за встановленим маршрутом і має певні місця на дорозі для посадки (висадки) пасажирів."
+    },
+    {
+     "letter": "3",
+     "text": "Транспортний засіб, призначений для перевезення людей за маршрутами, узгодженими з пасажирами, та з зупинками на їхню вимогу."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 16,
+   "text": "Чи дозволено перевищувати рівень моторної оливи під час її заміни?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Ні, не дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено — нічого страшного."
+    },
+    {
+     "letter": "3",
+     "text": "Дозволено після капремонту двигуна."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 17,
+   "text": "Як часто необхідно зливати воду з фільтра-відстійника на транспортних засобах з дизельними двигунами?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Кожен день."
+    },
+    {
+     "letter": "2",
+     "text": "Раз на два місяці."
+    },
+    {
+     "letter": "3",
+     "text": "Кожен раз під час заміни паливного фільтра."
+    },
+    {
+     "letter": "4",
+     "text": "Через 35 000 км пробігу."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 18,
+   "text": "Вкажіть метод визначення причини нестабільних обертів холостого ходу.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Метод зупинки шляхом відключення паливних форсунок по черзі."
+    },
+    {
+     "letter": "2",
+     "text": "Метод прослуховування."
+    },
+    {
+     "letter": "3",
+     "text": "Порівняльний метод."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 19,
+   "text": "Вкажіть метод визначення причини, з якої двигун не запускається, коли обертається стартер.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Візуальний: огляд усіх з'єднань електропроводки."
+    },
+    {
+     "letter": "2",
+     "text": "За допомогою спеціального діагностичного сканера помилок."
+    },
+    {
+     "letter": "3",
+     "text": "Діагностика кожного елемента системи запуску окремо."
+    },
+    {
+     "letter": "4",
+     "text": "Усі наведені вище варіанти."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 20,
+   "text": "Вкажіть метод визначення причини різкого збільшення зусилля на кермовому колесі.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Візуальний огляд елементів системи гідропідсилювача рульового керування."
+    },
+    {
+     "letter": "2",
+     "text": "Вимірювання робочого тиску в системі гідропідсилювача рульового керування."
+    },
+    {
+     "letter": "3",
+     "text": "Діагностика під час руху."
+    },
+    {
+     "letter": "4",
+     "text": "Варіанти 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 21,
+   "text": "Вкажіть метод визначення причини надмірного зношення шин керованих коліс.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За допомогою спеціального діагностичного обладнання/стенда."
+    },
+    {
+     "letter": "2",
+     "text": "За допомогою візуального огляду."
+    },
+    {
+     "letter": "3",
+     "text": "За допомогою підручного інструменту."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 22,
+   "text": "Вкажіть методи визначення надмірного зношення гальмівних колодок тільки з одного боку автомобіля.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "На слух."
+    },
+    {
+     "letter": "2",
+     "text": "За допомогою спеціального діагностичного стенда."
+    },
+    {
+     "letter": "3",
+     "text": "За допомогою вимірювального інструмента."
+    },
+    {
+     "letter": "4",
+     "text": "Усі варіанти підходять."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 23,
+   "text": "Назвіть тип гальмівної системи, що найчастіше застосовується у вантажних автомобілях і автобусах.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Гідравлічна."
+    },
+    {
+     "letter": "2",
+     "text": "Пневматична."
+    },
+    {
+     "letter": "3",
+     "text": "Механічна."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 24,
+   "text": "Як дізнатися сторону встановлення колеса і шини з направленим малюнком протектора?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Сторона встановлення в такому випадку не важлива."
+    },
+    {
+     "letter": "2",
+     "text": "На боковині шини буде намальована стрілка, що вказує напрямок обертання."
+    },
+    {
+     "letter": "3",
+     "text": "Напрямок обертання відображає маркування шини."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 25,
+   "text": "Назвіть основне призначення системи запалювання.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Займання паливо-повітряної суміші."
+    },
+    {
+     "letter": "2",
+     "text": "Підігрів повітря."
+    },
+    {
+     "letter": "3",
+     "text": "Управління фарами головного освітлення."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 26,
+   "text": "Для чого служить стартер?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Для старту автомобіля."
+    },
+    {
+     "letter": "2",
+     "text": "Для пересування автомобіля на невелику відстань."
+    },
+    {
+     "letter": "3",
+     "text": "Для запуску двигуна."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 27,
+   "text": "У якій послідовності необхідно від'єднувати клеми від виводів акумуляторної батареї?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Спочатку негативну, потім позитивну клему."
+    },
+    {
+     "letter": "2",
+     "text": "Спочатку позитивну, потім негативну клему."
+    },
+    {
+     "letter": "3",
+     "text": "Послідовність від'єднання не має значення."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 28,
+   "text": "Для чого потрібна система охолодження двигуна?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Відведення тепла від найбільш нагрітих деталей двигуна."
+    },
+    {
+     "letter": "2",
+     "text": "Підведення тепла до менш нагрітих деталей двигуна."
+    },
+    {
+     "letter": "3",
+     "text": "Підтримка температури двигуна в певному робочому діапазоні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 29,
+   "text": "Для чого необхідне використання моторної оливи?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Для поліпшення паливної економічності."
+    },
+    {
+     "letter": "2",
+     "text": "Тільки для охолодження тертьових деталей."
+    },
+    {
+     "letter": "3",
+     "text": "Для відводу продуктів зносу від         тертьових деталей."
+    },
+    {
+     "letter": "4",
+     "text": "Для зменшення тертя."
+    },
+    {
+     "letter": "5",
+     "text": "Відповіді 2, 3, 4."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 30,
+   "text": "Для чого рекомендується замінювати моторну оливу в зимовий період?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Через холоди в'язкість моторної оливи різко збільшується, і її ефективність знижується."
+    },
+    {
+     "letter": "2",
+     "text": "Через холоди в'язкість моторної оливи різко зменшується, і її ефективність збільшується."
+    },
+    {
+     "letter": "3",
+     "text": "Для поліпшення паливної економічності."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 31,
+   "text": "Звідки в паливній системі дизельного двигуна необхідно періодично зливати воду?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "З паливного бака."
+    },
+    {
+     "letter": "2",
+     "text": "З паливних магістралей."
+    },
+    {
+     "letter": "3",
+     "text": "З паливного фільтра-відстійника."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 32,
+   "text": "Що включає в себе газорозподільний механізм?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Тільки кулачковий вал."
+    },
+    {
+     "letter": "2",
+     "text": "Тільки клапанний механізм."
+    },
+    {
+     "letter": "3",
+     "text": "Кулачковий вал (вали) і клапанні механізми."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 33,
+   "text": "З яких основних частин складається двигун внутрішнього згоряння?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Головка блоку циліндрів з газорозподільним механізмом."
+    },
+    {
+     "letter": "2",
+     "text": "Блок циліндрів з кривошипно-шатунним механізмом і оливним піддоном."
+    },
+    {
+     "letter": "3",
+     "text": "З наведених вище частин."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 34,
+   "text": "Чи потрібна система запалювання для дизельного двигуна?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Потрібна обов'язково."
+    },
+    {
+     "letter": "2",
+     "text": "Потрібна частково."
+    },
+    {
+     "letter": "3",
+     "text": "Не потрібна."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 35,
+   "text": "Для чого необхідна муфта зчеплення в трансмісії?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Для тимчасового від'єднання двигуна від трансмісії."
+    },
+    {
+     "letter": "2",
+     "text": "Для плавного приєднання двигуна до трансмісії."
+    },
+    {
+     "letter": "3",
+     "text": "Для згладжування вібрацій."
+    },
+    {
+     "letter": "4",
+     "text": "Усі перелічені вище варіанти."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 36,
+   "text": "Для чого здійснюють балансування шин?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Для запобігання биттю колеса під час руху."
+    },
+    {
+     "letter": "2",
+     "text": "Для зменшення витрати палива."
+    },
+    {
+     "letter": "3",
+     "text": "Для покращення аеродинамічних показників автомобіля."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 37,
+   "text": "Які бувають типи шин?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Штамповані та литі."
+    },
+    {
+     "letter": "2",
+     "text": "Дискові та бездискові."
+    },
+    {
+     "letter": "3",
+     "text": "Камерні і безкамерні."
+    }
+   ],
+   "proposedAnswer": null,
+   "answerValidated": false,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 38,
+   "text": "Чи потрібно замінювати оливний фільтр під час заміни моторної оливи?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Завжди після зливання моторної оливи необхідно замінювати оливний фільтр."
+    },
+    {
+     "letter": "2",
+     "text": "Якщо знову використовувати злиту оливу, можна не заміняти фільтр."
+    },
+    {
+     "letter": "3",
+     "text": "Можна не замінювати оливний фільтр під час заміни моторної оливи."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 39,
+   "text": "Що буде, якщо значно перевищити рівень моторної оливи в двигуні?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Нічого не буде, зайва олива вигорить."
+    },
+    {
+     "letter": "2",
+     "text": "Впаде потужність двигуна через більший опір обертанню."
+    },
+    {
+     "letter": "3",
+     "text": "Може пошкодитися оливний насос."
+    },
+    {
+     "letter": "4",
+     "text": "Через спінювання оливи може впасти її тиск і виникнути оливне голодування."
+    }
+   ],
+   "proposedAnswer": null,
+   "answerValidated": false,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 40,
+   "text": "Який з перелічених нижче варіантів є описом в'язкості моторного масла за SAE?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "СJ-4."
+    },
+    {
+     "letter": "2",
+     "text": "5W30."
+    },
+    {
+     "letter": "3",
+     "text": "3V15."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 41,
+   "text": "Чи можна змішувати охолоджувальну рідину різних кольорів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Так, можна."
+    },
+    {
+     "letter": "2",
+     "text": "Так, можна але в певних пропорціях."
+    },
+    {
+     "letter": "3",
+     "text": "Ні, не можна."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 42,
+   "text": "Для чого потрібен міжколісний диференціал?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Для поліпшення прохідності."
+    },
+    {
+     "letter": "2",
+     "text": "Для того, щоб колеса під час повороту могли обертатися з різною швидкістю."
+    },
+    {
+     "letter": "3",
+     "text": "Для того, щоб колеса під час повороту могли обертатися з однаковою швидкістю."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 43,
+   "text": "Чим загрожує неповне вимкнення зчеплення не до кінця натиснутою педаллю зчеплення?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Нічим не загрожує."
+    },
+    {
+     "letter": "2",
+     "text": "Надмірним зношенням зубчастих коліс у коробці передач."
+    },
+    {
+     "letter": "3",
+     "text": "Надмірним зношенням синхронізаторів і зубчастих коліс, якщо вони не синхронізовані."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 44,
+   "text": "Що означає поняття «веде зчеплення»?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Неповне вимкнення зчеплення."
+    },
+    {
+     "letter": "2",
+     "text": "Нахил зчеплення."
+    },
+    {
+     "letter": "3",
+     "text": "Відведення автомобіля через зчеплення."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "53",
+   "qnum": 45,
+   "text": "До автопоїздів (транспортних составів) належать:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Два і більше механічних транспортних засоби, з'єднані гнучкою зчіпкою."
+    },
+    {
+     "letter": "2",
+     "text": "Два механічних транспортних засоби, з'єднані жорсткою зчіпкою."
+    },
+    {
+     "letter": "3",
+     "text": "Механічний транспортний засіб, поєднаний з одним або кількома причепами за допомогою зчіпного пристрою."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 2 і 3."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 1,
+   "text": "Який мінімальний стаж водіння повинен мати водій автобуса (мікроавтобуса), який здійснює перевезення організованих груп дітей?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Два роки."
+    },
+    {
+     "letter": "2",
+     "text": "Три роки."
+    },
+    {
+     "letter": "3",
+     "text": "Чотири роки."
+    },
+    {
+     "letter": "4",
+     "text": "П’ять років."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 2,
+   "text": "Чи дозволяється перевезення організованих груп дітей у темну пору доби?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволяється, якщо стаж водія становить 5 років і більше."
+    },
+    {
+     "letter": "2",
+     "text": "Забороняється."
+    },
+    {
+     "letter": "3",
+     "text": "Дозволяється, якщо ввімкнути аварійну світову сигналізацію."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 3,
+   "text": "Організовані групи дітей мають перевозитися водіями, стаж керування транспортним засобом яких становить не менше:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Одного року."
+    },
+    {
+     "letter": "2",
+     "text": "П'яти років."
+    },
+    {
+     "letter": "3",
+     "text": "Трьох років і більше."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 4,
+   "text": "Водій автобуса зобов'язаний:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія, що підтверджує право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Мати дозвіл на перевезення вантажів."
+    },
+    {
+     "letter": "4",
+     "text": "Всі відповіді вірні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 5,
+   "text": "Чи дозволено водієві автобуса продавати пасажирам квитки під час руху автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено у населених пунктах."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 6,
+   "text": "У випадку несправності або пошкодження тахографа водій транспортного засобу повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Заборонено подальший рух, поки прилад не буде відремонтовано."
+    },
+    {
+     "letter": "2",
+     "text": "Записувати від руки дані щодо режиму роботи і відпочинку."
+    },
+    {
+     "letter": "3",
+     "text": "Діяти на розсуд водія."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 7,
+   "text": "Чи дозволено водієві автобуса змінювати маршрут і графік руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено, якщо водій так вирішив."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено в населених пунктах."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 8,
+   "text": "Чи може водій автобуса відхилятися від маршруту на свій розсуд?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Може."
+    },
+    {
+     "letter": "2",
+     "text": "Може поза населених пунктах."
+    },
+    {
+     "letter": "3",
+     "text": "Не може."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 9,
+   "text": "Водіям маломісних автобусів забороняється:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Перевозити людей, число яких перевищує кількість місць, передбачених технічною характеристикою транспортного засобу."
+    },
+    {
+     "letter": "2",
+     "text": "Перевозити дітей віком до 12 років на правому передньому сидінні."
+    },
+    {
+     "letter": "3",
+     "text": "Здійснювати перевезення пасажирів в обох вищенаведених випадках."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 10,
+   "text": "У якому варіанті відповіді правильно наведені всі дії, які забороняється виконувати водієві маршрутного транспортного засобу під час руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Розмовляти з пасажирами і впускати їх до кабіни."
+    },
+    {
+     "letter": "2",
+     "text": "Приймати їжу, пити або курити."
+    },
+    {
+     "letter": "3",
+     "text": "Рухатися без необхідності із занадто малою швидкістю."
+    },
+    {
+     "letter": "4",
+     "text": "Виконувати будь-яку з наведених дій."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 11,
+   "text": "Водієві транспортного засобу, призначеного для перевезення людей, забороняється перевозити вантаж на даху цього транспортного засобу:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За відсутності багажника, ширина якого дорівнює ширині даху цього транспортного засобу."
+    },
+    {
+     "letter": "2",
+     "text": "За відсутності багажника, довжина якого дорівнює довжині даху цього транспортного засобу."
+    },
+    {
+     "letter": "3",
+     "text": "За відсутності багажника, який конструктивно відповідає цьому транспортному засобу."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 12,
+   "text": "Для керування транспортним засобом, призначеним для перевезення людей у кількості, що не перевищує 16 пасажирів, на сидіннях, крім водія, необхідно, щоб у посвідченні водія, крім категорії «В», була позначка про право керування транспортними засобами категорії:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "С1."
+    },
+    {
+     "letter": "2",
+     "text": "С."
+    },
+    {
+     "letter": "3",
+     "text": "D1."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 13,
+   "text": "Скільки вогнегасників має знаходитися в автобусі та де вони повинні бути закріплені у випадку, якщо місця для їх кріплення не передбачені конструкцією?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Один вогнегасник, який повинен бути закріплений у кабіні водія."
+    },
+    {
+     "letter": "2",
+     "text": "Два вогнегасника, які повинні бути закріплені в кабіні водія."
+    },
+    {
+     "letter": "3",
+     "text": "Два вогнегасника, один з яких повинен бути закріплений у кабіні водія, а другий – у пасажирському салоні."
+    },
+    {
+     "letter": "4",
+     "text": "Три вогнегасника, один з яких повинен бути закріплений у кабіні водія, другий – у пасажирському салоні, третій – у багажному відділенні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 14,
+   "text": "Якою мінімальною кількістю противідкатних упорів має бути укомплектовано автобус із дозволеною максимальною масою понад 3,5 т?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Двома."
+    },
+    {
+     "letter": "2",
+     "text": "Чотирма."
+    },
+    {
+     "letter": "3",
+     "text": "Шістьма."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 15,
+   "text": "Експлуатація автобусів не забороняється, якщо:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "На автобусах із дозволеною максимальною масою понад 3,5 т відсутні упори (щонайменше два)."
+    },
+    {
+     "letter": "2",
+     "text": "На колеса тягової осі автобуса не встановлено ланцюги протиковзання за наявності на проїзній частині снігу або льоду, а також під час ожеледиці."
+    },
+    {
+     "letter": "3",
+     "text": "На задній осі автобуса встановлено шини з відновленим протектором."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 16,
+   "text": "За виконання яких умов автобуси можуть бути допущені до експлуатації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За наявності щонайменше двох знаків аварійної зупинки або щонайменше двох переносних миготливих ліхтарів червоного кольору."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності щонайменше двох медичних аптечок."
+    },
+    {
+     "letter": "3",
+     "text": "За наявності чинного талона, що підтверджує проходження державного технічного контролю."
+    },
+    {
+     "letter": "4",
+     "text": "За виконання всіх перелічених умов."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 17,
+   "text": "Для допущення до дорожнього руху автобуси мають проходити періодичний державний технічний контроль кожні:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "3 місяці."
+    },
+    {
+     "letter": "2",
+     "text": "6 місяців."
+    },
+    {
+     "letter": "3",
+     "text": "12 місяців."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 18,
+   "text": "Яку максимальну кількість дітей дозволяється перевозити автобусом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не більшу за кількість місць для сидіння, визначену технічною характеристикою та реєстраційними документами транспортного засобу."
+    },
+    {
+     "letter": "2",
+     "text": "Не більшу за кількість місць для сидіння та стояння, визначену технічною характеристикою та реєстраційними документами транспортного засобу."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 19,
+   "text": "Водію міжміського автобуса не дозволяється перевозити без супроводу дорослих дітей віком:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "До 8 років."
+    },
+    {
+     "letter": "2",
+     "text": "До 10 років."
+    },
+    {
+     "letter": "3",
+     "text": "До 12 років."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 20,
+   "text": "Чи повинен водій транспортного засобу евакуювати пасажирів у разі ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен у будь-якому разі."
+    },
+    {
+     "letter": "2",
+     "text": "Повинен, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Не повинен."
+    },
+    {
+     "letter": "4",
+     "text": "Діяти за обставинами, тобто на розсуд водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 21,
+   "text": "Які правильні дії повинен виконати водій у тому разі, якщо в ДТП є потерпілі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Негайно зателефонувати і викликати бригаду екстреної (швидкої) медичної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Вжити всіх можливих заходів для надання домедичної допомоги потерпілим."
+    },
+    {
+     "letter": "3",
+     "text": "Не вдаватися ні до яких дій."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 22,
+   "text": "Чи обов'язкове встановлення знака аварійної зупинки в разі ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не обов'язкове."
+    },
+    {
+     "letter": "2",
+     "text": "Обов'язкове, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Обов'язкове в будь-якому разі."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 23,
+   "text": "На міжміських маршрутах не дозволено перевозити дітей без супроводу дорослих віком:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "До 8 років"
+    },
+    {
+     "letter": "2",
+     "text": "До 14 років."
+    },
+    {
+     "letter": "3",
+     "text": "До 12 років."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 24,
+   "text": "Максимальна кількість дітей для перевезення автобусом не повинна перевищувати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Кількості місць для сидіння, визначеної технічною характеристикою та реєстраційними документами транспортного засобу."
+    },
+    {
+     "letter": "2",
+     "text": "Кількості місць для сидіння і стояння, визначеної технічною характеристикою та реєстраційними документами транспортного засобу."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 25,
+   "text": "Організовані групи дітей повинні перевозити водії, які мають стаж керування транспортним засобом не менше ніж:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Три роки."
+    },
+    {
+     "letter": "2",
+     "text": "П'ять років."
+    },
+    {
+     "letter": "3",
+     "text": "Вісім років і більше."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 26,
+   "text": "Чи дозволено перевезення організованих груп дітей у темну пору доби?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено, якщо групу супроводжують 2 людини і більше."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено, якщо стаж водія 5 років і більше."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 27,
+   "text": "Водій автобуса зобов'язаний:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія на право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 28,
+   "text": "Яких правил зобов'язаний дотримуватися водій автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Правил дорожнього руху."
+    },
+    {
+     "letter": "2",
+     "text": "Правил перевезення небезпечних вантажів."
+    },
+    {
+     "letter": "3",
+     "text": "Правил технічної експлуатації автобуса."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 29,
+   "text": "Чи повинен водій автобуса оголошувати найменування і тривалість зупинки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен."
+    },
+    {
+     "letter": "2",
+     "text": "Не обов'язково."
+    },
+    {
+     "letter": "3",
+     "text": "Повинен у населених пунктах."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 30,
+   "text": "Що з переліченого заборонено водієві автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "2",
+     "text": "Не видавати багаж, якщо пасажир не пред'явив квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "3",
+     "text": "Починати рух до повного зачинення дверей та відчиняти їх до повної зупинки автобуса."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 31,
+   "text": "Що з переліченого заборонено водієві автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не видавати багаж, якщо пасажир не пред'явив квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "2",
+     "text": "Розмовляти з пасажирами, їсти, пити, курити під час руху автобуса."
+    },
+    {
+     "letter": "3",
+     "text": "Не допускати до поїздки пасажирів, якщо в салоні немає вільних місць (крім випадків, коли в пасажирів є квиток на місце в салоні)."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 32,
+   "text": "Що з переліченого заборонено водієві автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Змінювати маршрут і графік руху."
+    },
+    {
+     "letter": "2",
+     "text": "Продавати пасажирам квитки під час руху автобуса."
+    },
+    {
+     "letter": "3",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 33,
+   "text": "Що з переліченого заборонено водієві автобуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вибирати пасажирів за вигідністю їх прямування."
+    },
+    {
+     "letter": "2",
+     "text": "Перевозити в автомобілі гострі і ріжучі предмети, пожежонебезпечні, вибухові, отруйні, їдкі, сморідні та наркотичні речовини, вогнепальну зброю без чохлів, інші небезпечні предмети."
+    },
+    {
+     "letter": "3",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 34,
+   "text": "До міжнародних перевезень пасажирів допускаються резиденти України, які мають досвід роботи на внутрішніх перевезеннях не менше:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Одного року."
+    },
+    {
+     "letter": "2",
+     "text": "Двох років."
+    },
+    {
+     "letter": "3",
+     "text": "Трьох років."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 35,
+   "text": "Чи обов'язкове встановлення знака аварійної зупинки у випадку ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Обов'язкове, тільки якщо є постраждалі."
+    },
+    {
+     "letter": "2",
+     "text": "Обов'язкове у будь-якому випадку."
+    },
+    {
+     "letter": "3",
+     "text": "Обов'язкове, тільки поза населених пунктів."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "54",
+   "qnum": 36,
+   "text": "Як має вчинити водій автобуса, якщо в результаті дорожньо- транспортної пригоди двері автобуса виявилися заблокованими?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повідомити про подію та дочекатися прибуття технічної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Попросити, щоб пасажири, зберігаючи порядок і спокій, залишили автобус через аварійні виходи у вікнах і на даху."
+    },
+    {
+     "letter": "3",
+     "text": "За сприяння пасажирів, які не постраждали, допомогти пораненим, особам з інвалідністю та дітям безпечно залишити автобус."
+    },
+    {
+     "letter": "4",
+     "text": "Виконати дії, перелічені в пунктах 2 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 1,
+   "text": "Що в цій ситуації заборонено водієві автобуса (чорний автомобіль почав обгін)?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Збільшувати швидкість руху."
+    },
+    {
+     "letter": "2",
+     "text": "Виконувати маневри, що заважають обгону."
+    },
+    {
+     "letter": "3",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/55_1_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "55",
+   "qnum": 2,
+   "text": "Яких заходів повинен вжити водій автобуса, що подав сигнал про намір розпочати рух від будь-якої зупинки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Маючи перевагу, розпочинати рух – тільки в населених пунктах."
+    },
+    {
+     "letter": "2",
+     "text": "Повинен вжити заходів для запобігання дорожньо-транспортній пригоді."
+    },
+    {
+     "letter": "3",
+     "text": "Маючи перевагу, розпочинати рух на всіх дорогах."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/55_2_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "55",
+   "qnum": 3,
+   "text": "Яким із розпізнавальних знаків позначається автобус або мікроавтобус під час перевезення організованих груп дітей?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Знаком 1."
+    },
+    {
+     "letter": "2",
+     "text": "Знаком 2."
+    },
+    {
+     "letter": "3",
+     "text": "Знаком 3."
+    },
+    {
+     "letter": "4",
+     "text": "Знаками 2 і 3."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/55_3_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "55",
+   "qnum": 4,
+   "text": "У якому випадку на автобусі (мікроавтобусі), що рухається, у світлий час доби вмикається ближнє світло фар?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "При міжміських перевезеннях."
+    },
+    {
+     "letter": "2",
+     "text": "Під час перевезення організованих груп дітей разом із встановленим розпізнавальним знаком «Діти»."
+    },
+    {
+     "letter": "3",
+     "text": "Завжди за межами населених пунктів у разі відсутності в конструкції автобуса денних ходових вогнів."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 2 і 3."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 5,
+   "text": "Як правильно діяти водієві автобуса у випадку, якщо в ДТП є постраждалі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Негайно зателефонувати і викликати бригаду екстреної (швидкої) медичної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Вжити всіх можливих заходів для надання домедичної допомоги постраждалим."
+    },
+    {
+     "letter": "3",
+     "text": "Виконати всі перелічені дії."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 6,
+   "text": "Що необхідно перевірити водієві автобуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Наявність медичної аптечки, вогнегасника, противідкатних упорів, знака аварійної зупинки."
+    },
+    {
+     "letter": "3",
+     "text": "Усе, що перелічено вище."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 7,
+   "text": "Що необхідно перевірити водієві автобуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Чи правильно встановлено дзеркало заднього виду, чи видно номерні знаки, працездатність дверей і чистоту в салоні."
+    },
+    {
+     "letter": "3",
+     "text": "Перевірити наявність усіх документів, які у нього повинні бути при собі."
+    },
+    {
+     "letter": "4",
+     "text": "Усі відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 8,
+   "text": "Що в першу чергу потрібно зробити у випадку пробиття одного з коліс?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "З'їхати на узбіччя й увімкнути аварійну сигналізацію."
+    },
+    {
+     "letter": "2",
+     "text": "З'їхати на узбіччя та почати негайно міняти колесо."
+    },
+    {
+     "letter": "3",
+     "text": "Треба зупинитися і залишатися на місці, і чекати допомоги."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 9,
+   "text": "Що необхідно зробити заздалегідь перед використанням домкрата?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Перевірити наявність домкрата."
+    },
+    {
+     "letter": "2",
+     "text": "Перевірити гідравлічного домкрата."
+    },
+    {
+     "letter": "3",
+     "text": "Встановити противідкатні упори коліс."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 10,
+   "text": "У випадку під'їзду до регульованого перехрестя транспортним засобом, який належить до великогабаритних, про що завжди потрібно пам'ятати водієві?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Про те, що перехрестя регульоване."
+    },
+    {
+     "letter": "2",
+     "text": "Про те, що йому дозволено повертати не із крайного положення на проїзній частині."
+    },
+    {
+     "letter": "3",
+     "text": "Про те, що через габарити транспортного засобу сигналів світлофора може бути не видно іншим учасникам дорожнього руху."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 11,
+   "text": "Перш ніж почати рух від зупинки після посадки в автобус пасажирів, водій автобуса повинен переконатися в безпеці маневру:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Тільки через праве зовнішнє дзеркало заднього виду."
+    },
+    {
+     "letter": "2",
+     "text": "Тільки через ліве зовнішнє дзеркало заднього виду."
+    },
+    {
+     "letter": "3",
+     "text": "Через обидва зовнішніх дзеркала заднього виду."
+    },
+    {
+     "letter": "4",
+     "text": "Тільки через дзеркало заднього виду в салоні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 12,
+   "text": "Для безпеки і комфорту пасажирів автобуса водій повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Плавно розганятися і плавно гальмувати."
+    },
+    {
+     "letter": "2",
+     "text": "Зупинятися якомога ближче до бордюру."
+    },
+    {
+     "letter": "3",
+     "text": "Виконувати дії, перелічені в пунктах 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 13,
+   "text": "Усі місця вашого автобуса оснащені ременями безпеки. У цьому випадку ви маєте:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Перед початком руху пристебнути ремінь безпеки."
+    },
+    {
+     "letter": "2",
+     "text": "Пристебнути ремінь безпеки тільки після виїзду за межі населеного пункту."
+    },
+    {
+     "letter": "3",
+     "text": "Почати рух тільки після того, як ви самі пристебнулися ременем безпеки і переконалися в тому, що всі пасажири пристебнули ремені."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 14,
+   "text": "Водій маршрутного транспортного засобу, що рухається по смузі, позначеній дорожнім знаком 5.8, назустріч загальному потоку транспортних засобів, повинен вмикати:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Аварійну світлову сигналізацію."
+    },
+    {
+     "letter": "2",
+     "text": "Ближнє світло фар."
+    },
+    {
+     "letter": "3",
+     "text": "Денні ходові вогні."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 15,
+   "text": "Для привернення уваги інших водіїв і з метою позначення рухомого маломісного автобуса або автобуса, що перевозить групу дітей, водій цього транспортного засобу в денний час повинен:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Під час руху в населеному пункті періодично подавати звуковий сигнал."
+    },
+    {
+     "letter": "2",
+     "text": "Вмикати аварійну сигналізацію."
+    },
+    {
+     "letter": "3",
+     "text": "Вмикати ближнє світло фар."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 16,
+   "text": "Чи має водій автобуса евакуювати пасажирів у випадку ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен у будь-якому випадку."
+    },
+    {
+     "letter": "2",
+     "text": "Повинен, тільки якщо є постраждалі."
+    },
+    {
+     "letter": "3",
+     "text": "Діяти за обставинами, тобто на розсуд водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 17,
+   "text": "Що має зробити водій автобуса в разі ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Негайно зупинити транспортний засіб і залишатися на місці пригоди."
+    },
+    {
+     "letter": "2",
+     "text": "Увімкнути аварійну світлову сигналізацію та встановити знак аварійної зупинки."
+    },
+    {
+     "letter": "3",
+     "text": "Виконати всі перелічені дії."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 18,
+   "text": "До яких дій повинен вдатися водій автобуса під час виконання перевезення пасажирів перед заправкою автобуса пальним?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Попередити пасажирів, щоб ті не виходили з автобуса під час заправки."
+    },
+    {
+     "letter": "2",
+     "text": "Попередити пасажирів не користуватися легкозаймистими засобами під час заправки."
+    },
+    {
+     "letter": "3",
+     "text": "Висадити пасажирів до заправки автобуса пальним."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 19,
+   "text": "Чи дозволено водіям маршрутних транспортних засобів перевозити пасажирів і вантажі в кабіні, відокремленій від салону?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено в будь-якому випадку."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено, якщо вантаж добре закріплений."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 20,
+   "text": "Яких умов потрібно дотримуватися під час перевезення організованих груп дітей в автобусах і мікроавтобусах?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За умови обов'язкового проведення інструктажу з дітьми та супровідниками щодо правил безпечної поведінки під час руху та дій у разі аварійно- небезпечних ситуацій чи дорожньо-транспортної пригоди."
+    },
+    {
+     "letter": "2",
+     "text": "За умови встановлення розпізнавального знака «Діти» спереду і ззаду автобуса."
+    },
+    {
+     "letter": "3",
+     "text": "За умови, що водій має посвідчення водія категорії «D» і стаж водія понад п'ять років."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1, 2 і 3."
+    },
+    {
+     "letter": "5",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 21,
+   "text": "На транспортному засобі з розпізнавальним знаком «Діти» під час посадки або висадки пасажирів із нього повинні бути ввімкнені:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Габаритні вогні."
+    },
+    {
+     "letter": "2",
+     "text": "Аварійна сигналізація."
+    },
+    {
+     "letter": "3",
+     "text": "Проблискові маячки оранжевого кольору."
+    },
+    {
+     "letter": "4",
+     "text": "Проблискові маячки оранжевого кольору та (або) аварійна світлова сигналізація."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 22,
+   "text": "Чим найбільш небезпечна акумуляторна батарея?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Своєю вагою."
+    },
+    {
+     "letter": "2",
+     "text": "Струмом, який вона виробляє."
+    },
+    {
+     "letter": "3",
+     "text": "Розчином кислоти, що міститься в ній."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 23,
+   "text": "Чи є антифриз отруйною речовиною?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Ні, не є."
+    },
+    {
+     "letter": "2",
+     "text": "Ні, тільки концентрат."
+    },
+    {
+     "letter": "3",
+     "text": "Так, дуже отруйний."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 24,
+   "text": "Що потрібно обов'язково зробити перед вимушеним відкриттям кришки радіатора на гарячому двигуні?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Перевірити рівень охолоджувальної рідини в системі."
+    },
+    {
+     "letter": "2",
+     "text": "Акуратно скинути надмірний тиск, трохи відкривши кришку радіатора."
+    },
+    {
+     "letter": "3",
+     "text": "Відкривати не можна – чекати поки двигун не охолоне."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 25,
+   "text": "Що є наслідком проїзду автомобіля через глибоку калюжу?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Гальмівні механізми вийдуть з ладу."
+    },
+    {
+     "letter": "2",
+     "text": "Зменшиться ефективність гальмівних механізмів."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 26,
+   "text": "На якій швидкості антиблокувальна система може не спрацювати?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "До 20 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "До 40 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "До 10 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 27,
+   "text": "Що в першу чергу потрібно зробити в разі пробиття одного з коліс?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зателефонувати в сервісну службу."
+    },
+    {
+     "letter": "2",
+     "text": "Застосувати гальмування та міцно утримуючи рульове колесо, з'їхати на узбіччя і увімкнути аварійну сигналізацію, у разі необхідності виставити знак аварійної зупинки."
+    },
+    {
+     "letter": "3",
+     "text": "З'їхати на узбіччя і зателефонувати в сервісну службу."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 28,
+   "text": "Що потрібно перевірити водієві автобуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Відсутність течі пального, мастила, води."
+    },
+    {
+     "letter": "3",
+     "text": "Наявність медичної аптечки, вогнегасника, противідкатних упорів, знака аварійної зупинки."
+    },
+    {
+     "letter": "4",
+     "text": "Усе перелічене вище."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 29,
+   "text": "Що потрібно перевірити водієві автобуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан автобуса."
+    },
+    {
+     "letter": "2",
+     "text": "Чи правильно встановлено дзеркало заднього виду, чи видно номерні знаки, працездатність дверей і чистоту в салоні."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "55",
+   "qnum": 30,
+   "text": "У разі вимушеної зупинки автобуса на залізничному переїзді водій зобов'язаний вивести з переїзду пасажирів:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Тільки якщо вжиті заходи не дозволяють прибрати автобус з переїзду."
+    },
+    {
+     "letter": "2",
+     "text": "Негайно."
+    },
+    {
+     "letter": "3",
+     "text": "Тільки за появи потяга."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "D"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 1,
+   "text": "Чи дозволено в даній ситуації водієві вантажного автомобіля виконати поворот праворуч, не з'їжджаючи на смугу гальмування?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_1_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 2,
+   "text": "На яких транспортних засобах встановлюється розпізнавальний знак «Автопоїзд»?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "На великовагових і великогабаритних автомобілях і тракторах."
+    },
+    {
+     "letter": "2",
+     "text": "На вантажних автомобілях і колісних тракторах (класу 1,4 т і вище) з причепами."
+    },
+    {
+     "letter": "3",
+     "text": "На зчленованих автобусах і тролейбусах."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1, 2 і 3."
+    },
+    {
+     "letter": "5",
+     "text": "Відповіді 2 і 3."
+    }
+   ],
+   "proposedAnswer": "5",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 3,
+   "text": "Які зовнішні світлові пристрої обов'язково повинні бути ввімкнені на причепі транспортного складу (автопоїзда) під час руху в темний час доби і в умовах недостатньої видимості?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Габаритні ліхтарі."
+    },
+    {
+     "letter": "2",
+     "text": "Задні протитуманні фари."
+    },
+    {
+     "letter": "3",
+     "text": "Аварійна світлова сигналізація."
+    },
+    {
+     "letter": "4",
+     "text": "Габаритні ліхтарі або задній протитуманний ліхтар."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_3_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 4,
+   "text": "З якою максимальною швидкістю дозволено рухатися по дорогах для автомобілів вантажним автомобілям з дозволеною максимальною масою понад 3,5 т з причепами?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "130 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 5,
+   "text": "З якою максимальною швидкістю дозволено рух легкових автомобілів із причепами на дорогах, що проходять через населені пункти, позначені таким дорожнім знаком?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "60 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "50 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_5_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 6,
+   "text": "З якою максимальною швидкістю дозволено рух автомобілю з причепом в цьому місці дороги, якщо він буде їхати прямо?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "60 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "50 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_6_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 7,
+   "text": "З якою максимальною швидкістю дозволено рух білого автомобіля з причепом на ділянці дороги за межами населеного пункту?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "110 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "70 км/год."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_7_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 8,
+   "text": "Чи дозволено рух транспортного состава в зображеній ситуації, якщо маса тягача – 10 т?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_8_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 9,
+   "text": "Чи дозволено водієві автопоїзда продовжити рух у прямому напрямку, якщо сумарна маса тягача та причепа становить 15 т?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_9_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 10,
+   "text": "Хто з водіїв вантажних автомобілів із дозволеною максимальною масою понад 3,5 т і трактора правильно зайняв смугу для руху прямо?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Усі транспортні засоби."
+    },
+    {
+     "letter": "2",
+     "text": "Водій трактора і водій вантажного автомобіля з причепом."
+    },
+    {
+     "letter": "3",
+     "text": "Тільки водій трактора."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/56_10_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "56",
+   "qnum": 11,
+   "text": "У якому з випадків водієві вантажного автомобіля з причепом дозволено рух у зону дії даного дорожнього знака?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Якщо водій транспортного засобу     обслуговує громадян, які проживають або працюють у позначеній зоні."
+    },
+    {
+     "letter": "2",
+     "text": "Якщо водій транспортного засобу обслуговує підприємства, які розташовані в позначеній зоні."
+    },
+    {
+     "letter": "3",
+     "text": "В обох випадках."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 12,
+   "text": "Чи дозволено рух вантажного автомобіля з причепом, який обслуговує підприємства, розташовані в зоні дії зазначеного дорожнього знака?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Заборонено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 13,
+   "text": "За дотримання яких умов дозволена експлуатація транспортного состава у складі автобуса і причепа?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За наявності у автобуса справного причіпного пристрою."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності у автобуса справного причіпного пристрою, встановленого заводом-виробником."
+    },
+    {
+     "letter": "3",
+     "text": "Буксирування автобусами завжди заборонене."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 14,
+   "text": "У якому випадку дозволена експлуатація транспортного состава, що складається з автобуса і причепа?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Завжди."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності у автобуса причіпного пристрою, встановленого заводом- виробником."
+    },
+    {
+     "letter": "3",
+     "text": "За наявності гальмової системи у причепа."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 15,
+   "text": "За дотримання яких з умов дозволяється експлуатація транспортних составів у складі автомобіля і причепа?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За умови відповідності причепа тягачу і виконання вимог щодо їхньої експлуатації."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності гальмової системи у причепа."
+    },
+    {
+     "letter": "3",
+     "text": "За дотримання всіх перерахованих вище умов."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 16,
+   "text": "Чи дозволяється буксирування транспортного засобу з причепом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволяється лише за погодженням із спеціальним органом."
+    },
+    {
+     "letter": "2",
+     "text": "Забороняється."
+    },
+    {
+     "letter": "3",
+     "text": "Дозволяється завжди."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 17,
+   "text": "Які зовнішні світлові пристрої повинні бути обов'язково ввімкнені під час руху транспортного складу в темний час доби незалежно від ступеня освітлення дороги?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Ближнє або дальнє світло фар на тягачі та габаритні ліхтарі на причепі."
+    },
+    {
+     "letter": "2",
+     "text": "Габаритні ліхтарі на тягачі та причепі."
+    },
+    {
+     "letter": "3",
+     "text": "Ближнє світло фар на тягачі і задній протитуманний ліхтар на причепі."
+    },
+    {
+     "letter": "4",
+     "text": "Протитуманні фари на тягачі та габаритні ліхтарі на причепі."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 18,
+   "text": "Дозволеною       максимальною масою автопоїзда називається:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Сума дозволеної максимально допустимої маси автопоїзда, що не перевищує 30 т."
+    },
+    {
+     "letter": "2",
+     "text": "Сума дозволеної максимально допустимої маси кожного транспортного засобу, що входить до складу автопоїзда."
+    },
+    {
+     "letter": "3",
+     "text": "Сума дозволеної максимально допустимої маси автопоїзда, що не перевищує 25 т."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 19,
+   "text": "З якою максимальною швидкістю дозволено рух легкового автомобіля з причепом на дорогах поза населеними пунктами, якщо ним керує водій зі стажем до двох років?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "60 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "90 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "50 км/год."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 20,
+   "text": "Хто з водіїв може рухатися з більш високою швидкістю на автомагістралі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Водій мотоцикла – зі швидкістю 130 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "Водій легкового автомобіля з причепом – зі швидкістю 90 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "Обидва повинні рухатися зі швидкістю не більш ніж 80 км/год."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "56",
+   "qnum": 21,
+   "text": "Де на механічних транспортних засобах (за винятком трамваїв і тролейбусів) і причепах встановлюють номерні знаки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "З боків."
+    },
+    {
+     "letter": "2",
+     "text": "Спереду і ззаду."
+    },
+    {
+     "letter": "3",
+     "text": "У передбачених для цього місцях."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "57",
+   "qnum": 1,
+   "text": "Які види транспортних засобів можна віднести до категорії ВЕ?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Автомобілі, колісні трактори, самохідні машини."
+    },
+    {
+     "letter": "2",
+     "text": "Состав, що складається з автомобіля з причепом, повна маса якого перевищує 750 кілограмів."
+    },
+    {
+     "letter": "3",
+     "text": "Состав транспортних засобів з тягачем категорії В і причепом, повна маса якого перевищує 750 кілограмів."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/57_1_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "57",
+   "qnum": 2,
+   "text": "Вкажіть найбільш поширені види тягово-зчіпних пристроїв вантажних транспортних засобів – тягачів.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Гачкові і безпроміжкові зі шкворнем."
+    },
+    {
+     "letter": "2",
+     "text": "Кульові та шкворневі."
+    },
+    {
+     "letter": "3",
+     "text": "Безгачкові та із проміжком у шкворні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "57",
+   "qnum": 3,
+   "text": "За наявності якої несправності дозволяється експлуатація транспортного засобу?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не працюють запори горловин паливних баків."
+    },
+    {
+     "letter": "2",
+     "text": "Не працює пристрій для обігрівання та обдування скла."
+    },
+    {
+     "letter": "3",
+     "text": "Не працює склопідйомник."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "57",
+   "qnum": 4,
+   "text": "Недостатньою видимістю вважається:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Обмежена оглядовість менше 300 м."
+    },
+    {
+     "letter": "2",
+     "text": "Видимість дороги в напрямку руху менше 300 метрів, обмежена поворотом дороги."
+    },
+    {
+     "letter": "3",
+     "text": "Видимість дороги в напрямку руху менше 300 м у сутінках, в умовах туману, дощу, снігопаду тощо."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "57",
+   "qnum": 5,
+   "text": "Що з переліченого нижче відповідає терміну «видимість у напрямку руху»?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Максимальна відстань вправо від напрямку руху, на якому можна розпізнати транспортні засоби, що наближаються до перехрестя по головній дорозі."
+    },
+    {
+     "letter": "2",
+     "text": "Максимальна відстань, на якій з місця водія можна чітко розпізнати межі елементів дороги та розміщення учасників руху, що дає змогу водієві орієнтуватися під час керування транспортним засобом."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "58",
+   "qnum": 1,
+   "text": "З якого віку може бути надано право на керування транспортними засобами категорії ВЕ?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "З 21 року."
+    },
+    {
+     "letter": "2",
+     "text": "З 18 років."
+    },
+    {
+     "letter": "3",
+     "text": "З 19 років."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "58",
+   "qnum": 2,
+   "text": "У якому випадку забороняється подальший рух на автомобілі з причепом навіть до місця ремонту або стоянки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не встановлено розпізнавальний знак автопоїзда."
+    },
+    {
+     "letter": "2",
+     "text": "Відсутні передбачені конструкцією дзеркала заднього виду."
+    },
+    {
+     "letter": "3",
+     "text": "Несправний зчіпний пристрій."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "58",
+   "qnum": 3,
+   "text": "Чи обов’язково реєструвати причіп в сервісному центрі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Реєстрація не обов’язкова."
+    },
+    {
+     "letter": "2",
+     "text": "Реєстрація обов’язкова."
+    },
+    {
+     "letter": "3",
+     "text": "Реєстрація обов’язкова, якщо причіп         більше 750 кг."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 1,
+   "text": "При русі заднім ходом на автомобілі з причепом:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "При повороті керма вправо, причіп почне йти теж вправо."
+    },
+    {
+     "letter": "2",
+     "text": "При повороті керма вправо, причіп почне йти вліво."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 2,
+   "text": "При русі заднім ходом на автомобілі з причепом:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "При повороті керма вліво, причіп почне йти вправо."
+    },
+    {
+     "letter": "2",
+     "text": "При повороті керма вліво, причіп почне йти теж вліво."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 3,
+   "text": "Рухаючись на автомобілі з причепом, які дії Ви повинні виконати, щоб запобігти його перекидання?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Входячи в поворот зменшити швидкість."
+    },
+    {
+     "letter": "2",
+     "text": "Входячи в поворот збільшити швидкість."
+    },
+    {
+     "letter": "3",
+     "text": "Входячи в поворот не міняти швидкість."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 4,
+   "text": "Що найчастіше призводить до перекидання причепа.",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повороти."
+    },
+    {
+     "letter": "2",
+     "text": "Круті спуски та підйоми."
+    },
+    {
+     "letter": "3",
+     "text": "Боковий вітер."
+    },
+    {
+     "letter": "4",
+     "text": "Все перелічене."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 5,
+   "text": "Під час руху з причепом, для обгону інших транспортних засобів необхідно:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Менше часу, ніж на автомобілі без причепу."
+    },
+    {
+     "letter": "2",
+     "text": "Більше часу, ніж на автомобілі без причепу."
+    },
+    {
+     "letter": "3",
+     "text": "Динамічні характеристики автомобіля не змінюються при русі з причепом."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 6,
+   "text": "Перед кожним виїздом з причепом необхідно:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Відрегулювати тиск в шинах."
+    },
+    {
+     "letter": "2",
+     "text": "Переконатися в надійності з'єднання страхувальних тросів або ланцюгів."
+    },
+    {
+     "letter": "3",
+     "text": "Перевірити роботу приладів світлової сигналізації причепа."
+    },
+    {
+     "letter": "4",
+     "text": "Виконати усі вище перелічені дії."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 7,
+   "text": "При поворотах колеса причепа рухаються:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "По меншому радіусу, ніж колеса автомобіля."
+    },
+    {
+     "letter": "2",
+     "text": "По більшому радіусу, ніж колеса автомобіля."
+    },
+    {
+     "letter": "3",
+     "text": "По такому самому радіусу як і колеса автомобіля."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 8,
+   "text": "Перевищувати максимальну              швидкість,       зазначену   в   технічній документації причепа:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено в будь-якому випадку."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено за умови дотримання           швидкісного режиму в населеному або поза населеному пункті."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 9,
+   "text": "Правильно завантажений причіп, якщо:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вантаж розміщений рівномірно."
+    },
+    {
+     "letter": "2",
+     "text": "Вантаж розміщено ближче до автомобіля."
+    },
+    {
+     "letter": "3",
+     "text": "Вантаж розміщено на краю причепа."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 10,
+   "text": "Завантажений причіп:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Збільшує гальмівний шлях."
+    },
+    {
+     "letter": "2",
+     "text": "Зменшує гальмівний шлях."
+    },
+    {
+     "letter": "3",
+     "text": "Гальмівний шлях не змінюється."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 11,
+   "text": "По якій траєкторії рухається причіп легкового автомобіля при проходженні повороту?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Далі від центру повороту, ніж траєкторія руху автомобіля."
+    },
+    {
+     "letter": "2",
+     "text": "По траєкторії руху автомобіля."
+    },
+    {
+     "letter": "3",
+     "text": "Ближче до центру повороту, ніж траєкторія руху автомобіля."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 12,
+   "text": "Як змінюється довжина гальмівного шляху легкового автомобіля при русі з причепом, що не має гальмівної системи?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зменшується, так як причіп чинить додатковий опір руху."
+    },
+    {
+     "letter": "2",
+     "text": "Не змінюється."
+    },
+    {
+     "letter": "3",
+     "text": "Збільшується."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 13,
+   "text": "За дотримання яких умов дозволена експлуатація транспортного состава у складі автобуса і причепа?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За наявності у автобуса справного причіпного пристрою."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності у автобуса справного причіпного пристрою, встановленого заводом-виробником."
+    },
+    {
+     "letter": "3",
+     "text": "Буксирування автобусами завжди заборонене."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 14,
+   "text": "За дотримання яких з умов дозволяється експлуатація транспортних составів у складі автомобіля і причепа?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "За умови відповідності причепа тягачу і виконання вимог щодо їхньої експлуатації."
+    },
+    {
+     "letter": "2",
+     "text": "За наявності гальмової системи у причепа."
+    },
+    {
+     "letter": "3",
+     "text": "За дотримання всіх перерахованих вище умов."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "59",
+   "qnum": 15,
+   "text": "Що рекомендується при першому досвіді керування автомобілем з причепом:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Починати практичне знайомство слід з навчальної площадки."
+    },
+    {
+     "letter": "2",
+     "text": "Не звертати уваги на причеп."
+    },
+    {
+     "letter": "3",
+     "text": "Постійно рухатися з невеликою швидкістю і тоді дія причепа не позначається."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "BE",
+    "CE",
+    "DE"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 1,
+   "text": "Як повинен вчинити в даній ситуації водій трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Проїхати першим, оскільки в нього є перевага в русі перед автомобілем."
+    },
+    {
+     "letter": "2",
+     "text": "Дати дорогу автомобілю."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/60_1_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "60",
+   "qnum": 2,
+   "text": "У якому напрямку дозволено рух трамвая в даній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Рух трамвая заборонено."
+    },
+    {
+     "letter": "2",
+     "text": "Прямо або праворуч."
+    },
+    {
+     "letter": "3",
+     "text": "Ліворуч."
+    },
+    {
+     "letter": "4",
+     "text": "Праворуч."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/60_2_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "60",
+   "qnum": 3,
+   "text": "На якому світлофорі горить сигнал, що дозволяє трамваю рух прямо?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "На світлофорах 1 і 2."
+    },
+    {
+     "letter": "2",
+     "text": "На світлофорах 2 і 4."
+    },
+    {
+     "letter": "3",
+     "text": "На світлофорах 2, 3 і 4."
+    },
+    {
+     "letter": "4",
+     "text": "На світлофорах 1, 2, 3 і 4."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/60_3_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "60",
+   "qnum": 4,
+   "text": "У якому напрямку дозволено рух         трамвая в даній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Праворуч."
+    },
+    {
+     "letter": "2",
+     "text": "Прямо."
+    },
+    {
+     "letter": "3",
+     "text": "Прямо або праворуч."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/60_4_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "60",
+   "qnum": 5,
+   "text": "У якому напрямку дозволено рух трамвая в даній ситуації?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Прямо або праворуч."
+    },
+    {
+     "letter": "2",
+     "text": "У всіх напрямках."
+    },
+    {
+     "letter": "3",
+     "text": "Прямо або ліворуч."
+    },
+    {
+     "letter": "4",
+     "text": "Ліворуч."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [
+    "/Users/clpc/drivers-school/.content-import/images/60_5_0.jpeg"
+   ],
+   "needsVision": true
+  },
+  {
+   "section": "60",
+   "qnum": 6,
+   "text": "Чи зобов'язаний водій трамвая дотримуватися визначеного маршруту та розкладу руху трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зобов'язаний завжди."
+    },
+    {
+     "letter": "2",
+     "text": "Може відхилятися від маршруту на свій розсуд."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 7,
+   "text": "Чи повинен водій тролейбуса оголошувати найменування зупинки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен."
+    },
+    {
+     "letter": "2",
+     "text": "Не обов'язково."
+    },
+    {
+     "letter": "3",
+     "text": "Повинен у часи пік."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 8,
+   "text": "Чи повинен водій трамвая оголошувати найменування зупинки?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен."
+    },
+    {
+     "letter": "2",
+     "text": "Не обов'язково."
+    },
+    {
+     "letter": "3",
+     "text": "Повинен у часи пік."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 9,
+   "text": "На якій відстані від краю проїзної частини дороги водій тролейбуса повинен зупинятися для посадки або висадки пасажирів?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не більше 1 м."
+    },
+    {
+     "letter": "2",
+     "text": "Не більше 0,75 м."
+    },
+    {
+     "letter": "3",
+     "text": "Не більше 0,3 м."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 10,
+   "text": "У якому варіанті відповіді правильно наведені всі дії, які забороняється виконувати водієві тролейбуса під час руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Розмовляти з пасажирами і впускати їх до кабіни."
+    },
+    {
+     "letter": "2",
+     "text": "Приймати їжу, пити або курити."
+    },
+    {
+     "letter": "3",
+     "text": "Рухатися без необхідності із занадто малою швидкістю."
+    },
+    {
+     "letter": "4",
+     "text": "Виконувати будь-яку з наведених дій."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 11,
+   "text": "Чи зобов'язаний водій тролейбуса дотримуватися визначеного маршруту та розкладу руху тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зобов'язаний завжди."
+    },
+    {
+     "letter": "2",
+     "text": "Може відхилятися від маршруту на свій розсуд."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 12,
+   "text": "Чи обов'язкове встановлення знака аварійної зупинки в разі ДТП на трамваї?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не обов'язкове."
+    },
+    {
+     "letter": "2",
+     "text": "Обов'язкове, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Обов'язкове в будь-якому разі."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 13,
+   "text": "Чи обов'язкове встановлення знака аварійної зупинки в разі ДТП на тролейбусі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Не обов'язкове."
+    },
+    {
+     "letter": "2",
+     "text": "Обов'язкове, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Обов'язкове в будь-якому разі."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 14,
+   "text": "Що належить до поняття відпочинок водія трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Безперервний період часу, який водій може використовувати на свій розсуд."
+    },
+    {
+     "letter": "2",
+     "text": "Безперервний період часу, який водій використовує для заповнення необхідних супровідних документів."
+    },
+    {
+     "letter": "3",
+     "text": "Безперервний період часу, який водій використовує виключно для сну."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 15,
+   "text": "Що належить до поняття відпочинок водія тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Безперервний період часу, який водій може використовувати на свій розсуд."
+    },
+    {
+     "letter": "2",
+     "text": "Безперервний період часу, який водій використовує для заповнення необхідних супровідних документів."
+    },
+    {
+     "letter": "3",
+     "text": "Безперервний період часу, який водій використовує виключно для сну."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 16,
+   "text": "Яких правил зобов'язаний дотримуватися водій трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Правил дорожнього руху."
+    },
+    {
+     "letter": "2",
+     "text": "Правил перевезення небезпечних вантажів."
+    },
+    {
+     "letter": "3",
+     "text": "Правил технічної експлуатації трамвая."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 17,
+   "text": "Яких правил зобов'язаний дотримуватися водій тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Правил дорожнього руху."
+    },
+    {
+     "letter": "2",
+     "text": "Правил перевезення небезпечних вантажів."
+    },
+    {
+     "letter": "3",
+     "text": "Правил технічної експлуатації тролейбуса."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "60",
+   "qnum": 18,
+   "text": "У якому варіанті відповіді правильно наведені всі дії, які забороняється виконувати водієві трамвая під час руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Розмовляти з пасажирами і впускати їх до кабіни."
+    },
+    {
+     "letter": "2",
+     "text": "Рухатися без необхідності із занадто малою швидкістю."
+    },
+    {
+     "letter": "3",
+     "text": "Приймати їжу, пити або курити."
+    },
+    {
+     "letter": "4",
+     "text": "Виконувати будь-яку з наведених дій."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 1,
+   "text": "Яка мета поточного ремонту тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Відновити працездатність шляхом заміни або ремонту окремих несправних деталей, вузлів або агрегатів."
+    },
+    {
+     "letter": "2",
+     "text": "Повний ремонт транспортного засобу через надмірне зношення його вузлів і агрегатів."
+    },
+    {
+     "letter": "3",
+     "text": "Регулювання кутів установки керованих коліс."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 2,
+   "text": "Яка мета поточного ремонту трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Відновити працездатність шляхом заміни або ремонту окремих несправних деталей, вузлів або агрегатів."
+    },
+    {
+     "letter": "2",
+     "text": "Повний ремонт транспортного засобу через надмірне зношення його вузлів і агрегатів."
+    },
+    {
+     "letter": "3",
+     "text": "Регулювання кутів установки коліс."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 3,
+   "text": "Якою мінімальною кількістю противідкатних упорів має бути укомплектовано тролейбус із дозволеною максимальною масою понад 3,5 т?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Двома."
+    },
+    {
+     "letter": "2",
+     "text": "Чотирма."
+    },
+    {
+     "letter": "3",
+     "text": "Шістьма."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 4,
+   "text": "Що в першу чергу потрібно зробити водієві тролейбуса в разі пробиття одного з коліс?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зателефонувати в сервісну службу."
+    },
+    {
+     "letter": "2",
+     "text": "Під'їхати якомога правіше до краю проїзної частини і увімкнути аварійну сигналізацію."
+    },
+    {
+     "letter": "3",
+     "text": "Під'їхати якомога правіше до краю проїзної частини і зателефонувати в сервісну службу."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 5,
+   "text": "Що з переліченого заборонено водієві трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "2",
+     "text": "Вимагати від пасажирів пред'явити квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "3",
+     "text": "Починати рух до повного зачинення дверей та відчиняти їх до повної зупинки трамвая."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 6,
+   "text": "Скільки вогнегасників має знаходитися в тролейбусі та де вони повинні бути закріплені у випадку, якщо місця для їх кріплення не передбачені конструкцією?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Один вогнегасник, який повинен бути закріплений у кабіні водія."
+    },
+    {
+     "letter": "2",
+     "text": "Два вогнегасника, які повинні бути закріплені в кабіні водія."
+    },
+    {
+     "letter": "3",
+     "text": "Два вогнегасника, один з яких повинен бути закріплений у кабіні водія, а другий – у пасажирському салоні."
+    },
+    {
+     "letter": "4",
+     "text": "Три вогнегасника, один з яких повинен бути закріплений у кабіні водія, другий – у пасажирському салоні, третій – у багажному відділенні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "61",
+   "qnum": 7,
+   "text": "Скільки вогнегасників має знаходитися в трамваї та де вони повинні бути закріплені у випадку, якщо місця для їх кріплення не передбачені конструкцією?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Один вогнегасник, який повинен бути закріплений у кабіні водія."
+    },
+    {
+     "letter": "2",
+     "text": "Два вогнегасника, які повинні бути закріплені в кабіні водія."
+    },
+    {
+     "letter": "3",
+     "text": "Два вогнегасника, один з яких повинен бути закріплений у кабіні водія, а другий – у пасажирському салоні."
+    },
+    {
+     "letter": "4",
+     "text": "Три вогнегасника, один з яких повинен бути закріплений у кабіні водія, другий – у пасажирському салоні, третій – у багажному відділенні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 1,
+   "text": "З якою максимальною швидкістю дозволено рух тролейбусів на дорогах в населених пунктах?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "50 км/год."
+    },
+    {
+     "letter": "2",
+     "text": "60 км/год."
+    },
+    {
+     "letter": "3",
+     "text": "70 км/год."
+    },
+    {
+     "letter": "4",
+     "text": "80 км/год."
+    },
+    {
+     "letter": "5",
+     "text": "90 км/год."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 2,
+   "text": "Водій тролейбуса зобов'язаний:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія, що підтверджує право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Мати дозвіл на перевезення вантажів."
+    },
+    {
+     "letter": "4",
+     "text": "Всі відповіді вірні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 3,
+   "text": "Що з переліченого заборонено водієві трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вибирати пасажирів за вигідністю їх прямування."
+    },
+    {
+     "letter": "2",
+     "text": "Перевозити в трамваї гострі і ріжучі предмети, пожежонебезпечні, вибухові, отруйні, їдкі, сморідні та наркотичні речовини, вогнепальну зброю без чохлів, інші небезпечні предмети."
+    },
+    {
+     "letter": "3",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 4,
+   "text": "Що з переліченого заборонено водієві тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вибирати пасажирів за вигідністю їх прямування."
+    },
+    {
+     "letter": "2",
+     "text": "Перевозити в тролейбусі гострі і ріжучі предмети, пожежонебезпечні, вибухові, отруйні, їдкі, сморідні та наркотичні речовини, вогнепальну зброю без чохлів, інші небезпечні предмети."
+    },
+    {
+     "letter": "3",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 5,
+   "text": "Що з переліченого заборонено водієві трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Змінювати маршрут і графік руху."
+    },
+    {
+     "letter": "2",
+     "text": "Продавати пасажирам квитки під час руху трамвая."
+    },
+    {
+     "letter": "3",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 6,
+   "text": "Що з переліченого заборонено водієві тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Змінювати маршрут і графік руху."
+    },
+    {
+     "letter": "2",
+     "text": "Продавати пасажирам квитки під час руху тролейбуса."
+    },
+    {
+     "letter": "3",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 7,
+   "text": "Що з переліченого заборонено водієві трамвая?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вимагати від пасажирів пред'явити квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "2",
+     "text": "Розмовляти з пасажирами, їсти, пити, курити під час руху трамвая."
+    },
+    {
+     "letter": "3",
+     "text": "Не допускати до поїздки пасажирів, якщо в салоні немає вільних місць."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 8,
+   "text": "Що з переліченого заборонено водієві тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вимагати від пасажирів пред'явити квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "2",
+     "text": "Розмовляти з пасажирами, їсти, пити, курити під час руху тролейбуса."
+    },
+    {
+     "letter": "3",
+     "text": "Не допускати до поїздки пасажирів, якщо в салоні немає вільних місць."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 9,
+   "text": "Що з переліченого заборонено водієві тролейбуса?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Вимагати від пасажирів виконання їхніх обов'язків."
+    },
+    {
+     "letter": "2",
+     "text": "Вимагати від пасажирів пред'явити квитанцію на перевезення багажу."
+    },
+    {
+     "letter": "3",
+     "text": "Починати рух до повного зачинення дверей та відчиняти їх до повної зупинки тролейбуса."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 10,
+   "text": "Водій трамвая зобов'язаний мати при собі:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія на право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 11,
+   "text": "Водій тролейбуса зобов'язаний мати при собі:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія на право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 12,
+   "text": "Які правильні дії повинен виконати водій трамвая у тому разі, якщо в ДТП є потерпілі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Негайно зателефонувати і викликати бригаду екстреної (швидкої) медичної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Вжити всіх можливих заходів для надання домедичної допомоги потерпілим."
+    },
+    {
+     "letter": "3",
+     "text": "Не вдаватися ні до яких дій."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 13,
+   "text": "Які правильні дії повинен виконати водій тролейбуса у тому разі, якщо в ДТП є потерпілі?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Негайно зателефонувати і викликати бригаду екстреної (швидкої) медичної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Вжити всіх можливих заходів для надання домедичної допомоги потерпілим."
+    },
+    {
+     "letter": "3",
+     "text": "Не вдаватися ні до яких дій."
+    },
+    {
+     "letter": "4",
+     "text": "Відповіді 1 і 2."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 14,
+   "text": "Чи повинен водій трамвая евакуювати пасажирів у разі ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен у будь-якому разі."
+    },
+    {
+     "letter": "2",
+     "text": "Повинен, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Не повинен."
+    },
+    {
+     "letter": "4",
+     "text": "Діяти за обставинами, тобто на розсуд водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 15,
+   "text": "Чи повинен водій тролейбуса евакуювати пасажирів у разі ДТП?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повинен у будь-якому разі."
+    },
+    {
+     "letter": "2",
+     "text": "Повинен, тільки якщо є потерпілі."
+    },
+    {
+     "letter": "3",
+     "text": "Не повинен."
+    },
+    {
+     "letter": "4",
+     "text": "Діяти за обставинами, тобто на розсуд водія."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "62",
+   "qnum": 16,
+   "text": "Водій трамвая зобов'язаний:",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Мати посвідчення водія, що підтверджує право керування транспортним засобом відповідної категорії."
+    },
+    {
+     "letter": "2",
+     "text": "Мати паспорт громадянина України."
+    },
+    {
+     "letter": "3",
+     "text": "Мати дозвіл на перевезення вантажів."
+    },
+    {
+     "letter": "4",
+     "text": "Всі відповіді вірні."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 1,
+   "text": "У разі під'їзду до регульованого перехрестя на тролейбусі, про що завжди потрібно пам'ятати водієві?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Про те, що перехрестя регульоване."
+    },
+    {
+     "letter": "2",
+     "text": "Про маршрут руху."
+    },
+    {
+     "letter": "3",
+     "text": "Про те, що через габарити транспортного засобу сигналів світлофора може бути не видно іншим учасникам дорожнього руху."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 2,
+   "text": "Як має вчинити водій трамвая, якщо в результаті дорожньо- транспортної пригоди двері трамвая виявилися заблокованими?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повідомити про подію та дочекатися прибуття технічної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Попросити, щоб пасажири, зберігаючи порядок і спокій, залишили трамвай через аварійні виходи у вікнах і на даху."
+    },
+    {
+     "letter": "3",
+     "text": "За сприяння пасажирів, які не постраждали, допомогти пораненим, осіб з інвалідністю та дітям безпечно залишити трамвай."
+    },
+    {
+     "letter": "4",
+     "text": "Виконати дії, перелічені в пунктах 2 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 3,
+   "text": "Як має вчинити водій тролейбуса, якщо в результаті дорожньо- транспортної пригоди двері тролейбуса виявилися заблокованими?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Повідомити про подію та дочекатися прибуття технічної допомоги."
+    },
+    {
+     "letter": "2",
+     "text": "Попросити, щоб пасажири, зберігаючи порядок і спокій, залишили тролейбус через аварійні виходи у вікнах і на даху."
+    },
+    {
+     "letter": "3",
+     "text": "За сприяння пасажирів, які не постраждали, допомогти пораненим, осіб з інвалідністю та дітям безпечно залишити тролейбус."
+    },
+    {
+     "letter": "4",
+     "text": "Виконати дії, перелічені в пунктах 2 і 3."
+    }
+   ],
+   "proposedAnswer": "4",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 4,
+   "text": "Чи дозволено водієві трамвая продавати пасажирам квитки під час руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено у час пік."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 5,
+   "text": "Чи дозволено водієві тролейбуса продавати пасажирам квитки під час руху?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Дозволено."
+    },
+    {
+     "letter": "2",
+     "text": "Дозволено у час пік."
+    },
+    {
+     "letter": "3",
+     "text": "Заборонено."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 6,
+   "text": "Як змінюється довжина гальмівного шляху під час руху на зчленованому тролейбусі, не оснащеним гальмівною системою?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зменшується, оскільки причіп чинить додатковий опір руху."
+    },
+    {
+     "letter": "2",
+     "text": "Збільшується."
+    },
+    {
+     "letter": "3",
+     "text": "Не змінюється."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 7,
+   "text": "Як слід вчинити водієві тролейбуса, якщо під час руху сухою дорогою з асфальтобетонним покриттям почав накрапати дощ?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Зменшити швидкість і бути обережним."
+    },
+    {
+     "letter": "2",
+     "text": "Не змінюючи швидкості, продовжити рух."
+    },
+    {
+     "letter": "3",
+     "text": "Збільшити швидкість і спробувати проїхати якомога більшу відстань, поки не почався сильний дощ."
+    }
+   ],
+   "proposedAnswer": "1",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 8,
+   "text": "Що потрібно перевірити водієві трамвая перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан трамвая."
+    },
+    {
+     "letter": "2",
+     "text": "Працездатність дверей і чистоту в салоні."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 9,
+   "text": "Що потрібно перевірити водієві тролейбуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан тролейбуса."
+    },
+    {
+     "letter": "2",
+     "text": "Працездатність дверей і чистоту в салоні."
+    },
+    {
+     "letter": "3",
+     "text": "Обидві відповіді правильні."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 10,
+   "text": "Що потрібно перевірити водієві трамвая перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан трамвая."
+    },
+    {
+     "letter": "2",
+     "text": "Наявність медичної аптечки, вогнегасників, противідкатних упорів, знака аварійної зупинки."
+    },
+    {
+     "letter": "3",
+     "text": "Усе перелічене вище."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 11,
+   "text": "Що потрібно перевірити водієві тролейбуса перед виїздом?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Технічний стан тролейбуса."
+    },
+    {
+     "letter": "2",
+     "text": "Наявність медичної аптечки, вогнегасника, противідкатних упорів, знака аварійної зупинки."
+    },
+    {
+     "letter": "3",
+     "text": "Усе перелічене вище."
+    }
+   ],
+   "proposedAnswer": "3",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  },
+  {
+   "section": "63",
+   "qnum": 12,
+   "text": "Що має зробити водій тролейбуса, щоб швидко відновити ефективність гальм після проїзду через водну перешкоду?",
+   "options": [
+    {
+     "letter": "1",
+     "text": "Продовжити рух, трохи натягнувши важіль ручного гальма."
+    },
+    {
+     "letter": "2",
+     "text": "Продовжити рух і просушити гальмівні колодки багаторазовими нетривалими натисканнями на педаль гальма."
+    },
+    {
+     "letter": "3",
+     "text": "Продовжити рух із малою швидкістю без пригальмовування."
+    }
+   ],
+   "proposedAnswer": "2",
+   "answerValidated": true,
+   "categoryCodes": [
+    "T"
+   ],
+   "imagePaths": [],
+   "needsVision": false
+  }
+ ]
+}

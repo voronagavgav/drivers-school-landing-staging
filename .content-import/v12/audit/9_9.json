@@ -1,0 +1,1 @@
+{"key":"9:9","official_answer":3,"verdict":"current_correct","confidence":"high","source":"https://pdr.infotech.gov.ua/novi-testy-pdr/ticket/4444","note":"Official gov source marks correct = turn signal as shown + warn white car with sound signal, which is our option 3 (text-matched). Source option order differs but text match is unambiguous; current_answer=3 confirmed."}

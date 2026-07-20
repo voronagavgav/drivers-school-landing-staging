@@ -1,0 +1,66 @@
+[
+  {
+    "section": "9",
+    "qnum": 30,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is a spreadsheet-style answer-key table (rows of Питання/Відповідь numbers per Розділ), not a road sign or traffic scene. No image content matches the question."
+  },
+  {
+    "section": "9",
+    "qnum": 36,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Question asks about permitted use of an audible signal; candidate akey-001.jpg is an answer-key number table, not any sign/scene depicting a horn/sound-signal situation. No match."
+  },
+  {
+    "section": "9",
+    "qnum": 39,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Question concerns when to stop a hand signal; candidate akey-001.jpg is an answer-key number table, not a scene depicting a hand/arm signal. No match."
+  },
+  {
+    "section": "9",
+    "qnum": 40,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key spreadsheet table, not a road sign or traffic scene. No image content matches."
+  },
+  {
+    "section": "9",
+    "qnum": 45,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key spreadsheet table, not a road sign or traffic scene. No image content matches."
+  },
+  {
+    "section": "9",
+    "qnum": 46,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key spreadsheet table, not a road sign or traffic scene. No image content matches."
+  },
+  {
+    "section": "9",
+    "qnum": 48,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-001.jpg is an answer-key spreadsheet table, not a road sign or traffic scene. No image content matches."
+  },
+  {
+    "section": "11",
+    "qnum": 4,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate akey-002.jpg is a continuation of the same answer-key spreadsheet table (Розділ 10-14 Питання/Відповідь numbers), not a road sign or traffic scene. No image content matches."
+  }
+]

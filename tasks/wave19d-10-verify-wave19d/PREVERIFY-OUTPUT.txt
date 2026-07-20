@@ -1,0 +1,159 @@
+
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+
+ Test Files  68 passed (68)
+      Tests  727 passed (727)
+   Start at  17:46:38
+   Duration  2.27s (transform 1.47s, setup 0ms, import 2.90s, tests 732ms, environment 4ms)
+
+Seeding Drivers School (official content)…
+Done. 8 categories, 3 users.
+Logins: admin@drivers.school/Admin12345 · content@drivers.school/Content12345 · user@drivers.school/User12345
+
+Loading official ПДР content (reusing scripts/import-official.ts)…
+  [1] +79 → ЗАГАЛЬНІ ПОЛОЖЕННЯ
+  [2] +37 → ОБОВ'ЯЗКИ І ПРАВА ВОДІЇВ МЕХАНІЧНИХ ТРАН
+  [3] +16 → РУХ ТРАНСПОРТНИХ ЗАСОБІВ ІЗ СПЕЦІАЛЬНИМИ
+  [4] +26 → ОБОВ'ЯЗКИ І ПРАВА ПІШОХОДІВ
+  [5] +16 → ОБОВ'ЯЗКИ І ПРАВА ПАСАЖИРІВ
+  [6] +22 → ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ
+  [7] +8 → ВИМОГИ ДО ОСІБ, ЯКІ КЕРУЮТЬ ГУЖОВИМ ТРАН
+  [8.1] +84 → РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ (РЕГУЛЬОВАНІ
+  [8.2] +7 → РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ (НЕРЕГУЛЬОВА
+  [9] +60 → ПОПЕРЕДЖУВАЛЬНІ СИГНАЛИ
+  [10] +76 → ПОЧАТОК РУХУ ТА ЗМІНА ЙОГО НАПРЯМКУ
+  [11] +39 → РОЗТАШУВАННЯ ТРАНСПОРТНИХ ЗАСОБІВ НА ДОР
+  [12] +41 → ШВИДКІСТЬ РУХУ
+  [13] +13 → ДИСТАНЦІЯ, ІНТЕРВАЛ, ЗУСТРІЧНИЙ РОЗ'ЇЗД
+  [14] +56 → ОБГІН
+  [15] +97 → ЗУПИНКА І СТОЯНКА
+  [16.1] +33 → ПРОЇЗД ПЕРЕХРЕСТЬ (РЕГУЛЬОВАНІ ПЕРЕХРЕСТ
+  [16.2] +109 → ПРОЇЗД ПЕРЕХРЕСТЬ (НЕРЕГУЛЬОВАНІ ПЕРЕХРЕ
+  [17] +11 → ПЕРЕВАГИ МАРШРУТНИХ ТРАНСПОРТНИХ ЗАСОБІВ
+  [18] +19 → ПРОЇЗД ПІШОХІДНИХ ПЕРЕХОДІВ І ЗУПИНОК ТР
+  [19] +33 → КОРИСТУВАННЯ ЗОВНІШНІМИ СВІТЛОВИМИ ПРИЛА
+  [20] +31 → РУХ ЧЕРЕЗ ЗАЛІЗНИЧНІ ПЕРЕЇЗДИ
+  [21] +12 → ПЕРЕВЕЗЕННЯ ПАСАЖИРІВ
+  [22] +6 → ПЕРЕВЕЗЕННЯ ВАНТАЖУ
+  [23] +20 → БУКСИРУВАННЯ ТА ЕКСПЛУАТАЦІЯ ТРАНСПОРТНИ
+  [24] +14 → НАВЧАЛЬНА ЇЗДА
+  [25] +8 → РУХ ТРАНСПОРТНИХ ЗАСОБІВ У КОЛОНАХ
+  [26] +12 → РУХ У ЖИТЛОВІЙ ТА ПІШОХІДНІЙ ЗОНІ
+  [27] +13 → РУХ ПО АВТОМАГІСТРАЛЯХ
+  [28] +8 → РУХ ПО ГІРСЬКИХ ДОРОГАХ І НА КРУТИХ СПУС
+  [29] +1 → МІЖНАРОДНИЙ РУХ
+  [30] +14 → НОМЕРНІ, РОЗПІЗНАВАЛЬНІ ЗНАКИ, НАПИСИ І 
+  [31] +18 → ТЕХНІЧНИЙ СТАН ТРАНСПОРТНИХ ЗАСОБІВ ТА Ї
+  [32] +5 → ОКРЕМІ ПИТАННЯ ДОРОЖНЬОГО РУХУ, ЩО ПОТРЕ
+  [33] +357 → ДОРОЖНІ ЗНАКИ
+  [34] +35 → ДОРОЖНЯ РОЗМІТКА
+  [35] +170 → ОСНОВИ БЕЗПЕЧНОГО ВОДІННЯ (skipped 1 in-section dup)
+  [36] +8 → ОСНОВИ ПРАВА В ОБЛАСТІ ДОРОЖНЬОГО РУХУ
+  [37] +59 → НАДАННЯ ДОМЕДИЧНОЇ ДОПОМОГИ (skipped 1 in-section dup)
+  [38] +14 → ЕТИКА ВОДІННЯ, КУЛЬТУРА ТА ВІДПОЧИНОК ВО
+  [39] +6 → ЄВРОПРОТОКОЛ
+  [40] +31 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ А1, А (
+  [41] +13 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ А1, А (
+  [42] +20 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ А1, А (
+  [43] +34 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ А1, А (
+  [44] +16 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (
+  [45] +32 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (
+  [46] +9 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (
+  [47] +7 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (
+  [48] +88 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ C1,C (З
+  [49] +55 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ C1,C (Б
+  [50] +12 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ C1,C (Ю
+  [51] +43 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ C1,C (Б
+  [52] +66 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ D1, D (
+  [53] +40 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ D1, D (
+  [54] +36 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ D1, D (
+  [55] +30 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ D1, D (
+  [56] +21 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ BE, C1E
+  [57] +5 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ BE, C1E
+  [58] +3 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ BE, C1E
+  [59] +15 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ BE, C1E
+  [60] +18 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЇ T (ЗАГА
+  [61] +7 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЇ Т (БУДО
+  [62] +16 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЇ Т (ЮРИД
+  [63] +12 → ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЇ Т (БЕЗП
+
+upserted 2322 official questions in 65 topics (skipped 2 within-section identical duplicates; deactivated 0 absent-from-source). questions with no correct option: 0
+explanations: 2321 questions got a grounded study-aid (878 REVIEWED, 1443 UNREVIEWED); 1 kept the official-base reference only.
+official: 2322 questions
+
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+
+ Test Files  65 passed (65)
+      Tests  272 passed | 3 skipped (275)
+   Start at  17:46:47
+   Duration  43.66s (transform 843ms, setup 0ms, import 7.73s, tests 27.29s, environment 3ms)
+
+▲ Next.js 16.2.9 (webpack)
+- Environments: .env
+
+  Creating an optimized production build ...
+○ (serwist) The service worker will not be automatically registered, please call 'window.serwist.register()' in 'componentDidMount' or 'useEffect'.
+○ (serwist) You may also want to add '@serwist/next/typings' to your TypeScript/JavaScript configuration file at 'compilerOptions.types'.
+✓ (serwist) Bundling the service worker script with the URL '/sw.js' and the scope '/'...
+✓ Compiled successfully in 4.9s
+  Running TypeScript ...
+  Finished TypeScript in 5.6s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/38) ...
+  Generating static pages using 7 workers (9/38) 
+  Generating static pages using 7 workers (18/38) 
+  Generating static pages using 7 workers (28/38) 
+✓ Generating static pages using 7 workers (38/38) in 283ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ○ /~offline
+├ ƒ /account
+├ ƒ /account/data
+├ ƒ /account/data/export
+├ ƒ /admin
+├ ƒ /admin/analytics
+├ ƒ /admin/calibration
+├ ƒ /admin/categories
+├ ƒ /admin/content-health
+├ ƒ /admin/content-versions
+├ ƒ /admin/entitlements
+├ ƒ /admin/learning-health
+├ ƒ /admin/questions
+├ ƒ /admin/questions/[id]
+├ ƒ /admin/questions/new
+├ ƒ /admin/readiness-shadow
+├ ƒ /admin/topics
+├ ƒ /api/offline-pack/[scope]
+├ ƒ /api/q-image/[key]
+├ ƒ /api/review-sync
+├ ƒ /api/track
+├ ƒ /dashboard
+├ ○ /goodbye
+├ ƒ /history
+├ ƒ /login
+├ ○ /manifest.webmanifest
+├ ƒ /mistakes
+├ ○ /offline-practice
+├ ƒ /onboarding
+├ ƒ /practice
+├ ƒ /pricing
+├ ƒ /pricing/checkout
+├ ƒ /progress
+├ ƒ /q/[key]
+├ ƒ /register
+├ ƒ /saved
+├ ƒ /segment
+├ ○ /sitemap.xml
+├ ƒ /test/[id]
+└ ƒ /test/[id]/result
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

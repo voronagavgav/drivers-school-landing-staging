@@ -1,0 +1,4 @@
+static evidence — read, do not run
+ok fit n_cards=6 n_reviews=41 optimizer=fsrs==6.3.1
+ok weights len=21 finite=true optimizer=fsrs==6.3.1
+error: insufficient reviews (0 reviews, 0 cards); need >= 1 review over >= 1 card

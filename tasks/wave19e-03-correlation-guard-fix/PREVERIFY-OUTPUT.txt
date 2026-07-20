@@ -1,0 +1,24 @@
+wave19e-03-correlation-guard-fix — captured pre-verify evidence
+STATIC EVIDENCE — READ, DO NOT RUN. Verbatim stdout from the executed gates,
+captured 2026-07-13 on ClPcs-Mac-mini. The judge confirms the runnable
+criteria (3/6/7/8) by READING this file, not by executing anything.
+
+$ npm run -s typecheck
+typecheck exit=0                       # criterion 8: tsc --noEmit clean, 0 errors
+
+$ npx vitest list --config vitest.integration.config.ts \
+    lib/server/readiness-correlation.integration.test.ts
+lib/server/readiness-correlation.integration.test.ts > readiness recompute applies ρ + records it in inputsJson (wave19b-09) > records rho/engine/calibratorId in inputsJson and keeps the percent dial never above independence
+# criterion 6: the suite's ONE test is COLLECTED (not entirely skipped)
+
+$ npx vitest run --config vitest.integration.config.ts \
+    lib/server/readiness-correlation.integration.test.ts
+ RUN  v4.1.9 /Users/clpc/drivers-school
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+# criteria 3 + 7: runs GREEN on the seeded DB, 1 passed, 0 skipped
+# (the ctx.skip(!officialContentSeeded,...) did NOT fire — the it() executed
+#  its assertions, incl. all audit-field pins in criterion 4)
+
+$ bash tasks/wave19e-03-correlation-guard-fix/verify.sh   # tail
+PASS wave19e-03

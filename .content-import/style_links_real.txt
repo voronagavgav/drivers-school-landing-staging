@@ -1,0 +1,2 @@
+realism_world -> https://files.catbox.moe/j97qtj.png
+realism_clean -> https://files.catbox.moe/q3gmc1.png

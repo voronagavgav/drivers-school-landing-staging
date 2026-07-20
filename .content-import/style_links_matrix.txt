@@ -1,0 +1,8 @@
+R1_gray_iso_matte -> https://files.catbox.moe/wwvfsz.png
+R2_white_iso_matte -> https://files.catbox.moe/24x8ti.png
+R3_gray_3q_satin -> https://files.catbox.moe/53256b.png
+R4_bluetint_iso -> https://files.catbox.moe/cbsoe8.png
+R5_white_topdown -> https://files.catbox.moe/7w5i5r.png
+R6_gray_iso_glossy -> https://files.catbox.moe/p1ug05.png
+O1_sign_object -> https://files.catbox.moe/tfn1hp.png
+O2_trafficlight -> https://files.catbox.moe/k5x521.png

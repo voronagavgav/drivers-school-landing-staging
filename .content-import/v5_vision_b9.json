@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 176,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_176_0.png",
+    "confident": true,
+    "reason": "33_176_0.png is a single red-triangle warning sign showing a pedestrian on a crosswalk (pedestrian crossing ahead), matching a 'depicted sign means' question. The other path (33_175_0) is a multi-option answer strip."
+  },
+  {
+    "section": "33",
+    "qnum": 178,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_178_0.png is just a bare red X with no recognizable road-sign content; 33_177_0 is a multi-option answer strip. Neither clearly depicts the single sign this question requires."
+  },
+  {
+    "section": "33",
+    "qnum": 188,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_188_0.png",
+    "confident": true,
+    "reason": "33_188_0.png is a single red-triangle warning sign showing running children (children warning), a clear single depicted sign. 33_187_0 is the locomotive/railway-crossing sign for a different question."
+  },
+  {
+    "section": "33",
+    "qnum": 189,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_189_0.png",
+    "confident": true,
+    "reason": "33_189_0.png is a single red-triangle warning sign showing a bicycle (cyclists warning), a clear single depicted sign. 33_188_0 is the children sign for the previous question."
+  },
+  {
+    "section": "33",
+    "qnum": 191,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_191_0.png is a strip of multiple distinct directional/chevron barrier signs, not one single depicted sign; 33_190_0 is a multi-option answer strip. No single clear sign matches."
+  },
+  {
+    "section": "33",
+    "qnum": 192,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_192_0.png is a numbered multi-option answer strip (debris/slippery/soft-shoulder/falling-rocks signs); 33_191_0 is a chevron strip. Neither is the single depicted sign the question requires."
+  },
+  {
+    "section": "33",
+    "qnum": 193,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_193_0.png is a numbered multi-option answer strip (quay/tunnel/aircraft/intersection signs); 33_192_0 is also an option strip. No single depicted sign present."
+  },
+  {
+    "section": "33",
+    "qnum": 194,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "33_194_0.png is a numbered multi-option answer strip (roadworks/children/quay signs); 33_193_0 is also an option strip. No single depicted sign present."
+  }
+]

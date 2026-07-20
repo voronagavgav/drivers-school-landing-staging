@@ -1,0 +1,450 @@
+[
+ {
+  "key": "15:24",
+  "official": 4,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:16",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "33:350",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "42:2",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:39",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:12",
+  "official": 1,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "17:2",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:28",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "17:3",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:55",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:13",
+  "official": 1,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:96",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:79",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:6",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:38",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:106",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:30",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:52",
+  "official": 4,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:22",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:11",
+  "official": 1,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:22",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:7",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:10",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:18",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:32",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:23",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "6:15",
+  "official": 4,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "17:5",
+  "official": 4,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:53",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "8.1:32",
+  "official": 4,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:15",
+  "official": 1,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:90",
+  "official": 5,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:86",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:69",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "17:6",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:46",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:8",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "8.1:31",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:4",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:70",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:12",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:67",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:13",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:29",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:84",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:92",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "8.1:30",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": false,
+  "image": true
+ },
+ {
+  "key": "16.2:51",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "9:24",
+  "official": 4,
+  "current": 2,
+  "v11_agrees": false,
+  "image": false
+ },
+ {
+  "key": "16.2:76",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:60",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "33:309",
+  "official": 2,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:5",
+  "official": 3,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "42:1",
+  "official": 5,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "12:39",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "14:47",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "8.1:61",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "15:11",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "34:3",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "8.1:36",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "13:6",
+  "official": 3,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:108",
+  "official": 1,
+  "current": 2,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "17:1",
+  "official": 4,
+  "current": 3,
+  "v11_agrees": true,
+  "image": true
+ },
+ {
+  "key": "16.2:61",
+  "official": 2,
+  "current": 1,
+  "v11_agrees": true,
+  "image": true
+ }
+]

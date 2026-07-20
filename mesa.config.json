@@ -1,0 +1,18 @@
+{
+  "goal": "Build the Drivers School ПДР-prep app per PLAN.md + docs/app-plan/ (the app master plan — Waves 10–14: FSRS/SRS learning engine, adaptive loop + honest readiness dial, liquid-glass design-system port, PWA/offline, tasteful engagement). PURELY ADDITIVE over the mature Waves 1–9 app; NEVER break the stable-key content architecture (imageKey/questionKey idempotent upsert, user progress preserved). Pure logic UNIT-TESTED in lib/ (no server-only/@/lib/db/@prisma/client, no Math.random/Date.now — inject clock+rng); DB orchestration in lib/server/*; hand-authored migrations (prisma migrate deploy, one ADD COLUMN per ALTER, NEVER migrate-dev). Security first (validate inputs, server-side RBAC, no IDOR, sanitize rendered content). Preserve Ukrainian copy, mobile-first, and the demo/no-official-claims legal positioning. Tests on every change; verify over a REAL browser (npm run audit:browser over the non-localhost http origin). See PLAN.md, docs/app-plan/, AUDIT.md, CLAUDE.md.",
+  "recentDays": 7,
+  "qualityChecks": "npm run -s typecheck && npm run -s test",
+  "perTaskMax": 12,
+  "totalMax": 60,
+  "taskMaxCriteria": 7,
+  "taskSizePolicy": "warn",
+  "evaluate": true,
+  "model": "claude-opus-4-8",
+  "evaluateModel": "claude-opus-4-8",
+  "learningsFile": "CLAUDE.md",
+  "learningsMax": 30,
+  "browserCmd": "agent-browser",
+  "maxChangedFiles": 40,
+  "diffScopePolicy": "warn",
+  "planModel": "claude-opus-4-8"
+}

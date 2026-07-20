@@ -1,0 +1,18 @@
+{
+ "options": [
+  {
+   "n": 1,
+   "text": "Менше дев'яти."
+  },
+  {
+   "n": 2,
+   "text": "Більше сімнадцяти."
+  },
+  {
+   "n": 3,
+   "text": "Більше дев'яти."
+  }
+ ],
+ "answer": 1,
+ "_note": "v12 verbatim exam-base: 3->1 (https://testpdr.online/test.php?test=all&q=1487)"
+}

@@ -1,0 +1,238 @@
+{
+ "question": "Refresh and re-verify the perishable market claims behind a Ukrainian ПДР (driving theory) exam-prep product's positioning strategy, as of July 2026. The strategy was researched 2026-07-04; verify what still holds and what changed: (1) latest first-attempt theory-exam pass rates in Ukraine (was 22.6% for 2025 cohort, ~21.5% early 2026 — any newer HSC/МВС data); (2) exam mechanics: 20 questions / 20 minutes / max 2 errors, 250 грн per retake, 10-day mandatory wait between attempts, theory result valid 1 year — any 2026 regulatory changes; (3) status of the official question bank (approved by HSC MVS Order No. 225 of 29.10.2025 — still current? any newer order or bank revision/size change from 2322 questions); (4) competitor field freshness: vodiy.ua current pricing and landing copy (was 380 грн one-time web + Apple IAP ladder with lifetime ≈13 USD), green-way.com.ua, pdrtest.com / pdrtest.online, pdr.infotech.gov.ua state simulator scale (was 900k+ users), and ANY new UA market entrants since mid-2025, especially ones with AI, readiness-prediction, or spaced-repetition features; (5) the moat check: does ANY Ukrainian or international driving-theory product now expose a calibrated per-user pass-probability / readiness prediction or a named spaced-repetition (FSRS-like) engine as a marketed feature (was verified absent 2026-07-04); (6) pricing norms: is one-time unlock still the UA market norm vs subscriptions, and is the «доступ до іспиту» (until-your-exam) purchase framing still unclaimed by competitors.",
+ "summary": "The July 2026 re-verification largely confirms the 2026-07-04 positioning research: the pain point is intact and slightly sharper — the first-attempt theory pass rate for 2026 YTD is 21.5% (15,180 of 70k+ exams, HSC MVS data), continuing a decline from ~23% in 2025 and 34% (self-prep) in early 2024; exam mechanics (20 questions / 20 minutes / max 2 errors, 250 грн per attempt, theory result valid 1 year) are unchanged per multiple Feb–Mar 2026 official HSC articles; and the question bank is still the one approved by HSC MVS Order No. 225 of 29.10.2025 (2321 questions per vodiy.ua, effectively the 2322 baseline). The moat holds for every UA product checked — vodiy.ua, green-way.com.ua, the state simulator (still \"900,000+ students\"), and new entrant ManGo — none markets a calibrated pass-probability or a named spaced-repetition engine; internationally the closest thing is a UK DVSA app's \"exam-readiness indicator,\" which is a progress-to-100% bar, not a calibrated prediction. However, the \"one-time unlock is the UA norm\" premise is weakening: Green Way sells 3/6/12-month subscriptions and ManGo sells 30/90-day time-limited access at 290/490 грн, so duration-based pricing is spreading — which actually makes the «доступ до іспиту» (until-your-exam) framing more, not less, timely, and it remains unclaimed. Gaps this pass did not close: the 10-day retake wait, vodiy.ua's current 380-грн price/IAP ladder, and pdrtest.com/pdrtest.online were not re-verified, and ManGo's feature set (whether it claims AI/readiness) failed verification and is unknown.",
+ "findings": [
+  {
+   "claim": "Pass rates have drifted slightly DOWN since the 2026-07-04 research: 2026 YTD first-attempt pass rate is 21.5% (15,180 successes out of 70,000+ theory tests, per ГСЦ МВС data), vs ~23% overall for Jan–Aug 2025 (398k exams, ~92k first-attempt passes) and 26.2% for self-prepared candidates in that period; the historical trend is declining (34% self-prep in early 2024 → 25.9% self-prep Jan 2025 → 26.2% self-prep Aug 2025 → 21.5% overall early 2026). The 'only ~1 in 5 passes first try' positioning hook still holds and is marginally stronger.",
+   "confidence": "high",
+   "vote": "3-0 across six independent claims (claims 0, 1, 4, 7, 20, 21)",
+   "sources": [
+    "https://24tv.ua/auto/chomu_teoretychnyi_ispyt_dlia_otrymannia_posvidchennia_vodiia_provaliuie_80_kandydativ_n71668",
+    "https://hsc.gov.ua/2025/08/22/teoretichnij-ispit-u-servisnomu-tsentri-mvs-prosto-zapisatis-realno-sklasti/",
+    "https://hsc.gov.ua/2025/01/28/z-pochatku-roku-servisni-tsentri-mvs-prijnyali-ponad-10-tisyach-teoretichnih-ispitiv-pislya-samopidgotovki/",
+    "https://hsc.gov.ua/2024/08/08/34-kandidativ-u-vodiyi-uspishno-skladayut-teoretichnij-ispit-z-pershogo-razu-pislya-samopidgotovki/"
+   ],
+   "evidence": "24tv (citing ГСЦ МВС): \"із понад 70 тисяч тестувань у 2026 році лише 15 180 завершилися успішно — це 21,5%\"; verifier also surfaced 22.7% for the full-2025 cohort (638,071 exams), consistent with the strategy's 22.6% baseline. HSC primary (22.08.2025): 398k+ exams, ~92k first-attempt passes (~23%), self-prep subset 26.2% (38k+ of 148k+). HSC primary (28.01.2025): 10,205 self-prep exams, 2,645 first-attempt passes, 25.9%. HSC primary (08.08.2024): 34% self-prep first-attempt. Note the 2025 ~23% mixes total exams with first-attempt passers (denominator includes retakes), so treat it as approximate; the 21.5% early-2026 figure is the freshest datapoint."
+  },
+  {
+   "claim": "Exam mechanics are unchanged as of Feb–Mar 2026: 20 questions in 20 minutes, maximum 2 errors (a 3rd error auto-terminates the exam as failed; ≥18/20 to pass), 250 грн per attempt, and a passed theory result valid 1 year — confirmed by multiple official HSC MVS publications dated Feb 2026 and by the state simulator. No 2026 regulatory change to these parameters surfaced; sources explicitly note no other changes to the theory part.",
+   "confidence": "high",
+   "vote": "3-0 across six independent claims (claims 2, 5, 6, 8, 9, 19)",
+   "sources": [
+    "https://hsc.gov.ua/2026/02/24/20-pitan-za-20-hvilin-bez-sezonnih-pidkazok-yak-formuyutsya-zavdannya-teoretichnogo-ispitu/",
+    "https://hsc.gov.ua/2026/02/12/teoretichnij-ispit-u-servisnomu-tsentri-mvs-koli-vidno-rezultat-i-yak-pratsyuye-sistema-testuvannya/",
+    "https://hsc.gov.ua/2025/01/28/z-pochatku-roku-servisni-tsentri-mvs-prijnyali-ponad-10-tisyach-teoretichnih-ispitiv-pislya-samopidgotovki/",
+    "https://pdr.infotech.gov.ua/tests"
+   ],
+   "evidence": "HSC 12.02.2026: \"Кандидат у водії відповідає на 20 запитань. Час на виконання — 20 хвилин. Допускається не більше двох помилок. Якщо допущено три помилки — іспит автоматично припиняється.\" HSC 24.02.2026 article is literally titled \"20 питань за 20 хвилин.\" HSC 28.01.2025: \"Вартість послуги – 250 грн. ... Результат успішно складеного іспиту діє 1 рік\"; verifiers found multiple 2026 secondary sources confirming the 250-грн fee and 1-year validity remain current. IMPORTANT GAP: the 10-day mandatory wait between attempts was NOT covered by any surviving claim and remains re-unverified this pass."
+  },
+  {
+   "claim": "The official question bank is still the one approved by HSC MVS Order No. 225 of 29.10.2025 — no newer approving order exists as of a 2026-05-29 snapshot and July-2026 searches (order chronology: No. 138 of 10.06.2025 → No. 190 of 04.09.2025 → No. 225 of 29.10.2025, latest). Bank size is effectively unchanged: vodiy.ua reports 2321 total questions (1759 Category B) vs the 2322 baseline — a one-question difference. HSC's 31.03.2026 article confirms the bank is formed/approved by ГСЦ МВС and updated only on PDR/legislation changes or wording clarifications, so no revision is imminent absent a rules change.",
+   "confidence": "high",
+   "vote": "3-0 across three independent claims (claims 3, 10, 13)",
+   "sources": [
+    "https://hsc.gov.ua/index/poslugi/vidacha-posvidchennya-vodiya/pitannya-ta-ispit-z-pdr/",
+    "https://hsc.gov.ua/2026/03/31/teoretichnij-ispit-yak-formuyutsya-ta-onovlyuyutsya-pitannya/",
+    "https://vodiy.ua/mobile/"
+   ],
+   "evidence": "HSC exam page: \"Екзаменаційні питання та відповіді ... затверджені наказом Головного сервісного центру МВС від 29.10.2025 № 225\"; regional HSC mirrors and news reference the same order, with none newer found even in July-2026 searches. vodiy.ua/mobile: \"Разом — 2321 питання. З них 1759 питань належать до категорії «В»\". Caveat: 'no newer order' is a negative claim — high-confidence but not absolutely provable; the ~1-question count delta may be vendor rounding or a genuine single-question change."
+  },
+  {
+   "claim": "Competitor field, July 2026 snapshot: (a) vodiy.ua (market leader) exposes only conventional features — official bank, topic mode, 20-question exam simulation, error review — with zero AI/readiness/pass-probability/SRS marketing; its vodiy.pro/premium page now 301-redirects to /mobile/, so no hidden premium AI tier. (b) green-way.com.ua sells Pro access as 3/6/12-month subscriptions with an expiry date, plus a coarse 'keep success indicator at 8+ → pass probability approaches 100%' threshold heuristic. (c) The state simulator pdr.infotech.gov.ua still advertises exactly '900 000+ студентів' — unchanged from July 2025, no stated-growth signal — and markets no AI/prediction/SRS features. (d) One new entrant confirmed: ManGo (mango-pdr.com.ua), a live commercial UA driving-school brand selling 'Тести ПДР Pro' at 290 грн (30 days) / 490 грн (90 days), one-time payment with no auto-renewal, access simply expiring.",
+   "confidence": "high",
+   "vote": "3-0 on claims 11, 12, 13, 14, 17, 22; 2-1 on claim 18 (state simulator moat absence)",
+   "sources": [
+    "https://vodiy.ua/mobile/",
+    "https://green-way.com.ua/uk/test-pdd",
+    "https://pdr.infotech.gov.ua/",
+    "https://mango-pdr.com.ua/exam-guide/theory",
+    "https://mango-pdr.com.ua/pricing/tests"
+   ],
+   "evidence": "vodiy.ua/mobile fetched live July 2026: verifier found \"No mentions of artificial intelligence, readiness predictions, or pass-probability features\"; its 'difficult questions from a million users' stat is population-level, not per-user. green-way: \"Доступні тарифи на 3, 6 місяців або 1 рік\" + \"Pro-аккаунт діє до: --.--.----р.\" (explicit expiry) + \"імовірність складання ... наближається до 100%\" tied to a fixed 8+ indicator. pdr.infotech.gov.ua live fetch: \"900 000+ студентів обрали нас\" verbatim-identical to the 2026-07-04 figure. ManGo pricing page: \"Pro 30 (1 month): 290грн; Pro 90 (3 months): 490грн\", \"оплата одноразова, без автопродовження\". NOT re-verified this pass: vodiy.ua's 380-грн web price / Apple IAP ladder, and pdrtest.com / pdrtest.online entirely."
+  },
+  {
+   "claim": "The moat holds for Ukraine: no checked UA product (vodiy.ua, green-way, state simulator, ManGo pricing pages) markets a calibrated per-user pass-probability / readiness prediction or a named spaced-repetition (FSRS/SM-2) engine. Internationally the edge is thinner but intact: a UK DVSA prep app markets a NAMED 'exam-readiness indicator', but it is a progress-bar-to-100%, not a calibrated probability; its adaptivity is a generic 'smart algorithm' re-surfacing missed questions, not a named SRS. Verifiers also surfaced 'My Theory Test by James May' marketing generic 'spaced repetition' and a DEV.to writeup naming FSRS — i.e., the vocabulary is entering the category, so the window for owning 'calibrated pass probability' is real but narrowing.",
+   "confidence": "medium",
+   "vote": "3-0 on claims 12, 14, 15; 2-1 on claims 16 and 18; and two related field-wide claims were REFUTED 0-3 (the UK-app 'calibrated prediction absent in the competitive field' generalization, and ManGo's feature-set moat claim)",
+   "sources": [
+    "https://vodiy.ua/mobile/",
+    "https://green-way.com.ua/uk/test-pdd",
+    "https://pdr.infotech.gov.ua/",
+    "https://apps.apple.com/gb/app/driving-theory-test-prep/id6479255527"
+   ],
+   "evidence": "UK app listing verbatim: \"A clear exam-readiness indicator shows your progress. Reach 100% and walk into the test confident\" and \"Smart algorithm: See questions you struggle with more often\" — named readiness FEATURE exists internationally, but framed as completion progress, no calibration/probability language. UA checks all came back negative for AI/prediction/SRS (see finding 4). Confidence capped at MEDIUM because (a) the broad 'absent in the entire competitive field' generalization was refuted 0-3 in adversarial verification, so the moat is only verified for the specific products checked; (b) ManGo's feature set went unverified (its moat claim also refuted 0-3); (c) two supporting claims passed only 2-1. Position the moat as 'no verified UA competitor claims it' rather than 'nobody in the world has it.'"
+  },
+  {
+   "claim": "Pricing norms are SHIFTING: the 'one-time lifetime unlock is the UA norm' premise from 2026-07-04 is weakening. Green Way sells time-limited subscriptions (3/6/12 months) and new entrant ManGo sells duration-based access (30/90 days, one-time payment, expires). Time-boxed access priced in the 290–490 грн band is emerging as a competing UA pattern. The specific «доступ до іспиту» (until-your-actual-exam) framing remains unclaimed by any verified competitor — competitors sell fixed calendar durations, not exam-anchored access — so that positioning is still open and arguably now MORE differentiated since it out-frames both lifetime unlocks and arbitrary 30/90-day windows.",
+   "confidence": "medium",
+   "vote": "3-0 on the underlying claims (11, 22), but the norm-level synthesis and the 'unclaimed framing' negative rest on a partial competitor sample",
+   "sources": [
+    "https://green-way.com.ua/uk/test-pdd",
+    "https://mango-pdr.com.ua/pricing/tests",
+    "https://vodiy.ua/mobile/"
+   ],
+   "evidence": "Green Way: \"Доступні тарифи на 3, 6 місяців або 1 рік\" with explicit Pro-account expiry date. ManGo: 290 грн/30 days, 490 грн/90 days, \"оплата одноразова, без автопродовження, доступ просто завершується коли закінчиться термін\". Neither anchors access to the buyer's exam date. Confidence MEDIUM because vodiy.ua's current pricing model (the presumed one-time-unlock anchor at 380 грн) was not re-verified this pass, and pdrtest.com/pdrtest.online were not checked — so the 'norm' baseline itself is partially stale."
+  }
+ ],
+ "caveats": "Four items from the original question were NOT re-verified and should not be quoted as current without a fresh check: (1) the 10-day mandatory wait between theory attempts — no surviving claim touched it; (2) vodiy.ua's pricing and landing copy (380 грн web one-time + Apple IAP ladder / ~13 USD lifetime) — only its bank size and feature absence were verified; (3) pdrtest.com / pdrtest.online status entirely; (4) ManGo's feature set — its 'no AI/prediction/SRS' claim was refuted 0-3 in verification, so whether ManGo claims any moat-adjacent feature is unknown, not confirmed-absent. Two field-wide moat generalizations were refuted in adversarial verification, so the moat finding is verified per-product, not universally. hsc.gov.ua bot-blocks direct fetches (HTTP 403), so several official confirmations rest on search-snippet corroboration of the primary pages rather than full-page reads. The 2025 '~23%' figure mixes total exams (incl. retakes) in the denominator with first-attempt passers in the numerator — treat as approximate; 21.5% (2026 YTD via 24tv citing ГСЦ МВС) is a secondary source relaying official data. The state simulator's '900 000+' is a rounded marketing threshold that could mask sub-100k growth. Time-sensitivity: pass-rate stats are YTD figures that update continuously; the question bank can be superseded by a new ГСЦ order at any time (last three orders came ~2 months apart in 2025, though none since 29.10.2025 — an unusually long gap that may itself presage a refresh).",
+ "openQuestions": [
+  "Is the 10-day mandatory wait between theory-exam attempts still in force in 2026 (and unchanged in duration)? No surviving claim covered it.",
+  "What is vodiy.ua's current pricing and landing copy — is the 380-грн one-time web unlock plus Apple IAP ladder (~13 USD lifetime) still live, or has the leader also moved toward time-limited access?",
+  "Are pdrtest.com / pdrtest.online still operating, and at what pricing/feature level? They were absent from every verified claim this pass.",
+  "Does ManGo (or any other post-mid-2025 UA entrant) market AI, readiness-prediction, or spaced-repetition features? The claim that it does not was refuted 0-3, leaving this genuinely unknown — and why has no new question-bank order followed No. 225 for 8+ months when 2025 saw three orders in five months (possible pending PDR change)?"
+ ],
+ "refuted": [
+  {
+   "claim": "The app does not market a calibrated per-user pass-probability / readiness prediction; the 'readiness' is a progress indicator, supporting that a true calibrated pass-probability remains absent in the competitive field.",
+   "vote": "0-3",
+   "source": "https://apps.apple.com/gb/app/driving-theory-test-prep/id6479255527"
+  },
+  {
+   "claim": "ManGo's marketed feature set is a standard exam-mode test simulator ('режим іспиту, 20 запитань за 20 хвилин') with no AI, calibrated pass-probability/readiness prediction, or named spaced-repetition (FSRS-like) engine advertised — consistent with the moat still being unclaimed as of July 2026.",
+   "vote": "0-3",
+   "source": "https://mango-pdr.com.ua/exam-guide/theory"
+  }
+ ],
+ "unverified": [],
+ "sources": [
+  {
+   "url": "https://hsc.gov.ua/2025/08/22/teoretichnij-ispit-u-servisnomu-tsentri-mvs-prosto-zapisatis-realno-sklasti/",
+   "quality": "primary",
+   "angle": "pass-rates",
+   "claimCount": 4
+  },
+  {
+   "url": "https://hsc.gov.ua/2026/03/31/teoretichnij-ispit-yak-formuyutsya-ta-onovlyuyutsya-pitannya/",
+   "quality": "primary",
+   "angle": "pass-rates",
+   "claimCount": 4
+  },
+  {
+   "url": "https://24tv.ua/auto/chomu_teoretychnyi_ispyt_dlia_otrymannia_posvidchennia_vodiia_provaliuie_80_kandydativ_n71668",
+   "quality": "secondary",
+   "angle": "pass-rates",
+   "claimCount": 4
+  },
+  {
+   "url": "https://hsc.gov.ua/2025/01/28/z-pochatku-roku-servisni-tsentri-mvs-prijnyali-ponad-10-tisyach-teoretichnih-ispitiv-pislya-samopidgotovki/",
+   "quality": "primary",
+   "angle": "pass-rates",
+   "claimCount": 5
+  },
+  {
+   "url": "https://hsc.gov.ua/2024/08/08/34-kandidativ-u-vodiyi-uspishno-skladayut-teoretichnij-ispit-z-pershogo-razu-pislya-samopidgotovki/",
+   "quality": "primary",
+   "angle": "pass-rates",
+   "claimCount": 4
+  },
+  {
+   "url": "https://zib.com.ua/ua/156430.html",
+   "quality": "secondary",
+   "angle": "pass-rates",
+   "claimCount": 3
+  },
+  {
+   "url": "https://hsc.gov.ua/2026/02/24/20-pitan-za-20-hvilin-bez-sezonnih-pidkazok-yak-formuyutsya-zavdannya-teoretichnogo-ispitu/",
+   "quality": "primary",
+   "angle": "exam-mechanics",
+   "claimCount": 3
+  },
+  {
+   "url": "https://hsc.gov.ua/2026/02/12/teoretichnij-ispit-u-servisnomu-tsentri-mvs-koli-vidno-rezultat-i-yak-pratsyuye-sistema-testuvannya/",
+   "quality": "primary",
+   "angle": "exam-mechanics",
+   "claimCount": 5
+  },
+  {
+   "url": "https://hsc.gov.ua/index/poslugi/vidacha-posvidchennya-vodiya/pitannya-ta-ispit-z-pdr/",
+   "quality": "primary",
+   "angle": "question-bank",
+   "claimCount": 4
+  },
+  {
+   "url": "https://green-way.com.ua/uk/test-pdd",
+   "quality": "primary",
+   "angle": "competitors-ua",
+   "claimCount": 5
+  },
+  {
+   "url": "https://mango-pdr.com.ua/exam-guide/theory",
+   "quality": "blog",
+   "angle": "competitors-ua",
+   "claimCount": 4
+  },
+  {
+   "url": "https://vodiy.ua/mobile/",
+   "quality": "primary",
+   "angle": "competitors-ua",
+   "claimCount": 4
+  },
+  {
+   "url": "https://dev.to/ketisdev/building-an-ai-powered-driving-theory-exam-platform-with-the-fsrs-algorithm-2nei",
+   "quality": "blog",
+   "angle": "moat-check",
+   "claimCount": 4
+  },
+  {
+   "url": "https://apps.apple.com/gb/app/driving-theory-test-prep/id6479255527",
+   "quality": "primary",
+   "angle": "moat-check",
+   "claimCount": 5
+  },
+  {
+   "url": "https://pdrlehko.com/",
+   "quality": "blog",
+   "angle": "moat-check",
+   "claimCount": 5
+  },
+  {
+   "url": "https://pdr.infotech.gov.ua/",
+   "quality": "primary",
+   "angle": "state-simulator",
+   "claimCount": 4
+  },
+  {
+   "url": "https://pdr.infotech.gov.ua/tests",
+   "quality": "primary",
+   "angle": "state-simulator",
+   "claimCount": 4
+  },
+  {
+   "url": "https://website.informer.com/pdr.infotech.gov.ua",
+   "quality": "unreliable",
+   "angle": "state-simulator",
+   "claimCount": 2
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=com.infotex.testpdr.mobile&hl=en_US",
+   "quality": "unreliable",
+   "angle": "state-simulator",
+   "claimCount": 1
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=ua.vodiy.lite&hl=en_US",
+   "quality": "unreliable",
+   "angle": "state-simulator",
+   "claimCount": 0
+  },
+  {
+   "url": "https://pdrtest.com/en",
+   "quality": "unreliable",
+   "angle": "state-simulator",
+   "claimCount": 0
+  }
+ ],
+ "stats": {
+  "angles": 6,
+  "sourcesFetched": 21,
+  "claimsExtracted": 74,
+  "claimsVerified": 25,
+  "confirmed": 23,
+  "killed": 2,
+  "unverified": 0,
+  "afterSynthesis": 6,
+  "urlDupes": 5,
+  "budgetDropped": 9,
+  "agentCalls": 104
+ }
+}

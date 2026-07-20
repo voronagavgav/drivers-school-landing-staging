@@ -1,0 +1,876 @@
+{
+  "summary": "Sampled correctness audit of UNREVIEWED ПДР explanations: 8 auditors + skeptic re-verify of every flag",
+  "agentCount": 9,
+  "logs": [
+    "Audited 120 items across 8 chunks. raw: 114 correct / 5 minor / 1 flagged-wrong. After verify: 1 confirmed-wrong, 0 overturned, 0 minor-only. Accuracy estimate ≈ 99.2%"
+  ],
+  "result": {
+    "total": 120,
+    "counts": {
+      "correct": 114,
+      "minor_issue": 5,
+      "wrong": 1
+    },
+    "accuracyEstimate": 0.9916666666666667,
+    "confirmedWrong": [
+      {
+        "qid": "cmqjzft2n0111bvgertlv3di5",
+        "decision": "confirmed_wrong",
+        "reason": "The explanation as shipped is unusable and self-contradictory. short=null (nothing shown to learner), and detailed begins with internal meta-text \"FLAGGED, no explanation shipped\" — pipeline garbage that must never reach a student. It also explicitly asserts the marked key (\"Стоянкові ліхтарі\") is wrong and that the answer should be аварійна сигналізація, so it directly undercuts the option it is supposed to justify. Independent check confirms ПДР п.9.9(б) requires вмикання аварійної світлової сигналізації при зупинці на вимогу поліцейського; the official ГСЦ МВС test bank (pdr.infotech.gov.ua, ticket 4465) and green-way.com.ua both mark \"Аварійну світлову сигналізацію\" as correct — meaning the answer KEY (\"Стоянкові ліхтарі\") is itself wrong. Either way, the explanation text is broken/misleading and cannot be shown; the prior reviewer's WRONG flag stands. Note: the underlying option key likely also needs correcting to \"Аварійну світлову сигналізацію\".",
+        "suggestedFix": "Згідно з пунктом 9.9 ПДР, у разі зупинення транспортного засобу на вимогу поліцейського водій повинен увімкнути аварійну світлову сигналізацію."
+      }
+    ],
+    "overturned": [],
+    "minorOnly": [],
+    "verdicts": [
+      {
+        "qid": "cmqjzfueo04w8bvgex9bv91xe",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfto802rpbvgeamg15kgt",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftok02t1bvge795mvye8",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfswt00kqbvgeberoxvmc",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfsx300lsbvgehpkmpw5v",
+        "verdict": "minor_issue",
+        "confidence": 0.6,
+        "issue": "Пояснення слабко обґрунтовує, чому варіант «Відповіді 1, 2, 3» неправильний: звуковий сигнал і світлоповертачі за п. 6.2 також є обов'язковим обладнанням велосипеда, тож відкидання узагальненого варіанту виглядає непереконливо й трохи плутано, хоча офіційний ключ вказує саме на варіант про ліхтар.",
+        "suggestedFix": "Згідно з офіційним ключем правильним є саме варіант про увімкнений ліхтар (фару) для руху в темну пору доби, який якнайточніше відповідає формулюванню питання про обов'язкову умову видимості велосипедиста."
+      },
+      {
+        "qid": "cmqjzfsxv00nxbvgeuk1tcqxu",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuy706qxbvge580vy7j2",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuyl06s2bvge6kb348pi",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuzq06wsbvge7bw1cvji",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfv0006xwbvge7qu2t6ln",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuz006tsbvget0sdc2m6",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuz906uwbvgekebvom1u",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuzl06w4bvge11s7ga8p",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuxg06owbvgeh4lmitvn",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuxo06pvbvgeka334jes",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuwg06lubvge5mndxb1h",
+        "verdict": "correct",
+        "confidence": 0.78,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfux306nmbvge8zmydcrj",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuo705qybvge9b7ktv2r",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuok05s6bvge3l6xciff",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuot05tbbvgehvkts8w3",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfup605uibvgerzhtfun6",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfulr05i6bvge5dm77qcm",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfum005j6bvge736s7f00",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfumb05kcbvgea98aper4",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuml05lcbvger3r4ehcx",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfumx05mibvgeh6zke8vd",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfun605nmbvgejtmumj5g",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfung05ombvgewzvt04h7",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuku05f5bvge102pn1vk",
+        "verdict": "minor_issue",
+        "confidence": 0.6,
+        "issue": "Головна відповідь (45 годин) правильна, але обґрунтування у detailed неточне: 42 години не є визначеним порогом скороченого щотижневого відпочинку — скорочений щотижневий відпочинок становить не менше 24 годин поспіль, а не 42.",
+        "suggestedFix": "Нормальний щотижневий відпочинок водія становить не менше 45 годин поспіль, тоді як скорочений — не менше 24 годин поспіль."
+      },
+      {
+        "qid": "cmqjzful605g5bvgej8nsd8pc",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfulh05h4bvgekuakv3nj",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfunr05pfbvgeom0chmvw",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuv806gybvgea5yhdq1q",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuvi06i6bvgecpv6hy10",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuvs06jdbvgezma440ix",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuw106kcbvgehpkck0gl",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfusf065zbvgejudyr8b3",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfusp0674bvgeu0ttkq2v",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfusy0686bvgeoyj6c06y",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfut9069cbvgekg3ynzsh",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuti06acbvgeklvnveca",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuq905y6bvgee8ktugsi",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuqk05zbbvgeqk9zoyrf",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuqt060abvgevkwkdo3v",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfur5061gbvgeatk7g319",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfurf062mbvge85do2l5z",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfurv063rbvgeroigxbov",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfus5064tbvgeg03scpzp",
+        "verdict": "correct",
+        "confidence": 0.85,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfutt06bpbvgezr17w2fq",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuu506cvbvgenzto15k0",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuui06e1bvgeoqmn2t5e",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuur06f0bvgeb370a30l",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuhq054hbvge26lmkyzz",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfui4055xbvgeccx05mqd",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuif0571bvgelyd2fknt",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuir0586bvge0oxki3z1",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfug50508bvgemijuspd6",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuf204xjbvgetwun66w9",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfufg04ynbvgehd06cohm",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfugx0521bvgeqfwpv3em",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuha053cbvge91hkzir9",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfukg05drbvgexljl8fzp",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfujq05bebvge4vclu2lu",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuje05a2bvgeadra8tar",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuk005c6bvgei0la9qci",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfu7704afbvgea6rmqwgd",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuek04vxbvgexao2ci9u",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftd901y5bvge1ys0rkgp",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftdj01zcbvgell9b2gca",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftdx020lbvgeergej788",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfte7021qbvgefpcuu229",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftl302isbvgeom2enzb6",
+        "verdict": "minor_issue",
+        "confidence": 0.7,
+        "issue": "Пояснення наводить приклад «у тумані вдень», але питання прямо про темний час доби; протитуманні фари дозволено вмикати окремо (без ближнього/дальнього) саме в умовах недостатньої видимості, а на неосвітлених ділянках у темну пору — лише разом з ближнім/дальнім світлом. Це викладено, але формулювання може заплутати, бо приклад зміщує акцент на день.",
+        "suggestedFix": "Окремо (без ближнього чи дальнього світла) протитуманні фари дозволено використовувати лише в умовах недостатньої видимості, у тому числі в темну пору доби (наприклад, у тумані), а на неосвітлених ділянках доріг у темний час їх вмикають разом із ближнім або дальнім світлом фар."
+      },
+      {
+        "qid": "cmqjzftle02jrbvgeizwxf16f",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftre031rbvgedxjo97sh",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuca04oibvgehqn3x771",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuck04phbvge0u9zw1za",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfucv04qlbvgeh3er1014",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfud804rqbvgewqv9zsia",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfudj04spbvgewsqcubxu",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfudv04tqbvgeo44nwnic",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft9q01ntbvgebsnck5dz",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfta401p2bvge5ch0le28",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfstg00apbvge5y0fe0z1",
+        "verdict": "minor_issue",
+        "confidence": 0.6,
+        "issue": "Право водія оскаржити дії поліцейського закріплене насамперед у законі (Закон \"Про Національну поліцію\", КУпАП), а посилання саме на п. 2.14 ПДР як джерело цього права є сумнівним/неточним; обґрунтування правильне, але правова прив'язка слабка.",
+        "suggestedFix": "Водій має право оскаржити дії поліцейського в разі порушення ним законодавства, тому відповідь \"Має право\" правильна."
+      },
+      {
+        "qid": "cmqjzfsts00bqbvged9u7w5jo",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfsu400d1bvgedmnsxfhp",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfsvi00gvbvge7d33emhg",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfsvs00hwbvgetkpjncxs",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfswb00jdbvgekh41xz32",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfswm00kcbvgem8aagl2z",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfu9i04gebvge9ssqsfyz",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfu9v04hebvgedttgryfl",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfua504iebvgeoc86aw1y",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuak04jibvgeuiduxizt",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuax04kmbvgegqgcg07m",
+        "verdict": "correct",
+        "confidence": 0.97,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfuba04lgbvgeklvct40t",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfubm04mjbvgecs4qlpbu",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfubz04nkbvge9xk925mx",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftnu02qdbvge2fmk2qg9",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftng02pgbvgehx0xgr8a",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft2600zwbvge3ma4aqud",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft2n0111bvgertlv3di5",
+        "verdict": "wrong",
+        "confidence": 0.8,
+        "issue": "Питання не має пояснення (short=null), а detailed містить мета-текст «FLAGGED, no explanation shipped», який прямо суперечить позначеному правильному варіанту «Стоянкові ліхтарі» і не може показуватись учневі. Текст стверджує, що правильна відповідь — аварійна сигналізація (п. 9.9), хоча ключ позначає «Стоянкові ліхтарі». Пояснення внутрішньо суперечливе і відсутнє.",
+        "suggestedFix": "У разі зупинення на вимогу поліцейського водій вмикає зовнішні світлові прилади, передбачені позначеним у ключі варіантом, і пояснення має узгоджуватися саме з ним, без службових позначок типу «FLAGGED»."
+      },
+      {
+        "qid": "cmqjzft30012abvge3s18yyjr",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft3a013abvgel8jebs8i",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft3n014obvgebyogw8cn",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft3y015rbvgetpymdwgu",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft49016zbvgecmu410am",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft4l0186bvgeuxrdvbm8",
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft1700wtbvge16x9iws7",
+        "verdict": "correct",
+        "confidence": 0.96,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft5j01axbvgeb6412dvz",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft5u01c5bvge3334nl2w",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftqp02zibvgezpzixxvs",
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftr4030wbvge1sezlr0i",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfsux00fbbvge3tv3ey5t",
+        "verdict": "correct",
+        "confidence": 0.82,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftpm02wcbvgef4o84uib",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftq602y5bvgemf62dkck",
+        "verdict": "correct",
+        "confidence": 0.94,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftmv02nfbvgelbknnnxs",
+        "verdict": "correct",
+        "confidence": 0.95,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzfts0033kbvge6jhxydgf",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzftsf034sbvgeow6k4vev",
+        "verdict": "correct",
+        "confidence": 0.9,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft6w01fwbvgee72wyx2n",
+        "verdict": "correct",
+        "confidence": 0.93,
+        "issue": "",
+        "suggestedFix": ""
+      },
+      {
+        "qid": "cmqjzft7901h2bvgebkbqs7jh",
+        "verdict": "minor_issue",
+        "confidence": 0.6,
+        "issue": "Пояснення коректно обґрунтовує правильний варіант (гальмівний шлях не перевищує видимості), але не пояснює, чому варіант 1 («міг зупинити в межах видимості дороги») вважається неправильним, хоча за змістом він близький до правильного — це може заплутати учня.",
+        "suggestedFix": "Варіант про зупинку «в межах видимості дороги» неточний, бо ключовою є саме видимість у напрямку руху (а не дороги загалом), тому правильним є формулювання, що гальмівний шлях дорівнює або не перевищує видимості в напрямку руху."
+      }
+    ],
+    "verifications": [
+      {
+        "qid": "cmqjzft2n0111bvgertlv3di5",
+        "decision": "confirmed_wrong",
+        "reason": "The explanation as shipped is unusable and self-contradictory. short=null (nothing shown to learner), and detailed begins with internal meta-text \"FLAGGED, no explanation shipped\" — pipeline garbage that must never reach a student. It also explicitly asserts the marked key (\"Стоянкові ліхтарі\") is wrong and that the answer should be аварійна сигналізація, so it directly undercuts the option it is supposed to justify. Independent check confirms ПДР п.9.9(б) requires вмикання аварійної світлової сигналізації при зупинці на вимогу поліцейського; the official ГСЦ МВС test bank (pdr.infotech.gov.ua, ticket 4465) and green-way.com.ua both mark \"Аварійну світлову сигналізацію\" as correct — meaning the answer KEY (\"Стоянкові ліхтарі\") is itself wrong. Either way, the explanation text is broken/misleading and cannot be shown; the prior reviewer's WRONG flag stands. Note: the underlying option key likely also needs correcting to \"Аварійну світлову сигналізацію\".",
+        "suggestedFix": "Згідно з пунктом 9.9 ПДР, у разі зупинення транспортного засобу на вимогу поліцейського водій повинен увімкнути аварійну світлову сигналізацію."
+      }
+    ]
+  }
+}

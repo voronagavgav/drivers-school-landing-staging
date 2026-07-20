@@ -1,0 +1,1 @@
+{"key":"48:14","decision":"needs_image","file":null,"reason":"Question text 'Зображений дорожній знак забороняє рух' explicitly references a depicted road sign; options distinguish between different prohibition signs (trucks/buses/road-trains/all), so the answer requires seeing the specific pictured sign. No candidate images available (empty array)."}

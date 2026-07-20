@@ -1,0 +1,3 @@
+warm_hero -> https://files.catbox.moe/s39bpn.png
+warm_soft -> https://files.catbox.moe/hli9ua.png
+warm_golden -> https://files.catbox.moe/1qvr57.png

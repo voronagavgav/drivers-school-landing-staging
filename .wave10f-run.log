@@ -1,0 +1,174 @@
+2026-07-01T20:13:03Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-01-fsrs-golden-vectors'
+2026-07-01T20:13:04Z driver[ClPcs-Mac-mini]: tick start (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:19:04Z driver[ClPcs-Mac-mini]: increment: 360s cost=$1.9781040000000003 tokens=35612 (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:19:04Z driver[ClPcs-Mac-mini]: verify start (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:19:07Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:19:07Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:20:34Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-01-fsrs-golden-vectors) — done stands
+handoff saved: task wave10f-01-fsrs-golden-vectors — driver tick
+2026-07-01T20:20:37Z driver[ClPcs-Mac-mini]: tick done (wave10f-01-fsrs-golden-vectors)
+2026-07-01T20:20:37Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-01-fsrs-golden-vectors' DONE (1 tick(s))
+2026-07-01T20:20:37Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-02-fsrs-prior-difficulty-fix'
+2026-07-01T20:20:38Z driver[ClPcs-Mac-mini]: tick start (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:21:39Z driver[ClPcs-Mac-mini]: increment: 61s cost=$0.7148615 tokens=14041 (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:21:39Z driver[ClPcs-Mac-mini]: verify start (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:21:43Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:21:43Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:22:51Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-02-fsrs-prior-difficulty-fix) — done stands
+handoff saved: task wave10f-02-fsrs-prior-difficulty-fix — driver tick
+2026-07-01T20:22:54Z driver[ClPcs-Mac-mini]: tick done (wave10f-02-fsrs-prior-difficulty-fix)
+2026-07-01T20:22:54Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-02-fsrs-prior-difficulty-fix' DONE (1 tick(s))
+2026-07-01T20:22:55Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-03-fsrs-curve-constants-docs'
+2026-07-01T20:22:56Z driver[ClPcs-Mac-mini]: tick start (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:23:46Z driver[ClPcs-Mac-mini]: increment: 50s cost=$0.568082 tokens=13652 (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:23:46Z driver[ClPcs-Mac-mini]: verify start (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:23:46Z driver[ClPcs-Mac-mini]: verify FAIL rc=1 (wave10f-03-fsrs-curve-constants-docs) — done blocked, error looped to next tick
+handoff saved: task wave10f-03-fsrs-curve-constants-docs — driver tick
+2026-07-01T20:23:49Z driver[ClPcs-Mac-mini]: tick done (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:23:50Z driver[ClPcs-Mac-mini]: tick start (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:26:22Z driver[ClPcs-Mac-mini]: increment: 152s cost=$1.0031865 tokens=20120 (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:26:22Z driver[ClPcs-Mac-mini]: verify start (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:26:26Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:26:26Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:27:30Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-03-fsrs-curve-constants-docs) — done stands
+handoff saved: task wave10f-03-fsrs-curve-constants-docs — driver tick
+2026-07-01T20:27:33Z driver[ClPcs-Mac-mini]: tick done (wave10f-03-fsrs-curve-constants-docs)
+2026-07-01T20:27:33Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-03-fsrs-curve-constants-docs' DONE (2 tick(s))
+2026-07-01T20:27:34Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-04-fsrs-easy-no-confidence'
+2026-07-01T20:27:35Z driver[ClPcs-Mac-mini]: tick start (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:28:59Z driver[ClPcs-Mac-mini]: increment: 84s cost=$0.752058 tokens=15852 (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:28:59Z driver[ClPcs-Mac-mini]: verify start (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:29:04Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:29:04Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:29:45Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-04-fsrs-easy-no-confidence) — done stands
+handoff saved: task wave10f-04-fsrs-easy-no-confidence — driver tick
+2026-07-01T20:29:48Z driver[ClPcs-Mac-mini]: tick done (wave10f-04-fsrs-easy-no-confidence)
+2026-07-01T20:29:48Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-04-fsrs-easy-no-confidence' DONE (1 tick(s))
+2026-07-01T20:29:48Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-05-readiness-beta-mock'
+2026-07-01T20:29:49Z driver[ClPcs-Mac-mini]: tick start (wave10f-05-readiness-beta-mock)
+2026-07-01T20:31:47Z driver[ClPcs-Mac-mini]: increment: 118s cost=$0.9105725000000002 tokens=15226 (wave10f-05-readiness-beta-mock)
+2026-07-01T20:31:47Z driver[ClPcs-Mac-mini]: verify start (wave10f-05-readiness-beta-mock)
+2026-07-01T20:31:52Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-05-readiness-beta-mock)
+2026-07-01T20:31:52Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-05-readiness-beta-mock)
+2026-07-01T20:33:17Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-05-readiness-beta-mock) — done stands
+handoff saved: task wave10f-05-readiness-beta-mock — driver tick
+2026-07-01T20:33:22Z driver[ClPcs-Mac-mini]: tick done (wave10f-05-readiness-beta-mock)
+2026-07-01T20:33:22Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-05-readiness-beta-mock' DONE (1 tick(s))
+2026-07-01T20:33:23Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-06-readiness-blueprint-heterogeneity'
+2026-07-01T20:33:24Z driver[ClPcs-Mac-mini]: tick start (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:35:39Z driver[ClPcs-Mac-mini]: increment: 135s cost=$0.9997099999999998 tokens=16595 (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:35:39Z driver[ClPcs-Mac-mini]: verify start (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:35:43Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:35:43Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:36:41Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-06-readiness-blueprint-heterogeneity) — done stands
+handoff saved: task wave10f-06-readiness-blueprint-heterogeneity — driver tick
+2026-07-01T20:36:44Z driver[ClPcs-Mac-mini]: tick done (wave10f-06-readiness-blueprint-heterogeneity)
+2026-07-01T20:36:44Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-06-readiness-blueprint-heterogeneity' DONE (1 tick(s))
+2026-07-01T20:36:44Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-07-readiness-unseen-prior-honesty'
+2026-07-01T20:36:45Z driver[ClPcs-Mac-mini]: tick start (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:39:34Z driver[ClPcs-Mac-mini]: increment: 169s cost=$1.099961 tokens=18431 (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:39:34Z driver[ClPcs-Mac-mini]: verify start (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:39:38Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:39:38Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:40:35Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-07-readiness-unseen-prior-honesty) — done stands
+handoff saved: task wave10f-07-readiness-unseen-prior-honesty — driver tick
+2026-07-01T20:40:38Z driver[ClPcs-Mac-mini]: tick done (wave10f-07-readiness-unseen-prior-honesty)
+2026-07-01T20:40:38Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-07-readiness-unseen-prior-honesty' DONE (1 tick(s))
+2026-07-01T20:40:39Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-08-queue-additive-scoring'
+2026-07-01T20:40:40Z driver[ClPcs-Mac-mini]: tick start (wave10f-08-queue-additive-scoring)
+2026-07-01T20:42:50Z driver[ClPcs-Mac-mini]: increment: 130s cost=$0.9447705 tokens=19644 (wave10f-08-queue-additive-scoring)
+2026-07-01T20:42:51Z driver[ClPcs-Mac-mini]: verify start (wave10f-08-queue-additive-scoring)
+2026-07-01T20:42:55Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-08-queue-additive-scoring)
+2026-07-01T20:42:55Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-08-queue-additive-scoring)
+2026-07-01T20:43:51Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-08-queue-additive-scoring) — done stands
+handoff saved: task wave10f-08-queue-additive-scoring — driver tick
+2026-07-01T20:43:54Z driver[ClPcs-Mac-mini]: tick done (wave10f-08-queue-additive-scoring)
+2026-07-01T20:43:54Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-08-queue-additive-scoring' DONE (1 tick(s))
+2026-07-01T20:43:54Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-09-queue-newitemshare-cap'
+2026-07-01T20:43:55Z driver[ClPcs-Mac-mini]: tick start (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:45:21Z driver[ClPcs-Mac-mini]: increment: 86s cost=$0.8401585 tokens=13590 (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:45:21Z driver[ClPcs-Mac-mini]: verify start (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:45:26Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:45:26Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:46:15Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-09-queue-newitemshare-cap) — done stands
+handoff saved: task wave10f-09-queue-newitemshare-cap — driver tick
+2026-07-01T20:46:18Z driver[ClPcs-Mac-mini]: tick done (wave10f-09-queue-newitemshare-cap)
+2026-07-01T20:46:18Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-09-queue-newitemshare-cap' DONE (1 tick(s))
+2026-07-01T20:46:19Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-10-validation-unstrip-srs-fields'
+2026-07-01T20:46:20Z driver[ClPcs-Mac-mini]: tick start (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:47:41Z driver[ClPcs-Mac-mini]: increment: 81s cost=$0.7901779999999998 tokens=12719 (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:47:41Z driver[ClPcs-Mac-mini]: verify start (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:47:44Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:47:44Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:48:25Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-10-validation-unstrip-srs-fields) — done stands
+handoff saved: task wave10f-10-validation-unstrip-srs-fields — driver tick
+2026-07-01T20:48:28Z driver[ClPcs-Mac-mini]: tick done (wave10f-10-validation-unstrip-srs-fields)
+2026-07-01T20:48:28Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-10-validation-unstrip-srs-fields' DONE (1 tick(s))
+2026-07-01T20:48:28Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-11-client-sends-srs-fields'
+2026-07-01T20:48:29Z driver[ClPcs-Mac-mini]: tick start (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:51:01Z driver[ClPcs-Mac-mini]: increment: 152s cost=$1.0034205 tokens=16836 (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:51:01Z driver[ClPcs-Mac-mini]: verify start (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:51:12Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:51:12Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:52:52Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-11-client-sends-srs-fields) — done stands
+handoff saved: task wave10f-11-client-sends-srs-fields — driver tick
+2026-07-01T20:52:55Z driver[ClPcs-Mac-mini]: tick done (wave10f-11-client-sends-srs-fields)
+2026-07-01T20:52:55Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-11-client-sends-srs-fields' DONE (1 tick(s))
+2026-07-01T20:52:55Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-12-idempotency-whole-transaction'
+2026-07-01T20:52:56Z driver[ClPcs-Mac-mini]: tick start (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:54:14Z driver[ClPcs-Mac-mini]: increment: 78s cost=$0.676204 tokens=12512 (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:54:14Z driver[ClPcs-Mac-mini]: verify start (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:54:50Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:54:50Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:55:59Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-12-idempotency-whole-transaction) — done stands
+handoff saved: task wave10f-12-idempotency-whole-transaction — driver tick
+2026-07-01T20:56:02Z driver[ClPcs-Mac-mini]: tick done (wave10f-12-idempotency-whole-transaction)
+2026-07-01T20:56:02Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-12-idempotency-whole-transaction' DONE (1 tick(s))
+2026-07-01T20:56:03Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-13-gate-adaptive-review'
+2026-07-01T20:56:04Z driver[ClPcs-Mac-mini]: tick start (wave10f-13-gate-adaptive-review)
+2026-07-01T20:57:38Z driver[ClPcs-Mac-mini]: increment: 94s cost=$0.8903459999999999 tokens=13502 (wave10f-13-gate-adaptive-review)
+2026-07-01T20:57:38Z driver[ClPcs-Mac-mini]: verify start (wave10f-13-gate-adaptive-review)
+2026-07-01T20:57:42Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-13-gate-adaptive-review)
+2026-07-01T20:57:42Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-13-gate-adaptive-review)
+2026-07-01T20:58:22Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-13-gate-adaptive-review) — done stands
+handoff saved: task wave10f-13-gate-adaptive-review — driver tick
+2026-07-01T20:58:25Z driver[ClPcs-Mac-mini]: tick done (wave10f-13-gate-adaptive-review)
+2026-07-01T20:58:25Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-13-gate-adaptive-review' DONE (1 tick(s))
+2026-07-01T20:58:26Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-14-srs-integration-tests'
+2026-07-01T20:58:26Z driver[ClPcs-Mac-mini]: tick start (wave10f-14-srs-integration-tests)
+2026-07-01T21:04:58Z driver[ClPcs-Mac-mini]: increment: 392s cost=$2.0465400000000002 tokens=28580 (wave10f-14-srs-integration-tests)
+2026-07-01T21:04:58Z driver[ClPcs-Mac-mini]: verify start (wave10f-14-srs-integration-tests)
+2026-07-01T21:05:44Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-14-srs-integration-tests)
+2026-07-01T21:05:44Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-14-srs-integration-tests)
+2026-07-01T21:08:21Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-14-srs-integration-tests) — done stands
+handoff saved: task wave10f-14-srs-integration-tests — driver tick
+2026-07-01T21:08:24Z driver[ClPcs-Mac-mini]: tick done (wave10f-14-srs-integration-tests)
+2026-07-01T21:08:24Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-14-srs-integration-tests' DONE (1 tick(s))
+2026-07-01T21:08:24Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-15-schema-fk-restrict-migration'
+2026-07-01T21:08:25Z driver[ClPcs-Mac-mini]: tick start (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:09:32Z driver[ClPcs-Mac-mini]: increment: 67s cost=$0.5754594999999999 tokens=10977 (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:09:32Z driver[ClPcs-Mac-mini]: verify start (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:09:34Z driver[ClPcs-Mac-mini]: verify FAIL rc=1 (wave10f-15-schema-fk-restrict-migration) — done blocked, error looped to next tick
+handoff saved: task wave10f-15-schema-fk-restrict-migration — driver tick
+2026-07-01T21:09:37Z driver[ClPcs-Mac-mini]: tick done (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:09:38Z driver[ClPcs-Mac-mini]: tick start (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:11:54Z driver[ClPcs-Mac-mini]: increment: 136s cost=$1.1276525000000002 tokens=17900 (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:11:54Z driver[ClPcs-Mac-mini]: verify start (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:11:57Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:11:57Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:12:53Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-15-schema-fk-restrict-migration) — done stands
+handoff saved: task wave10f-15-schema-fk-restrict-migration — driver tick
+2026-07-01T21:12:56Z driver[ClPcs-Mac-mini]: tick done (wave10f-15-schema-fk-restrict-migration)
+2026-07-01T21:12:56Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-15-schema-fk-restrict-migration' DONE (2 tick(s))
+2026-07-01T21:12:56Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-16-schema-drift-cleanup'
+2026-07-01T21:12:57Z driver[ClPcs-Mac-mini]: tick start (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:15:03Z driver[ClPcs-Mac-mini]: increment: 126s cost=$0.6342074999999998 tokens=11462 (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:15:03Z driver[ClPcs-Mac-mini]: verify start (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:15:52Z driver[ClPcs-Mac-mini]: verify PASS (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:15:52Z driver[ClPcs-Mac-mini]: evaluate start (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:17:23Z driver[ClPcs-Mac-mini]: evaluate PASS (wave10f-16-schema-drift-cleanup) — done stands
+handoff saved: task wave10f-16-schema-drift-cleanup — driver tick
+2026-07-01T21:17:26Z driver[ClPcs-Mac-mini]: tick done (wave10f-16-schema-drift-cleanup)
+2026-07-01T21:17:26Z driver[ClPcs-Mac-mini]: backlog: 'wave10f-16-schema-drift-cleanup' DONE (1 tick(s))
+2026-07-01T21:17:27Z driver[ClPcs-Mac-mini]: backlog: working 'wave10f-17-spike-serwist'
+2026-07-01T21:17:28Z driver[ClPcs-Mac-mini]: tick start (wave10f-17-spike-serwist)

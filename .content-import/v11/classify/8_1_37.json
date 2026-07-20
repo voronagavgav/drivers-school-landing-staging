@@ -1,0 +1,1 @@
+{"key":"8.1:37","decision":"needs_image","file":null,"reason":"Question asks 'для регулювання руху яких ТЗ застосовується даний світлофор?' — references a specific depicted traffic light ('даний світлофор'); the correct answer (Трамваїв) is only determinable by recognizing the depicted tram signal. No candidate images exist to verify, so it must be held."}

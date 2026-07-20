@@ -1,0 +1,1661 @@
+[
+ {
+  "key": "6:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "6:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "7:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "8.1:38",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "8.1:39",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "8.1:59",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "8.1:60",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "8.1:67",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "8.1:69",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "8.1:70",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "5": 1
+  }
+ },
+ {
+  "key": "8.2:1",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "8.2:2",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "8.2:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "8.2:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "8.2:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "8.2:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1
+  }
+ },
+ {
+  "key": "8.2:7",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "9:2",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "4": 1
+  }
+ },
+ {
+  "key": "9:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:20",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:27",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "9:28",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:30",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "9:36",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "6": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "9:39",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "9:40",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "9:45",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "9:46",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "9:47",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "4": 1
+  }
+ },
+ {
+  "key": "9:48",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "10:1",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "10:2",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:7",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:8",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:9",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "10:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:11",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "10:12",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "10:13",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:15",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "10:16",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:17",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:18",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:19",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:20",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:21",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:22",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:23",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "10:24",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:25",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:26",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:29",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "10:32",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "10:34",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "10:36",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "10:37",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "10:39",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1
+  }
+ },
+ {
+  "key": "10:40",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "11:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "11:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "12:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "12:25",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "12:27",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "13:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:23",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:24",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:29",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:35",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:38",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ {
+  "key": "14:39",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:42",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:48",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:51",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "14:53",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "15:32",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "15:70",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "4": 1
+  }
+ },
+ {
+  "key": "15:71",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:1",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:2",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:7",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:8",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:9",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:11",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:12",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:13",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:15",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:16",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:17",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:18",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:19",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:20",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:21",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:22",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:23",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:24",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:25",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:26",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:27",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "16.1:28",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "16.1:29",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "16.1:30",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:31",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1
+  }
+ },
+ {
+  "key": "16.1:32",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.1:33",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "16.2:37",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "16.2:40",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "16.2:50",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "16.2:54",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "16.2:56",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "16.2:78",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "16.2:104",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "17:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "17:8",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "17:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "18:1",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "18:2",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "18:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "18:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "18:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "18:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "18:8",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "19:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "19:11",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "20:10",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "20:13",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "20:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "20:15",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "23:11",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "34:4",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "34:14",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "35:77",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:89",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:91",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:92",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:93",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:94",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:95",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:96",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:99",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:100",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:101",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:102",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:103",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:104",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:111",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:112",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:119",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:120",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:153",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:154",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:155",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:156",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "35:157",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:158",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:159",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:160",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:162",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "35:163",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "35:164",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "35:167",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "38:9",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "40:25",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "43:3",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "43:27",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "43:28",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "43:29",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ {
+  "key": "43:30",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "44:16",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "45:19",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "45:22",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:23",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:24",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "45:25",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:26",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:27",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "45:28",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:29",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "45:30",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "45:31",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "45:32",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "45:33",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:5",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "48:6",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "48:7",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:12",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "48:19",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ {
+  "key": "48:21",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "48:23",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:24",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "48:33",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1
+  }
+ },
+ {
+  "key": "48:34",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:35",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:36",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "48:39",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:42",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:43",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "48:44",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1
+  }
+ },
+ {
+  "key": "48:45",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:46",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "2": 1
+  }
+ },
+ {
+  "key": "48:48",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:73",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "5": 1
+  }
+ },
+ {
+  "key": "48:74",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:76",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "48:78",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:84",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:86",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1
+  }
+ },
+ {
+  "key": "48:88",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1
+  }
+ },
+ {
+  "key": "50:1",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "51:9",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "51:15",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ {
+  "key": "51:19",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "4": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "51:26",
+  "reason": "only 1 source(s)",
+  "votes": {
+   "3": 1,
+   "1": 1
+  }
+ },
+ {
+  "key": "52:8",
+  "reason": "only 2 source(s)",
+  "votes": {
+   "5": 2
+  }
+ }
+]

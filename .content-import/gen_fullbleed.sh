@@ -1,0 +1,9 @@
+#!/bin/zsh
+cd ~/drivers-school
+T="elevated isometric high three-quarter aerial camera near-orthographic, matte soft-touch finish, rounded chamfered edges, soft daylight studio lighting, low contrast, calm warm palette with sparing road-sign blue, lane amber and signal green accents, premium toy-realistic, instantly readable, no words or letters on signs, high detail, 1:1, no watermark"
+: > .content-import/style_links_fb.txt
+node .content-import/gen_demo_image.mjs "Premium 3D render of a complete road intersection scene that FILLS THE ENTIRE FRAME edge to edge — a continuous little world: roads extend to all four edges, green grass blocks with trees on the corners, a couple of small soft-colored buildings, a small blue car at the intersection, a traffic light and blue and amber road signs. No empty background, NO floating platform, no studio void — the scene is the whole image. Warm off-white sky only where it peeks between buildings. $T" fb_world max 2>&1 | tail -1
+url=$(curl -s --max-time 40 -F "reqtype=fileupload" -F "fileToUpload=@public/demo-images/fb_world.png" https://catbox.moe/user/api.php); echo "fullbleed_world -> $url" | tee -a .content-import/style_links_fb.txt
+node .content-import/gen_demo_image.mjs "Premium 3D render of a lively miniature city block that FILLS THE ENTIRE FRAME edge to edge — a four-way intersection seen from above-iso, roads running to every edge, green parks with trees, small soft-colored buildings, a small blue car, traffic lights, crosswalks and blue/amber signs, busy but tidy. No empty background, NO floating platform, full-bleed continuous environment. $T" fb_block max 2>&1 | tail -1
+url=$(curl -s --max-time 40 -F "reqtype=fileupload" -F "fileToUpload=@public/demo-images/fb_block.png" https://catbox.moe/user/api.php); echo "fullbleed_block -> $url" | tee -a .content-import/style_links_fb.txt
+echo DONE

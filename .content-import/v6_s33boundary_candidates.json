@@ -1,0 +1,300 @@
+{
+  "candidates": [
+    {
+      "section": "33",
+      "qnum": 217,
+      "text": "Який з наведених дорожніх знаків встановлюється перед крутим підйомом?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Знак 1."
+        },
+        {
+          "letter": "B",
+          "text": "Знак 2."
+        },
+        {
+          "letter": "C",
+          "text": "Знак 3."
+        },
+        {
+          "letter": "D",
+          "text": "Знак 4."
+        }
+      ],
+      "proposedAnswer": "A",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/images/33_217_0.jpeg"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 218,
+      "text": "Який з наведених дорожніх знаків встановлюється перед крутим спуском?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Знак 1."
+        },
+        {
+          "letter": "B",
+          "text": "Знак 2."
+        },
+        {
+          "letter": "C",
+          "text": "Знак 3."
+        }
+      ],
+      "proposedAnswer": "B",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/images/33_218_0.jpeg"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true,
+      "visionNote": "descent (спуск) = Знак 2: high-left/low-right slope, matches official 1.7 pictogram; answer key B confirmed"
+    },
+    {
+      "section": "33",
+      "qnum": 219,
+      "text": "Про що попереджає даний                дорожній знак?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Про наближення до крутого спуску."
+        },
+        {
+          "letter": "B",
+          "text": "Про наближення до крутого підйому."
+        },
+        {
+          "letter": "C",
+          "text": "Про наближення до аварійно небезпечної ділянки дороги."
+        }
+      ],
+      "proposedAnswer": "B",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/v6_s33_33_219_0.png"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 220,
+      "text": "У якому з місць встановлюється даний дорожній знак?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "У місцях дороги з небезпечним узбіччям."
+        },
+        {
+          "letter": "B",
+          "text": "У місцях дороги, де можливі сильний вітер або раптові його пориви."
+        },
+        {
+          "letter": "C",
+          "text": "У місцях напрямку повороту дороги."
+        }
+      ],
+      "proposedAnswer": "C",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_220_0.png"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 221,
+      "text": "Де встановлюється даний дорожній знак?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "У місцях звуження дороги."
+        },
+        {
+          "letter": "B",
+          "text": "На затяжних підйомах."
+        },
+        {
+          "letter": "C",
+          "text": "У місцях напрямку повороту дороги з обмеженою оглядовістю."
+        },
+        {
+          "letter": "D",
+          "text": "У місцях об’їзду центра перехрестя з круговим рухом."
+        },
+        {
+          "letter": "E",
+          "text": "Відповіді 3 і 4."
+        }
+      ],
+      "proposedAnswer": "E",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_221_0.png"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 222,
+      "text": "Про що попереджає даний дорожній знак?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Про наближення до небезпечного повороту праворуч."
+        },
+        {
+          "letter": "B",
+          "text": "Про наближення до небезпечного повороту ліворуч."
+        },
+        {
+          "letter": "C",
+          "text": "Про наявність в'їзду з прилеглої території."
+        },
+        {
+          "letter": "D",
+          "text": "Про наявність двох поворотів, що йдуть один за одним."
+        }
+      ],
+      "proposedAnswer": "A",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_222_0.png"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 224,
+      "text": "Який із зображених дорожніх знаків попереджає про заокруглення з обмеженою оглядовістю?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Знак 1."
+        },
+        {
+          "letter": "B",
+          "text": "Знак 2."
+        },
+        {
+          "letter": "C",
+          "text": "Знак 3."
+        },
+        {
+          "letter": "D",
+          "text": "Знак 4."
+        }
+      ],
+      "proposedAnswer": "D",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/images/33_224_0.jpeg"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 297,
+      "text": "Як ви роз'їдетеся із зустрічним транспортним засобом у даній ситуації?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Проїдете першим, маючи перевагу."
+        },
+        {
+          "letter": "B",
+          "text": "Проїдете другим, не маючи переваги."
+        }
+      ],
+      "proposedAnswer": "B",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/images/33_297_0.jpeg"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    },
+    {
+      "section": "33",
+      "qnum": 340,
+      "text": "Вказаний дорожній знак позначає:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Початок населеного пункту."
+        },
+        {
+          "letter": "B",
+          "text": "Початок ділянки дороги, що проходить через тунель довжиною 1000 м і більше."
+        },
+        {
+          "letter": "C",
+          "text": "Початок населеного пункту, де відсутня забудова."
+        }
+      ],
+      "proposedAnswer": "B",
+      "answerValidated": true,
+      "categoryCodes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "imagePaths": [
+        "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_340_0.png"
+      ],
+      "needsVision": true,
+      "visionConfirmed": true
+    }
+  ]
+}

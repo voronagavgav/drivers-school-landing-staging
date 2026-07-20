@@ -1,0 +1,6 @@
+iso_vibrant -> https://files.catbox.moe/zk46pj.png
+iso_brand -> https://files.catbox.moe/n5kqjj.png
+iso_neon_tech -> https://files.catbox.moe/oh42nw.png
+lowpoly_3d -> https://files.catbox.moe/c8b74a.png
+papercut -> https://files.catbox.moe/grg1wu.png
+blueprint -> https://files.catbox.moe/m9b3s3.png

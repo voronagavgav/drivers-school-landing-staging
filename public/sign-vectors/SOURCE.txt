@@ -1,0 +1,3 @@
+Official Ukrainian road-sign vector diagrams from Wikimedia Commons
+(File: "Ukraine road sign X.Y.svg"). Public-domain / CC official sign diagrams.
+Fetched via .content-import/fetch_sign_vectors.mjs. index.json maps ПДР sign number -> file.

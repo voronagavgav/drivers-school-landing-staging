@@ -1,0 +1,23 @@
+static evidence — read, do not run
+== typecheck ==
+TYPECHECK_EXIT=0
+== unit ==
+ Test Files  78 passed (78)
+      Tests  809 passed (809)
+   Start at  13:00:41
+   Duration  2.96s (transform 2.05s, setup 0ms, import 3.86s, tests 2.31s, environment 5ms)
+
+== db:seed (before integration) ==
+== integration ==
+ Test Files  69 passed (69)
+      Tests  285 passed (285)
+   Start at  13:01:08
+   Duration  46.33s (transform 869ms, setup 0ms, import 8.28s, tests 28.79s, environment 4ms)
+
+== build ==
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+SKIP audit:browser — wave24 ships no UI (scripts + docs only)

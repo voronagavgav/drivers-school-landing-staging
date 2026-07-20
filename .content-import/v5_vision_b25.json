@@ -1,0 +1,66 @@
+[
+  {
+    "section": "43",
+    "qnum": 30,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-008.jpg is a scanned answer-key table (Розділ/Питання/Відповідь grid of numbers), not a road sign or driving scene. Question text and proposedAnswer are also empty, so nothing to match."
+  },
+  {
+    "section": "44",
+    "qnum": 16,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-008.jpg is a scanned answer-key table (number grid), not a road-sign/scene illustration. No match; question text/answer empty."
+  },
+  {
+    "section": "50",
+    "qnum": 1,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-009.jpg is a scanned answer-key table (Розділ 49-53 number grid), not a road sign or scene. No match; question text/answer empty."
+  },
+  {
+    "section": "51",
+    "qnum": 19,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is a scanned answer-key table (Розділ 54-63 number grid with signature), not a road sign or scene. No match; question text/answer empty."
+  },
+  {
+    "section": "51",
+    "qnum": 26,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is a scanned answer-key table (number grid), not a road-sign/scene illustration. No match; question text/answer empty."
+  },
+  {
+    "section": "54",
+    "qnum": 19,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is a scanned answer-key table (number grid), not a road-sign/scene illustration. No match; question text/answer empty."
+  },
+  {
+    "section": "54",
+    "qnum": 24,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is a scanned answer-key table (number grid), not a road-sign/scene illustration. No match; question text/answer empty."
+  },
+  {
+    "section": "55",
+    "qnum": 5,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "akey-010.jpg is a scanned answer-key table (number grid), not a road-sign/scene illustration. No match; question text/answer empty."
+  }
+]

@@ -1,0 +1,5 @@
+# lp-proof-03 browser verify — http://localhost:3001/lp/v36
+ok W=390 iw=390 docOverflow=0 bandOverflow=0 hasAll=1 minBody=10.61 minLarge=11.47
+ok W=768 iw=768 docOverflow=0 bandOverflow=0 hasAll=1 minBody=10.61 minLarge=11.47
+ok W=1440 iw=1440 docOverflow=0 bandOverflow=0 hasAll=1 minBody=10.61 minLarge=11.47
+OK lp-proof-03

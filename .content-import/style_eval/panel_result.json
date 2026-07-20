@@ -1,0 +1,286 @@
+{
+  "summary": "Judge panel evaluates 8 premium-3D style candidates and writes the locked style spec for Drivers School question/UI images",
+  "agentCount": 4,
+  "logs": [
+    "Panel done: 3/3 judges. Winner: R1_gray_iso_matte"
+  ],
+  "result": {
+    "judges": [
+      {
+        "scores": [
+          {
+            "label": "R1_gray_iso_matte",
+            "family": 9,
+            "modern": 9,
+            "easy_on_eye": 9,
+            "readability": 9,
+            "on_brand": 9,
+            "total": 45,
+            "note": "Soft graduated-gray studio bg + matte finish + soft shadows match O1/O2 exactly; lit traffic light, labeled blue 'AHEAD' + amber 'SLOW' signs and clear intersection read instantly; calm low-contrast and on-palette (sign-blue/lane-amber/slate). Sign text is gibberish but compositionally the best of the set."
+          },
+          {
+            "label": "R2_white_iso_matte",
+            "family": 6,
+            "modern": 7,
+            "easy_on_eye": 6,
+            "readability": 8,
+            "on_brand": 6,
+            "total": 33,
+            "note": "Clean iso and legible scene, but the white bg breaks the soft-gray O1/O2 family and feels sterile/floating rather than calm; blue (not amber) traffic bulb is off-brand and the white is harsher to study against repeatedly."
+          },
+          {
+            "label": "R3_gray_3q_satin",
+            "family": 7,
+            "modern": 7,
+            "easy_on_eye": 7,
+            "readability": 5,
+            "on_brand": 6,
+            "total": 32,
+            "note": "Studio gray bg is on-family and the satin car is premium, but blank signboards carry no exam information and the low 3/4 angle reads as product staging, not an instantly-parsed intersection scenario."
+          },
+          {
+            "label": "R4_bluetint_iso",
+            "family": 6,
+            "modern": 7,
+            "easy_on_eye": 7,
+            "readability": 6,
+            "on_brand": 6,
+            "total": 32,
+            "note": "Pleasant clean iso and soft, but the blue-tinted floor departs from the neutral slate of O1/O2; blank blue signs are ambiguous and the look skews toward a stylized game asset rather than the keynote-premium anchor."
+          },
+          {
+            "label": "R5_white_topdown",
+            "family": 5,
+            "modern": 7,
+            "easy_on_eye": 5,
+            "readability": 4,
+            "on_brand": 5,
+            "total": 26,
+            "note": "Elegant but cold and harsh-white; near-top-down with a tiny rear-3/4 car and grey blank boards makes the subject the hardest to grasp at a glance — weakest readability and family fit for exam imagery."
+          },
+          {
+            "label": "R6_gray_iso_glossy",
+            "family": 5,
+            "modern": 6,
+            "easy_on_eye": 4,
+            "readability": 6,
+            "on_brand": 6,
+            "total": 27,
+            "note": "Gray bg is right but the GLOSSY finish directly contradicts O1/O2's matte language; reflections add busyness/glare (worst easy-on-eye for repeated study) and one blank sign weakens information; least calm of the gray scenes."
+          },
+          {
+            "label": "O1_sign_object",
+            "family": 9,
+            "modern": 8,
+            "easy_on_eye": 9,
+            "readability": 8,
+            "on_brand": 9,
+            "total": 43,
+            "note": "Object anchor: soft-gray studio backdrop, rounded matte sign-blue disc, gentle shadow — defines the premium calm family. Blank face is fine for an object plate; pure and on-brand."
+          },
+          {
+            "label": "O2_trafficlight",
+            "family": 10,
+            "modern": 9,
+            "easy_on_eye": 9,
+            "readability": 10,
+            "on_brand": 9,
+            "total": 47,
+            "note": "The anchor the user loved and the benchmark: soft graduated-gray bg, matte rounded body, saturated red/amber/green reading instantly, soft shadow, keynote-premium and calm. The recipe to emulate for scenes."
+          }
+        ],
+        "bestRecipe": "R1_gray_iso_matte",
+        "reasoning": "R1 is the standard to adopt for question/UI scene images. Family: its soft graduated-gray studio background, matte finish, and soft contact shadows are a direct match to the O2 traffic-light anchor (and O1), so scenes and object plates will visually belong to one set — something the white (R2/R5), blue-tint (R4), and glossy (R6) recipes all break. Easy-on-eye (most important for repeated study): R1 keeps low, calm contrast with no glare; R6's gloss adds harsh reflections, R2/R5's white is sterile and fatiguing, so R1 is the most pleasant to look at question after question. Readability (critical for exam questions): R1 is the only scene that is instantly parseable AND informative — an elevated iso angle shows the whole intersection at once, the traffic light is lit (not blank), and the blue and amber signs are present and labeled, whereas R3/R4/R5/R6 lean on blank signboards or awkward angles (R5 top-down, R3 low 3/4) that slow comprehension. On-brand: R1 carries the road-sign-blue + lane-amber + slate palette on a light background exactly as specified. Modern: the elevated-iso matte keynote look is current and premium, not stocky or dated. Net: R1 wins family + easy-on-eye + readability simultaneously, which are the deciding axes, so it should be the canonical recipe — soft-gray graduated background, elevated isometric camera, matte finish, neutral car with blue/amber accents. The one caveat to enforce in production: regenerate so any on-sign text is real/legible (the demo glyphs are gibberish), or prefer pictograms over words on in-scene signs."
+      },
+      {
+        "scores": [
+          {
+            "label": "R1_gray_iso_matte",
+            "family": 8,
+            "modern": 8,
+            "easy_on_eye": 8,
+            "readability": 9,
+            "on_brand": 9,
+            "total": 42,
+            "note": "Soft-gray gradient bg matches O1/O2 family exactly; matte finish coheres with anchors. Elevated iso reads the full intersection at a glance: traffic light, car, two signs all legible. Blue/amber accents are on-brand (road-sign blue, lane amber). Faux text on signs (SLOW/AHEAD) is a minor liability for a real exam scene but the composition and calm tone are the strongest balance of the set."
+          },
+          {
+            "label": "R2_white_iso_matte",
+            "family": 6,
+            "modern": 8,
+            "easy_on_eye": 6,
+            "readability": 7,
+            "on_brand": 6,
+            "total": 33,
+            "note": "Clean and modern but pure-white bg breaks family with the gray-gradient anchors (O1/O2 sit in soft gray, not white) and makes subjects float with weak grounding. Lower-contrast pale elements (light signposts on white) reduce instant readability; traffic-light colors look slightly off (blue bottom lamp). Less calm-premium than the gray recipes."
+          },
+          {
+            "label": "R3_gray_3q_satin",
+            "family": 5,
+            "modern": 7,
+            "easy_on_eye": 6,
+            "readability": 5,
+            "on_brand": 6,
+            "total": 29,
+            "note": "Hero-car satin render is attractive but the 3/4 low angle turns this into a product car-shot, not a road-situation scene: the two signs are BLANK and float ungrounded with no road context, and the traffic light is detached. Reads as 'a car' not 'an intersection scenario' — weak for exam-question instant comprehension. Satin sheen also drifts from the matte anchor family."
+          },
+          {
+            "label": "R4_bluetint_iso",
+            "family": 7,
+            "modern": 8,
+            "easy_on_eye": 7,
+            "readability": 8,
+            "on_brand": 7,
+            "total": 37,
+            "note": "Nice clean iso with good grounding and clear subjects; blue-tint bg is pleasant and modern. But the blue cast shifts the neutral-slate family of O1/O2 toward a single hue, slightly fighting the road-sign-blue accent (accent and bg compete). Signs are blank, so slightly less informative than R1. Strong runner-up but less neutral/calm than gray."
+          },
+          {
+            "label": "R5_white_topdown",
+            "family": 4,
+            "modern": 7,
+            "easy_on_eye": 7,
+            "readability": 6,
+            "on_brand": 4,
+            "total": 28,
+            "note": "Elegant near-top-down map-like view, very minimal and calm, but it abandons the family: white bg, almost monochrome, signs are blank gray, traffic lights tiny and hard to parse. Top-down hides the 3D object-ness that makes O2 charming, so coherence with the loved anchor is weakest. Subject identity (which sign? what state?) is not instantly readable."
+          },
+          {
+            "label": "R6_gray_iso_glossy",
+            "family": 5,
+            "modern": 6,
+            "easy_on_eye": 4,
+            "readability": 6,
+            "on_brand": 6,
+            "total": 27,
+            "note": "Right gray family and good grounding, but the GLOSSY finish fights the matte anchors and adds harsh specular hotspots/reflections that are busy and fatiguing on repeat viewing — exactly the opposite of the calm O2 matte the user loved. Blank/blue signs okay but the glare hurts easy-on-eye most. Glossy is the wrong finish for a study-repeat surface."
+          }
+        ],
+        "bestRecipe": "R1_gray_iso_matte",
+        "reasoning": "R1 (soft-gray gradient bg, elevated isometric, matte finish, neutral + blue/amber accents) is the clear winner and should be the standard recipe for question/UI scene images.\\n\\nFamily coherence: It is the only scene recipe that reproduces the exact DNA of the anchors the user loved (O1 sign, O2 traffic light): the same soft neutral-gray gradient backdrop and the same premium MATTE-with-gentle-highlight finish. R2/R5 go white and float; R4 tints everything blue; R6 goes glossy — all three drift from O1/O2. Put R1 next to O2 and they read as the same product line.\\n\\nEasy-on-eye (top priority for repeated study): Matte + soft gray is calm and low-fatigue. R6's glossy version of the same scene proves the point — the specular hotspots make it harsh and busy, scoring lowest on this axis. Pure-white (R2/R5) is more clinical/high-glare and offers weaker grounding. R1 is the most pleasant to look at over and over.\\n\\nInstant readability (critical for exam questions): The elevated isometric angle shows the WHOLE traffic situation in one read — traffic light, vehicle, and both signs are all simultaneously legible and clearly grounded on the road. R3's 3/4 low angle collapses into a glamour car-shot with floating blank signs (you can't tell it's an intersection scenario); R5's top-down hides the recognizable 3D object-ness and shrinks the signals to near-illegible. R4 is the strongest alternative on this axis but its blue-tinted background competes with the road-sign-blue accent, muddying the brand color, whereas R1's neutral backdrop lets blue and amber pop as meaningful accents.\\n\\nOn-brand: R1 nails the slate-neutral + road-sign-blue + lane-amber palette on a light background — the intended brand feel — better than any other scene.\\n\\nOne caveat to carry into the prompt template: R1 renders faux signpost text (SLOW / AHEAD), which you do NOT want baked into generated exam scenes. Keep everything else from R1 but specify BLANK or correct-pictogram signs so the recipe stays accurate for real questions. Net: adopt R1's recipe (gray gradient bg / elevated iso / matte / neutral+blue+amber), with R4 as the fallback if a slightly warmer, more depth-tinted look is ever wanted."
+      },
+      {
+        "scores": [
+          {
+            "label": "R1_gray_iso_matte",
+            "family": 7,
+            "modern": 7,
+            "easy_on_eye": 8,
+            "readability": 8,
+            "on_brand": 8,
+            "total": 38,
+            "note": "Soft-gray bg, matte finish, blue+amber accents read as road-sign blue/lane-amber. Subject scaled large and legible at a glance: traffic light + SLOW sign + blue AHEAD sign all distinct. Calm, low-contrast, repeat-viewable. Weakness: garbled sign text (SLOW/AHEAD) is AI-soft and the foreground overpass cuts oddly; finish coheres with O1/O2 matte family but the iso isn't quite as premium-clean as R4."
+          },
+          {
+            "label": "R2_white_iso_matte",
+            "family": 6,
+            "modern": 7,
+            "easy_on_eye": 7,
+            "readability": 6,
+            "on_brand": 5,
+            "total": 31,
+            "note": "Clean white bg is modern but reads more generic/stocky than the gray family anchors. Blue accent line is nice and on-brand-ish, but the white-on-white signs (A1, warning) wash out and the scene floats with weak grounding. Subjects smaller, less instantly parsed; sign blanks lose the slate/blue identity that ties to O1/O2."
+          },
+          {
+            "label": "R3_gray_3q_satin",
+            "family": 6,
+            "modern": 6,
+            "easy_on_eye": 6,
+            "readability": 5,
+            "on_brand": 5,
+            "total": 28,
+            "note": "3/4 low-angle hero car looks polished but the blank white sign boards carry no meaning — readability of the 'scene as a question' is weak. Satin car is a touch glossier/showroom-stocky, drifting from the matte O2 anchor. Empty signs + ambiguous staging hurt instant comprehension for exam use."
+          },
+          {
+            "label": "R4_bluetint_iso",
+            "family": 8,
+            "modern": 9,
+            "easy_on_eye": 9,
+            "readability": 9,
+            "on_brand": 9,
+            "total": 44,
+            "note": "Best balance. Subtle cool blue-tint bg is calm and premium, low-contrast and easy on the eye for repeat study. Clean isometric reads instantly: centered traffic light, mirrored blue/amber priority signs, clear crosswalks and lane geometry. Blue+amber palette is exactly road-sign-blue / lane-amber on a light cool ground — most on-brand. Matte finish coheres with O1/O2. Minor: signs are intentionally blank (good for overlaying question content) but slightly small."
+          },
+          {
+            "label": "R5_white_topdown",
+            "family": 7,
+            "modern": 8,
+            "easy_on_eye": 8,
+            "readability": 7,
+            "on_brand": 4,
+            "total": 34,
+            "note": "Elegant near-top-down, very clean and minimal — Apple-like restraint, calm and low-contrast. But near-monochrome white/gray with only a tiny blue car stripe; it drops the road-sign-blue/amber brand palette almost entirely (off-brand). Top-down also makes signs/light harder to identify as objects vs the iso views; great as a hero but weaker as a self-explaining exam scene."
+          },
+          {
+            "label": "R6_gray_iso_glossy",
+            "family": 5,
+            "modern": 6,
+            "easy_on_eye": 5,
+            "readability": 6,
+            "on_brand": 5,
+            "total": 27,
+            "note": "Glossy finish fights the matte O1/O2 family — chrome/satin car + reflective light housing read harsher and more stocky, higher specular contrast is the opposite of calm-for-study. Blank gray signs add little meaning. Least coherent with the anchor the user loved (O2 is soft matte). Glossy is the recipe to reject."
+          },
+          {
+            "label": "O1_sign_object",
+            "family": 9,
+            "modern": 8,
+            "easy_on_eye": 9,
+            "readability": 8,
+            "on_brand": 9,
+            "total": 43,
+            "note": "Object anchor. Matte blue disc on soft-gray, clean rim and grounded shadow — premium and calm, exactly the slate+road-sign-blue identity. Instantly a 'blue mandatory sign'. Sets the family standard the scenes should match."
+          },
+          {
+            "label": "O2_trafficlight",
+            "family": 10,
+            "modern": 9,
+            "easy_on_eye": 9,
+            "readability": 10,
+            "on_brand": 8,
+            "total": 46,
+            "note": "The anchor the user loved. Soft matte 3D traffic light, gentle gradient gray bg, warm glossy lenses but a matte body — calm, premium, Apple-keynote feel, instantly readable. This is the family target; the winning scene recipe must echo its soft matte + soft-light + clean-isolated-subject character."
+          }
+        ],
+        "bestRecipe": "R4_bluetint_iso",
+        "reasoning": "R4 (subtle blue-tint bg, elevated isometric, matte finish, blue/amber palette) is the standard to adopt. Judged on the two criteria that matter most for exam-question images — easy-on-eye and instant readability — R4 wins decisively. Easy-on-eye: the cool blue-tint ground is the calmest, lowest-contrast field of the six; matte surfaces kill specular glare, so it stays pleasant across hundreds of study repetitions (glossy R6 is the opposite — harsh highlights). Readability: the clean elevated iso lays the whole intersection out flat and unambiguous — centered traffic light, mirrored blue/amber priority signs, crisp crosswalks and lane lines — so the scene is grasped in well under a second, exactly what a timed exam item needs. On-brand: R4 is the only scene carrying BOTH road-sign blue AND lane-amber against a light cool slate ground — a near-perfect match to the palette brief and to the O1 blue-disc anchor. Family: its matte rendering and soft lighting echo the O2 traffic-light anchor the user loved, far better than glossy R6 or showroom-satin R3. Why not the others: R1 is a close second and very usable (same matte/blue-amber DNA) but garbled AI sign text and an awkward foreground overpass cut hurt instant readability and the premium feel; R2/R5 on white drift toward generic-stock and largely drop the blue/amber brand color (R5 is nearly monochrome — beautiful but off-brand, and top-down obscures object identity); R3 stages blank signs that carry no question meaning plus a glossier car; R6's glossy finish breaks coherence with the matte anchors and is the recipe to explicitly reject. Recommendation: standardize on R4's recipe — subtle cool blue-tint background, elevated isometric camera, matte finish, blue+amber-on-slate palette — and keep sign faces blank/legible so question content reads cleanly. Pair scene images with O1/O2-style matte single-object renders for the question/UI set; they share the same soft-matte, soft-light, isolated-subject family. Total ranking: O2 46, R4 44, O1 43, R1 38, R5 34, R2 31, R3 28, R6 27."
+      }
+    ],
+    "synthesis": {
+      "winner": "R1_gray_iso_matte",
+      "winnerWhy": "Majority of the panel (2 of 3 judges) named R1 the winner, and the lone dissenter's own R4 argument concedes R1 is a \"close second\" with the same matte / blue-amber DNA — so consensus plus the two most heavily weighted axes both point to R1. On EASE-ON-EYE (top priority for repeated study): R1 is soft, low-contrast, matte, glare-free; R6 (glossy) proves the counterfactual with harsh specular hotspots, and the white recipes (R2/R5) are clinical and fatiguing. On READABILITY (critical for exam items): R1 is the ONLY scene that is both instantly parseable AND informative — the elevated isometric shows the whole intersection in one read, the traffic light is LIT (not blank), and signs are present, whereas R3 collapses into a glamour car-shot with floating blank boards, R5 goes top-down and shrinks the signals to near-illegible, and R3/R4/R6 lean on blank signboards. On FAMILY COHERENCE with the O2 anchor the user loved: R1 reproduces O2/O1's exact recipe — soft graduated neutral-gray gradient background, matte finish, gentle contact shadow — so scenes and single-object plates read as one product line; R2/R5 break to white and float, R4 tints the whole ground blue, R6 goes glossy. On-brand: R1 carries road-sign blue + lane amber + slate on a light ground exactly as briefed, and its NEUTRAL backdrop lets those accents pop as meaningful color (R4's blue-tint ground muddies the road-sign-blue accent by matching it). The one flaw — garbled faux sign text (\"SLOW\"/\"AHEAD\") and an awkward foreground overpass cut — is a generation artifact, not a recipe flaw, and is fully fixed in the prompt template by forbidding rendered text in favor of real ПДР pictograms or blank faces. Net: R1 wins family + easy-on-eye + readability simultaneously, the three deciding axes, so it is the canonical recipe.",
+      "runnerUp": "R4_bluetint_iso — the cleanest, calmest alternative and the only other scene with both blue and amber accents; adopt it ONLY if a slightly warmer, more depth-tinted hero look is ever wanted. Its drawbacks vs R1: the blue-tint floor competes with the road-sign-blue accent (same hue, so brand blue stops standing out), it departs from O2's neutral-slate ground, the subject sits smaller in frame, and its signs are blank. Keep R4 as the documented fallback, not the default.",
+      "spec": {
+        "background": "Soft, smoothly graduated neutral-gray studio sweep (cyclorama-style, no horizon line), darker at the top corners fading to a lighter pool under the subject. Mid-gray ~#c7ccd2 top corners easing to ~#e3e6ea center-bottom. Seamless, no visible floor/wall seam, no props, no environment — pure infinite studio. This is the single most important family trait: it must match the O2 traffic-light anchor exactly. NEVER pure white (#ffffff) and NEVER a colored/blue-tinted ground.",
+        "angle": "Elevated isometric / high three-quarter aerial — camera roughly 35-45 degrees above the ground plane, looking down at the scene so the WHOLE traffic situation (road geometry, vehicle, signals, signs) is visible in one glance with no occlusion. Orthographic or very long-lens (low-distortion) projection so parallel road edges stay near-parallel and the scene reads like a clean diagram. For single-object plates, use a gentle eye-level three-quarter view matching O1/O2 (slightly above center, subject upright and centered).",
+        "finish": "Matte / soft-touch throughout. Surfaces have a soft diffuse roll-off with only a single gentle broad highlight — NO mirror reflections, NO chrome, NO sharp specular hotspots, NO glossy lacquer. Lenses/lamps (traffic signals) may be the ONE exception: lightly glossy, softly emissive when lit, like O2's warm lit lenses. Everything else (car body, sign faces, posts, road) stays matte. This matte language is non-negotiable — it is what makes the set calm and easy on the eye over hundreds of repeat views.",
+        "palette": "Light, calm, low-contrast on a neutral-gray ground. Brand accents used sparingly and meaningfully: road-sign blue #1e5bbf (mandatory/information signs, thin accent stripe on the car), lane yellow / lane-amber #f2b705 (warning signs, lane markings, curb accents), signal green #1f9d55 (the green traffic lamp), slate #1b2430 (deep neutral for type, tires, dark detail), paper #f4f6f9 (lightest neutral / road surface highlights and sign backgrounds). Car and road stay neutral slate-gray so the blue and amber read as deliberate accents, not decoration. Use red #d0342c and amber #f2b705 only for lit traffic-signal lenses. Keep total saturated-color area small — accents, not fields.",
+        "lighting": "Soft, large, high key light from upper-front-left giving a single gentle highlight and a soft falloff; broad fill so shadows stay open and low-contrast. One soft, slightly diffuse CONTACT shadow directly under each object grounding it to the floor (like O1/O2) — no long dramatic cast shadows, no multiple hard shadows. Overall a calm, even, daylight-neutral key (~5500K), no colored gels. The mood is an Apple-keynote product studio: bright, clean, gentle.",
+        "materials": "Smooth injection-molded soft-touch matte plastic for the hero forms (car body, sign discs/boards, signal housings, posts) — slightly rounded edges and chamfers, no sharp corners, toy-premium / Apple-3D feel. Posts and the traffic-light pole in brushed-matte light gray metal (no chrome). Road surface a matte mid-gray with crisp paper-white lane markings. Sign faces flat matte with a thin raised rim. Glass (car windows, signal lenses) the only mildly reflective material, kept soft and dark-tinted. Subtle, clean geometry — minimal panel lines, no grime, no scratches.",
+        "composition": "Subject large and centered, filling a comfortable share of the frame so it is graspable in well under a second — do NOT let the hero shrink into a wide empty plate (the failure mode of R5/R2). Generous but not vast negative space around the subject (studio breathing room). For scene/question images: stage a clean, legible traffic situation — road geometry simple and unambiguous, all relevant elements (signals, signs, vehicle) non-overlapping and simultaneously readable from the elevated iso angle; no foreground objects cutting across or occluding the scene (avoid R1's stray overpass crop). Keep horizon out of frame (infinite studio). For object plates: one object, upright, centered, grounded by a soft contact shadow, matching O1/O2. Balanced, symmetric-leaning, diagram-clear staging — it must read as one product family with the O2 anchor.",
+        "promptTemplate": "Premium Apple-keynote 3D product render of {SUBJECT}, soft-touch matte finish, rounded chamfered edges, on a soft graduated neutral-gray seamless studio background (mid-gray fading to lighter gray, NO pure white, NO colored tint), elevated isometric / high three-quarter aerial camera with low-distortion (near-orthographic) projection so the whole subject reads clearly at a glance, subject large and centered with calm negative space. Soft large key light from upper-left, broad open fill, low contrast, a single gentle highlight and one soft contact shadow grounding the subject — no harsh reflections, no chrome, no glare. Calm low-saturation palette on neutral slate-gray, with sparing brand accents in road-sign blue (#1e5bbf), lane amber (#f2b705) and signal green (#1f9d55); paper-white (#f4f6f9) road markings, slate (#1b2430) deep detail. Clean minimal geometry, premium toy-realistic, instantly readable like a diagram, coherent with a matte studio traffic-light/road-sign icon set. No rendered words or letters on signs — use real road-sign pictograms or leave faces blank. High detail, crisp, soft studio lighting, 1:1.",
+        "dos": [
+          "Use a soft graduated NEUTRAL-gray studio background that matches the O2 traffic-light anchor — this is the #1 family rule",
+          "Keep every surface MATTE with one soft highlight; reserve mild gloss only for lit signal lenses",
+          "Shoot from an elevated isometric / high three-quarter angle so the whole scene is parseable in one glance",
+          "Make the subject large and centered; ground it with one soft contact shadow",
+          "Use road-sign blue #1e5bbf, lane amber #f2b705, signal green #1f9d55 as SPARING accents on a neutral slate-gray hero so they pop",
+          "Light the traffic signal lamp that is relevant (lit, softly emissive) rather than leaving it dark/blank",
+          "Render real ПДР sign pictograms (or deliberately blank faces for overlaying question content) — never invented words",
+          "Keep geometry clean, rounded, minimal — Apple-3D premium, diagram-clear",
+          "Keep the whole set coherent with the O1/O2 single-object matte plates so scenes and object icons read as one product line"
+        ],
+        "donts": [
+          "Do NOT use a pure-white background (sterile, floating, fatiguing — R2/R5 failure)",
+          "Do NOT tint the floor/background blue or any color — it competes with the road-sign-blue accent and breaks the neutral family (R4 failure)",
+          "Do NOT use a glossy / chrome / high-specular finish — reflections and hotspots are busy and tiring on repeat study (R6 reject)",
+          "Do NOT bake gibberish or English text onto signs (e.g. 'SLOW'/'AHEAD'/'A1') — use pictograms or blank faces",
+          "Do NOT use a low 3/4 'glamour car-shot' angle that turns a scenario into product staging with floating blank boards (R3 failure)",
+          "Do NOT go near-top-down — it shrinks signals to illegibility and hides the recognizable 3D object-ness (R5 failure)",
+          "Do NOT let the subject shrink into a vast empty plate; do NOT crop foreground objects across the scene (R1's overpass artifact)",
+          "Do NOT color a traffic-light lamp wrong (e.g. a blue bottom bulb) or oversaturate large fields — keep saturated color to small meaningful accents",
+          "Do NOT add environment props, gradients of color, hard dramatic shadows, grime, or visible studio seams"
+        ]
+      }
+    }
+  }
+}

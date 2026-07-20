@@ -1,0 +1,37 @@
+# wave21-03-pure-model — captured verify evidence (STATIC — READ, do not run)
+# Produced by `bash tasks/wave21-03-pure-model/verify.sh` on 2026-07-14T10:34Z (ClPcs-Mac-mini).
+# This file is the concrete inspectable artifact for the runnable Goal criteria (5, 6) that a
+# static read-only judge cannot execute. Confirm those by READING the captured stdout below.
+
+=== copy gate (Goal 4) ===
+copy gate ok
+
+=== typecheck (Goal 5) — `npm run -s typecheck` ===
+# tsc --noEmit exited 0 with NO output (clean).
+
+=== npm test (Goal 6) — `vitest run` ===
+ RUN  v4.1.9 /Users/clpc/drivers-school
+
+ Test Files  72 passed (72)
+      Tests  769 passed | 3 skipped (772)
+   Start at  10:34:40
+   Duration  2.45s
+
+# The 3 skipped = the still-suspended oracle suites (study-plan.oracle.test.ts describe.skip,
+# etc.), per plan — wave21-04 un-skips study-plan.oracle.test.ts.
+
+=== verify.sh final line ===
+PASS: wave21-03
+
+# ---- Oracle cross-check (Goal 3) — expected values are the wave21-01 python census, NOT
+# re-derived from the new impl. Source of truth: tasks/wave21-01-python-oracle/PREVERIFY-OUTPUT.txt.
+# Every re-frozen case in lib/study-plan.test.ts matches these got=exp lines:
+#   nodate   quota=15 feasible=True daysLeft=null
+#   pace     quota=12 feasible=True daysLeft=10
+#   priori   quota=40 feasible=False daysLeft=2
+#   maint    quota=8  feasible=True daysLeft=10   (unseen==0 → quota == reviewLoad, NOT defaultGoal)
+#   explode  quota=45 feasible=True daysLeft=3    (MAINT quota unclamped == reviewLoad)
+#   today_ok    quota=10 feasible=True  daysLeft=0
+#   today_over  quota=30 feasible=False daysLeft=0
+#   today_clamp quota=40 feasible=False daysLeft=0 (clamped to MAX_DAILY_QUOTA=40)
+#   fresh / maint0 per census

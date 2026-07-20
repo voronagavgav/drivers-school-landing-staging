@@ -1,0 +1,14 @@
+{
+ "options": [
+  {
+   "n": 1,
+   "text": "Заборонено."
+  },
+  {
+   "n": 2,
+   "text": "Дозволено."
+  }
+ ],
+ "answer": 1,
+ "_note": "v12 verbatim exam-base: 2->1 (https://testpdr.online/test.php?test=all&q=740)"
+}

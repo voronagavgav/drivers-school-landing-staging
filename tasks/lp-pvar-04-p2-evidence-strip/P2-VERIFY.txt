@@ -1,0 +1,5 @@
+restyled sources referenced: 12 (all exist)
+typecheck OK
+W=390 bands=1 imgs=12 docOverflow=0 hasAll=1 minBody=6.71
+W=768 bands=1 imgs=12 docOverflow=0 hasAll=1 minBody=6.71
+W=1440 bands=1 imgs=12 docOverflow=0 hasAll=1 minBody=6.71

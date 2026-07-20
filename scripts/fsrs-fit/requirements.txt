@@ -1,0 +1,13 @@
+# wave24 OFFLINE FSRS-6 weight-fit pipeline — EXACT pins (reproducible venv).
+# Provisioned by setup-venv.sh into scripts/fsrs-fit/.venv (never system pip).
+# This is the canonical py-fsrs optimizer stack, i.e. `fsrs[optimizer]==6.3.1`
+# pinned to the versions resolved on this host (Python 3.14, macOS arm64).
+#
+# fsrs        — canonical FSRS-6 reference; `from fsrs import Optimizer`.
+# torch/numpy/pandas/tqdm — the Optimizer's declared deps (the `[optimizer]`
+#               extra; py-fsrs raises ImportError without them).
+fsrs==6.3.1
+torch==2.13.0
+numpy==2.5.1
+pandas==3.0.3
+tqdm==4.68.4

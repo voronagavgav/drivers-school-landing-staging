@@ -1,0 +1,218 @@
+[
+  {
+    "key": "19:15",
+    "section": "19",
+    "sectionTitle": "КОРИСТУВАННЯ ЗОВНІШНІМИ СВІТЛОВИМИ ПРИЛАДАМИ",
+    "question": "Під час руху в умовах недостатньої видимості на механічному транспортному засобі, що рухається, повинні бути ввімкнені такі зовнішні світлові пристрої:",
+    "options": [
+      {
+        "text": "Фари ближнього світла.",
+        "correct": false
+      },
+      {
+        "text": "Протитуманні фари.",
+        "correct": true
+      },
+      {
+        "text": "Фари ближнього (дальнього) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом з ближнім або дальнім світлом фар.",
+        "correct": false
+      },
+      {
+        "text": "Габаритні ліхтарі.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "Протитуманні фари.",
+    "genConcern": "ПДР 19.1 requires a moving mechanical TZ in poor visibility to have low (high) beam ON, with fog lights only ADDITIONALLY permitted. Fog lights alone do not satisfy the requirement. Option 3 ('Фари ближнього (дального) світла. Дозволяється увімкнути протитуманні фари як окремо, так і разом...') is the option that fully states the ПДР rule and is the likely correct answer. The marked answer 'Протитуманні фари' (fog lights alone) appears wrong. Confidence moderate because some ГСЦ base variants pair this stem with a different option set; the explanation itself reads as strained, hinting the key may be off."
+  },
+  {
+    "key": "2:23",
+    "section": "2",
+    "sectionTitle": "ОБОВ'ЯЗКИ І ПРАВА ВОДІЇВ МЕХАНІЧНИХ ТРАНСПОРТНИХ ЗАСОБІВ",
+    "question": "Під час руху поза населеним пунктом ременями безпеки можуть не пристібатися:",
+    "options": [
+      {
+        "text": "Водії з інвалідністю.",
+        "correct": false
+      },
+      {
+        "text": "Водії і пасажири оперативних та спеціальних транспортних засобів.",
+        "correct": false
+      },
+      {
+        "text": "Водії і пасажири таксі.",
+        "correct": false
+      },
+      {
+        "text": "Особи, що навчають водінню, якщо за кермом учень.",
+        "correct": false
+      },
+      {
+        "text": "Усі зобов’язані пристібатися.",
+        "correct": true
+      }
+    ],
+    "markedCorrect": "Усі зобов’язані пристібатися.",
+    "genConcern": "Per ПДР п.2.10, the seatbelt exemptions (водії з інвалідністю; водії/пасажири оперативних і спеціальних ТЗ; instructors when a learner is driving; водії і пасажири таксі в населених пунктах) — but importantly п.2.10 lists exemptions that apply REGARDLESS of inside/outside settlement for several categories. The detailed explanation claims ALL exemptions are limited to within settlements only, which is not accurate: водії з інвалідністю and оперативні/спеціальні ТЗ exemptions are NOT geographically limited to населений пункт. The taxi exemption IS limited to settlements. So 'Усі зобов'язані пристібатися' is likely WRONG for outside-settlement: водії з інвалідністю and operational/special vehicle occupants may still not buckle up outside settlements. The marked answer should likely be reconsidered. NOTE: low-moderate confidence — official ГСЦ base for this exact question may indeed accept 'all must buckle' framing if the official question intends the taxi-specific exemption; recommend cross-check against official ПДР п.2.10."
+  },
+  {
+    "key": "6:11",
+    "section": "6",
+    "sectionTitle": "ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ",
+    "question": "Чим має бути обладнаний велосипед?",
+    "options": [
+      {
+        "text": "Звуковим сигналом.",
+        "correct": false
+      },
+      {
+        "text": "Світлоповертачами: спереду – білого кольору, по боках – оранжевого, ззаду – червоного.",
+        "correct": false
+      },
+      {
+        "text": "Під час руху в темний час доби і в умовах недостатньої видимості має бути встановлений і увімкнений ліхтар (фара).",
+        "correct": true
+      },
+      {
+        "text": "Відповіді 1, 2, 3.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "Під час руху в темний час доби і в умовах недостатньої видимості має бути встановлений і увімкнений ліхтар (фара).",
+    "genConcern": "Marked answer is the single 'lit lamp (ліхтар/фара)' option, but per ПДР 6.3 a bicycle must be equipped with ALL of: a sound signal, reflectors (front white / sides orange / rear red), AND a lit lamp at night/low visibility. Multiple official exam-base sources (pomahach, pdrtest 6.11, green-way) give the correct answer as option 4 'Відповіді 1, 2, 3'. The DB key (and the explanation) are both wrong; correct answer = 'Відповіді 1, 2, 3.'"
+  },
+  {
+    "key": "6:12",
+    "section": "6",
+    "sectionTitle": "ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ",
+    "question": "З якого віку дозволено рухатися по дорогах на велосипеді?",
+    "options": [
+      {
+        "text": "З 10 років.",
+        "correct": true
+      },
+      {
+        "text": "З 12 років.",
+        "correct": false
+      },
+      {
+        "text": "З 14 років.",
+        "correct": false
+      },
+      {
+        "text": "З 16 років.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "З 10 років.",
+    "genConcern": "Marked answer 'З 10 років' contradicts ПДР 6.1, which allows riding a bicycle on roads only from 14 years. Official exam sources for this exact question give the answer as 'З 14 років.' The explanation itself hedges ('За офіційною базою питань... з 10 років'), signalling a likely transcription error. Correct answer = 'З 14 років.'"
+  },
+  {
+    "key": "8.1:71",
+    "section": "8.1",
+    "sectionTitle": "РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ (РЕГУЛЬОВАНІ ПЕРЕХРЕСТЯ)",
+    "question": "Згідно з Правилами дорожнього руху регулювальником вважається...",
+    "options": [
+      {
+        "text": "Працівник дорожньо-експлуатаційної служби, який має відповідне посвідчення і нарукавну пов’язку, жезл, диск з червоним сигналом чи світлоповертачем, червоний ліхтар або прапорець і виконує регулювання у форменому одязі.",
+        "correct": false
+      },
+      {
+        "text": "Працівник військової інспекції безпеки дорожнього руху, який має відповідне посвідчення і нарукавну пов’язку, жезл, диск з червоним сигналом чи світлоповертачем, червоний ліхтар або прапорець і виконує регулювання у форменому одязі.",
+        "correct": true
+      },
+      {
+        "text": "Поліцейський, що виконує регулювання дорожнього руху у форменому одязі підвищеної видимості з елементами із світлоповертального матеріалу за допомогою жезлу, свистка.",
+        "correct": false
+      },
+      {
+        "text": "Черговий на залізничному переїзді і поромній переправі, який має відповідне посвідчення і нарукавну пов’язку, жезл, диск з червоним сигналом чи світлоповертачем, червоний ліхтар або прапорець і виконує регулювання у форменому одязі.",
+        "correct": false
+      },
+      {
+        "text": "Відповіді 1, 2, 3 і 4.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "Працівник військової інспекції безпеки дорожнього руху, який має відповідне посвідчення і нарукавну пов’язку, жезл, диск з червоним сигналом чи світлоповертачем, червоний ліхтар або прапорець і виконує регулювання у форменому одязі.",
+    "genConcern": "Per ПДР 1.10, a регулювальник is a police officer AND equated persons: military road-safety inspection officer, road-exploitation service worker, and railway-crossing/ferry duty officer (all with proper ID, armband, baton/disc/flag, uniform). All four listed options describe persons who qualify, so the official answer is option 5 'Відповіді 1, 2, 3 і 4' — confirmed by official exam sources (green-way 1097, pomahach). The DB marks only option 2 (military inspection), which is wrong/incomplete."
+  },
+  {
+    "key": "12:26",
+    "section": "12",
+    "sectionTitle": "ШВИДКІСТЬ РУХУ",
+    "question": "Що враховується під час вибору безпечної швидкості руху?",
+    "options": [
+      {
+        "text": "Дорожня обстановка.",
+        "correct": true
+      },
+      {
+        "text": "Особливості вантажу, що перевозиться.",
+        "correct": false
+      },
+      {
+        "text": "Стан транспортного засобу.",
+        "correct": false
+      },
+      {
+        "text": "Відповіді 1, 2 і 3.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "Дорожня обстановка.",
+    "genConcern": "Per ПДР 12.1, безпечна швидкість обирається з урахуванням ВСІХ перелічених чинників: дорожньої обстановки, особливостей вантажу та стану ТЗ. Оскільки серед варіантів є 'Відповіді 1, 2 і 3', саме він має бути правильним, а не лише 'Дорожня обстановка'. Зовнішня перевірка офіційної бази дає відповідь 'все перераховане'. Сама пояснювалка це підтверджує ('за Правилами враховуються всі названі чинники'), тобто ключ суперечить власному поясненню — схоже на помилку транскрипції. Believe correct answer = 'Відповіді 1, 2 і 3'. (Невелика ймовірність, що існує офіційний варіант питання з іншим набором опцій, де відповідь — лише 'Дорожня обстановка' — звідси неповна впевненість.)"
+  },
+  {
+    "key": "12:35",
+    "section": "12",
+    "sectionTitle": "ШВИДКІСТЬ РУХУ",
+    "question": "З якою максимальною швидкістю дозволено рух транспортних засобів, якими керують водії зі стажем до двох років, на всіх дорогах за межами населених пунктів?",
+    "options": [
+      {
+        "text": "60 км/год.",
+        "correct": true
+      },
+      {
+        "text": "70 км/год.",
+        "correct": false
+      },
+      {
+        "text": "80 км/год.",
+        "correct": false
+      },
+      {
+        "text": "90 км/год.",
+        "correct": false
+      },
+      {
+        "text": "50 км/год.",
+        "correct": false
+      }
+    ],
+    "markedCorrect": "60 км/год.",
+    "genConcern": "Marked answer is 60 км/год, but per current ПДР 12.6(б) the maximum for drivers with <2 years experience on all roads outside settlements is 70 км/год. Confirmed against three authoritative sources: official pdr.infotech.gov.ua rules sec.12, green-way.com.ua punkt 12.6_b, vodiy.ua/pdr/12 — all quote 'транспортним засобам, якими керують водії зі стажем до 2 років, — не більше 70 км/год'. Correct option should be '70 км/год'. (60 km/h is a common pre-reform confusion.)"
+  },
+  {
+    "key": "12:37",
+    "section": "12",
+    "sectionTitle": "ШВИДКІСТЬ РУХУ",
+    "question": "Що для Вас вважається безпечною швидкістю?",
+    "options": [
+      {
+        "text": "Швидкість яка визначена дорожніми знаками для руху в населених пунктах.",
+        "correct": false
+      },
+      {
+        "text": "Швидкість при якій Ви маєте змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах.",
+        "correct": false
+      },
+      {
+        "text": "Швидкість яка визначена технічною характеристикою даного транспортного засобу.",
+        "correct": true
+      }
+    ],
+    "markedCorrect": "Швидкість яка визначена технічною характеристикою даного транспортного засобу.",
+    "genConcern": "Marked correct is option 3 'Швидкість яка визначена технічною характеристикою даного транспортного засобу', but the official ПДР term 1.10 defines безпечна швидкість as 'швидкість, за якої водій має змогу безпечно керувати транспортним засобом та контролювати його рух у конкретних дорожніх умовах' — that is OPTION 2. The item's own short/detailed text correctly describes option 2, contradicting the marked answer. Correct option should be option 2."
+  }
+]

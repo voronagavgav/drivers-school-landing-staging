@@ -1,0 +1,7 @@
+static evidence — read, do not run
+ok logloss single=0.105361
+ok logloss triple=0.837769
+ok fit n_cards=6 n_reviews=41 optimizer=fsrs==6.3.1
+ok split n_train=34 n_test=7
+ok eval default logloss=0.042467 rmse_bins=0.041465 n_test=7 | fitted logloss=0.042467 rmse_bins=0.041465 n_test=7
+ok eval default.logloss=0.042467 fitted.logloss=0.042467 n_test=7

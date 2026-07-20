@@ -1,0 +1,66 @@
+[
+  {
+    "section": "33",
+    "qnum": 137,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_137_0.png",
+    "confident": true,
+    "reason": "Image shows three blue directional road signs (truck with up/right/left arrows, numbered 1-3), a clear road-sign image for a 'depicted sign means' question."
+  },
+  {
+    "section": "33",
+    "qnum": 138,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_138_0.png",
+    "confident": true,
+    "reason": "Image shows a clear blue road sign with a U-turn arrow and '15м' distance marking, matching the depicted-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 139,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_139_0.png",
+    "confident": true,
+    "reason": "Image shows a clear blue lane-direction road sign (straight-ahead lanes/lane addition), matching the depicted-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 140,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_140_0.png",
+    "confident": true,
+    "reason": "Image shows a clear blue lane-direction road sign (two straight arrows with one curving lane), matching the depicted-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 141,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_141_0.png",
+    "confident": true,
+    "reason": "Image shows a clear blue lane-direction road sign (lane merge/addition arrows), matching the depicted-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 145,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_145_0.png",
+    "confident": true,
+    "reason": "Image shows a clear yellow temporary roadwork lane-diversion sign with a no-entry symbol, a valid road-sign image for the depicted-sign question."
+  },
+  {
+    "section": "33",
+    "qnum": 146,
+    "keep": false,
+    "correctImagePath": null,
+    "confident": true,
+    "reason": "Candidate image 33_146_0.png is a clipped/corrupted blue fragment, not a complete legible road sign; no clear match."
+  },
+  {
+    "section": "33",
+    "qnum": 148,
+    "keep": true,
+    "correctImagePath": "/Users/clpc/drivers-school/.content-import/v5_signs_imgs/33_148_0.png",
+    "confident": true,
+    "reason": "Image shows two clear blue pedestrian-crossing road signs, a valid road-sign image for the depicted-sign question."
+  }
+]
