@@ -6150,10 +6150,9 @@
 
 .page[data-theme="light"] .statement {
   background-image:
-    linear-gradient(to bottom, var(--paper) 0%, rgba(48, 48, 63, 0) 144px),
     linear-gradient(rgba(242, 201, 237, 0.07) 1px, transparent 1px),
     linear-gradient(90deg, rgba(242, 201, 237, 0.07) 1px, transparent 1px);
-  background-size: 100% 100%, 32px 32px, 32px 32px;
+  background-size: 32px 32px, 32px 32px;
 }
 
 .page[data-theme="dark"] .statement {
@@ -6364,7 +6363,6 @@
 
   .page[data-theme="light"] .statement {
     background-image:
-      linear-gradient(to bottom, var(--paper) 0%, rgba(48, 48, 63, 0) 96px),
       linear-gradient(rgba(242, 201, 237, 0.07) 1px, transparent 1px),
       linear-gradient(90deg, rgba(242, 201, 237, 0.07) 1px, transparent 1px);
   }
