@@ -16,6 +16,31 @@
   gap: 4px;
 }
 
+.publicWordmark {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  color: var(--color-text-primary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.publicWordmarkMark {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--color-text-primary) 12%, transparent);
+  border-radius: 8px;
+  background: var(--color-pink-300);
+  color: var(--color-pink-ink);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 .themeToggle {
   width: 44px;
   height: 44px;
@@ -38,8 +63,74 @@
   color: var(--color-text-primary);
 }
 
-.themeToggle:active {
+.themeIconStack {
+  display: grid;
+  place-items: center;
+}
+
+.themeIcon {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transform: rotate(-12deg) scale(0.92);
+}
+
+.themeToggle[data-animate="true"] .themeIcon {
+  transition:
+    opacity 120ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 160ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.themeIconActive {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+.shell :global(.trust-contact-action) {
+  transition:
+    transform 120ms cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 180ms ease;
+}
+
+.shell :global(.trust-source-action) {
+  transition:
+    transform 120ms cubic-bezier(0.23, 1, 0.32, 1),
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.shell :global(.trust-source-action-icon) {
+  transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.shell :global(.trust-route-card) {
+  transition:
+    transform 120ms cubic-bezier(0.23, 1, 0.32, 1),
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.shell :global(.trust-route-card-arrow) {
+  transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.themeToggle:active:not(:focus-visible) {
   transform: scale(0.97);
+}
+
+.shell :global(.trust-contact-action:active:not(:focus-visible)),
+.shell :global(.trust-source-action:active:not(:focus-visible)),
+.shell :global(.trust-route-card:active:not(:focus-visible)) {
+  transform: scale(0.98);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .shell :global(.trust-route-card:hover .trust-route-card-arrow) {
+    transform: translateX(4px);
+  }
+
+  .shell :global(.trust-source-action:hover .trust-source-action-icon) {
+    transform: translate(2px, -2px);
+  }
 }
 
 .eyebrow {
@@ -51,6 +142,7 @@
 .navLinkActive {
   background: var(--color-surface);
   color: var(--color-text-primary);
+  box-shadow: inset 0 -2px var(--color-pink-500);
 }
 
 .navLink {
@@ -151,6 +243,16 @@
 @media (prefers-reduced-motion: reduce) {
   .themeToggle,
   .navLink {
+    transition: none;
+  }
+
+  .themeToggle[data-animate="true"] .themeIcon {
+    transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .shell :global(.trust-contact-action),
+  .shell :global(.trust-source-action),
+  .shell :global(.trust-source-action-icon) {
     transition: none;
   }
 }

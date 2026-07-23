@@ -9,6 +9,7 @@ import {
   TrustList,
   TrustSection,
 } from "@/components/public-trust-shell";
+import { ContactEmailActions } from "@/components/contact-email-actions";
 
 export const metadata: Metadata = {
   title: "Контакти | Drivers School",
@@ -24,19 +25,19 @@ export default function ContactPage() {
       description="Один канал для технічних питань, доступу, навчального контенту та запитів щодо приватності."
     >
       <section className="trust-contact-panel rounded-card bg-graphite-950 p-5 text-text-on-dark sm:p-7">
-        <EnvelopeSimple size={25} weight="duotone" className="text-pink-300" />
+        <EnvelopeSimple
+          size={25}
+          weight="duotone"
+          className="text-pink-300"
+          aria-hidden="true"
+        />
         <h2 className="mt-4 font-display text-2xl font-semibold">
           hello@drivers.school
         </h2>
         <p className="mt-2 max-w-xl text-sm leading-6 text-text-on-dark-muted">
           Відкрийте свій поштовий застосунок і додайте коротку тему звернення.
         </p>
-        <a
-          href="mailto:hello@drivers.school"
-          className="mt-5 inline-flex min-h-11 items-center justify-center rounded-card bg-pink-300 px-5 text-sm font-semibold text-pink-ink hover:bg-pink-400"
-        >
-          Написати листа
-        </a>
+        <ContactEmailActions />
       </section>
       <TrustSection title="Що додати до звернення">
         <TrustList>
@@ -49,8 +50,17 @@ export default function ContactPage() {
           <li>Ідентифікатор питання або теми для зауваження до контенту.</li>
         </TrustList>
       </TrustSection>
-      <div className="flex gap-3 rounded-card border border-warning/25 bg-warning-surface p-4 text-sm leading-6 text-warning">
-        <WarningCircle size={20} weight="duotone" className="mt-0.5 shrink-0" />
+      <div
+        role="note"
+        aria-label="Безпека звернення"
+        className="flex gap-3 rounded-card border border-warning/25 bg-warning-surface p-4 text-sm leading-6 text-warning"
+      >
+        <WarningCircle
+          size={20}
+          weight="duotone"
+          className="mt-0.5 shrink-0"
+          aria-hidden="true"
+        />
         <p>
           Не надсилайте пароль, повний номер картки, CVV, коди підтвердження або
           фото документів. Підтримка Drivers School не просить ці дані.
@@ -63,8 +73,17 @@ export default function ContactPage() {
           Для захисту даних може знадобитися додаткова перевірка.
         </p>
       </TrustSection>
-      <div className="flex gap-3 rounded-card border border-info/25 bg-info-surface p-4 text-sm leading-6 text-info">
-        <LockKey size={20} weight="duotone" className="mt-0.5 shrink-0" />
+      <div
+        role="note"
+        aria-label="Межі підтримки"
+        className="flex gap-3 rounded-card border border-info/25 bg-info-surface p-4 text-sm leading-6 text-info"
+      >
+        <LockKey
+          size={20}
+          weight="duotone"
+          className="mt-0.5 shrink-0"
+          aria-hidden="true"
+        />
         <p>
           Контактна адреса призначена для підтримки сервісу. Вона не надає
           офіційних розʼяснень ПДР або консультацій від імені МВС.

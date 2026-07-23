@@ -7,8 +7,6 @@ import { ArrowLeft } from "@phosphor-icons/react/dist/csr/ArrowLeft";
 import { EnvelopeSimple } from "@phosphor-icons/react/dist/csr/EnvelopeSimple";
 import { Moon } from "@phosphor-icons/react/dist/csr/Moon";
 import { Sun } from "@phosphor-icons/react/dist/csr/Sun";
-import { Wordmark } from "@/components/brand";
-import { SvitlykSprite } from "@/components/svitlyk";
 import styles from "./public-trust-shell.module.css";
 
 const TRUST_LINKS = [
@@ -45,7 +43,18 @@ export function PublicTrustShell({
   children: ReactNode;
 }) {
   const pathname = usePathname();
+  const normalizedPathname =
+    pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
+  const trustPathname =
+    TRUST_LINKS.find(
+      ({ href }) =>
+        normalizedPathname === href || normalizedPathname.endsWith(href),
+    )?.href ?? normalizedPathname;
+  const isContactPage = trustPathname === "/contact";
   const [theme, setTheme] = useState<TrustTheme>("light");
+  const [themeInput, setThemeInput] = useState<"keyboard" | "pointer">(
+    "keyboard",
+  );
 
   useEffect(() => {
     const savedTheme = window.localStorage.getItem("drivers-school-theme");
@@ -71,11 +80,10 @@ export function PublicTrustShell({
   };
 
   return (
-    <main
+    <div
       className={`${styles.shell} min-h-dvh bg-page px-5 py-6 sm:px-8 sm:py-8`}
       data-theme={theme}
     >
-      <SvitlykSprite />
       <a
         href="#trust-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-card focus:bg-graphite-900 focus:px-4 focus:py-3 focus:text-sm focus:font-semibold focus:text-text-on-dark"
@@ -87,12 +95,20 @@ export function PublicTrustShell({
         <header
           className={`${styles.topHeader} flex flex-wrap items-center justify-between gap-4 border-b border-border-light pb-5`}
         >
-          <Wordmark />
+          <Link href="/" className={styles.publicWordmark}>
+            <span className={styles.publicWordmarkMark} aria-hidden="true">
+              DS
+            </span>
+            <span>Drivers School</span>
+          </Link>
           <div className={styles.headerActions}>
             <button
               type="button"
               className={styles.themeToggle}
               onClick={toggleTheme}
+              onPointerDown={() => setThemeInput("pointer")}
+              onKeyDown={() => setThemeInput("keyboard")}
+              data-animate={themeInput === "pointer" ? "true" : "false"}
               aria-label={
                 theme === "dark"
                   ? "Увімкнути світлу тему"
@@ -100,17 +116,22 @@ export function PublicTrustShell({
               }
               title={theme === "dark" ? "Світла тема" : "Темна тема"}
             >
-              {theme === "dark" ? (
-                <Sun size={18} aria-hidden="true" />
-              ) : (
-                <Moon size={18} aria-hidden="true" />
-              )}
+              <span className={styles.themeIconStack} aria-hidden="true">
+                <Sun
+                  size={18}
+                  className={`${styles.themeIcon} ${theme === "dark" ? styles.themeIconActive : ""}`}
+                />
+                <Moon
+                  size={18}
+                  className={`${styles.themeIcon} ${theme === "light" ? styles.themeIconActive : ""}`}
+                />
+              </span>
             </button>
             <Link
               href="/"
               className={`${styles.homeLink} inline-flex min-h-11 items-center gap-2 rounded-card px-3 text-sm font-semibold text-text-secondary transition-[transform,background-color,color] hover:bg-surface hover:text-text-primary active:scale-[.985]`}
             >
-              <ArrowLeft size={16} weight="bold" />
+              <ArrowLeft size={16} weight="bold" aria-hidden="true" />
               <span className={styles.homeLinkLabel}>На головну</span>
             </Link>
           </div>
@@ -121,7 +142,7 @@ export function PublicTrustShell({
           className={`${styles.nav} -mx-2 flex gap-1 overflow-x-auto px-2 py-4 [scrollbar-width:thin]`}
         >
           {TRUST_LINKS.map((link) => {
-            const active = pathname === link.href;
+            const active = trustPathname === link.href;
 
             return (
               <Link
@@ -146,10 +167,12 @@ export function PublicTrustShell({
           </div>
         ) : null}
 
-        <div
-          className={`${styles.contentGrid} grid gap-8 py-6 lg:grid-cols-[minmax(0,1fr)_16rem] lg:items-start lg:py-10`}
+        <main
+          id="trust-content"
+          tabIndex={-1}
+          className={`${styles.contentGrid} grid scroll-mt-6 gap-8 py-6 lg:grid-cols-[minmax(0,1fr)_16rem] lg:items-start lg:py-10`}
         >
-          <article id="trust-content" className="min-w-0 scroll-mt-6">
+          <article className="min-w-0">
             <header
               className={`${styles.heroHeader} border-b border-border-light pb-7`}
             >
@@ -185,16 +208,16 @@ export function PublicTrustShell({
               aria-hidden="true"
             />
             <h2 className="mt-4 font-display text-lg font-semibold">
-              {pathname === "/contact"
+              {isContactPage
                 ? "Потрібна допомога?"
                 : "Потрібне уточнення?"}
             </h2>
             <p className="mt-2 text-sm leading-6 text-text-on-dark-muted">
-              {pathname === "/contact"
+              {isContactPage
                 ? "Перевірте короткі маршрути для входу, даних та офлайн-навчання."
                 : "Напишіть, якщо питання стосується акаунта, даних, доступу або роботи навчання."}
             </p>
-            {pathname === "/contact" ? (
+            {isContactPage ? (
               <Link
                 href="/support"
                 className="mt-5 inline-flex min-h-11 w-full items-center justify-center rounded-card bg-pink-300 px-4 text-sm font-semibold text-pink-ink transition-[transform,background-color] hover:bg-pink-400 active:scale-[.985]"
@@ -210,7 +233,7 @@ export function PublicTrustShell({
               </Link>
             )}
           </aside>
-        </div>
+        </main>
 
         <footer
           className={`${styles.footer} mt-8 flex flex-col gap-4 border-t border-border-light py-6 text-xs leading-5 text-text-secondary sm:flex-row sm:items-center sm:justify-between`}
@@ -221,12 +244,14 @@ export function PublicTrustShell({
           <div className="flex flex-wrap gap-x-5">
             <Link
               href="/login"
+              prefetch={false}
               className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-text-primary"
             >
               Увійти
             </Link>
             <Link
               href="/register"
+              prefetch={false}
               className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-text-primary"
             >
               Створити акаунт
@@ -234,7 +259,7 @@ export function PublicTrustShell({
           </div>
         </footer>
       </div>
-    </main>
+    </div>
   );
 }
 

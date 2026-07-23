@@ -19,22 +19,25 @@ export const metadata: Metadata = {
 
 const HELP = [
   {
-    icon: <Key size={21} weight="duotone" />,
+    icon: <Key size={21} weight="duotone" aria-hidden="true" />,
     title: "Вхід і безпека",
     text: "Зміна пароля завершує старі сесії. Дані безпеки доступні у профілі.",
     href: "/account/security",
+    access: "Після входу",
   },
   {
-    icon: <DownloadSimple size={21} weight="duotone" />,
+    icon: <DownloadSimple size={21} weight="duotone" aria-hidden="true" />,
     title: "Дані акаунта",
     text: "Експортуйте JSON-копію або перегляньте наслідки повного видалення.",
     href: "/account/data",
+    access: "Після входу",
   },
   {
-    icon: <WifiSlash size={21} weight="duotone" />,
+    icon: <WifiSlash size={21} weight="duotone" aria-hidden="true" />,
     title: "Офлайн-навчання",
     text: "Завантажені теми працюють без мережі, а відповіді синхронізуються після повернення звʼязку.",
     href: "/account",
+    access: "Після входу",
   },
 ];
 
@@ -49,7 +52,8 @@ export default function SupportPage() {
         {HELP.map((item) => (
           <Link
             key={item.title}
-            href={item.href}
+            href={`/login?next=${encodeURIComponent(item.href)}`}
+            prefetch={false}
             className="trust-route-card group flex min-h-56 flex-col rounded-card border border-border-light bg-surface p-4 transition-[border-color,background-color] hover:border-border-strong hover:bg-surface-raised"
           >
             <span className="grid size-10 place-items-center rounded-card bg-pink-100 text-pink-ink">
@@ -61,11 +65,15 @@ export default function SupportPage() {
             <p className="mt-2 text-sm leading-6 text-text-secondary">
               {item.text}
             </p>
-            <ArrowRight
-              size={16}
-              weight="bold"
-              className="mt-auto text-text-disabled transition-transform group-hover:translate-x-1"
-            />
+            <span className="mt-auto flex items-center justify-between gap-3 pt-4 text-xs font-semibold text-text-disabled">
+              {item.access}
+              <ArrowRight
+                size={16}
+                weight="bold"
+                aria-hidden="true"
+                className="trust-route-card-arrow"
+              />
+            </span>
           </Link>
         ))}
       </section>
@@ -96,7 +104,7 @@ export default function SupportPage() {
             href="/contact"
             className="inline-flex min-h-11 items-center gap-2 font-semibold text-text-primary underline underline-offset-4"
           >
-            Відкрити контакти <ArrowRight size={16} />
+            Відкрити контакти <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </p>
       </TrustSection>

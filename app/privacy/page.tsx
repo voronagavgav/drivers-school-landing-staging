@@ -61,6 +61,7 @@ export default function PrivacyPolicyPage() {
           Авторизований користувач може вимкнути продуктову аналітику в розділі{" "}
           <Link
             href="/account/privacy"
+            prefetch={false}
             className="whitespace-nowrap font-semibold text-text-primary underline underline-offset-4"
           >
             «Профіль → Приватність»

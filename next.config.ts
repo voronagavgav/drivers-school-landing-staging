@@ -6,10 +6,18 @@ import withSerwistInit from "@serwist/next";
 // Pin the workspace root: a stray package-lock.json in the parent dir made Next infer the wrong
 // root (and warn). Anchor tracing + Turbopack to this project.
 const root = path.resolve(import.meta.dirname);
+const githubPages = process.env.GITHUB_PAGES === "true";
+const githubPagesBasePath = "/drivers-school-landing-staging";
 
 const nextConfig: NextConfig = {
   turbopack: { root },
   outputFileTracingRoot: root,
+  basePath: githubPages ? githubPagesBasePath : undefined,
+  assetPrefix: githubPages ? githubPagesBasePath : undefined,
+  images: {
+    qualities: [60, 75],
+    unoptimized: githubPages,
+  },
   // Allow the dev server's client assets/HMR to load when the app is opened over the
   // mini's Tailscale/LAN IP (not just localhost) — otherwise the page renders but the
   // React bundle is blocked and nothing is interactive. (No effect in production.)
@@ -41,6 +49,7 @@ const revision =
 // (`next dev`), which is desired — no SW caching in dev. Registration is manual
 // (components/sw-register.tsx), so auto-register is off.
 const withSerwist = withSerwistInit({
+  disable: githubPages,
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
   register: false,

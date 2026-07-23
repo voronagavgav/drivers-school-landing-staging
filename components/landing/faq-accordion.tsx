@@ -14,7 +14,6 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
     <Accordion.Root
       type="single"
       collapsible
-      defaultValue="faq-1"
       className={styles.faqList}
     >
       {items.map(([question, answer], index) => (

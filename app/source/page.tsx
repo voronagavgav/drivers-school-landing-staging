@@ -49,26 +49,26 @@ export default function QuestionsSourcePage() {
       updated="23 липня 2026"
       sourceRail
     >
-      <section className="trust-source-proof grid overflow-hidden rounded-card border border-border-light bg-surface sm:grid-cols-3">
+      <dl className="trust-source-proof grid overflow-hidden rounded-card border border-border-light bg-surface sm:grid-cols-3">
         <div className="min-h-28 p-5 sm:border-r sm:border-border-light">
-          <span className="font-mono text-xs text-text-disabled">Установа</span>
-          <strong className="mt-3 block font-display text-xl font-semibold text-text-primary">
+          <dt className="font-mono text-xs text-text-disabled">Установа</dt>
+          <dd className="mt-3 block font-display text-xl font-semibold text-text-primary">
             {OFFICIAL_CONTENT.authority}
-          </strong>
+          </dd>
         </div>
         <div className="min-h-28 border-t border-border-light p-5 sm:border-r sm:border-t-0">
-          <span className="font-mono text-xs text-text-disabled">Підстава</span>
-          <strong className="mt-3 block font-display text-xl font-semibold text-text-primary">
+          <dt className="font-mono text-xs text-text-disabled">Підстава</dt>
+          <dd className="mt-3 block font-display text-xl font-semibold text-text-primary">
             Наказ №{OFFICIAL_CONTENT.orderNumber}
-          </strong>
+          </dd>
         </div>
         <div className="min-h-28 border-t border-border-light p-5 sm:border-t-0">
-          <span className="font-mono text-xs text-text-disabled">Дата бази</span>
-          <strong className="mt-3 block font-display text-xl font-semibold text-text-primary">
+          <dt className="font-mono text-xs text-text-disabled">Дата бази</dt>
+          <dd className="mt-3 block font-display text-xl font-semibold text-text-primary">
             {OFFICIAL_CONTENT.orderDate}
-          </strong>
+          </dd>
         </div>
-      </section>
+      </dl>
 
       <TrustSection title="Відкрити першоджерела">
         <p>
@@ -87,7 +87,12 @@ export default function QuestionsSourcePage() {
                 rel="noreferrer"
                 className="trust-source-action group flex min-h-48 flex-col rounded-card border border-border-light bg-surface p-4 text-text-primary transition-[border-color,background-color] hover:border-border-strong hover:bg-surface-raised"
               >
-                <Icon size={21} weight="duotone" aria-hidden="true" />
+                <Icon
+                  size={21}
+                  weight="duotone"
+                  className="trust-source-action-icon"
+                  aria-hidden="true"
+                />
                 <span className="mt-7 block font-semibold">{action.label}</span>
                 <span className="mt-auto block pt-2 text-sm leading-6 text-text-secondary">
                   {action.detail}

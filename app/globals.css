@@ -221,6 +221,11 @@ body {
   font-family: var(--font-sans);
 }
 
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background-color: #0b0b12;
+}
+
 /*
   Calm pastel field on a FIXED layer (doc 04 §A / landing.css §"CALM PASTEL FIELD").
   Very soft mint/sky/peach washes + one subtle contrast pool (top-right) at low alpha.
