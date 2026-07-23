@@ -1,0 +1,156 @@
+.shell {
+  --color-text-disabled: #6f6a76;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  color-scheme: light;
+}
+
+.frame {
+  max-width: 64rem;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.themeToggle {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition:
+    transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.themeToggle:hover {
+  border-color: var(--color-border-light);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+.themeToggle:active {
+  transform: scale(0.97);
+}
+
+.eyebrow {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navLinkActive {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+.navLink {
+  scroll-snap-align: start;
+}
+
+.heroSummary {
+  margin-top: 10px;
+}
+
+.sourceRail {
+  overflow: hidden;
+  border-block: 1px solid var(--color-border-light);
+}
+
+.sourceRailTrack {
+  width: max-content;
+  min-width: 118%;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.sourceRailTrack span {
+  display: inline-flex;
+  align-items: center;
+  gap: 34px;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.sourceRailTrack span::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-pink-500);
+}
+
+.shell[data-theme="dark"],
+:global(html[data-theme="dark"]) .shell {
+  --color-page: #0a0a11;
+  --color-surface: #171720;
+  --color-surface-raised: #1d1c27;
+  --color-surface-muted: #23222d;
+  --color-graphite-950: #171720;
+  --color-graphite-900: #242330;
+  --color-graphite-800: #30303f;
+  --color-text-primary: #f7f3f6;
+  --color-text-secondary: #aaa5b0;
+  --color-text-disabled: #85808c;
+  --color-text-on-dark: #f7f3f6;
+  --color-text-on-dark-muted: #c7c2cd;
+  --color-border-light: rgba(240, 174, 230, 0.14);
+  --color-border-strong: rgba(240, 174, 230, 0.34);
+  --color-warning: #e3c681;
+  --color-warning-surface: #211d17;
+  --color-info: #9abfd9;
+  --color-info-surface: #151d24;
+  color-scheme: dark;
+  background-color: var(--color-page);
+  color: var(--color-text-primary);
+}
+
+.shell[data-theme="dark"] :global(:focus-visible),
+:global(html[data-theme="dark"]) .shell :global(:focus-visible) {
+  outline-color: #f0aee6;
+}
+
+@media (max-width: 639px) {
+  .nav {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+
+  .sourceRail {
+    display: none;
+  }
+}
+
+@media (max-width: 359px) {
+  .homeLinkLabel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .themeToggle,
+  .navLink {
+    transition: none;
+  }
+}

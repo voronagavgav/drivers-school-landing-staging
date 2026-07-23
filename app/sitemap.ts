@@ -14,7 +14,14 @@ import { indexingEnabled, publicOrigin } from "@/lib/seo";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = publicOrigin() ?? "http://localhost:3000";
 
-  const entries: MetadataRoute.Sitemap = [{ url: `${base}/`, changeFrequency: "weekly" }];
+  const entries: MetadataRoute.Sitemap = [
+    { url: `${base}/`, changeFrequency: "weekly" },
+    { url: `${base}/terms`, changeFrequency: "yearly" },
+    { url: `${base}/privacy`, changeFrequency: "yearly" },
+    { url: `${base}/support`, changeFrequency: "monthly" },
+    { url: `${base}/contact`, changeFrequency: "yearly" },
+    { url: `${base}/source`, changeFrequency: "monthly" },
+  ];
 
   if (indexingEnabled()) {
     const questions = await prisma.question.findMany({
@@ -29,7 +36,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     for (const { questionKey } of questions) {
       if (questionKey == null) continue;
-      entries.push({ url: `${base}/q/${questionKey}`, changeFrequency: "monthly" });
+      entries.push({
+        url: `${base}/q/${questionKey}`,
+        changeFrequency: "monthly",
+      });
     }
   }
 

@@ -1,9 +1,7 @@
 import type { MetadataRoute } from "next";
 
-// Colors are hex literals copied from the app tokens in app/globals.css :root —
-// theme_color = --color-field (#FBFAF7, warm off-white page field; spec P1.7 — the
-// install/OS chrome tint matches the app surface, not the green accent), and
-// background_color = --color-field (#FBFAF7) so the splash matches the page field.
+// Colors mirror --color-page in app/globals.css so installed-app chrome and the
+// launch surface use the same warm technical canvas as the product.
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Drivers School — підготовка до іспиту з ПДР",
@@ -14,8 +12,8 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     start_url: "/dashboard",
     categories: ["education"],
-    theme_color: "#FBFAF7",
-    background_color: "#FBFAF7",
+    theme_color: "#F5F3F4",
+    background_color: "#F5F3F4",
     icons: [
       {
         src: "/icons/icon-192.png",

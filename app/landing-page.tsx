@@ -151,6 +151,7 @@ export function LandingPage() {
         : window.matchMedia("(prefers-color-scheme: dark)").matches
           ? "dark"
           : "light";
+    document.documentElement.dataset.theme = nextTheme;
     const frame = window.requestAnimationFrame(() => setTheme(nextTheme));
     return () => window.cancelAnimationFrame(frame);
   }, []);
@@ -168,6 +169,7 @@ export function LandingPage() {
     setTheme((currentTheme) => {
       const nextTheme = currentTheme === "dark" ? "light" : "dark";
       window.localStorage.setItem("drivers-school-theme", nextTheme);
+      document.documentElement.dataset.theme = nextTheme;
       return nextTheme;
     });
   };
@@ -930,13 +932,7 @@ export function LandingPage() {
             <Link href="/privacy">Приватність</Link>
             <Link href="/support">Підтримка</Link>
             <Link href="/contact">Контакти</Link>
-            <a
-              href={OFFICIAL_CONTENT.sourcePage}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Джерело питань
-            </a>
+            <Link href="/source">Джерело питань</Link>
             <Link href="/login">Увійти</Link>
           </div>
         </footer>
