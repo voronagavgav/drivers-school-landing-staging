@@ -313,6 +313,28 @@ export function LandingPage() {
         },
       });
 
+      const chapterBoundaries = gsap.utils.toArray<HTMLElement>(
+        "[data-chapter-boundary]",
+      );
+
+      chapterBoundaries.forEach((chapterBoundary) => {
+        gsap.fromTo(
+          chapterBoundary,
+          { opacity: 0.2, scaleX: 0.22 },
+          {
+            opacity: 0.82,
+            scaleX: 1,
+            ease: "none",
+            scrollTrigger: {
+              trigger: chapterBoundary,
+              start: "top 96%",
+              end: "top 66%",
+              scrub: 0.7,
+            },
+          },
+        );
+      });
+
       const media = gsap.matchMedia();
       media.add("(min-width: 901px)", () => {
         ScrollTrigger.create({
@@ -329,7 +351,7 @@ export function LandingPage() {
         .forEach((card, index) => {
           gsap.fromTo(
             card,
-            { opacity: 0.62 },
+            { opacity: 0.72 },
             {
               opacity: 1,
               ease: "none",
@@ -356,16 +378,28 @@ export function LandingPage() {
                 start: "top bottom",
                 end: "bottom top",
                 scrub: 0.6,
+                onEnter: () => {
+                  artwork.style.willChange = "transform, opacity";
+                },
+                onEnterBack: () => {
+                  artwork.style.willChange = "transform, opacity";
+                },
+                onLeave: () => {
+                  artwork.style.willChange = "auto";
+                },
+                onLeaveBack: () => {
+                  artwork.style.willChange = "auto";
+                },
               },
             })
             .fromTo(
               artwork,
-              { scale: 0.94, opacity: 0.42 },
-              { scale: 1, opacity: 0.72, duration: 0.55, ease: "none" },
+              { scale: 0.96, opacity: 0.52 },
+              { scale: 1, opacity: 0.76, duration: 0.55, ease: "none" },
             )
             .to(artwork, {
-              scale: 1.035,
-              opacity: 0.28,
+              scale: 1.025,
+              opacity: 0.42,
               duration: 0.45,
               ease: "none",
             });
@@ -459,7 +493,10 @@ export function LandingPage() {
 
         <div className={styles.heroContent}>
           <div className={styles.heroCopy}>
-            <h1>Теорія, яка знає, що вам повторити.</h1>
+            <h1>
+              Теорія, яка знає,
+              <br className={styles.heroHeadingBreak} /> що вам повторити.
+            </h1>
             <p data-hero-reveal>
               Персональний маршрут до іспиту замість нескінченного перегляду
               всіх питань.
@@ -605,6 +642,11 @@ export function LandingPage() {
       </section>
 
       <section className={styles.statement} data-word-reveal>
+        <span
+          className={styles.systemStatementBoundary}
+          data-chapter-boundary
+          aria-hidden="true"
+        />
         <p>
           {revealSentence.split(" ").map((word, index) => (
             <span key={`${word}-${index}`} data-reveal-word>
@@ -615,6 +657,15 @@ export function LandingPage() {
       </section>
 
       <section className={styles.journeySection} id="route" data-journey>
+        <span
+          className={styles.statementJourneyBoundary}
+          aria-hidden="true"
+        >
+          <span
+            className={styles.systemStatementBoundary}
+            data-chapter-boundary
+          />
+        </span>
         <div
           className={styles.journeyTitle}
           data-journey-title
@@ -734,18 +785,20 @@ export function LandingPage() {
             aria-live="polite"
             aria-atomic="true"
           >
-            <p className={styles.feedbackQuote}>{activeFeedback.title}</p>
-            <p className={styles.feedbackExplanation}>{activeFeedback.text}</p>
-            <div className={styles.feedbackEvidence}>
-              <p>Чому такий висновок</p>
-              <dl>
-                {activeFeedback.evidence.map(([label, value]) => (
-                  <div key={label}>
-                    <dt>{label}</dt>
-                    <dd>{value}</dd>
-                  </div>
-                ))}
-              </dl>
+            <div key={feedbackIndex} className={styles.feedbackState}>
+              <p className={styles.feedbackQuote}>{activeFeedback.title}</p>
+              <p className={styles.feedbackExplanation}>{activeFeedback.text}</p>
+              <div className={styles.feedbackEvidence}>
+                <p>Чому такий висновок</p>
+                <dl>
+                  {activeFeedback.evidence.map(([label, value]) => (
+                    <div key={label}>
+                      <dt>{label}</dt>
+                      <dd>{value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
             </div>
           </div>
           <span className={styles.feedbackCount}>
@@ -846,46 +899,48 @@ export function LandingPage() {
         </div>
       </section>
 
-      <section className={styles.finalCta}>
-        <div
-          className={styles.finalCtaImage}
-          style={{ backgroundImage: `url(${finalReadinessRoute.src})` }}
-          aria-hidden="true"
-        />
-        <div className={styles.finalCtaContent} data-section-reveal>
-          <h2>Побач, як система пояснює відповідь.</h2>
-          <LandingButton asChild>
-            <Link href="/q/q_1_1">
-              Спробувати питання без реєстрації{" "}
-              <ArrowRightIcon size={18} aria-hidden="true" />
-            </Link>
-          </LandingButton>
-        </div>
-      </section>
+      <div className={styles.closingChapter}>
+        <section className={styles.finalCta}>
+          <div
+            className={styles.finalCtaImage}
+            style={{ backgroundImage: `url(${finalReadinessRoute.src})` }}
+            aria-hidden="true"
+          />
+          <div className={styles.finalCtaContent} data-section-reveal>
+            <h2>Побач, як система пояснює відповідь.</h2>
+            <LandingButton asChild>
+              <Link href="/q/q_1_1">
+                Спробувати питання без реєстрації{" "}
+                <ArrowRightIcon size={18} aria-hidden="true" />
+              </Link>
+            </LandingButton>
+          </div>
+        </section>
 
-      <footer className={styles.footer}>
-        <Link href="/" className={styles.wordmark}>
-          <span className={styles.wordmarkMark} aria-hidden="true">
-            DS
-          </span>
-          <span>Drivers School</span>
-        </Link>
-        <p>Навчальний інструмент для підготовки до теоретичного іспиту ПДР.</p>
-        <div>
-          <Link href="/terms">Умови</Link>
-          <Link href="/privacy">Приватність</Link>
-          <Link href="/support">Підтримка</Link>
-          <Link href="/contact">Контакти</Link>
-          <a
-            href={OFFICIAL_CONTENT.sourcePage}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Джерело питань
-          </a>
-          <Link href="/login">Увійти</Link>
-        </div>
-      </footer>
+        <footer className={styles.footer}>
+          <Link href="/" className={styles.wordmark}>
+            <span className={styles.wordmarkMark} aria-hidden="true">
+              DS
+            </span>
+            <span>Drivers School</span>
+          </Link>
+          <p>Навчальний інструмент для підготовки до теоретичного іспиту ПДР.</p>
+          <div>
+            <Link href="/terms">Умови</Link>
+            <Link href="/privacy">Приватність</Link>
+            <Link href="/support">Підтримка</Link>
+            <Link href="/contact">Контакти</Link>
+            <a
+              href={OFFICIAL_CONTENT.sourcePage}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Джерело питань
+            </a>
+            <Link href="/login">Увійти</Link>
+          </div>
+        </footer>
+      </div>
     </main>
   );
 }

@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import Image, { type StaticImageData } from "next/image";
 import { Accordion } from "radix-ui";
+import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Flip } from "gsap/Flip";
 import { ArrowCounterClockwiseIcon } from "@phosphor-icons/react/dist/csr/ArrowCounterClockwise";
@@ -16,7 +17,7 @@ import todayPreview from "@/assets/landing-mode-today.png";
 import topicsPreview from "@/assets/landing-mode-topics.png";
 import styles from "@/app/landing.module.css";
 
-gsap.registerPlugin(Flip);
+gsap.registerPlugin(Flip, useGSAP);
 
 const modes = [
   {
@@ -65,6 +66,74 @@ type Mode = (typeof modes)[number]["value"];
 export function LearningModeAccordion() {
   const rootRef = useRef<HTMLDivElement>(null);
   const [activeMode, setActiveMode] = useState<Mode>("today");
+
+  useGSAP(
+    () => {
+      const root = rootRef.current;
+      if (
+        !root ||
+        !window.matchMedia("(min-width: 901px)").matches ||
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ) {
+        return;
+      }
+
+      const activeArticle = root.querySelector<HTMLElement>(
+        `article.${styles.modeActive}`,
+      );
+      const activeTitle = activeArticle?.querySelector<HTMLElement>(
+        `.${styles.modeTitle}`,
+      );
+      const activeDescription = activeArticle?.querySelector<HTMLElement>(
+        `.${styles.modeDescription}`,
+      );
+      const inactiveDescriptions = Array.from(
+        root.querySelectorAll<HTMLElement>(`.${styles.modeDescription}`),
+      ).filter((description) => description !== activeDescription);
+
+      if (!activeTitle || !activeDescription) return;
+
+      gsap.killTweensOf([
+        activeTitle,
+        activeDescription,
+        ...inactiveDescriptions,
+      ]);
+      gsap.set(inactiveDescriptions, {
+        autoAlpha: 0,
+        y: 8,
+        clipPath: "inset(0 0 100% 0)",
+      });
+
+      const timeline = gsap.timeline();
+      timeline
+        .fromTo(
+          activeTitle,
+          { y: 5 },
+          { y: 0, duration: 0.48, ease: "power3.out", clearProps: "transform" },
+          0.08,
+        )
+        .fromTo(
+          activeDescription,
+          {
+            autoAlpha: 0,
+            y: 12,
+            clipPath: "inset(0 0 100% 0)",
+          },
+          {
+            autoAlpha: 1,
+            y: 0,
+            clipPath: "inset(0 0 0% 0)",
+            duration: 0.46,
+            ease: "power3.out",
+            clearProps: "opacity,visibility,transform,clipPath",
+          },
+          0.16,
+        );
+
+      return () => timeline.kill();
+    },
+    { scope: rootRef, dependencies: [activeMode] },
+  );
 
   const selectMode = (value: string) => {
     if (!modes.some((mode) => mode.value === value)) return;
